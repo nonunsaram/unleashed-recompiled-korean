@@ -1,0 +1,13 @@
+* text=auto
+
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.cs text eol=crlf
+*.cpp text eol=lf
+*.patch text eol=lf -whitespace
+
+*.png binary
+*.ttf binary
+*.pdf binary

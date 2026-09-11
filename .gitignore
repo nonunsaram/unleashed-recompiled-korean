@@ -1,0 +1,82 @@
+# Secrets and machine-local settings
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*
+secrets*
+
+# Editors, operating systems and caches
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pnpm-store/
+node_modules/
+
+# Build and test output
+out/
+bin/
+obj/
+dist/
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+*.backup
+
+# Keep only the reviewed metric input under Build
+/Build/*
+!/Build/PlayableModWork/
+/Build/PlayableModWork/*
+!/Build/PlayableModWork/common-atlas.json
+
+# Release binaries belong on the official GameBanana distribution page, not in Git history
+/Release/*
+!/Release/README.md
+!/Release/SHA256SUMS.txt
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Game, DLC, extracted-resource and executable formats
+*.iso
+*.xex
+*.exe
+*.dll
+*.pdb
+*.ar
+*.arl
+*.pac
+*.pak
+*.xma
+*.dds
+*.bin
+*.zst
+*.dmp
+*.db
+*.sqlite
+*.save
+*.sav
+
+# Known private/project-work directories if copied accidentally
+/Analysis/
+/QA Saves/
+/Installer Sources/
+/Sonic Unleashed DLC Pack [Xbox 360]/
+/Update File/
+/UnleashedRecomp-Windows/
+/outputs/
+/korean-smoke-test/
+/SpreadsheetBuild/

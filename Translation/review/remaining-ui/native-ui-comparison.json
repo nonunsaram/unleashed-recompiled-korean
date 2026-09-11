@@ -1,0 +1,1327 @@
+[
+  {
+    "key": "Options_Header_Name",
+    "english": "OPTIONS",
+    "japanese": "OPTION",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Category_System",
+    "english": "SYSTEM",
+    "japanese": "SYSTEM",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Category_Input",
+    "english": "INPUT",
+    "japanese": "INPUT",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Category_Audio",
+    "english": "AUDIO",
+    "japanese": "AUDIO",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Category_Video",
+    "english": "VIDEO",
+    "japanese": "VIDEO",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Value_Max",
+    "english": "MAX",
+    "japanese": "MAX",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Name_WindowSize",
+    "english": "Window Size",
+    "japanese": "ウィンドウサイズ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_WindowSize",
+    "english": "Adjust the size of the game window in windowed mode.",
+    "japanese": "ゲームの​ウィンドウサイズを​[設定:せってい]できます",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_NotAvailable",
+    "english": "This option is not available at this location.",
+    "japanese": "この​オプションは​[現在:げんざい]の​[画面:がめん]では​[変更:へんこう]​できません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_NotAvailableFullscreen",
+    "english": "This option is not available in fullscreen mode.",
+    "japanese": "この​オプションは​フルスクリーンモードでは​[変更:へんこう]​できません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_NotAvailableWindowed",
+    "english": "This option is not available in windowed mode.",
+    "japanese": "この​オプションは​ウィンドウモードでは​[変更:へんこう]​できません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_NotAvailableHardware",
+    "english": "This option is not available with your current hardware configuration.",
+    "japanese": "この​オプションは​[現在:げんざい]の​ハードウェア[構成:こうせい]で​[変更:へんこう]​できません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_NotAvailableMSAA",
+    "english": "This option is not available without MSAA.",
+    "japanese": "この​オプションは​MSAAなしで​[変更:へんこう]​できません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Desc_OSNotSupported",
+    "english": "This option is not supported by your operating system.",
+    "japanese": "この​オプションは​[現在:げんざい]の​OSで​[変更:へんこう]​できません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Options_Message_Restart",
+    "english": "The game will now restart.",
+    "japanese": "ゲームが[再起動:さいきどう]されます",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Achievements_Name",
+    "english": "Achievements",
+    "japanese": "実績",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "도전과제"
+  },
+  {
+    "key": "Achievements_Name_Uppercase",
+    "english": "ACHIEVEMENTS",
+    "japanese": "実績",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "도전과제"
+  },
+  {
+    "key": "Achievements_Unlock",
+    "english": "Achievement Unlocked!",
+    "japanese": "実績のロックが解除されました",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "도전과제 달성!"
+  },
+  {
+    "key": "Installer_Header_Installer",
+    "english": "INSTALLER",
+    "japanese": "INSTALL",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Header_Installing",
+    "english": "INSTALLING",
+    "japanese": "INSTALL",
+    "decision": "keep_english",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_SelectLanguage",
+    "english": "Please select a language.",
+    "japanese": "[言語:げんご]を[選択:せんたく]してください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_Introduction",
+    "english": "Welcome to\nUnleashed Recompiled!\n\nYou'll need an Xbox 360 copy\nof Sonic Unleashed in order to proceed with the installation.",
+    "japanese": "Unleashed Recompiledへようこそ！\nインストールには\n[北米版:ほくべいばん]またはEU[版:ばん]のXbox 360[用:よう]\n「SONIC UNLEASHED」が[必要:ひつよう]です",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_SelectGameAndUpdate",
+    "english": "Add the sources for the game and its title update.",
+    "japanese": "ゲームのソースとタイトルアップデート\nを[追加:ついか]",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_SelectDLC",
+    "english": "Add the sources for the DLC.",
+    "japanese": "DLCのソースを[追加:ついか]",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_CheckSpace",
+    "english": "The content will be installed to the program's folder.\n\n",
+    "japanese": "コンテンツはプログラムのフォルダに\nインストールされます\n",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_Installing",
+    "english": "Please wait while the content is being installed...",
+    "japanese": "コンテンツのインストール[中:ちゅう]はお[待:ま]ち\nください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_InstallSucceeded",
+    "english": "Installation complete!\nThis project is brought to you by:",
+    "japanese": "インストール[完了:かんりょう]！\nプロジェクト[制作:せいさく]：",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Page_InstallFailed",
+    "english": "Installation failed.\n\nError: ",
+    "japanese": "インストールに[失敗:しっぱい]しました\n\nエラー： ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Step_Game",
+    "english": "GAME",
+    "japanese": "ゲーム",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Step_Update",
+    "english": "UPDATE",
+    "japanese": "アップデート",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Step_RequiredSpace",
+    "english": "Required space: %2.2f GiB",
+    "japanese": "[必要:ひつよう]な[容量:ようりょう]: %2.2f GiB",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Step_AvailableSpace",
+    "english": "Available space: %2.2f GiB",
+    "japanese": "[使用:しよう][可能:かのう]な[容量:ようりょう]: %2.2f GiB",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Button_Next",
+    "english": "NEXT",
+    "japanese": "次へ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Button_Skip",
+    "english": "SKIP",
+    "japanese": "スキップ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Button_Retry",
+    "english": "RETRY",
+    "japanese": "リトライ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Button_AddFiles",
+    "english": "ADD FILES",
+    "japanese": "ファイルを追加",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Button_AddFolder",
+    "english": "ADD FOLDER",
+    "japanese": "フォルダを追加",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_InvalidFilesList",
+    "english": "The following selected files are invalid:",
+    "japanese": "[選択:せんたく]した[次:つぎ]のファイルは[無効:むこう]です：",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_InvalidFiles",
+    "english": "Some of the files that have\nbeen provided are not valid.\n\nPlease make sure all the\nspecified files are correct\nand try again.",
+    "japanese": "[提供:ていきょう]されたファイルの[一部:いちぶ]が[有効:ゆうこう]ではありません\n[指定:してい]されたファイルがすべて[正:ただ]しいことを[確認:かくにん]して\nもう[一度:いちど]お[試:ため]しください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_FilePickerTutorial",
+    "english": "Select a digital dump with\ncontent from the game.\n\nThese files can be obtained from\nyour Xbox 360 hard drive by\nfollowing the instructions on\nthe GitHub page.\n\nFor choosing a folder with extracted\nand unmodified game files, use\nthe \"Add Folder\" option instead.",
+    "japanese": "ゲームのコンテンツを[含:ふく]む デジタルダンプを[選択:せんたく]してください\n\nこれらのファイルは GitHubページの[指示:しじ]に[従:したが]って\nXbox 360ハードドライブから[取得:しゅとく]できます\n\n[抽出:ちゅうしゅつ]された[変更:へんこう]されていない\nゲームファイルを[含:ふく]むフォルダーを[選択:せんたく]するには\n[代:か]わりに「フォルダの[追加:ついか]」オプションを[使用:しよう]してください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_FolderPickerTutorial",
+    "english": "Select a folder that contains the\nunmodified files that have been\nextracted from the game.\n\nThese files can be obtained from\nyour Xbox 360 hard drive by\nfollowing the instructions on\nthe GitHub page.\n\nFor choosing a digital dump,\nuse the \"Add Files\" option instead.",
+    "japanese": "ゲームから[抽出:ちゅうしゅつ]された[変更:へんこう]されていない\nファイルを含むフォルダを[選択:せんたく]してください\n\nこれらのファイルは GitHubページの[指示:しじ]に[従:したが]って\nXbox 360ハードドライブから[取得:しゅとく]できます\n\nデジタルダンプを[選択:せんたく]するには\n[代:か]わりに「ファイルの[追加:ついか]」オプションを[使用:しよう]してください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_IncompatibleGameData",
+    "english": "The specified game and\ntitle update are incompatible.\n\nPlease ensure the files are\nfor the same version and\nregion and try again.",
+    "japanese": "[指定:してい]されたゲームとタイトルアップデートは[互換性:ごかんせい]がありません\n\nファイルのバージョンと[地域:ちいき]が\n[同:おな]じであることを[確認:かくにん]して\nもう[一度:いちど]お[試:ため]しください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_DLCWarning",
+    "english": "It is highly recommended\nthat you install all of the\nDLC, as it includes high\nquality lighting textures\nfor the base game.\n\nAre you sure you want to\nskip this step?",
+    "japanese": "ベースゲーム[用:よう]の[高品質:こうひんしつ]の\n[照明:しょうめい]テクスチャが[含:ふく]まれているため\nすべてのDLCをインストールすることを\n[強:つよ]くお[勧:すす]めします\n\nこの[手順:てじゅん]をスキップしてもよろしいですか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_TitleMissingDLC",
+    "english": "This will restart the game to\nallow you to install any DLC\nthat you are missing.\n\nInstalling DLC will improve the\nlighting quality across the game.\n\nWould you like to install missing\ncontent?",
+    "japanese": "これによりゲームが[再起動:さいきどう]し[不足:ふそく]しているDLCを\nインストールできるようになります\n\nDLCをインストールすると\nゲーム[全体:ぜんたい]の [照明品質:しょうめいひんしつ] が[向上:こうじょう]します\n\n[不足:ふそく]しているコンテンツを\nインストールしますか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_Title",
+    "english": "This restarts the game to\nallow you to install any DLC\nthat you may be missing.\n\nYou are not currently\nmissing any DLC.\n\nWould you like to proceed\nanyway?",
+    "japanese": "これによりゲームが[再起動:さいきどう]され\n[不足:ふそく]しているDLCを\nインストールできるようになります\n\n[現在:げんざい] [不足:ふそく]しているDLCはありません\n\nそれでも[続行:ぞっこう]しますか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_Quit",
+    "english": "Are you sure you want to quit?",
+    "japanese": "[終了:しゅうりょう]してもよろしいですか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Installer_Message_Cancel",
+    "english": "Are you sure you want to cancel the installation?",
+    "japanese": "インストールをキャンセルしてもよろしいですか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Title_Message_Quit",
+    "english": "Are you sure you want to quit?",
+    "japanese": "[終了:しゅうりょう]してもよろしいですか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Title_Message_SaveDataCorrupt",
+    "english": "The save file appears to be\ncorrupted and cannot be loaded.",
+    "japanese": "ゲームデータの読み込みに失敗しました。\nこのまま続けるとゲームデータをセーブすることはできません",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Title_Message_AchievementDataCorrupt",
+    "english": "The achievement data appears to be\ncorrupted and cannot be loaded.\n\nProceeding from this point will\nclear your achievement data.",
+    "japanese": "[実績:じっせき]データが[破損:はそん]しているため\n[読:よ]み[込:こ]むことができません\n\nこの[先:さき]に[進:すす]むと[実績:じっせき]データが\n[消去:しょうきょ]されます",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Title_Message_AchievementDataIOError",
+    "english": "The achievement data could not be loaded.\nYour achievements will not be saved.",
+    "japanese": "[実績:じっせき]データを[読:よ]み[込:こ]めませんでした\n[実績:じっせき]は[保存:ほぞん]されません。",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Title_Message_UpdateAvailable",
+    "english": "An update is available!\n\nWould you like to visit the\nreleases page to download it?",
+    "japanese": "アップデートが[利用:りよう][可能:かのう]です\n\nリリースページにアクセスして\nダウンロードしますか？",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Video_BackendError",
+    "english": "Unable to create a D3D12 (Windows) or Vulkan backend.\n\nPlease make sure that:\n\n- Your system meets the minimum requirements.\n- Your GPU drivers are up to date.\n- Your operating system is on the latest version available.",
+    "japanese": "D3D12 (Windows)または\nVulkanバックエンドを作成できません\n\n次の点を確認してください：\n\n※システムが最小要件を満たしている\n※GPUドライバーが最新である\n※オペレーティングシステムが最新バージョンである",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "System_Win32_MissingDLLs",
+    "english": "The module \"%s\" could not be found.\n\nPlease make sure that:\n\n- You extracted this copy of Unleashed Recompiled fully and not just the *.exe file.\n- You are not running Unleashed Recompiled from a *.zip file.",
+    "japanese": "モジュール\"%s\"が見つかりませんでした\n\n次の点を確認してください：\n\n※Unleashed Recompiledの*.exeファイルだけを抽出していなく、 コピーを完全に抽出してること\n※Unleashed Recompiledを*.zipファイルから実行していないこと",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "System_MemoryAllocationFailed",
+    "english": "Failed to allocate game memory.\n\nPlease make sure that:\n\n- You meet the minimum system requirements (8 GB).\n- Your page file is configured with at least 4-8 GB of virtual memory.",
+    "japanese": "ゲームメモリの割り当てに失敗しました\n\n次の点を確認してください：\n\n※最小システム要件（8 GB）を満たしていること。\n※ページファイルに少なくとも4～8 GBの仮想メモリが設定されていること",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "IntegrityCheck_Success",
+    "english": "Installation check has finished.\n\nAll files seem to be correct.\n\nThe game will now close. Remove the launch argument to play the game.",
+    "japanese": "インストールチェックが終了しました\n\nすべてのファイルは正しいようです\n\nゲームは終了します、ゲームをプレイするには起動引数を削除してください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "IntegrityCheck_Failed",
+    "english": "Installation check has failed.\n\nError: %s\n\nThe game will now close. Try reinstalling the game by using the --install launch argument.",
+    "japanese": "インストールチェックに失敗しました\n\nエラー：%s\n\nゲームは終了します、--install 起動引数を使用してゲームを再インストールしてください",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Common_On",
+    "english": "ON",
+    "japanese": "オン",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Common_Off",
+    "english": "OFF",
+    "japanese": "オフ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Common_Yes",
+    "english": "Yes",
+    "japanese": "はい",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Common_No",
+    "english": "No",
+    "japanese": "いいえ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Common_Next",
+    "english": "Next",
+    "japanese": "次へ",
+    "decision": "translate",
+    "source": "locale.cpp"
+  },
+  {
+    "key": "Common_Select",
+    "english": "Select",
+    "japanese": "決定",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "확인"
+  },
+  {
+    "key": "Common_Back",
+    "english": "Back",
+    "japanese": "もどる",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "뒤로"
+  },
+  {
+    "key": "Common_Quit",
+    "english": "Quit",
+    "japanese": "終了",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "종료"
+  },
+  {
+    "key": "Common_Cancel",
+    "english": "Cancel",
+    "japanese": "キャンセル",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "취소"
+  },
+  {
+    "key": "Common_Reset",
+    "english": "Reset",
+    "japanese": "リセット",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "초기화"
+  },
+  {
+    "key": "Common_Switch",
+    "english": "Switch",
+    "japanese": "きりかえ",
+    "decision": "translate",
+    "source": "locale.cpp",
+    "korean": "전환"
+  },
+  {
+    "key": "Language/0",
+    "english": "Language",
+    "japanese": "[言語:げんご]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Language/1",
+    "english": "Change the language used for text and logos.",
+    "japanese": "ゲーム[内:ない]の​[表示言語:ひょうじげんご]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EVoiceLanguage/0",
+    "english": "ENGLISH",
+    "japanese": "英語",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EVoiceLanguage/1",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EVoiceLanguage/2",
+    "english": "JAPANESE",
+    "japanese": "日本語",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EVoiceLanguage/3",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Hints/0",
+    "english": "Hints",
+    "japanese": "ヒントリング",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Hints/1",
+    "english": "Show hints during gameplay.",
+    "japanese": "ゲーム[内:ない]に​ヒントリングを​[表示:ひょうじ]するか​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ControlTutorial/0",
+    "english": "Control Tutorial",
+    "japanese": "アクションナビ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ControlTutorial/1",
+    "english": "Show controller hints during gameplay.\n\nThe Werehog Critical Attack prompt will be unaffected.",
+    "japanese": "ゲーム[内:ない]に​アクションナビを​[表示:ひょうじ]するか​[選択:せんたく]できます\n\n「チャンスアタック」の​[表示:ひょうじ]は​[影響:えいきょう]されません",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AchievementNotifications/0",
+    "english": "Achievement Notifications",
+    "japanese": "[実績通知:じっせきつうち]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AchievementNotifications/1",
+    "english": "Show notifications for unlocking achievements.\n\nAchievements will still be rewarded with notifications disabled.",
+    "japanese": "[実績通知:じっせきつうち]の​[有無:うむ]を​[選択:せんたく]できます\n\nオフにしても​[実績:じっせき]は​[付与:ふよ]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "TimeOfDayTransition/0",
+    "english": "Time of Day Transition",
+    "japanese": "[昼夜:ちゅうや]きりかえのシーン",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "TimeOfDayTransition/1",
+    "english": "Change how the loading screen appears when switching time of day in the hub areas.",
+    "japanese": "[昼夜:ちゅうや]きりかえの​シーンを​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ETimeOfDayTransition/0",
+    "english": "XBOX",
+    "japanese": "XBOX",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ETimeOfDayTransition/1",
+    "english": "Xbox: the transformation cutscene will play with artificial loading times.",
+    "japanese": "Xbox: [変身:へんしん]シーンが​[人工的:じんこうてき]な​[読:よ]み[込:こ]み[時間:じかん]で​[再生:さいせい]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ETimeOfDayTransition/2",
+    "english": "PLAYSTATION",
+    "japanese": "PLAYSTATION",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ETimeOfDayTransition/3",
+    "english": "PlayStation: a spinning medal loading screen will be used instead.",
+    "japanese": "PlayStation: [回転:かいてん]するメダルの​[読:よ]み[込:こ]み[画面:がめん]が​[使用:しよう]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ControllerIcons/0",
+    "english": "Controller Icons",
+    "japanese": "コントローラーアイコン",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ControllerIcons/1",
+    "english": "Change the icons to match your controller.",
+    "japanese": "ゲーム[内:ない]の​コントローラーアイコン​を[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EControllerIcons/0",
+    "english": "AUTO",
+    "japanese": "自動検出",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EControllerIcons/1",
+    "english": "Auto: the game will determine which icons to use based on the current input device.",
+    "japanese": "[ 自動検出 :じどうけんしゅつ]: コントローラーアイコン​を[使用:しよう]している​[ 入 力 :にゅうりょく]デバイスに​[応:おう]じて​[自動的:じどうてき]に​[決定:けってい]します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EControllerIcons/2",
+    "english": "XBOX",
+    "japanese": "XBOX",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EControllerIcons/3",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EControllerIcons/4",
+    "english": "PLAYSTATION",
+    "japanese": "PLAYSTATION",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EControllerIcons/5",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "HorizontalCamera/0",
+    "english": "Horizontal Camera",
+    "japanese": "カメラの[左右:さゆう]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "HorizontalCamera/1",
+    "english": "Change how the camera moves left and right.",
+    "japanese": "カメラ[左右:さゆう]の​[動:うご]く[方向:ほうこう]を​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "VerticalCamera/0",
+    "english": "Vertical Camera",
+    "japanese": "カメラの[上下:じょうげ]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "VerticalCamera/1",
+    "english": "Change how the camera moves up and down.",
+    "japanese": "カメラ[上下:じょうげ]の​[動:うご]く[方向:ほうこう]を​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECameraRotationMode/0",
+    "english": "NORMAL",
+    "japanese": "ノーマル",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECameraRotationMode/1",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECameraRotationMode/2",
+    "english": "REVERSE",
+    "japanese": "リバース",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECameraRotationMode/3",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Vibration/0",
+    "english": "Vibration",
+    "japanese": "[振動:しんどう]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Vibration/1",
+    "english": "Toggle controller vibration.",
+    "japanese": "[振動:しんどう]の​[有無:うむ]を​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AllowBackgroundInput/0",
+    "english": "Allow Background Input",
+    "japanese": "バックグラウンド[入力:にゅうりょく]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AllowBackgroundInput/1",
+    "english": "Allow controller input whilst the game window is unfocused.",
+    "japanese": "フォーカスされていない​ゲームに​[入力:にゅうりょく]できるか​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MasterVolume/0",
+    "english": "Master Volume",
+    "japanese": "マスターボリューム",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MasterVolume/1",
+    "english": "Adjust the overall volume.",
+    "japanese": "[全体:ぜんたい]ボリュームの​[大:おお]きさを​[調整:ちょうせい]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MusicVolume/0",
+    "english": "Music Volume",
+    "japanese": "BGMボリューム",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MusicVolume/1",
+    "english": "Adjust the volume for the music.",
+    "japanese": "BGMボリュームの​[大:おお]きさを​[調整:ちょうせい]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EffectsVolume/0",
+    "english": "Effects Volume",
+    "japanese": "SEボリューム",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EffectsVolume/1",
+    "english": "Adjust the volume for sound effects.",
+    "japanese": "SEボリュームの​[大:おお]きさを​[調整:ちょうせい]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MusicAttenuation/0",
+    "english": "Music Attenuation",
+    "japanese": "BGM[減衰:げんすい]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MusicAttenuation/1",
+    "english": "Fade out the game's music when external media is playing.",
+    "japanese": "[外部:がいぶ]メディアを​[再生:さいせい]すると​ゲームの​[音楽:おんがく]を​フェードアウト​します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ChannelConfiguration/0",
+    "english": "Channel Configuration",
+    "japanese": "チャンネル[設定:せってい]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ChannelConfiguration/1",
+    "english": "Change the output mode for your audio device.",
+    "japanese": "オーディオデバイスの​[ 出 力 :しゅつりょく]モード​を[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EChannelConfiguration/0",
+    "english": "STEREO",
+    "japanese": "ステレオ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EChannelConfiguration/1",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EChannelConfiguration/2",
+    "english": "SURROUND",
+    "japanese": "サラウンド",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EChannelConfiguration/3",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "VoiceLanguage/0",
+    "english": "Voice Language",
+    "japanese": "[音声言語:おんせいげんご]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "VoiceLanguage/1",
+    "english": "Change the language used for character voices.",
+    "japanese": "ゲーム[内:ない]の​[音声言語:おんせいげんご]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Subtitles/0",
+    "english": "Subtitles",
+    "japanese": "[字幕:じまく]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Subtitles/1",
+    "english": "Show subtitles during dialogue.",
+    "japanese": "[字幕:じまく]の[表示:ひょうじ]を​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "BattleTheme/0",
+    "english": "Battle Theme",
+    "japanese": "バトルテーマ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "BattleTheme/1",
+    "english": "Play the Werehog battle theme during combat.\n\nThis option will apply the next time you're in combat.\n\nExorcism missions and miniboss themes will be unaffected.",
+    "japanese": "バトル[中:ちゅう]に​ウェアホッグの​バトルテーマを​[再生:さいせい]するか​[選択:せんたく]できます\n\nこのオプションは​[次回:じかい]のバトルから​[適用:てきよう]されます\n\n[ 除 霊 :エクソシズム]ミッションと​ミニボステーマには​[ 影響 :えいきょう]しません",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "WindowSize/0",
+    "english": "Window Size",
+    "japanese": "ウィンドウサイズ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "WindowSize/1",
+    "english": "Adjust the size of the game window in windowed mode.",
+    "japanese": "ウィンドウ​モードでの​ゲームの​ウィンドウサイズを​[調整:ちょうせい]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Monitor/0",
+    "english": "Monitor",
+    "japanese": "モニター[選択:せんたく]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Monitor/1",
+    "english": "Change which monitor to display the game on.",
+    "japanese": "ゲームを[表示:ひょうじ]する​モニターを​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AspectRatio/0",
+    "english": "Aspect Ratio",
+    "japanese": "アスペクト[比:ひ]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AspectRatio/1",
+    "english": "Change the aspect ratio.",
+    "japanese": "アスペクト[比:ひ]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/0",
+    "english": "AUTO",
+    "japanese": "自動",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/1",
+    "english": "Auto: the aspect ratio will dynamically adjust to the window size.",
+    "japanese": "[自動:じどう]: アスペクト[比:ひ]は​ウィンドウサイズに​[合:あ]わせて​[調整:ちょうせい]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/2",
+    "english": "16:9",
+    "japanese": "16:9",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/3",
+    "english": "16:9: locks the game to a widescreen aspect ratio.",
+    "japanese": "16:9: ワイドスクリーンの​アスペクト[比:ひ]に​[固定:こてい]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/4",
+    "english": "4:3",
+    "japanese": "4:3",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/5",
+    "english": "4:3: locks the game to a narrow aspect ratio.",
+    "japanese": "4:3: ナローの​アスペクト[比:ひ]に​[固定:こてい]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/6",
+    "english": "ORIGINAL 4:3",
+    "japanese": "オリジナル 4:3",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAspectRatio/7",
+    "english": "Original 4:3: locks the game to a narrow aspect ratio and retains parity with the game's original implementation.",
+    "japanese": "オリジナル 4:3: オリジナルの​アスペクト[比:ひ]に​[固定:こてい]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ResolutionScale/0",
+    "english": "Resolution Scale",
+    "japanese": "[解像度:かいぞうど]スケール",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ResolutionScale/1",
+    "english": "Adjust the internal resolution of the game.\n\n%dx%d",
+    "japanese": "ゲームの​[内部解像度:ないぶかいぞうど]を​[調整:ちょうせい]できます\n\n%dx%d",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Fullscreen/0",
+    "english": "Fullscreen",
+    "japanese": "フルスクリーン",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Fullscreen/1",
+    "english": "Toggle between borderless fullscreen or windowed mode.",
+    "japanese": "ボーダーレス​フルスクリーンか​ウィンドウモードを​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "VSync/0",
+    "english": "V-Sync",
+    "japanese": "[垂直同期:すいちょくどうき]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "VSync/1",
+    "english": "Synchronize the game to the refresh rate of the display to prevent screen tearing.",
+    "japanese": "[垂直同期:すいちょくどうき]の​[設定:せってい]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "FPS/0",
+    "english": "FPS",
+    "japanese": "フレームレート[上限:じょうげん]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "FPS/1",
+    "english": "Set the max frame rate the game can run at.\n\nWARNING: this may introduce glitches at frame rates higher than 60 FPS.",
+    "japanese": "ゲームの​[最大:さいだい]フレームレートを​[設定:せってい]できます\n\n[警告:けいこく]: 60 FPSを​[超:こ]えるフレームレートで​[不具合:ふぐあい]が​[発生:はっせい]する​[可能性:かのうせい]が​あります",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Brightness/0",
+    "english": "Brightness",
+    "japanese": "[明:あか]るさの[設定:せってい]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "Brightness/1",
+    "english": "Adjust the brightness level until the symbol on the left is barely visible.",
+    "japanese": "[画面:がめん]の​[明:あか]るさを​[調整:ちょうせい]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AntiAliasing/0",
+    "english": "Anti-Aliasing",
+    "japanese": "アンチエイリアス",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "AntiAliasing/1",
+    "english": "Adjust the amount of smoothing applied to jagged edges.",
+    "japanese": "アンチエイリアスの​[種類:しゅるい]を​[選択:せんたく]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAntiAliasing/0",
+    "english": "NONE",
+    "japanese": "オフ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EAntiAliasing/1",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "TransparencyAntiAliasing/0",
+    "english": "Transparency Anti-Aliasing",
+    "japanese": "[透明度:とうめいど]のアンチエイリアス",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "TransparencyAntiAliasing/1",
+    "english": "Apply anti-aliasing to alpha transparent textures.",
+    "japanese": "[透過:とうか]テクスチャに​アンチエイリアスを​[適用:てきよう]します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ShadowResolution/0",
+    "english": "Shadow Resolution",
+    "japanese": "[影:かげ]の[解像度:かいぞうど]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ShadowResolution/1",
+    "english": "Set the resolution of real-time shadows.",
+    "japanese": "[影:かげ]の[解像度:かいぞうど]を​[設定:せってい]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EShadowResolution/0",
+    "english": "ORIGINAL",
+    "japanese": "オリジナル",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EShadowResolution/1",
+    "english": "Original: the game will automatically determine the resolution of the shadows.",
+    "japanese": "オリジナル: [影:かげ]の[解像度:かいぞうど]が​[自動的:じどうてき]に​[決定:けってい]されます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "GITextureFiltering/0",
+    "english": "GI Texture Filtering",
+    "japanese": "GIテクスチャフィルタリング",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "GITextureFiltering/1",
+    "english": "Change the quality of the filtering used for global illumination textures.",
+    "japanese": "GIテクスチャに​[使用:しよう]する​フィルタリングの​[品質:ひんしつ]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EGITextureFiltering/0",
+    "english": "BILINEAR",
+    "japanese": "バイリニア",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EGITextureFiltering/1",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EGITextureFiltering/2",
+    "english": "BICUBIC",
+    "japanese": "バイキュービック",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EGITextureFiltering/3",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MotionBlur/0",
+    "english": "Motion Blur",
+    "japanese": "モーションブラー",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "MotionBlur/1",
+    "english": "Change the quality of the motion blur.",
+    "japanese": "モーションブラーの​[品質:ひんしつ]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EMotionBlur/0",
+    "english": "OFF",
+    "japanese": "オフ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EMotionBlur/1",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EMotionBlur/2",
+    "english": "ORIGINAL",
+    "japanese": "オリジナル",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EMotionBlur/3",
+    "english": "",
+    "japanese": "",
+    "decision": "keep_english",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EMotionBlur/4",
+    "english": "ENHANCED",
+    "japanese": "エンハンスド",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EMotionBlur/5",
+    "english": "Enhanced: uses more samples for smoother motion blur at the cost of performance.",
+    "japanese": "エンハンスド: パフォーマンスを​[犠牲:ぎせい]にして​より[多:おお]くの​サンプルを​[使用:しよう]してより​[滑:なめ]らかな​モーションブラーを​[実現:じつげん]します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "XboxColorCorrection/0",
+    "english": "Xbox Color Correction",
+    "japanese": "Xboxの[色補正:いろほせい]",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "XboxColorCorrection/1",
+    "english": "Use the warm tint from the Xbox version of the game.",
+    "japanese": "Xbox[版:ばん]のゲームの​[暖色系:だんしょくけい]の[色合:いろあ]いを​[使用:しよう]します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "CutsceneAspectRatio/0",
+    "english": "Cutscene Aspect Ratio",
+    "japanese": "アスペクト[比:ひ]のカットシーン",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "CutsceneAspectRatio/1",
+    "english": "Change the aspect ratio of the real-time cutscenes.",
+    "japanese": "リアルタイム​カットシーンの​アスペクト[比:ひ]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECutsceneAspectRatio/0",
+    "english": "ORIGINAL",
+    "japanese": "オリジナル",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECutsceneAspectRatio/1",
+    "english": "Original: locks cutscenes to their original 16:9 aspect ratio.",
+    "japanese": "オリジナル: カットシーンを​[元:もと]の​16:9の​アスペクト[比:ひ]に​[固定:こてい]します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECutsceneAspectRatio/2",
+    "english": "UNLOCKED",
+    "japanese": "解除",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "ECutsceneAspectRatio/3",
+    "english": "Unlocked: allows cutscenes to adjust their aspect ratio to the window size.\n\nWARNING: this will introduce visual oddities past the original 16:9 aspect ratio.",
+    "japanese": "[解除:かいじょ]: カットシーンの​アスペクト[比:ひ]を​ウィンドウサイズに​[合:あ]わせて​[調整:ちょうせい]します\n\n[警告:けいこく]: [元:もと]の​16:9の​アスペクト[比:ひ]を​[超:こ]えると​[視覚的:しかくてき]な​[異常:いじょう]が​[発生:はっせい]します",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "UIAlignmentMode/0",
+    "english": "UI Alignment Mode",
+    "japanese": "UIアライメントモード",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "UIAlignmentMode/1",
+    "english": "Change how the UI aligns with the display.",
+    "japanese": "UIとディスプレイの​[配置:はいち]を​[変更:へんこう]できます",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EUIAlignmentMode/0",
+    "english": "EDGE",
+    "japanese": "エッジ",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EUIAlignmentMode/1",
+    "english": "Edge: the UI will align with the edges of the display.",
+    "japanese": "エッジ: UIがディスプレイの​[端:はし]に​[揃:そろ]います",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EUIAlignmentMode/2",
+    "english": "CENTER",
+    "japanese": "センター",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  },
+  {
+    "key": "EUIAlignmentMode/3",
+    "english": "Center: the UI will align with the center of the display.",
+    "japanese": "センター: UIがディスプレイの​[中央:ちゅうおう]に​[揃:そろ]います",
+    "decision": "translate",
+    "source": "config_locale.cpp"
+  }
+]

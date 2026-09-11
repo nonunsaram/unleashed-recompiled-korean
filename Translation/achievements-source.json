@@ -1,0 +1,1037 @@
+{
+  "xdbf_offset": 21372032,
+  "tablemeta": {
+    "1": {
+      "offset": 21410406,
+      "size": 5833,
+      "count": 213
+    },
+    "2": {
+      "offset": 21388810,
+      "size": 7939,
+      "count": 213
+    },
+    "3": {
+      "offset": 21382662,
+      "size": 6148,
+      "count": 213
+    },
+    "4": {
+      "offset": 21375914,
+      "size": 6748,
+      "count": 213
+    },
+    "5": {
+      "offset": 21403525,
+      "size": 6881,
+      "count": 213
+    },
+    "6": {
+      "offset": 21396749,
+      "size": 6776,
+      "count": 213
+    }
+  },
+  "items": [
+    {
+      "id": 24,
+      "gamerscore": 25,
+      "flags": 14,
+      "string_ids": [
+        113,
+        114,
+        115
+      ],
+      "english": [
+        "Still Broken",
+        "Restored the first continent",
+        "Save the first continent"
+      ],
+      "japanese": [
+        "緑のピース",
+        "一つ目の大陸が元に戻った",
+        "ばらばらになった大陸を元に戻せ！"
+      ]
+    },
+    {
+      "id": 25,
+      "gamerscore": 25,
+      "flags": 14,
+      "string_ids": [
+        116,
+        117,
+        118
+      ],
+      "english": [
+        "Looking Better",
+        "Restored the second continent",
+        "Save the second continent"
+      ],
+      "japanese": [
+        "赤のピース",
+        "二つ目の大陸が元に戻った",
+        "ばらばらになった大陸を元に戻せ！"
+      ]
+    },
+    {
+      "id": 26,
+      "gamerscore": 25,
+      "flags": 14,
+      "string_ids": [
+        119,
+        120,
+        121
+      ],
+      "english": [
+        "Still a Jigsaw Puzzle",
+        "Restored the third continent",
+        "Save the third continent"
+      ],
+      "japanese": [
+        "青のピース",
+        "三つ目の大陸が元に戻った",
+        "ばらばらになった大陸を元に戻せ！"
+      ]
+    },
+    {
+      "id": 27,
+      "gamerscore": 25,
+      "flags": 14,
+      "string_ids": [
+        122,
+        123,
+        124
+      ],
+      "english": [
+        "Picking Up the Pieces",
+        "Restored the fourth continent",
+        "Save the fourth continent"
+      ],
+      "japanese": [
+        "水色のピース",
+        "四つ目の大陸が元に戻った",
+        "ばらばらになった大陸を元に戻せ！"
+      ]
+    },
+    {
+      "id": 28,
+      "gamerscore": 25,
+      "flags": 14,
+      "string_ids": [
+        125,
+        126,
+        127
+      ],
+      "english": [
+        "Almost There",
+        "Restored the fifth continent",
+        "Save the fifth continent"
+      ],
+      "japanese": [
+        "黄色のピース",
+        "五つ目の大陸が元に戻った",
+        "ばらばらになった大陸を元に戻せ！"
+      ]
+    },
+    {
+      "id": 29,
+      "gamerscore": 25,
+      "flags": 14,
+      "string_ids": [
+        134,
+        135,
+        133
+      ],
+      "english": [
+        "One More to Go",
+        "Restored the sixth continent",
+        "Save the sixth continent"
+      ],
+      "japanese": [
+        "紫のピース",
+        "六つ目の大陸が元に戻った",
+        "ばらばらになった大陸を元に戻せ！"
+      ]
+    },
+    {
+      "id": 31,
+      "gamerscore": 100,
+      "flags": 9,
+      "string_ids": [
+        128,
+        129,
+        130
+      ],
+      "english": [
+        "World Savior",
+        "Cleared the game",
+        "Complete the game"
+      ],
+      "japanese": [
+        "ワールドトラベラー",
+        "ゲームをクリアした",
+        "すべてを元に戻せ！"
+      ]
+    },
+    {
+      "id": 32,
+      "gamerscore": 30,
+      "flags": 9,
+      "string_ids": [
+        136,
+        137,
+        138
+      ],
+      "english": [
+        "Partly Cloudy",
+        "Collected half of the Sun Medals",
+        "Collect Sun Medals"
+      ],
+      "japanese": [
+        "ライジングサン",
+        "太陽のメダルを半分集めた",
+        "太陽のメダルを集めろ"
+      ]
+    },
+    {
+      "id": 33,
+      "gamerscore": 50,
+      "flags": 9,
+      "string_ids": [
+        139,
+        140,
+        141
+      ],
+      "english": [
+        "Sunny",
+        "Collected all Sun Medals",
+        "Collect all of the Sun Medals"
+      ],
+      "japanese": [
+        "シャイニングサン",
+        "太陽のメダルを全部集めた",
+        "太陽のメダルを全部集めろ"
+      ]
+    },
+    {
+      "id": 34,
+      "gamerscore": 30,
+      "flags": 9,
+      "string_ids": [
+        142,
+        143,
+        144
+      ],
+      "english": [
+        "Half Moon",
+        "Collected half of the Moon Medals",
+        "Collect Moon Medals"
+      ],
+      "japanese": [
+        "ハーフムーン",
+        "月のメダルを半分集めた",
+        "月のメダルを集めろ"
+      ]
+    },
+    {
+      "id": 35,
+      "gamerscore": 50,
+      "flags": 9,
+      "string_ids": [
+        145,
+        146,
+        147
+      ],
+      "english": [
+        "Full Moon",
+        "Collected all Moon Medals",
+        "Collect all of the Moon Medals"
+      ],
+      "japanese": [
+        "フルムーン",
+        "月のメダルを全部集めた",
+        "月のメダルを全部集めろ"
+      ]
+    },
+    {
+      "id": 36,
+      "gamerscore": 30,
+      "flags": 10,
+      "string_ids": [
+        148,
+        149,
+        150
+      ],
+      "english": [
+        "Blue Streak",
+        "Upgraded all of Sonic the Hedgehog's stats to their maximum levels",
+        "Create an unbeatable Hedgehog"
+      ],
+      "japanese": [
+        "最強ソニック",
+        "ソニックのステータスすべてをMAXにした",
+        "ソニックを最強に育てろ"
+      ]
+    },
+    {
+      "id": 37,
+      "gamerscore": 30,
+      "flags": 10,
+      "string_ids": [
+        151,
+        152,
+        153
+      ],
+      "english": [
+        "Power Overwhelming",
+        "Upgraded all of Sonic the Werehog's stats to their maximum levels",
+        "Create an unbeatable Werehog"
+      ],
+      "japanese": [
+        "最強ウェアホッグ",
+        "ウェアホッグのステータスすべてをMAXにした",
+        "ウェアホッグを最強に育てろ"
+      ]
+    },
+    {
+      "id": 38,
+      "gamerscore": 15,
+      "flags": 10,
+      "string_ids": [
+        154,
+        155,
+        156
+      ],
+      "english": [
+        "Getting the Hang of Things",
+        "Achieved an S Rank with Sonic the Hedgehog for the first time",
+        "Get a high score with Sonic the Hedgehog"
+      ],
+      "japanese": [
+        "ソニックスペシャル",
+        "初めてソニックでSランクを取った",
+        "ソニックでハイスコアを叩き出せ！"
+      ]
+    },
+    {
+      "id": 39,
+      "gamerscore": 15,
+      "flags": 10,
+      "string_ids": [
+        157,
+        158,
+        159
+      ],
+      "english": [
+        "Creature of the Night",
+        "Achieved an S Rank with Sonic the Werehog for the first time",
+        "Get a high score with Sonic the Werehog"
+      ],
+      "japanese": [
+        "ウェアホッグスペシャル",
+        "初めてウェアホッグでSランクを取った",
+        "ウェアホッグでハイスコアを叩き出せ！"
+      ]
+    },
+    {
+      "id": 40,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        160,
+        161,
+        162
+      ],
+      "english": [
+        "Helping Hand",
+        "Completed all missions for a townsperson",
+        "Help someone in need"
+      ],
+      "japanese": [
+        "やさしい心",
+        "一人のNPCのミッションをすべて解決",
+        "困っている人を助けよう"
+      ]
+    },
+    {
+      "id": 41,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        163,
+        164,
+        165
+      ],
+      "english": [
+        "Lay the Smackdown",
+        "Have mastered the Stomp technique",
+        "Improve your Stomp!"
+      ],
+      "japanese": [
+        "ストンピングマスター",
+        "ストンピングをマスターした",
+        "ストンピングをクールに決めろ！"
+      ]
+    },
+    {
+      "id": 42,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        166,
+        167,
+        172
+      ],
+      "english": [
+        "Wall Crawler",
+        "Have mastered the Wall Jump technique",
+        "Improve your Wall Jump!"
+      ],
+      "japanese": [
+        "三角跳びマスター",
+        "三角跳びをマスターした",
+        "三角跳びをクールに決めろ！"
+      ]
+    },
+    {
+      "id": 43,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        168,
+        169,
+        173
+      ],
+      "english": [
+        "Airdevil",
+        "Have mastered the Air Boost technique",
+        "Improve your Air Boost!"
+      ],
+      "japanese": [
+        "エアブーストマスター",
+        "エアブーストをマスターした",
+        "エアブーストをクールに決めろ！"
+      ]
+    },
+    {
+      "id": 44,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        170,
+        171,
+        174
+      ],
+      "english": [
+        "Hyperdrive",
+        "Have mastered the Lightspeed Dash technique",
+        "Improve your Lightspeed Dash!"
+      ],
+      "japanese": [
+        "ライトダッシュマスター",
+        "ライトダッシュをマスターした",
+        "ライトダッシュをクールに決めろ！"
+      ]
+    },
+    {
+      "id": 45,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        175,
+        176,
+        183
+      ],
+      "english": [
+        "Basher",
+        "Have attained Combo Level 5",
+        "Get your Werehog level up"
+      ],
+      "japanese": [
+        "コンボ　Lv5",
+        "コンボレベルが5になった",
+        "ウェアホッグのレベルをUPさせろ"
+      ]
+    },
+    {
+      "id": 46,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        177,
+        178,
+        184
+      ],
+      "english": [
+        "Smasher",
+        "Have attained Combo Level 10",
+        "Get your Werehog level up some more!"
+      ],
+      "japanese": [
+        "コンボ　Lv10",
+        "コンボレベルが10になった",
+        "ウェアホッグのレベルをUPさせろ"
+      ]
+    },
+    {
+      "id": 47,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        179,
+        180,
+        185
+      ],
+      "english": [
+        "Crasher",
+        "Have attained Combo Level 15",
+        "Get your Werehog level up even higher!"
+      ],
+      "japanese": [
+        "コンボ　Lv15",
+        "コンボレベルが15になった",
+        "ウェアホッグのレベルをUPさせろ"
+      ]
+    },
+    {
+      "id": 48,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        181,
+        182,
+        186
+      ],
+      "english": [
+        "Thrasher",
+        "Have attained Combo Level 20",
+        "Get your Werehog level way up there!"
+      ],
+      "japanese": [
+        "コンボ　Lv20",
+        "コンボレベルが20になった",
+        "ウェアホッグのレベルをUPさせろ"
+      ]
+    },
+    {
+      "id": 49,
+      "gamerscore": 30,
+      "flags": 9,
+      "string_ids": [
+        187,
+        188,
+        189
+      ],
+      "english": [
+        "Social Butterfly",
+        "Talked to all townspeople",
+        "Talk to people around the world"
+      ],
+      "japanese": [
+        "人類みな友達",
+        "住民すべてに話しかけた",
+        "世界中の人に話しかけろ"
+      ]
+    },
+    {
+      "id": 50,
+      "gamerscore": 30,
+      "flags": 9,
+      "string_ids": [
+        190,
+        191,
+        192
+      ],
+      "english": [
+        "Hungry Hungry Hedgehog",
+        "Got every type of food",
+        "Eat everything in the world"
+      ],
+      "japanese": [
+        "食いしん坊",
+        "すべての食べ物を手に入れた",
+        "世界を食べつくせ"
+      ]
+    },
+    {
+      "id": 51,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        193,
+        194,
+        195
+      ],
+      "english": [
+        "Ace Pilot",
+        "Cleared Act 1 of Tornado Defense without taking damage",
+        "Pull off some flawless flying"
+      ],
+      "japanese": [
+        "敏腕パイロット",
+        "「トルネード シュートAct1」をノーダメージでクリア",
+        "無傷でクリアしろ"
+      ]
+    },
+    {
+      "id": 52,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        196,
+        197,
+        200
+      ],
+      "english": [
+        "Day Tripper",
+        "Cleared all Sonic the Hedgehog stages",
+        "Race through all stages"
+      ],
+      "japanese": [
+        "ソニックステージコンプリート",
+        "ソニックステージをすべてクリア",
+        "すべてのステージを走破しろ"
+      ]
+    },
+    {
+      "id": 53,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        198,
+        199,
+        201
+      ],
+      "english": [
+        "Hard Day’s Night",
+        "Cleared all Sonic the Werehog stages",
+        "Blast through all stages"
+      ],
+      "japanese": [
+        "ウェアホッグステージコンプリート",
+        "ウェアホッグステージをすべてクリア",
+        "すべてのステージを踏破しろ"
+      ]
+    },
+    {
+      "id": 54,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        202,
+        203,
+        204
+      ],
+      "english": [
+        "Get on the Exorcise Bandwagon",
+        "Exorcised everyone",
+        "Drive dark spirits away"
+      ],
+      "japanese": [
+        "ダークガイアバスター",
+        "全員除霊した",
+        "世界から悪霊を追い払え"
+      ]
+    },
+    {
+      "id": 64,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        232,
+        233,
+        250
+      ],
+      "english": [
+        "Gyro with Relish",
+        "Cleared all hot dog stand missions in Apotos",
+        "Eat all the hot dogs in Apotos"
+      ],
+      "japanese": [
+        "さわやかホットドッグ",
+        "アポトスのホットドッグ屋ミッションを全部クリア",
+        "アポトスのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 65,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        234,
+        235,
+        251
+      ],
+      "english": [
+        "Pig in a Blanket",
+        "Cleared all hot dog stand missions in Spagonia",
+        "Eat all the hot dogs in Spagonia"
+      ],
+      "japanese": [
+        "インテリホットドッグ",
+        "スパゴニアのホットドッグ屋ミッションを全部クリア",
+        "スパゴニアのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 66,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        236,
+        237,
+        252
+      ],
+      "english": [
+        "Exotic Toppings",
+        "Cleared all hot dog stand missions in Mazuri",
+        "Eat all the hot dogs in Mazuri"
+      ],
+      "japanese": [
+        "灼熱ホットドッグ",
+        "マズーリのホットドッグ屋ミッションを全部クリア",
+        "マズーリのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 67,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        238,
+        239,
+        253
+      ],
+      "english": [
+        "Sausage Fried Rice",
+        "Cleared all hot dog stand missions in Chun-nan",
+        "Eat all the hot dogs in Chun-nan"
+      ],
+      "japanese": [
+        "歴史あるホットドッグ",
+        "チュンナンのホットドッグ屋ミッションを全部クリア",
+        "チュンナンのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 68,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        240,
+        241,
+        254
+      ],
+      "english": [
+        "Iced Hotdog",
+        "Cleared all hot dog stand missions in Holoska",
+        "Eat all the hot dogs in Holoska"
+      ],
+      "japanese": [
+        "ひえひえホットドッグ",
+        "ホロスカのホットドッグ屋ミッションを全部クリア",
+        "ホロスカのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 69,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        242,
+        243,
+        255
+      ],
+      "english": [
+        "Kebab on a Bun",
+        "Cleared all hot dog stand missions in Shamar",
+        "Eat all the hot dogs in Shamar"
+      ],
+      "japanese": [
+        "砂かけホットドッグ",
+        "シャマールのホットドッグ屋ミッションを全部クリア",
+        "シャマールのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 70,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        244,
+        245,
+        256
+      ],
+      "english": [
+        "Ketchup and Mustard",
+        "Cleared all hot dog stand missions in Empire City",
+        "Eat all the hot dogs in Empire City"
+      ],
+      "japanese": [
+        "アーバンホットドッグ",
+        "エンパイアシティのホットドッグ屋ミッションを全部クリア",
+        "エンパイアシティのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 71,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        246,
+        247,
+        258
+      ],
+      "english": [
+        "Hard Boiled",
+        "Cleared all hot dog stand missions in Eggmanland",
+        "Eat all the hot dogs in Eggmanland"
+      ],
+      "japanese": [
+        "まじうまホットドッグ",
+        "エッグマンランドのホットドッグ屋ミッションを全部クリア",
+        "エッグマンランドのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 72,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        248,
+        249,
+        257
+      ],
+      "english": [
+        "Fried Clam Roll",
+        "Cleared all hot dog stand missions in Adabat",
+        "Eat all the hot dogs in Adabat"
+      ],
+      "japanese": [
+        "海鮮ホットドッグ",
+        "アダバタのホットドッグ屋ミッションを全部クリア",
+        "アダバタのホットドッグを食べつくせ"
+      ]
+    },
+    {
+      "id": 73,
+      "gamerscore": 10,
+      "flags": 9,
+      "string_ids": [
+        259,
+        260,
+        261
+      ],
+      "english": [
+        "First Time Customer",
+        "Bought a product from Wentos",
+        "Buy something from Wentos"
+      ],
+      "japanese": [
+        "放浪の旅人",
+        "ウェントスから商品を購入した",
+        "旅人には要注意"
+      ]
+    },
+    {
+      "id": 74,
+      "gamerscore": 10,
+      "flags": 10,
+      "string_ids": [
+        262,
+        263,
+        266
+      ],
+      "english": [
+        "Oh, You Shouldn't Have!",
+        "Gave a souvenir to the Professor",
+        "Give a souvenir to the Professor"
+      ],
+      "japanese": [
+        "おみやげ　初級",
+        "教授におみやげを1コ渡した",
+        "教授におみやげを渡せ"
+      ]
+    },
+    {
+      "id": 75,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        264,
+        265,
+        267
+      ],
+      "english": [
+        "That's Enough, Seriously",
+        "Gave all souvenirs to the Professor",
+        "Give every souvenir to the Professor"
+      ],
+      "japanese": [
+        "おみやげ　上級",
+        "教授におみやげを全部渡した",
+        "教授におみやげを全部渡せ"
+      ]
+    },
+    {
+      "id": 76,
+      "gamerscore": 5,
+      "flags": 9,
+      "string_ids": [
+        268,
+        269,
+        272
+      ],
+      "english": [
+        "Hedgehunk",
+        "Cleared the Louie Montaine missions in Empire City and the Ana missions in Mazuri",
+        "Talk with people in the pursuit of love"
+      ],
+      "japanese": [
+        "恋愛マスター",
+        "エンパイアシティのルイ＝モンタン、マズーリのアナのミッションを両方クリアした",
+        "愛を追いかけている人に話しかけてみろ"
+      ]
+    },
+    {
+      "id": 77,
+      "gamerscore": 5,
+      "flags": 9,
+      "string_ids": [
+        270,
+        273,
+        271
+      ],
+      "english": [
+        "I Ain't Afraid of No Ghost",
+        "Cleared the Marcantonio missions in Spagonia",
+        "Someone is dealing with spectral troubles"
+      ],
+      "japanese": [
+        "ゴーストバスター",
+        "スパゴニアのマーカントニオのミッションをクリアした",
+        "お化けで困っている人がいる"
+      ]
+    },
+    {
+      "id": 78,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        274,
+        275,
+        276
+      ],
+      "english": [
+        "BFFs",
+        "Became best friends with Chip.",
+        "Become better friends with Chip"
+      ],
+      "japanese": [
+        "ベストフレンド",
+        "チップととても仲良くなった",
+        "チップと仲良くなろう"
+      ]
+    },
+    {
+      "id": 79,
+      "gamerscore": 20,
+      "flags": 10,
+      "string_ids": [
+        277,
+        278,
+        281
+      ],
+      "english": [
+        "Speeding Ticket",
+        "Reached the Goal of Arid Sands, Act 1 as Sonic within 2'50\"",
+        "Become the fastest thing alive"
+      ],
+      "japanese": [
+        "最速の証",
+        "ソニックで「ホット デザート Act1」を2分50秒以内でゴールした",
+        "灼熱の大地を最速で駆け抜けろ"
+      ]
+    },
+    {
+      "id": 80,
+      "gamerscore": 20,
+      "flags": 10,
+      "string_ids": [
+        279,
+        280,
+        282
+      ],
+      "english": [
+        "Combo King",
+        "Achieved 10,000 total combos",
+        "Work on your combos"
+      ],
+      "japanese": [
+        "豪腕の証",
+        "通算10000コンボ達成した",
+        "コンボをつなげ"
+      ]
+    },
+    {
+      "id": 81,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        283,
+        284,
+        285
+      ],
+      "english": [
+        "Ring Leader",
+        "Collected 5,000 total rings",
+        "Gather Rings from all over the world"
+      ],
+      "japanese": [
+        "リング5000コ",
+        "リングを通算5000コ取った",
+        "世界中のリングをとりまくれ"
+      ]
+    },
+    {
+      "id": 82,
+      "gamerscore": 20,
+      "flags": 9,
+      "string_ids": [
+        286,
+        287,
+        288
+      ],
+      "english": [
+        "Knockout Brawler",
+        "Defeated 1,000 enemies",
+        "Smash, smash, and smash some more"
+      ],
+      "japanese": [
+        "エネミーハンター",
+        "エネミーを1000体倒した",
+        "倒して倒して倒しまくれ"
+      ]
+    },
+    {
+      "id": 83,
+      "gamerscore": 20,
+      "flags": 15,
+      "string_ids": [
+        289,
+        290,
+        291
+      ],
+      "english": [
+        "Blue Meteor",
+        "Reached the Goal of Windmill Isle, Act 2 as Sonic within 2'35\"",
+        "Dash through the white walls at top speed"
+      ],
+      "japanese": [
+        "青き流星",
+        "ソニックで「ホワイト アイランド Act2」を2分35秒以内でゴールした",
+        "白壁の中を最速で駆け抜けろ"
+      ]
+    }
+  ]
+}
