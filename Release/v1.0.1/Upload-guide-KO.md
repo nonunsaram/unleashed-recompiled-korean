@@ -26,12 +26,13 @@
 
 GameBanana는 활성 상태로 보이는 파일이 최소 하나 있어야 합니다. 새 파일 업로드가 끝나기 전에 기존 파일을 모두 Archived로 만들지 마세요. v1.0.0 Full은 기존 사용자의 원본 복원에 필요할 수 있으므로 삭제하지 말고 Archived 상태로 보존하는 편이 안전합니다.
 
-## 3. 모드 본문과 표시 버전 수정
+## 3. 모드 본문 수정
 
 1. 다시 `Edit`으로 들어갑니다.
 2. 기존 설명을 `GameBanana-post.md`의 내용으로 교체합니다.
-3. `Technical` 탭의 Version 항목이 보이면 `1.0.1`로 바꿉니다. 현재 공개 페이지에는 Version이 `Unknown`으로 표시되어 있습니다.
-4. 저장합니다.
+3. 저장합니다.
+
+현재 Mod 편집기의 `Technical` 탭에는 별도의 Version 항목이 없습니다. 이 탭의 Tags, Installation Instructions, Requirements는 버전업을 위해 수정할 필요가 없습니다. 버전은 다음 단계의 `Add Update` 창에 입력합니다.
 
 본문 첫부분에서 다음 두 문장을 눈에 띄게 유지합니다.
 
@@ -40,7 +41,7 @@ GameBanana는 활성 상태로 보이는 파일이 최소 하나 있어야 합�
 
 ## 4. Update 글 등록
 
-파일과 본문을 먼저 저장한 다음 기존 모드 페이지의 `Add Update`를 누릅니다.
+파일과 본문을 먼저 저장한 다음 편집 화면 밖으로 나와 기존 모드 페이지 상단의 `Updates`를 누릅니다. Updates 화면의 `Add Update`를 선택합니다.
 
 - Title: `v1.0.1 — Full 설치기 재작성 및 번역 수정`
 - Version: `1.0.1`
@@ -52,7 +53,7 @@ GameBanana는 활성 상태로 보이는 파일이 최소 하나 있어야 합�
 
 ## 5. 게시 후 확인
 
-- 공개 페이지의 Version이 `1.0.1`인지 확인합니다.
+- Updates 목록에 버전 `1.0.1`이 표시되는지 확인합니다.
 - 새 Basic과 Full이 일반 파일 목록에 보이고 v1.0.0은 Archived 안에 있는지 확인합니다.
 - 두 새 파일의 Manual Download와 HMM 1-Click Install이 각각 올바른 파일을 가리키는지 확인합니다.
 - 내려받은 파일의 SHA-256이 위 값 및 `SHA256SUMS.txt`와 일치하는지 확인합니다.
