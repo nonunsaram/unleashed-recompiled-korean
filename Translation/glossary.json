@@ -1,0 +1,1201 @@
+{
+  "schema_version": 1,
+  "creator": "nonunsaram",
+  "updated_at": "2026-09-12",
+  "entries": [
+    {
+      "japanese": "ソニック",
+      "english": "Sonic",
+      "korean": "소닉",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "기존 검수 번역 및 작품 전반의 통용 표기",
+      "forbidden_variants": [
+        "쏘닉"
+      ]
+    },
+    {
+      "japanese": "ソニック・ザ・ヘッジホッグ",
+      "english": "Sonic the Hedgehog",
+      "korean": "소닉 더 헤지혹",
+      "category": "인물 전체 이름",
+      "status": "확정",
+      "evidence": "기존 검수된 첫 만남 장면",
+      "forbidden_variants": [
+        "소닉 더 헤지호그",
+        "소닉 더 헷지혹"
+      ]
+    },
+    {
+      "japanese": "Dr.エッグマン",
+      "english": "Doctor Eggman / Eggman",
+      "korean": "Dr. 에그맨",
+      "category": "인물·호칭",
+      "status": "확정",
+      "evidence": "사용자 인게임 검수에서 확인한 세가코리아 표기. 전체 호칭은 Dr. 에그맨, ドクター 단독 호칭은 닥터로 구분",
+      "forbidden_variants": [
+        "에그맨 박사",
+        "닥터 에그 맨",
+        "닥터 에그맨"
+      ]
+    },
+    {
+      "japanese": "ドクター",
+      "english": "Doctor / Doc",
+      "korean": "닥터",
+      "category": "인물·단독 호칭",
+      "status": "확정",
+      "evidence": "사용자 인게임 검수에서 확인한 세가코리아 표기 구분. 이름 없이 단독으로 부를 때 사용",
+      "forbidden_variants": [
+        "박사",
+        "Dr."
+      ]
+    },
+    {
+      "japanese": "チップ",
+      "english": "Chip",
+      "korean": "칩",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "evrt_m1_01에서 소닉이 선데이의 초코칩을 보고 붙이는 이름",
+      "forbidden_variants": [
+        "치프"
+      ]
+    },
+    {
+      "japanese": "カオスエメラルド",
+      "english": "Chaos Emerald",
+      "korean": "카오스 에메랄드",
+      "category": "설정·물체",
+      "status": "확정",
+      "evidence": "시리즈 통용 표기와 evrt_m1_01 문맥",
+      "forbidden_variants": [
+        "카오스 에머랄드",
+        "카오스에메랄드"
+      ]
+    },
+    {
+      "japanese": "ガイア文書",
+      "english": "Gaia Manuscripts",
+      "korean": "가이아 문서",
+      "category": "설정·문헌",
+      "status": "임시",
+      "evidence": "일본어 합성어를 자연스럽게 옮긴 기존 오프닝 번역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "가이아 매뉴스크립트"
+      ]
+    },
+    {
+      "japanese": "エッグマンランド",
+      "english": "Eggman Land",
+      "korean": "에그맨 랜드",
+      "category": "장소·시설",
+      "status": "임시",
+      "evidence": "일본어·영어 명칭과 기존 오프닝 번역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "에그맨랜드",
+        "에그 맨 랜드"
+      ]
+    },
+    {
+      "japanese": "スペシャルチョコサンデー",
+      "english": "Chocolate Chipped Cream Sundae Supreme",
+      "korean": "스페셜 초코 선데이",
+      "category": "음식·상품명",
+      "status": "확정",
+      "evidence": "사용자 인게임 검수에서 국내의 굳어진 상품 용례인 선데이를 유지하기로 확정. 일본어 상품명 우선이며 영어판의 추가 각색은 반영하지 않음",
+      "forbidden_variants": [
+        "초콜릿 칩드 크림 선데이 슈프림",
+        "스페셜 초콜릿 선데",
+        "스페셜 초코 선대"
+      ]
+    },
+    {
+      "japanese": "ピックル教授",
+      "english": "Professor Pickle",
+      "korean": "피클 교수",
+      "category": "인물·호칭",
+      "status": "확정",
+      "evidence": "컷씬·마을 대사·힌트의 일관된 표기를 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "피클 박사",
+        "피클교수"
+      ]
+    },
+    {
+      "japanese": "スパゴニア / スパゴニア大学",
+      "english": "Spagonia / Spagonia University",
+      "korean": "스파고니아 / 스파고니아 대학",
+      "category": "지명·기관",
+      "status": "확정",
+      "evidence": "evrt_m1_03_2 일본어 명칭의 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "스파고니아 대학교",
+        "스파고니아대학"
+      ]
+    },
+    {
+      "japanese": "トルネード号",
+      "english": "Tornado-1",
+      "korean": "토네이도호",
+      "category": "기체",
+      "status": "임시",
+      "evidence": "일본어의 호칭 구조를 우선한 컷씬 표기",
+      "forbidden_variants": [
+        "토네이도 1",
+        "토르네이도호"
+      ]
+    },
+    {
+      "japanese": "ダークガイア / ライトガイア",
+      "english": "Dark Gaia / Light Gaia",
+      "korean": "다크 가이아 / 라이트 가이아",
+      "category": "설정·인물",
+      "status": "확정",
+      "evidence": "가이아 문서 설명과 칩의 기억 회복을 포함한 전체 컷씬의 일관된 명칭",
+      "forbidden_variants": [
+        "다크가이아",
+        "라이트가이아",
+        "어둠의 가이아",
+        "빛의 가이아"
+      ]
+    },
+    {
+      "japanese": "ガイア神殿",
+      "english": "Temple of Gaia",
+      "korean": "가이아 신전",
+      "category": "설정·장소",
+      "status": "확정",
+      "evidence": "컷씬의 카오스 에메랄드 복원 과정에서 반복되는 명칭",
+      "forbidden_variants": [
+        "가이아의 신전",
+        "가이아신전"
+      ]
+    },
+    {
+      "japanese": "ゼロ・ポイント",
+      "english": "Point Zero",
+      "korean": "제로 포인트",
+      "category": "설정·지점",
+      "status": "임시",
+      "evidence": "일본어 명칭을 우선해 음역. 영어판의 어순으로 바꾸지 않음",
+      "forbidden_variants": [
+        "포인트 제로",
+        "제로포인트"
+      ]
+    },
+    {
+      "japanese": "エッグ・ビートル",
+      "english": "Egg Beetle",
+      "korean": "에그 비틀",
+      "category": "메카·보스",
+      "status": "임시",
+      "evidence": "일본어·영어 공통 명칭의 음역",
+      "forbidden_variants": [
+        "에그비틀",
+        "에그 비틀호"
+      ]
+    },
+    {
+      "japanese": "エミー・ローズ",
+      "english": "Amy Rose",
+      "korean": "에이미 로즈",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "시리즈 통용 표기와 evrt_s2_01의 자기소개",
+      "forbidden_variants": [
+        "에미 로즈",
+        "에이미로즈"
+      ]
+    },
+    {
+      "japanese": "ホロスカ",
+      "english": "Holoska",
+      "korean": "홀로스카",
+      "category": "지명",
+      "status": "확정",
+      "evidence": "일본어 명칭과 영어 표기의 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "호로스카",
+        "홀로스카아"
+      ]
+    },
+    {
+      "japanese": "ヤリ＝ペッカ",
+      "english": "Jari-Pekka",
+      "korean": "야리페카",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "홀로스카 촌장의 일본어·영어 이름을 한국어 대사에 자연스럽게 붙여 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "자리페카",
+        "야리 페카",
+        "야리=페카"
+      ]
+    },
+    {
+      "japanese": "ピッチナッツ",
+      "english": "Pitch Nuts",
+      "korean": "피치 너트",
+      "category": "아이템",
+      "status": "임시",
+      "evidence": "야리페카 퀘스트의 일본어·영어 명칭을 임시 음역. 아이템 UI 번역 배치에서 재검토",
+      "forbidden_variants": [
+        "피치 나츠",
+        "피치넛",
+        "피치 너츠"
+      ]
+    },
+    {
+      "japanese": "マルケッタ",
+      "english": "Marketa",
+      "korean": "마르케타",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "홀로스카 촌장의 손녀 이름을 일본어·영어 표기에 맞춰 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "마케타",
+        "말케타",
+        "마르케따"
+      ]
+    },
+    {
+      "japanese": "サリアンナ",
+      "english": "Sarianna",
+      "korean": "사리안나",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "홀로스카 주민 이름을 일본어·영어 표기에 맞춰 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "사리아나",
+        "사리애나"
+      ]
+    },
+    {
+      "japanese": "エントランスステージ",
+      "english": "Entrance Stage",
+      "korean": "스테이지 입구",
+      "category": "게임 구조·장소",
+      "status": "확정",
+      "evidence": "Entrance Stage가 각 지역에서 액션 스테이지로 들어가는 공간을 가리키므로 자연스러운 한국어인 스테이지 입구로 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "엔트런스 스테이지",
+        "엔트란스 스테이지",
+        "입구 스테이지"
+      ]
+    },
+    {
+      "japanese": "モーン",
+      "english": "Muun",
+      "korean": "몬",
+      "category": "생물·자원",
+      "status": "임시",
+      "evidence": "홀로스카 주민의 생업 설명에 나오는 명칭을 일본어 발음에 맞춰 임시 음역",
+      "forbidden_variants": [
+        "문",
+        "모온"
+      ]
+    },
+    {
+      "japanese": "ウルスレ",
+      "english": "Ursule",
+      "korean": "우르슬레",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "홀로스카 상점 주인의 일본어·영어 이름을 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "우르술레",
+        "우르스레"
+      ]
+    },
+    {
+      "japanese": "ゾンシェン",
+      "english": "Zonshen",
+      "korean": "종셴",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "춘난의 약사 이름을 일본어 발음과 영어 철자에 맞춰 임시 음역",
+      "forbidden_variants": [
+        "존셴",
+        "종쉔",
+        "존쉔"
+      ]
+    },
+    {
+      "japanese": "ボブスレー",
+      "english": "Bobsleigh",
+      "korean": "봅슬레이",
+      "category": "탈것",
+      "status": "확정",
+      "evidence": "표준 외래어 표기이자 홀로스카 퀘스트 전반의 명칭",
+      "forbidden_variants": [
+        "봅슬래이",
+        "봅슬레드"
+      ]
+    },
+    {
+      "japanese": "ヤリスレ",
+      "english": "Yarisure",
+      "korean": "야리수레",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "홀로스카 주민 이름을 일본어 표기에 맞춰 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "야리스레",
+        "자리수레"
+      ]
+    },
+    {
+      "japanese": "ナギ",
+      "english": "Nagi",
+      "korean": "나기",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "아다바트 주민 이름을 일본어·영어 표기에 맞춰 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "나키",
+        "나아기"
+      ]
+    },
+    {
+      "japanese": "アダバタ",
+      "english": "Adabat",
+      "korean": "아다바트",
+      "category": "지명",
+      "status": "확정",
+      "evidence": "세가 일본어 표기 アダバタ와 공식 라틴 문자 표기 Adabat를 대조한 뒤 사용자 검수에서 아다바트로 확정",
+      "forbidden_variants": [
+        "아다밧",
+        "아다바타"
+      ]
+    },
+    {
+      "japanese": "チャールズ",
+      "english": "Charles",
+      "korean": "찰스",
+      "category": "마을 인물",
+      "status": "확정",
+      "evidence": "일본어 표기와 일반적인 영어 이름 Charles의 한국어 표기",
+      "forbidden_variants": [
+        "차즈",
+        "찰즈",
+        "챨스"
+      ]
+    },
+    {
+      "japanese": "ワーリン",
+      "english": "Hualin",
+      "korean": "화린",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 이름 표기를 함께 고려한 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "와린",
+        "후아린"
+      ]
+    },
+    {
+      "japanese": "クワミ",
+      "english": "Kwami",
+      "korean": "콰미",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 이름 표기를 함께 고려한 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "쿠미",
+        "쿠와미",
+        "크와미"
+      ]
+    },
+    {
+      "japanese": "マズーリ",
+      "english": "Mazuri",
+      "korean": "마주리",
+      "category": "지명",
+      "status": "확정",
+      "evidence": "일본어 지명과 영어 표기의 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "마즈리",
+        "마주리이"
+      ]
+    },
+    {
+      "japanese": "ムサーイド",
+      "english": "Musaid",
+      "korean": "무사이드",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 이름 표기를 함께 고려한 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "무사이드드",
+        "뮤사이드"
+      ]
+    },
+    {
+      "japanese": "ファティマ",
+      "english": "Sammar",
+      "korean": "파티마",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 인명 ファティマ를 기준으로 음역. 영어판의 Sammar보다 일본어 원문을 우선함",
+      "forbidden_variants": [
+        "사마르",
+        "파티마흐"
+      ]
+    },
+    {
+      "japanese": "クーウォド",
+      "english": "Kwod",
+      "korean": "쿠워드",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 장음과 영어 이름 표기를 함께 고려한 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "쿠오드",
+        "콰드",
+        "크워드"
+      ]
+    },
+    {
+      "japanese": "シャマール",
+      "english": "Shamar",
+      "korean": "샤마르",
+      "category": "지명",
+      "status": "확정",
+      "evidence": "일본어 지명과 영어 표기의 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "샤말",
+        "샤마르르"
+      ]
+    },
+    {
+      "japanese": "EC",
+      "english": "Empire City",
+      "korean": "엠파이어 시티",
+      "category": "지명",
+      "status": "확정",
+      "evidence": "일본어 대사의 약칭 EC가 가리키는 영어판 지명 Empire City를 풀어 쓴 표기를 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "EC",
+        "엠파이어시티",
+        "제국 도시"
+      ]
+    },
+    {
+      "japanese": "サイイド",
+      "english": "Sa'id",
+      "korean": "사이드",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 아랍계 인명 표기를 함께 고려한 음역",
+      "forbidden_variants": [
+        "사이이드",
+        "세이드"
+      ]
+    },
+    {
+      "japanese": "チャー",
+      "english": "Chai",
+      "korean": "차이",
+      "category": "음료",
+      "status": "임시",
+      "evidence": "샤마르 전통 차의 영어 보조 표기 Chai와 한국어 통용 음역을 적용",
+      "forbidden_variants": [
+        "챠이",
+        "차이티",
+        "차"
+      ]
+    },
+    {
+      "japanese": "ヤワ",
+      "english": "Yawa",
+      "korean": "야와",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어·영어 이름을 그대로 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "야바",
+        "야아와"
+      ]
+    },
+    {
+      "japanese": "ルディ",
+      "english": "Rudi",
+      "korean": "루디",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어·영어 이름을 그대로 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "루디이",
+        "러디"
+      ]
+    },
+    {
+      "japanese": "ティアンチャイ",
+      "english": "Thianchai",
+      "korean": "티안차이",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 이름 표기를 함께 고려한 음역",
+      "forbidden_variants": [
+        "티안챠이",
+        "시안차이"
+      ]
+    },
+    {
+      "japanese": "ジャマル",
+      "english": "Jamal",
+      "korean": "자말",
+      "category": "마을 인물",
+      "status": "확정",
+      "evidence": "일본어·영어가 일치하는 아랍계 인명의 통용 한국어 음역",
+      "forbidden_variants": [
+        "쟈말",
+        "자마르"
+      ]
+    },
+    {
+      "japanese": "ケーオ",
+      "english": "Keeo",
+      "korean": "케오",
+      "category": "마을 인물·상점",
+      "status": "임시",
+      "evidence": "일본어 장음과 영어 이름을 함께 고려한 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "키오",
+        "케이오"
+      ]
+    },
+    {
+      "japanese": "ランブロス",
+      "english": "Lambros",
+      "korean": "람브로스",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 그리스계 인명 표기를 함께 고려한 음역",
+      "forbidden_variants": [
+        "램브로스",
+        "람브러스"
+      ]
+    },
+    {
+      "japanese": "ドン・ファッチョ",
+      "english": "Don Fachio",
+      "korean": "돈 파치오",
+      "category": "상점·상호",
+      "status": "임시",
+      "evidence": "지역별 핫도그점에 공통으로 쓰이는 일본어·영어 상호를 음역",
+      "forbidden_variants": [
+        "돈 팟초",
+        "돈파치오",
+        "동 파치오"
+      ]
+    },
+    {
+      "japanese": "チュン",
+      "english": "Chun",
+      "korean": "춘",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어·영어 이름을 그대로 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "충",
+        "춘이"
+      ]
+    },
+    {
+      "japanese": "イーリン",
+      "english": "Yilin",
+      "korean": "이린",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어 발음과 영어 중국계 인명 표기를 함께 고려한 음역",
+      "forbidden_variants": [
+        "이링",
+        "일린",
+        "예린"
+      ]
+    },
+    {
+      "japanese": "桃まん",
+      "english": "Peach Bun",
+      "korean": "복숭아 만두",
+      "category": "음식·아이템",
+      "status": "임시",
+      "evidence": "복숭아 모양의 중국식 찐빵을 가리키는 일본어 표현. 아이템 UI 번역 배치에서 재검토",
+      "forbidden_variants": [
+        "도만",
+        "피치 번",
+        "복숭아빵"
+      ]
+    },
+    {
+      "japanese": "リン",
+      "english": "Lin",
+      "korean": "린",
+      "category": "마을 인물",
+      "status": "임시",
+      "evidence": "일본어·영어 이름을 그대로 음역. 공식 한국어 근거는 아직 확보하지 않음",
+      "forbidden_variants": [
+        "링",
+        "린느"
+      ]
+    },
+    {
+      "japanese": "元気の元",
+      "english": "Source of Energy",
+      "korean": "기운의 근원",
+      "category": "음식·퀘스트 아이템",
+      "status": "임시",
+      "evidence": "춘과 이린의 연속 퀘스트에서 종셴의 기력을 되찾게 할 물건이라는 일본어 의미를 반영",
+      "forbidden_variants": [
+        "에너지의 원천",
+        "활력의 원천"
+      ]
+    },
+    {
+      "japanese": "ガイアゲート",
+      "english": "Gaia Gate",
+      "korean": "가이아 게이트",
+      "category": "시설·진행",
+      "status": "확정",
+      "evidence": "피클 교수의 검수된 설명과 ETF 힌트에서 사용한 프로젝트 통일 표기",
+      "forbidden_variants": [
+        "가이아게이트",
+        "가이아 문"
+      ]
+    },
+    {
+      "japanese": "太陽のメダル / 月のメダル",
+      "english": "Sun Medal / Moon Medal",
+      "korean": "태양 메달 / 달 메달",
+      "category": "수집 요소",
+      "status": "확정",
+      "evidence": "피클 교수 대사와 기본 진행 힌트에서 일관되게 사용",
+      "forbidden_variants": [
+        "태양의 메달",
+        "월 메달"
+      ]
+    },
+    {
+      "japanese": "ストンピング",
+      "english": "Stomp",
+      "korean": "스톰핑",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "일본어 ストンピング과 기술명 Stomp 계열을 대조해 스톰핑으로 통일",
+      "forbidden_variants": [
+        "스토핑",
+        "내려찍기"
+      ]
+    },
+    {
+      "japanese": "三角跳び",
+      "english": "Wall Jump",
+      "korean": "삼각 점프",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "일본어 기술명을 우선하고 피클 교수 대사와 기본 조작 힌트의 기존 표기를 통일",
+      "forbidden_variants": [
+        "월 점프",
+        "벽 점프",
+        "삼각 뛰기"
+      ]
+    },
+    {
+      "japanese": "エアブースト",
+      "english": "Air Boost",
+      "korean": "에어 부스트",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "일본어 기술명 음역과 기본 조작 힌트의 기능 설명을 대조",
+      "forbidden_variants": [
+        "에어부스트",
+        "공중 부스트"
+      ]
+    },
+    {
+      "japanese": "ライトダッシュ",
+      "english": "Light Speed Dash",
+      "korean": "라이트 대시",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "피클 교수 대사에서 정립한 일본어 기술명 기준 표기",
+      "forbidden_variants": [
+        "라이트 스피드 대시",
+        "빛의 대시"
+      ]
+    },
+    {
+      "japanese": "ワールドマップ",
+      "english": "World Map",
+      "korean": "월드맵",
+      "category": "UI·시스템",
+      "status": "확정",
+      "evidence": "기존 마을 대사와 월드맵 사용법 힌트에서 통일",
+      "forbidden_variants": [
+        "월드 맵",
+        "세계 지도"
+      ]
+    },
+    {
+      "japanese": "ボスゲート",
+      "english": "Boss Gate",
+      "korean": "보스 게이트",
+      "category": "시설·진행",
+      "status": "확정",
+      "evidence": "ETF 힌트의 태양·달 열쇠 사용 설명을 기준으로 정립",
+      "forbidden_variants": [
+        "보스게이트",
+        "보스 문"
+      ]
+    },
+    {
+      "japanese": "テイルス",
+      "english": "Tails",
+      "korean": "테일즈",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "시리즈 통용 표기와 기존 컷씬·마을 대사 기준",
+      "forbidden_variants": [
+        "테일",
+        "테일스"
+      ]
+    },
+    {
+      "japanese": "エミー",
+      "english": "Amy",
+      "korean": "에이미",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "에이미 로즈의 대화상 축약 호칭",
+      "forbidden_variants": [
+        "에미"
+      ]
+    },
+    {
+      "japanese": "エッグマン",
+      "english": "Eggman",
+      "korean": "에그맨",
+      "category": "인물·호칭",
+      "status": "확정",
+      "evidence": "Dr.가 없는 일본어 단독 이름은 에그맨으로 표기하는 기존 사용자 검수 기준",
+      "forbidden_variants": [
+        "닥터 에그맨",
+        "에그 맨"
+      ]
+    },
+    {
+      "japanese": "チュンナン / エンパイアシティ / アポトス",
+      "english": "Chun-nan / Empire City / Apotos",
+      "korean": "춘난 / 엠파이어 시티 / 아포토스",
+      "category": "지명",
+      "status": "확정",
+      "evidence": "일본어 발음과 공식 라틴 문자 지명을 대조한 프로젝트 표기",
+      "forbidden_variants": [
+        "춘 난",
+        "엠파이어시티",
+        "아포토즈"
+      ]
+    },
+    {
+      "japanese": "ダークガイアフォース / アンリーシュトゲージ",
+      "english": "Dark Gaia Force / Unleashed Gauge",
+      "korean": "다크 가이아 포스 / 언리쉬드 게이지",
+      "category": "전투 자원",
+      "status": "확정",
+      "evidence": "웨어혹 기본 조작 힌트의 일본어 명칭을 기준으로 음역",
+      "forbidden_variants": [
+        "다크가이아 포스",
+        "언리시드 게이지",
+        "해방 게이지"
+      ]
+    },
+    {
+      "japanese": "カオスオーブ / リングエナジー",
+      "english": "Chaos Orb / Ring Energy",
+      "korean": "카오스 오브 / 링 에너지",
+      "category": "전투 자원",
+      "status": "확정",
+      "evidence": "낮·밤 기본 조작 힌트에서 반복되는 일본어 명칭",
+      "forbidden_variants": [
+        "카오스 오브브",
+        "링에너지"
+      ]
+    },
+    {
+      "japanese": "ホーミングアタック / スピンアタック",
+      "english": "Homing Attack / Spin Attack",
+      "korean": "호밍 어택 / 스핀 어택",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "일본어 기술명 음역을 우선한 액션 힌트 표기",
+      "forbidden_variants": [
+        "호밍 공격",
+        "스핀 공격",
+        "호밍어택",
+        "스핀어택"
+      ]
+    },
+    {
+      "japanese": "クイックステップ / スライディング / ドリフト",
+      "english": "Quick Step / Sliding / Drift",
+      "korean": "퀵 스텝 / 슬라이딩 / 드리프트",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "낮 액션 조작 힌트의 일본어 기술명 기준",
+      "forbidden_variants": [
+        "퀵스텝",
+        "슬라이드",
+        "드리프팅"
+      ]
+    },
+    {
+      "japanese": "チャンスアタック",
+      "english": "Critical Attack",
+      "korean": "크리티컬 어택",
+      "category": "기술",
+      "status": "확정",
+      "evidence": "웨어혹의 버튼 입력형 마무리 공격이라는 기능, 영어 UI의 Critical Attack, 한국어 사용자 친숙도를 고려해 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "찬스 어택",
+        "기회 공격",
+        "찬스어택",
+        "크리티컬어택"
+      ]
+    },
+    {
+      "japanese": "ガードポイント / シールド / バリア",
+      "english": "Guard Points / Shield / Barrier",
+      "korean": "가드 포인트 / 실드 / 배리어",
+      "category": "전투 시스템",
+      "status": "확정",
+      "evidence": "일본어에서 서로 구분되는 방어 자원과 장벽 명칭을 그대로 구분",
+      "forbidden_variants": [
+        "가드 게이지",
+        "쉴드",
+        "방어막으로 일괄 통합"
+      ]
+    },
+    {
+      "japanese": "ジャンプセレクター / トリックジャンプ台",
+      "english": "Jump Selector / Trick Jump Platform",
+      "korean": "점프 셀렉터 / 트릭 점프대",
+      "category": "스테이지 장치",
+      "status": "확정",
+      "evidence": "낮 액션 힌트의 장치 기능과 일본어 명칭을 대조",
+      "forbidden_variants": [
+        "점프 선택기",
+        "트릭 점프 플랫폼"
+      ]
+    },
+    {
+      "japanese": "ポーズメニュー / ステータス画面 / 技リスト",
+      "english": "Pause Menu / Status Screen / Skills",
+      "korean": "일시정지 메뉴 / 스테이터스 화면 / 기술 목록",
+      "category": "UI·시스템",
+      "status": "확정",
+      "evidence": "영어 UI를 유지하는 현재 빌드에서도 일본어 힌트 의미를 기준으로 설명형 한국어를 사용",
+      "forbidden_variants": [
+        "포즈 메뉴",
+        "상태 화면",
+        "스킬 리스트"
+      ]
+    },
+    {
+      "japanese": "ロックオンカーソル / チェックポイント",
+      "english": "Lock-on Cursor / Checkpoint",
+      "korean": "록온 커서 / 체크포인트",
+      "category": "UI·스테이지 시스템",
+      "status": "확정",
+      "evidence": "액션 힌트에서 반복되는 화면 표시와 재시작 지점 명칭",
+      "forbidden_variants": [
+        "락온 커서",
+        "체크 포인트"
+      ]
+    },
+    {
+      "japanese": "エッグビートル",
+      "english": "Egg Beetle",
+      "korean": "에그 비틀",
+      "category": "보스",
+      "status": "확정",
+      "evidence": "소닉 보스전 힌트의 일본어 명칭과 영어 고유명사를 대조한 음역",
+      "forbidden_variants": [
+        "에그비틀",
+        "에그 비틀즈",
+        "알풍뎅이"
+      ]
+    },
+    {
+      "japanese": "ナイトメア",
+      "english": "Nightmare",
+      "korean": "나이트메어",
+      "category": "적",
+      "status": "확정",
+      "evidence": "보스전 힌트에서 상자를 운반하는 적 무리를 가리키는 고유 명칭",
+      "forbidden_variants": [
+        "나이트 메어",
+        "악몽"
+      ]
+    },
+    {
+      "japanese": "S P チョコサンデー",
+      "english": "Sundae Supreme",
+      "korean": "스페셜 초코 선데이",
+      "category": "음식·아이템",
+      "status": "확정",
+      "evidence": "컷씬과 아이템 이름을 대조하고 사용자 인게임 검수에서 확정",
+      "forbidden_variants": [
+        "스페셜 초코 선대",
+        "스페셜 초코 선데",
+        "초코 선데이 슈프림"
+      ]
+    },
+    {
+      "japanese": "イバンガの素焼き",
+      "english": "Broiled Ibanga",
+      "korean": "구운 이방가",
+      "category": "음식·아이템",
+      "status": "임시",
+      "evidence": "일본어 아이템명과 기존 핵심 UI 획득 알림의 표기를 통일",
+      "forbidden_variants": [
+        "이방가 소야키",
+        "이반가 구이"
+      ]
+    },
+    {
+      "japanese": "マロイモ / カーケオ / ドンドラの実",
+      "english": "Melloyam / Caqueo / Dondora Fruit",
+      "korean": "마로감자 / 카케오 / 돈도라 열매",
+      "category": "식재료·아이템",
+      "status": "확정",
+      "evidence": "가상 식재료임을 알아볼 수 있도록 마로이모의 イモ를 감자로 현지화하고 나머지는 일본어 발음을 유지하는 안을 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "마로이모",
+        "멜로얌",
+        "카쿠에오",
+        "돈도라 과일"
+      ]
+    },
+    {
+      "japanese": "シシケバサンド",
+      "english": "Kebabwich",
+      "korean": "케밥위치",
+      "category": "음식·아이템",
+      "status": "확정",
+      "evidence": "영어판 Kebabwich의 Kebab+Sandwich 합성어와 음식 구조가 한국어에서도 바로 전달되도록 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "시시케바 샌드",
+        "시시케밥 샌드",
+        "케밥 샌드"
+      ]
+    },
+    {
+      "japanese": "モーンのくんせい",
+      "english": "Smoked Mohn",
+      "korean": "훈제 몬",
+      "category": "음식·아이템",
+      "status": "임시",
+      "evidence": "기존 생물명 モーン의 프로젝트 표기 몬을 사용하고 한국어 음식명 어순을 적용",
+      "forbidden_variants": [
+        "몬의 훈제",
+        "훈제 문"
+      ]
+    },
+    {
+      "japanese": "シシミール",
+      "english": "Boelk Cream",
+      "korean": "시시카 크림",
+      "category": "음식·아이템",
+      "status": "확정",
+      "evidence": "시시카의 젖으로 만든 보존식이라는 일본어 설명과 영어판 Cream을 결합해 음식 정체가 드러나도록 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "시시밀",
+        "뵐크 크림",
+        "시시미르"
+      ]
+    },
+    {
+      "japanese": "プク / ピヨ豆",
+      "english": "Paaf / Chirp Peas",
+      "korean": "부풀빵 / 삐약콩",
+      "category": "음식·아이템",
+      "status": "확정",
+      "evidence": "구우면 부푸는 빵과 ピヨ·Chirp의 새소리 말장난이 한국어에서도 전달되도록 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "푸쿠",
+        "피요콩",
+        "파프",
+        "처프 피"
+      ]
+    },
+    {
+      "japanese": "のび～るアイス",
+      "english": "Elastic Ice Cream",
+      "korean": "쭉쭉 아이스크림",
+      "category": "음식·아이템",
+      "status": "확정",
+      "evidence": "잘 늘어나는 특징과 가상 상품명다운 리듬을 살린 표기를 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "늘어나는 아이스크림",
+        "엘라스틱 아이스크림",
+        "늘어~나는 아이스"
+      ]
+    },
+    {
+      "japanese": "トピジュス / ププール（生） / マサラウ / ドーアン / ツカソ（激辛）",
+      "english": "Tropic Juice / Live Honker / Molsk / Dureek / Nuclear Taquo",
+      "korean": "트로픽 주스 / 생푸푸르 / 마사라우 조개 / 두리크 / 핵매운 타코",
+      "category": "음식·아이템",
+      "status": "확정",
+      "evidence": "일본어 설명과 영어판의 음식 종류·말장난을 함께 반영해 정체를 알아보기 쉬운 상품명으로 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "토피주스",
+        "푸푸르(생)",
+        "푸푸르(생물)",
+        "마사라우",
+        "도안",
+        "츠카소(매우 매움)"
+      ]
+    },
+    {
+      "japanese": "ホワイト アイランド / クレイ キャッスル / オレンジ ルーフス / クール エッジ / ドラゴン ロード / ホット デザート / スカイスクレイパー スキャンパー / ジャングル ジョイライド / エッグマンランド",
+      "english": "Windmill Isle / Savannah Citadel / Rooftop Run / Cool Edge / Dragon Road / Arid Sands / Skyscraper Scamper / Jungle Joyride / Crimson Carnival",
+      "korean": "윈드밀 아일 / 사바나 시타델 / 루프탑 런 / 쿨 에지 / 드래곤 로드 / 애리드 샌즈 / 스카이스크레이퍼 스캠퍼 / 정글 조이라이드 / 크림슨 카니발",
+      "category": "스테이지명",
+      "status": "확정",
+      "evidence": "국내 정발판의 영어 명칭과 국내 팬 통용 표기를 기준으로 사용자 검수에서 확정",
+      "forbidden_variants": [
+        "화이트 아일랜드",
+        "클레이 캐슬",
+        "오렌지 루프스",
+        "핫 데저트",
+        "루프톱 런",
+        "드래건 로드"
+      ]
+    },
+    {
+      "japanese": "トルネードシュート",
+      "english": "Tornado Defense",
+      "korean": "토네이도 디펜스",
+      "category": "스테이지·곡명",
+      "status": "확정",
+      "evidence": "레코드 곡명은 SEGA 공식 음원 배포 목록의 영어 제목 Tornado Defense를 그대로 유지",
+      "forbidden_variants": [
+        "토네이도 슛",
+        "토네이도 방어"
+      ]
+    },
+    {
+      "japanese": "ガイア神殿の鍵 昼 / 夜",
+      "english": "Gaia Key (Day/Night)",
+      "korean": "가이아 신전 열쇠 낮 / 밤",
+      "category": "진행 아이템",
+      "status": "확정",
+      "evidence": "기존 가이아 신전 표기와 아이템의 낮·밤 구분을 그대로 반영",
+      "forbidden_variants": [
+        "가이아 키",
+        "가이아 열쇠(데이)",
+        "가이아 열쇠(나이트)"
+      ]
+    },
+    {
+      "japanese": "エッグ・ドラグーン / パーフェクト・ダークガイア",
+      "english": "Egg Dragoon / Perfect Dark Gaia",
+      "korean": "에그 드래군 / 퍼펙트 다크 가이아",
+      "category": "보스",
+      "status": "임시",
+      "evidence": "일본어 레코드와 비디오테이프 제목 및 영어 고유명사를 대조한 음역",
+      "forbidden_variants": [
+        "에그 드라군",
+        "완전체 다크 가이아"
+      ]
+    },
+    {
+      "japanese": "アンリーシュト",
+      "english": "Unleashed",
+      "korean": "언리쉬드",
+      "category": "기술명 구성어",
+      "status": "확정",
+      "evidence": "정식 발매 제목 소닉 언리쉬드와 사용자 확정 표기를 기술명에도 적용",
+      "forbidden_variants": [
+        "언리시드",
+        "언리슈트"
+      ]
+    },
+    {
+      "japanese": "ウェアハンマー / ウェアクロウ",
+      "english": "Were-Hammer / Were-Claw",
+      "korean": "웨어해머 / 웨어클로",
+      "category": "웨어혹 기술명 구성어",
+      "status": "확정",
+      "evidence": "일본어 기술명과 영어 표기를 대조한 음역이며 복합 기술명에서 한 단위로 사용",
+      "forbidden_variants": [
+        "웨어 해머",
+        "웨어 클로",
+        "늑대 망치",
+        "늑대 발톱"
+      ]
+    },
+    {
+      "japanese": "レベルアップ",
+      "english": "level up",
+      "korean": "레벨 업",
+      "category": "시스템 용어",
+      "status": "확정",
+      "evidence": "기존 힌트의 능력 배분 안내와 스킬 UI의 상승 알림 표기를 통일",
+      "forbidden_variants": [
+        "레벨업",
+        "레벨 상승"
+      ]
+    },
+    {
+      "japanese": "クラッシュシンバルコンボ",
+      "english": "Wereclap",
+      "korean": "크래시 심벌 콤보",
+      "category": "웨어혹 기술명",
+      "status": "확정",
+      "evidence": "영어판 각색명 Wereclap보다 일본어의 크래시 심벌 이미지를 우선해 음역",
+      "forbidden_variants": [
+        "웨어클랩",
+        "크래시 심벌즈 콤보"
+      ]
+    },
+    {
+      "japanese": "グレゴリウス",
+      "english": "Gregorios",
+      "korean": "그레고리오스",
+      "category": "마을 인물",
+      "status": "확정",
+      "evidence": "일본어 표기와 영어 데이터에서 반복되는 공식 로마자 Gregorios를 함께 대조해 음역",
+      "forbidden_variants": [
+        "그레고리우스"
+      ]
+    },
+    {
+      "japanese": "シュイフォン",
+      "english": "Shuifon",
+      "korean": "슈이폰",
+      "category": "마을 인물",
+      "status": "확정",
+      "evidence": "일본어 シュイフォン, 영어 Shuifon, 내부 인물 ID Shuifon이 일치하므로 해당 발음을 반영",
+      "forbidden_variants": [
+        "수이펑",
+        "수이폰",
+        "슈이펑"
+      ]
+    },
+    {
+      "english": "Werehog",
+      "japanese": "ウェアホッグ",
+      "korean": "웨어혹",
+      "status": "사용자 확정",
+      "evidence": "2026-09-12 v1.0.1 사용자 교정",
+      "forbidden_variants": [
+        "웨어호그"
+      ],
+      "usage_note": "조사: 웨어혹으로, 웨어혹의"
+    }
+  ]
+}

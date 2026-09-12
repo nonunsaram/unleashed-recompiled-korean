@@ -1,0 +1,190 @@
+{
+  "version": "1.0.1",
+  "synthetic_backend": {
+    "passed": true,
+    "checks": [
+      "no-config",
+      "missing-language",
+      "missing-subtitles",
+      "duplicate-key",
+      "invalid-value",
+      "wrong-section",
+      "missing-exe",
+      "unknown-exe",
+      "install-reinstall-restore-config-voice-mods-save-XEX-preserved",
+      "restore-without-config-or-package",
+      "v100-requires-old-restore-before-upgrade",
+      "moved-game-restore",
+      "patched-no-backup",
+      "corrupt-backup",
+      "other-mod-restore-refused",
+      "bad-manifest",
+      "bad-delta",
+      "rollback-and-retry-backup",
+      "rollback-and-retry-staged",
+      "rollback-and-retry-before-swap",
+      "rollback-and-retry-after-swap",
+      "rollback-and-retry-verified",
+      "process-crash-recovery-backup",
+      "process-crash-recovery-staged",
+      "process-crash-recovery-after-swap",
+      "process-crash-recovery-verified",
+      "restore-rollback-and-retry-backup",
+      "restore-rollback-and-retry-staged",
+      "restore-rollback-and-retry-before-swap",
+      "restore-rollback-and-retry-after-swap",
+      "restore-rollback-and-retry-verified",
+      "restore-crash-recovery",
+      "mutable-legacy-state-never-authorizes-writes",
+      "hardlink-refused",
+      "locked-exe-no-writes",
+      "concurrent-installer-refused",
+      "read-only-diagnosis",
+      "nonportable-config-path-ignores-stale-root-config"
+    ],
+    "count": 38,
+    "actual_game_launched": false
+  },
+  "real_exe_installer": {
+    "passed": true,
+    "checks": [
+      "no-xex install/reinstall/restore",
+      "unrelated-xex install/reinstall/restore",
+      "stock-xex install/reinstall/restore",
+      "v1.0.0 install -> guarded upgrade -> old full restore -> v1.0.1 install/restore",
+      "standalone restore without Support/config",
+      "production embedded-manifest mismatch no writes"
+    ],
+    "setup_sha256": "5ab12a49584dc529b028a30a701d0f60632679de9fc6cfa4e974cecb42a5d75a",
+    "game_exe_sha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+    "actual_game_launched": false
+  },
+  "native_dispatch": {
+    "passed": true,
+    "translated_ids": 150,
+    "fallback_languages": 7,
+    "unknown_ids": 2
+  },
+  "user_gameplay_confirmed": [
+    "options",
+    "text_and_voice_language",
+    "achievement_menu",
+    "game_start_dialogue_subtitles",
+    "pause_and_button_guide",
+    "worldmap",
+    "mission_selection_description",
+    "mission_loading"
+  ],
+  "pending_gameplay": [
+    "achievement_unlock_notification"
+  ],
+  "original_release_and_game_exe_xex_config_preserved": true,
+  "published": false,
+  "achievement_notification_extra_test_waived_by_user": true,
+  "gameplay_confirmation_applies_to_prior_candidate_sha256": "18de8cedca10c5d0a3a5521c9f4a8795e06200ea2b07ea33ea0243081eca74fa",
+  "translation_review": {
+    "passed": true,
+    "catalog_entries": 11912,
+    "chip_edits": 33,
+    "sonic_english_edits": 1,
+    "cutscene_entries_examined": 602,
+    "cutscene_latin_entries": 18,
+    "sonic_english_entries": 7,
+    "terminology_occurrences_corrected": 14,
+    "hey_original_timing_evidence": {
+      "subtitle_cell": 41,
+      "subtitle_start_frame": 4609,
+      "voice_cue": "J_m6_03_410_es",
+      "voice_start_frame": 4609
+    },
+    "archive_count": 17,
+    "changed_physical_cells": 74,
+    "native_sha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+    "new_native_glyph": "혹",
+    "embedded_native_font_verified": true,
+    "full_audio_listening_claimed": false,
+    "new_translation_gameplay_verified": false
+  },
+  "current_candidate_native_font_verified": true,
+  "native_font": {
+    "added_character": "혹",
+    "font_count": 6,
+    "glyphs": [
+      {
+        "font_index": 0,
+        "glyph_id": 620,
+        "codepoint": 54841,
+        "rectangle": [
+          0,
+          3260,
+          21,
+          3283
+        ]
+      },
+      {
+        "font_index": 1,
+        "glyph_id": 1003,
+        "codepoint": 54841,
+        "rectangle": [
+          23,
+          3260,
+          54,
+          3293
+        ]
+      },
+      {
+        "font_index": 2,
+        "glyph_id": 1097,
+        "codepoint": 54841,
+        "rectangle": [
+          56,
+          3260,
+          87,
+          3293
+        ]
+      },
+      {
+        "font_index": 3,
+        "glyph_id": 1003,
+        "codepoint": 54841,
+        "rectangle": [
+          89,
+          3260,
+          120,
+          3293
+        ]
+      },
+      {
+        "font_index": 4,
+        "glyph_id": 1003,
+        "codepoint": 54841,
+        "rectangle": [
+          122,
+          3260,
+          153,
+          3293
+        ]
+      },
+      {
+        "font_index": 5,
+        "glyph_id": 1001,
+        "codepoint": 54841,
+        "rectangle": [
+          155,
+          3260,
+          186,
+          3293
+        ]
+      }
+    ],
+    "all_existing_glyph_records_preserved": true,
+    "pixels_outside_new_tiles_preserved": true,
+    "all_current_native_characters_resolve": true,
+    "atlas_size": [
+      2048,
+      4096
+    ],
+    "snapshot_sha256": "93a49a2254493069583cd8dd2cc095e8fc07daa090f2f1a0d1d062c31facec88",
+    "texture_sha256": "1d712efca00cfb48cc8c678f11eac0b9fc298b70a5be72057d653aa4098846d1"
+  }
+}

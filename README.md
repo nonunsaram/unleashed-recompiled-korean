@@ -25,12 +25,18 @@
 
 ### 전체판
 
+Full판은 Basic판을 먼저 설치할 필요가 없습니다. 게임을 최소 한 번 실행하여 초기 설정을 완료하고 `config.toml`이 생성된 뒤 진행하세요. 상세 경로 및 오류 안내는 [v1.0.1 한국어 안내](Release/v1.0.1/README-KO.md)와 [English instructions](Release/v1.0.1/README-EN.md)를 참고하세요.
+
 1. Full ZIP을 HMM에 설치하고 게임을 종료합니다.
 2. HMM에서 모드 폴더를 열고 `KoreanFullSetup.exe`를 실행합니다.
 3. 게임 폴더의 `UnleashedRecomp.exe`를 선택한 뒤 **.exe 한국어화 적용**을 누릅니다.
 4. HMM에서 한국어 패치가 체크·저장되었는지 확인합니다.
 
-전체판 설치 도구는 지원되는 v1.0.3 파일의 해시를 확인하고 EXE/XEX만 백업·변경합니다. 제거하거나 기본판으로 바꾸기 전에는 게임을 종료하고 설치 도구에서 **.exe 원본 복원**을 실행한 뒤 HMM에서 모드를 해제하세요. 복원에 필요한 `korean-native-backup` 폴더를 보관해야 합니다.
+v1.0.1 전체판 설치 도구는 지원되는 v1.0.3 EXE의 해시를 확인하고 EXE만 백업·변경합니다. XEX에는 접근하지 않습니다. 기존 v1.0.0 Full은 이전 도구로 원본 복원을 먼저 실행한 뒤 업그레이드하세요. 제거하거나 기본판으로 바꾸기 전에는 게임을 종료하고 설치 도구에서 **.exe 원본 복원**을 실행한 뒤 HMM에서 모드를 해제하세요. 복원에 필요한 `korean-native-backup` 폴더를 보관해야 합니다.
+
+번역 수정·설치 오류 개선은 [v1.0.1 패치노트](Release/v1.0.1/CHANGELOG-KO.md), Denoised 우선순위와 소닉 영어 대사 검수는 [후속 감사](Release/v1.0.1/TRANSLATION-AND-COMPATIBILITY-AUDIT.md)를 참고하세요.
+
+v1.0.1의 설계·호환성·검증 범위는 [Full 백엔드 감사](Release/v1.0.1/FULL-BACKEND-AUDIT.md)에 기록했습니다. 로컬 배포 후보의 생성과 외부 게시 여부는 구분합니다.
 
 ## 저장소 내용
 

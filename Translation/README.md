@@ -1,6 +1,6 @@
 # 번역 카탈로그
 
-이 디렉터리는 v1.0.0 제작에 사용한 최종 한국어 번역 데이터입니다.
+이 디렉터리는 v1.0.1 교정을 반영한 현재 한국어 번역 데이터입니다.
 
 - `core-ui-all.json`: 핵심 UI
 - `cutscenes-all.json`: 컷씬 자막
@@ -16,3 +16,5 @@
 - `review/remaining-ui/native-ui-comparison.json`: 네이티브 UI 원문 대응표
 
 대조와 위치 식별을 위해 일본어/영어 원문 일부와 게임 내부 식별자가 남아 있습니다. 게임 원문의 권리는 각 권리자에게 있으며, 이 저장소는 그 권리를 주장하지 않습니다. 공개·재사용 범위는 [LICENSE.md](../LICENSE.md)를 확인해 주세요.
+
+최신 칩·소닉 대사 수정은 `review/v101/character-edits.json`, 현행 말투·용어 정책은 `translation-decisions.md`, `character-voices.json`, `glossary.json`을 참조하세요. `review`의 과거 원본 파일은 이전 검수 이력이며 최신 적용값이 아닙니다.

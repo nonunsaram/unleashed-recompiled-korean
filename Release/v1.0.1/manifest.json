@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.1",
+  "gameVersion": "Unleashed Recompiled v1.0.3 Windows x64",
+  "scope": "native-exe",
+  "files": [
+    {
+      "relative": "UnleashedRecomp.exe",
+      "originalSha256": "b22c40e97510a122476028d0462bc6dbc93abb124431e39680ae8dd463eba687",
+      "patchedSha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+      "previousPatchedSha256": [
+        "df253ffafab22583b8088c92a034e1023787132465e6f8f05de28e46a41bf9c9"
+      ],
+      "originalLength": 74799616,
+      "patchedLength": 90183680,
+      "patch": "Support/Patches/exe-v103.krpatch.gz",
+      "patchSha256": "3b7a8d4027f47268091df1ad6dd22600f557b6c8514b602314f4e3d4a422c0ea"
+    }
+  ]
+}

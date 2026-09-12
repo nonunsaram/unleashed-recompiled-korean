@@ -44,6 +44,17 @@ temp/
 /Release/*
 !/Release/README.md
 !/Release/SHA256SUMS.txt
+!/Release/v1.0.1/
+/Release/v1.0.1/*
+!/Release/v1.0.1/README-KO.md
+!/Release/v1.0.1/README-EN.md
+!/Release/v1.0.1/CONFIG-UX-AUDIT.md
+!/Release/v1.0.1/FULL-BACKEND-AUDIT.md
+!/Release/v1.0.1/GameBanana-post.md
+!/Release/v1.0.1/Upload-guide-KO.md
+!/Release/v1.0.1/manifest.json
+!/Release/v1.0.1/verification.json
+!/Release/v1.0.1/SHA256SUMS.txt
 *.zip
 *.7z
 *.rar
@@ -80,3 +91,9 @@ temp/
 /outputs/
 /korean-smoke-test/
 /SpreadsheetBuild/
+
+!/Release/v1.0.1/CHANGELOG-KO.md
+!/Release/v1.0.1/BASIC-CHANGES-KO.md
+!/Release/v1.0.1/BASIC-CHANGES-EN.md
+!/Release/v1.0.1/TRANSLATION-AND-COMPATIBILITY-AUDIT.md
+!/Release/v1.0.1/translation-verification.json

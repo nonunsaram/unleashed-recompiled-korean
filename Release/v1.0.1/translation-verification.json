@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "catalog_entries": 11912,
+  "chip_edits": 33,
+  "sonic_english_edits": 1,
+  "cutscene_entries_examined": 602,
+  "cutscene_latin_entries": 18,
+  "sonic_english_entries": 7,
+  "terminology_occurrences_corrected": 14,
+  "hey_original_timing_evidence": {
+    "subtitle_cell": 41,
+    "subtitle_start_frame": 4609,
+    "voice_cue": "J_m6_03_410_es",
+    "voice_start_frame": 4609
+  },
+  "archive_count": 17,
+  "changed_physical_cells": 74,
+  "native_sha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+  "new_native_glyph": "혹",
+  "embedded_native_font_verified": true,
+  "full_audio_listening_claimed": false,
+  "new_translation_gameplay_verified": false
+}

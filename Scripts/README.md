@@ -1,5 +1,7 @@
 # 제작 스크립트
 
+현재 v1.0.1 진입점은 `review_translation_v101.py`, `build_translation_resources_v101.ps1`, `build_native_korean_exe_v101.py`, `build_full_backend_v101.py`, `package_hmm_release_v101.py`입니다. `KoreanSupportSetup.cs`는 UI, `KoreanSupportEngine.cs`는 EXE 전용 설치·복원 엔진입니다. `verify_translation_review_v101.py`와 `verify_package_v101.py`로 최신 번역 및 배포본을 검증합니다. 아래 v1.0.0 항목은 과거 제작 기록입니다.
+
 ## v1.0.0 최종 단계
 
 - `package_hmm_release_v059.py`: Basic/Full 구조와 HMM 설정을 조립한 최종 패키징 진입점

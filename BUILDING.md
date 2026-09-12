@@ -1,5 +1,7 @@
 # 빌드 안내
 
+v1.0.1은 EXE만 처리하는 새 백엔드입니다. [Full 백엔드 감사](Release/v1.0.1/FULL-BACKEND-AUDIT.md)에 조사 근거와 검증 범위를 기록했습니다. 아래 v1.0.0 제작 단계는 기존 입력을 설명하는 역사 자료이며, 현행 진입점은 아래 v1.0.1 절차를 사용하세요.
+
 이 저장소는 v1.0.0 제작에 사용한 번역·설치 도구·패치 소스를 공개하고 변경 지점을 재현할 수 있게 구성했습니다. 게임에서 추출한 데이터와 완성된 게임 바이너리는 포함하지 않습니다. 따라서 아래 절차는 두 범위로 나뉩니다.
 
 1. 공개 트리만으로 가능한 작업: JSON 검사, 설치 도구 컴파일, Unleashed Recompiled 소스 패치 적용 확인, 공개 파일 안전성 검사
@@ -7,7 +9,7 @@
 
 ## 대상과 기준 버전
 
-- 한국어 패치: `1.0.0`
+- 한국어 패치: `1.0.1`
 - 대상: Unleashed Recompiled `1.0.3` Windows x64
 - upstream 저장소: <https://github.com/hedge-dev/UnleashedRecomp>
 - upstream 기준 커밋: `cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c`
@@ -43,7 +45,7 @@ git apply ..\unleashed-recompiled-korean\Patches\unleashed-recomp-v1.0.3-korean.
 
 ## 전체판 설치 도구 컴파일
 
-Windows에 포함된 64비트 .NET Framework C# 컴파일러를 사용합니다. `DATA_SUPPORT` 기호를 정의하면 현재 v1.0.0의 범위를 벗어나므로 정의하지 않습니다.
+Windows에 포함된 64비트 .NET Framework C# 컴파일러를 사용합니다. UI와 엔진 두 파일 및 검증 manifest를 함께 컴파일해야 합니다. `DATA_SUPPORT`와 `TEST_FAULTS`는 배포 빌드에 정의하지 않습니다.
 
 ```powershell
 New-Item -ItemType Directory -Force .\out | Out-Null
@@ -53,11 +55,30 @@ New-Item -ItemType Directory -Force .\out | Out-Null
   /reference:System.Drawing.dll `
   /reference:System.Web.Extensions.dll `
   /resource:.\Assets\Installer\UnleashedRecompiledLogo.png,UnleashedRecompiledLogo `
+  /resource:.\Release\v1.0.1\manifest.json,KoreanFullManifest `
   /out:.\out\KoreanFullSetup.exe `
-  .\Scripts\KoreanSupportSetup.cs
+  .\Scripts\KoreanSupportSetup.cs .\Scripts\KoreanSupportEngine.cs
 ```
 
 `out/`과 생성된 실행 파일은 `.gitignore` 대상입니다. 이 컴파일은 설치 도구 자체만 만들며 설치용 `Support/manifest.json` 및 차이 패치는 생성하지 않습니다.
+
+## v1.0.1 작업·검증 순서
+
+Python 3.12 및 `pefile`, `capstone`, `keystone-engine`, `bsdiff4`가 필요합니다. 공개 소스만으로 가능한 모의 설치 검사는 `python Scripts/test_full_backend_v101.py`입니다. 결과는 새 `Build/FullBackend-Tests-*` 폴더에 남습니다. 공개 배포 트리 검사는 이 테스트 산출물을 포함하지 않는 깨끗한 소스 트리에서 실행하세요.
+
+로컬 게임/검증된 v1.0.0 제작 입력이 있을 때:
+
+1. `python Scripts/build_native_korean_exe_v101.py` — 보존된 v056 한국어 EXE에 도전과제 호출 변경을 추가. 원본 XEX를 읽거나 쓰지 않음.
+2. `python Scripts/build_full_backend_v101.py` — 공식 원본 EXE → 새 EXE delta 생성·검사, manifest 내장 설치 도구 컴파일.
+3. `python Scripts/test_full_release_v101.py` — 실제 크기 EXE를 별도 폴더에서 설치·재설치·복원. 기존 v1.0.0 도구를 이용한 전환도 검사.
+4. `python Scripts/package_hmm_release_v101.py` — 체크섬을 확인한 v1.0.0 Basic ZIP의 데이터를 유지하고 새 Full 도구/문서를 결합. 출력 폴더가 이미 있으면 중단하며 `--output`으로 새 경로 지정 가능.
+5. `python Scripts/verify_package_v101.py` — 최종 ZIP, 내장 소스, 데이터 보존 및 추출한 설치 도구의 실제 설치·복원을 검사.
+
+필수 로컬 입력은 `Build/CleanOriginals-v057/UnleashedRecomp.exe`, `Build/FieldMission-v056/Native/UnleashedRecomp.exe`, 기존 v1.0.0 Basic/Full ZIP, 전환 검사에 사용하는 원본 XEX와 기존 Full 도구입니다. 이 입력은 Git으로 배포하지 않습니다. `build_native_korean_exe_v101.py`는 기존 한국어 EXE의 해시를 고정하고 있으므로 앞 단계의 임의 산출물로 대체하지 마세요.
+
+출력은 `Build/FullBackend-v101`, `outputs/GameBanana-1.0.1`이며 실제 게임 설치 폴더를 수정하지 않습니다. `Scripts/package_hmm_release_v059.py` 및 이전 단계는 v1.0.0 당시 코드로 보존했으며 현행 두 파일 엔진을 컴파일하는 진입점이 아닙니다. 과거 설치기 소스는 `Scripts/legacy/KoreanSupportSetup-v100.cs`에 따로 보존합니다.
+
+복원은 설치 도구의 내장 manifest와 게임 폴더의 검증된 EXE 백업만 사용합니다. `Support/manifest.json`을 임의로 수정해 지원 대상을 늘릴 수 없습니다. 지원 빌드를 추가하려면 정확한 원본과 결과를 검증하고 manifest·설치 도구를 함께 다시 생성해야 합니다.
 
 ## 번역 및 네이티브 리소스 단계
 
@@ -103,3 +124,21 @@ ZIP은 저장소에 커밋하지 않습니다. 기존 검증된 ZIP을 다시 �
 ## 재현성 한계
 
 공개된 패치와 변경 소스는 Unleashed Recompiled 코드 변경을 재현할 수 있고, 설치 도구 소스도 독립적으로 컴파일할 수 있습니다. 그러나 게임 추출물을 배포하지 않으므로 공개 저장소만으로 v1.0.0 ZIP을 비트 단위로 완전히 재생성하는 것은 지원하지 않습니다. 이 문서는 법률 자문이 아니며, 원본 게임 자료와 제3자 구성요소를 재배포하기 전에는 각 조건을 별도로 확인해야 합니다.
+
+## v1.0.1 번역 개정 빌드
+
+`review_translation_v101.py`는 현재 번역과 변경 목록을 검증하고, 합법적으로 준비한 `Catalog-Reviewed/all-lines.json`이 있으면 실제 리소스 위치 입력을 만듭니다. `build_translation_resources_v101.ps1`은 검증된 v1.0.0 Basic 아카이브에 새 대사를 적용하며, 공통 글꼴 metric과 원본 일본어 컷씬 FCO/FTE/DDS가 필요합니다. `subtitle_resource_functions.ps1`과 `patch_opening_atlas.py`는 자막 글꼴·메시지 직렬화를 담당합니다.
+
+```powershell
+python Scripts/review_translation_v101.py
+pwsh -NoProfile -File Scripts/build_translation_resources_v101.ps1
+python Scripts/build_native_korean_exe_v101.py
+python Scripts/build_full_backend_v101.py
+python Scripts/verify_translation_review_v101.py
+python Scripts/package_hmm_release_v101.py --output outputs/GameBanana-1.0.1-Reviewed
+python Scripts/verify_package_v101.py --output outputs/GameBanana-1.0.1-Reviewed
+```
+
+최신 패키징은 `Build/Translation-v101/resource-verification.json`의 원본·결과 해시와 일치하는 34개 아카이브 파일만 교체합니다. 과거 Basic ZIP을 그대로 복사하는 것만으로는 이번 번역 수정이 들어가지 않습니다. 출력 폴더가 이미 있으면 다른 이름을 사용하여 기존 후보를 보존하세요.
+
+`extend_native_font_v101.py`는 보존된 EXE의 글꼴 스냅샷/텍스처에 누락된 혹을 추가합니다. Python의 numpy, Pillow, scipy, zstandard와 LINE Seed KR Regular/Bold가 필요합니다. 기존 글꼴을 통째로 다시 배치하지 않습니다.

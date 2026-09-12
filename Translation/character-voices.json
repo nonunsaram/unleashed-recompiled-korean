@@ -1,0 +1,1842 @@
+{
+  "schema_version": 1,
+  "creator": "nonunsaram",
+  "updated_at": "2026-09-12",
+  "scope_note": "컷씬과 마을 대사 6,899항목에 적용한 말투 기준입니다. file_owner_inferred는 실제 화자 확정으로 사용하지 않으며, 대화 문맥과 상대를 함께 확인합니다.",
+  "characters": [
+    {
+      "character": "소닉",
+      "speaker_ids_in_scope": [
+        "cue:sn",
+        "cue:es"
+      ],
+      "addressed_to": "칩·Dr. 에그맨",
+      "speech_level": "반말",
+      "forms_of_address": [
+        "너",
+        "칩",
+        "Dr. 에그맨"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-하자",
+        "-할게"
+      ],
+      "english_in_japanese_subtitle_policy": "일본어판 자막 셀에서 소닉의 발화가 라틴 문자 영어로 직접 표기되면 영어 철자와 대소문자를 보존하고 문장부호만 한국어 기준으로 정리합니다.",
+      "avoid": [
+        "과도한 유행어",
+        "영어판에만 있는 농담",
+        "지나친 욕설·거친 비하",
+        "일본어판의 라틴 문자 영어를 뜻만 옮겨 한국어로 치환"
+      ],
+      "example": "내가 네 기억을 되찾아 줄게",
+      "source_line_id": "cutscene/BaseGame/evrt_m0_06/evrt_m0_06_event.fco/0/48"
+    },
+    {
+      "character": "칩(이름을 얻기 전 포함)",
+      "speaker_ids_in_scope": [
+        "cue:wh"
+      ],
+      "addressed_to": "소닉·처음 만난 어른",
+      "speech_level": "친근한 반말",
+      "forms_of_address": [
+        "소닉",
+        "무섭게 생긴 사람"
+      ],
+      "ending_tendencies": [
+        "-야?",
+        "-구나?",
+        "-어!",
+        "-겠어"
+      ],
+      "self_reference_policy": "일본어판에서 자기 이름 チップ으로 지칭하면 칩은·칩이·칩의 등 이름형 자기 지칭을 보존합니다. 이름을 얻기 전 또는 원문의 ボク 등 대명사를 일괄 이름형으로 바꾸지 않습니다. v1.0.1 사용자 결정.",
+      "avoid": [
+        "아기 말투의 과장",
+        "원문에 없는 존댓말",
+        "영어판 전용 별명 추가"
+      ],
+      "example": "고마워, 무섭게 생긴 사람!",
+      "source_line_id": "cutscene/BaseGame/evrt_m0_06/evrt_m0_06_event.fco/0/23"
+    },
+    {
+      "character": "Dr. 에그맨",
+      "speaker_ids_in_scope": [
+        "cue:eg"
+      ],
+      "addressed_to": "소닉",
+      "speech_level": "권위적인 반말",
+      "forms_of_address": [
+        "소닉",
+        "녀석"
+      ],
+      "ending_tendencies": [
+        "-겠다",
+        "-구나",
+        "-거라",
+        "-다오"
+      ],
+      "avoid": [
+        "모든 문장을 동일한 고어체로 만드는 것",
+        "영어판의 추가 농담을 역수입하는 것"
+      ],
+      "example": "정말 미안하다! 제발 용서해다오!",
+      "source_line_id": "cutscene/BaseGame/evrt_m0_01_05/evrt_m0_01_05_event.fco/0/16"
+    },
+    {
+      "character": "아포토스 아이스크림 상인",
+      "speaker_ids_in_scope": [
+        "cue:ic"
+      ],
+      "addressed_to": "칩",
+      "speech_level": "구수하고 친근한 반말",
+      "forms_of_address": [],
+      "ending_tendencies": [
+        "-지?",
+        "-다고~",
+        "-하면 돼"
+      ],
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "영어판 광고 문구의 과도한 각색"
+      ],
+      "example": "자, 먹어 봐, 먹어 봐\n맛있다고~",
+      "source_line_id": "cutscene/BaseGame/evrt_m1_01/evrt_m1_01_event.fco/0/17"
+    },
+    {
+      "character": "테일즈",
+      "speaker_ids_in_scope": [
+        "cue:tl"
+      ],
+      "addressed_to": "소닉·피클 교수",
+      "speech_level": "소닉에게 반말, 피클 교수에게 존댓말",
+      "forms_of_address": [
+        "소닉",
+        "교수님"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-할 거야",
+        "-네요",
+        "-하세요"
+      ],
+      "avoid": [
+        "지나치게 어린 말투",
+        "설명 대사의 정보 생략",
+        "교수에게 반말"
+      ],
+      "example": "그분의 연구와\n내가 이 도시에서 조사한 자료를 합치면",
+      "source_line_id": "cutscene/BaseGame/evrt_m1_03_2/evrt_m1_03_2_event.fco/0/20"
+    },
+    {
+      "character": "피클 교수",
+      "speaker_ids_in_scope": [
+        "cue:pr"
+      ],
+      "addressed_to": "테일즈·소닉 일행·일반인",
+      "speech_level": "격식 있는 존댓말",
+      "forms_of_address": [
+        "테일즈 군",
+        "소닉 군",
+        "여러분"
+      ],
+      "ending_tendencies": [
+        "-입니다",
+        "-군요",
+        "-습니까",
+        "-지요"
+      ],
+      "avoid": [
+        "과도한 고어체",
+        "영어판의 과장된 영국식 어투 직역",
+        "샌드위치 집착의 임의 확대"
+      ],
+      "example": "그 문서야말로 세계를 구할\n유일한 열쇠입니다",
+      "source_line_id": "cutscene/BaseGame/evrt_m2_02/evrt_m2_02_event.fco/0/26"
+    },
+    {
+      "character": "에이미 로즈",
+      "speaker_ids_in_scope": [
+        "cue:am"
+      ],
+      "addressed_to": "소닉·초면의 상대·피클 교수",
+      "speech_level": "소닉에게 반말, 초면과 교수에게 존댓말",
+      "forms_of_address": [
+        "소닉",
+        "당신",
+        "교수님"
+      ],
+      "ending_tendencies": [
+        "-잖아",
+        "-거야",
+        "-요",
+        "-주세요"
+      ],
+      "avoid": [
+        "감정을 줄여 무미건조하게 만드는 것",
+        "영어판의 강조 부사를 기계적으로 추가하는 것"
+      ],
+      "example": "왜냐하면 우리에겐\n소닉이 있으니까!",
+      "source_line_id": "cutscene/BaseGame/evrt_m8_09/evrt_m8_09_event.fco/0/8"
+    },
+    {
+      "character": "에그맨 보조 로봇(명칭 미확정)",
+      "speaker_ids_in_scope": [
+        "cue:sp"
+      ],
+      "addressed_to": "Dr. 에그맨",
+      "speech_level": "기계적인 존댓말",
+      "forms_of_address": [
+        "에그맨 님"
+      ],
+      "ending_tendencies": [
+        "-입니다",
+        "-했습니다",
+        "-겠습니다"
+      ],
+      "avoid": [
+        "화자 코드만으로 정식 이름을 확정하는 것",
+        "가타카나 표기를 어색한 분철체로 재현하는 것"
+      ],
+      "example": "솔직히 말씀드리면\n에그맨 님 본인의 실수입니다",
+      "source_line_id": "cutscene/BaseGame/evrt_m4_01/evrt_m4_01_event.fco/0/25"
+    },
+    {
+      "character": "야리페카",
+      "speaker_ids_in_scope": [
+        "Yaripeka"
+      ],
+      "addressed_to": "소닉·아내",
+      "speech_level": "소닉에게 친근한 노인 반말, 아내와 부부간 대화",
+      "forms_of_address": [
+        "자네",
+        "할멈",
+        "소닉을 계속 틀리게 부르는 임의의 이름"
+      ],
+      "ending_tendencies": [
+        "-구먼",
+        "-라네",
+        "-겠나?",
+        "-게나"
+      ],
+      "character_notes": "홀로스카 촌장. 낮에는 건망증이 심하고 밤에는 기억이 또렷해지는 대비와, 소닉의 이름을 번번이 틀리는 반복 농담을 유지합니다.",
+      "speaker_boundary_note": "TownMan_Yaripeka 파일의 41/3~41/7에는 아내의 발화가 섞여 있습니다. file_owner_inferred를 실제 화자로 단정하지 않고 부부 대화에 맞는 말투로 번역합니다.",
+      "avoid": [
+        "모든 문장을 같은 노인 어미로 끝내기",
+        "영어판의 틀린 이름으로 일본어판 이름을 교체",
+        "건망증 농담을 새로 추가하거나 삭제"
+      ],
+      "example": "으음… 미안한데 뭘 묻고 있었더라?",
+      "source_line_id": "base-common/BaseGame/Town_Snow_Common/TownMan_Yaripeka_Yaripeka.fco/6/0"
+    },
+    {
+      "character": "마르케타",
+      "speaker_ids_in_scope": [
+        "Marketa"
+      ],
+      "addressed_to": "소닉·가족·마을 사람",
+      "speech_level": "소닉에게 친근하고 예의 바른 존댓말",
+      "forms_of_address": [
+        "오빠",
+        "할아버지",
+        "아빠",
+        "우르슬레 할머니"
+      ],
+      "ending_tendencies": [
+        "-요",
+        "-세요",
+        "-까요?",
+        "-고 싶어요"
+      ],
+      "character_notes": "호기심이 많고 봅슬레이를 연구·개량하는 어린 발명가입니다. 흥분했다가 스스로 점잖게 행동하려는 모습과 연구에 몰두하는 독백을 구분합니다.",
+      "avoid": [
+        "지나친 아기 말투",
+        "소닉에게 반말",
+        "연구 내용을 임의로 전문화하거나 생략"
+      ],
+      "example": "오빠, 다시 '봅슬레이'를 타서 자료를 모으게 해 주세요!",
+      "source_line_id": "base-common/BaseGame/Town_Snow_Common/TownGirl_Marketa_Marketa.fco/18/0"
+    },
+    {
+      "character": "사리안나",
+      "speaker_ids_in_scope": [
+        "Sarianna"
+      ],
+      "addressed_to": "소닉·남편·마을 사람",
+      "speech_level": "소닉에게 스스럼없는 반말",
+      "forms_of_address": [
+        "너",
+        "소닉 군",
+        "우리 남편",
+        "종셴 씨"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-네",
+        "-거든",
+        "-지?"
+      ],
+      "character_notes": "남편을 타박하면서도 깊이 아끼는 홀로스카 주민입니다. 불평과 애정이 함께 드러나는 부부 관계를 유지합니다.",
+      "avoid": [
+        "남편을 혐오하는 듯한 과격한 표현",
+        "일본어 원문보다 높인 존댓말",
+        "영어판에서 바뀐 감기약·벌레 설정을 역수입"
+      ],
+      "example": "정말이지 내가 없으면 안 되는 사람이야",
+      "source_line_id": "base-common/BaseGame/Town_Snow_Common/TownWoman_Sarianna_Sarianna.fco/4/0"
+    },
+    {
+      "character": "야리수레",
+      "speaker_ids_in_scope": [
+        "Yarisure"
+      ],
+      "addressed_to": "소닉·사리안나",
+      "speech_level": "소닉에게 친근한 반말, 아내에게 눌리는 부부간 반말",
+      "forms_of_address": [
+        "너",
+        "소닉 군",
+        "우리 마누라",
+        "여보"
+      ],
+      "ending_tendencies": [
+        "-냐?",
+        "-구나",
+        "-거든",
+        "-잖아"
+      ],
+      "character_notes": "씩씩한 어부처럼 보이지만 아내에게는 꼼짝 못 하는 인물입니다. 허세와 소심함, 아내를 향한 애정이 함께 드러나는 반복 희극을 유지합니다.",
+      "speaker_boundary_note": "TownMan_Yarisure 파일에는 사리안나의 발화가 여러 곳 섞여 있습니다. file_owner_inferred를 실제 화자로 단정하지 않습니다.",
+      "avoid": [
+        "아내를 혐오하는 듯한 과격한 표현",
+        "영어판 전용 농담 추가",
+        "부부 대화 화자 혼동"
+      ],
+      "example": "우리 마누라는 나를 정말 좋아하는 걸까?",
+      "source_line_id": "base-common/BaseGame/Town_Snow_Common/TownMan_Yarisure_Yarisure.fco/26/1"
+    },
+    {
+      "character": "우르슬레",
+      "speaker_ids_in_scope": [
+        "Urusure"
+      ],
+      "addressed_to": "소닉 일행·손님",
+      "speech_level": "연륜 있고 호방한 상점 주인의 반말",
+      "forms_of_address": [
+        "자네"
+      ],
+      "ending_tendencies": [
+        "-인가?",
+        "-겠나?",
+        "-해 둬",
+        "-군"
+      ],
+      "character_notes": "홀로스카의 유일한 가게를 운영합니다. 상점 기능 문구와 제작용 상태 문구를 일반 대사와 구분합니다.",
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "수량 자리표시자 추측",
+        "상점 제어 문구 삭제"
+      ],
+      "example": "필요 없는 건 사 줄 테니 여행을 떠나기 전에 짐을 잘 정리해 둬!",
+      "source_line_id": "base-common/BaseGame/Town_Snow_Common/TownMan_Urusure_Urusure.fco/5/9"
+    },
+    {
+      "character": "나기",
+      "speaker_ids_in_scope": [
+        "Nagi"
+      ],
+      "addressed_to": "소닉·언니·마을 사람",
+      "speech_level": "소닉에게 친근한 어린아이 반말",
+      "forms_of_address": [
+        "소닉",
+        "언니",
+        "오빠"
+      ],
+      "ending_tendencies": [
+        "-어?",
+        "-해 줘!",
+        "-했어",
+        "-인가 봐"
+      ],
+      "character_notes": "낮에는 덤벙대고 자책이 심하지만 도움을 받으면 금세 명랑해집니다. 밤에는 억눌린 반항심과 장난기가 드러나는 대비가 있습니다.",
+      "avoid": [
+        "과도한 아기 말투",
+        "실수의 책임을 다른 인물에게 돌리는 각색",
+        "낮과 밤의 성격 차이 삭제"
+      ],
+      "example": "소닉과 이야기했더니 기운이 났어",
+      "source_line_id": "base-common/BaseGame/Town_SouthEastAsia_Common/TownGirl_Nagi_Nagi.fco/35/1"
+    },
+    {
+      "character": "찰스",
+      "speaker_ids_in_scope": [
+        "Charz"
+      ],
+      "addressed_to": "소닉·화린·종셴·아이들",
+      "speech_level": "소닉과 또래에게 자신만만한 반말, 종셴에게 존댓말",
+      "forms_of_address": [
+        "너",
+        "어르신",
+        "당신",
+        "저 영감"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-군",
+        "-겠어",
+        "-입니까?"
+      ],
+      "character_notes": "대학에서 의학을 배운 젊은이로 처음에는 오만하고 과학만 신봉하지만, 종셴의 가르침을 겪으며 환자와의 교감을 배우려 합니다.",
+      "speaker_boundary_note": "TownMan_Charz 파일에는 화린, 종셴과 손녀의 발화가 섞여 있습니다. file_owner_inferred를 실제 화자로 단정하지 않습니다.",
+      "avoid": [
+        "찰스를 시종일관 존댓말 화자로 만들기",
+        "영어판 전용 과장 추가",
+        "다른 화자의 말투를 찰스 말투로 통일"
+      ],
+      "example": "환자의 얼굴을 보는 의술, 반드시 익히고 말겠어!",
+      "source_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Charz_Charz.fco/32/2"
+    },
+    {
+      "character": "콰미",
+      "speaker_ids_in_scope": [
+        "Kuwmi"
+      ],
+      "addressed_to": "소닉·딸 아나·무사이드·마을 사람",
+      "speech_level": "낮에는 엄숙한 촌장식 반말, 밤에는 과도하게 들뜬 반말",
+      "forms_of_address": [
+        "자네",
+        "소닉",
+        "자네들",
+        "딸 아나"
+      ],
+      "ending_tendencies": [
+        "-네",
+        "-군",
+        "-게",
+        "-겠나?"
+      ],
+      "character_notes": "마주리의 정령 신앙과 전통을 지키는 촌장입니다. 낮에는 진중하지만 밤에는 다크 가이아의 영향으로 매우 들뜨고 장난스러워지는 대비가 있습니다.",
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "정령 신앙을 우스꽝스럽게 각색",
+        "낮과 밤의 성격 차이 삭제"
+      ],
+      "example": "자네가 가는 길에 대지의 정령의 가호가 함께하기를 기도하겠네",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Kuwmi_Kuwmi.fco/27/3"
+    },
+    {
+      "character": "파티마",
+      "speaker_ids_in_scope": [
+        "Fatima"
+      ],
+      "addressed_to": "소닉·동생 사파·낯선 사람",
+      "speech_level": "명랑하고 다정한 여성의 반말",
+      "forms_of_address": [
+        "너",
+        "동생",
+        "사파"
+      ],
+      "ending_tendencies": [
+        "-어?",
+        "-야",
+        "-구나",
+        "-해야지"
+      ],
+      "character_notes": "밤의 기억을 잃고 세계 여러 지역을 헤매지만 긍정적으로 길을 찾습니다. 지역별 단서를 반복해 추론하는 희극 구조를 유지합니다.",
+      "avoid": [
+        "방향 감각이 나쁘다는 설정을 노골적으로 덧붙이기",
+        "영어판 인명 Sammar로 교체",
+        "지역 순서 생략"
+      ],
+      "example": "이걸 여러 사람에게 보여 주면서 돌아가면 되는 거구나!",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Fatima_Fatima.fco/25/3"
+    },
+    {
+      "character": "쿠워드",
+      "speaker_ids_in_scope": [
+        "Quwod"
+      ],
+      "addressed_to": "소닉·콰미·마을 사람",
+      "speech_level": "활달한 소년의 반말",
+      "forms_of_address": [
+        "너",
+        "소닉",
+        "콰미 아저씨",
+        "촌장님"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-잖아",
+        "-해 봐"
+      ],
+      "character_notes": "돌팔매에 자신이 있고 콰미처럼 대지의 정령을 느끼게 되는 소년입니다. 허세 섞인 자신감과 순수한 감탄을 유지합니다.",
+      "avoid": [
+        "과도한 비속어",
+        "정령 감지를 확정적 예언으로 과장",
+        "어른 말투"
+      ],
+      "example": "딱 잘라 말할게! 샤마르의 대지의 정령이 소닉 일행을 부르고 있어!",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Quwod_Quwod.fco/29/0"
+    },
+    {
+      "character": "사이드",
+      "speaker_ids_in_scope": [
+        "Said"
+      ],
+      "addressed_to": "소닉·손님",
+      "speech_level": "붙임성 좋고 느긋한 반말",
+      "forms_of_address": [
+        "파란 친구"
+      ],
+      "ending_tendencies": [
+        "-야~",
+        "-해 줘~!",
+        "-일까~?",
+        "-했어~!"
+      ],
+      "character_notes": "궁극의 차이를 찾아 세계 각지의 색깔별 찻잎을 수집합니다. 반복되는 대사 틀 안에서도 각 찻잎의 향·색·맛 평가를 구분합니다.",
+      "avoid": [
+        "차이를 일반적인 차로 축약",
+        "색깔별 평가 통일",
+        "말끝 늘임의 과도한 삭제"
+      ],
+      "example": "궁극의 차이를 향한 탐구는 아직 끝나지 않았어~!",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Said_Said.fco/33/1"
+    },
+    {
+      "character": "화린",
+      "speaker_ids_in_scope": [
+        "Warrin"
+      ],
+      "addressed_to": "소닉·찰스·가족",
+      "speech_level": "직설적이고 유행에 민감한 젊은 여성의 반말",
+      "forms_of_address": [
+        "너",
+        "소닉",
+        "촌장님",
+        "할머니"
+      ],
+      "ending_tendencies": [
+        "-잖아",
+        "-거든",
+        "-지 않아?",
+        "-라고~"
+      ],
+      "character_notes": "낡은 고향과 고기만두 가업을 싫어해 떠나지만 여행 후 전통을 살린 새 고기만두를 만들기로 합니다.",
+      "avoid": [
+        "한국어 비속어 추가",
+        "초반부터 전통을 존중하는 인물로 평탄화",
+        "영어판의 의미 변화 우선"
+      ],
+      "example": "옛것을 지키면서 새로운 걸 만드는 거야!",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Warrin_Warrin.fco/20/1"
+    },
+    {
+      "character": "야와",
+      "speaker_ids_in_scope": [
+        "Yawa"
+      ],
+      "addressed_to": "소닉·할아버지 그웨크",
+      "speech_level": "순수하고 활달한 소년의 반말",
+      "forms_of_address": [
+        "너",
+        "소닉",
+        "우리 할아버지"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-거야",
+        "-대단해!"
+      ],
+      "character_notes": "그웨크의 겁과 은퇴 여행을 숭고한 수행으로 오해하며 진심으로 존경합니다. 플레이어는 앞선 그웨크 대사를 통해 진상을 아는 희극적 간극을 유지합니다.",
+      "avoid": [
+        "오해를 풀어 설명하는 대사 추가",
+        "그웨크를 조롱하는 말투",
+        "지나친 아기 말투"
+      ],
+      "example": "분명 대지의 힘을 느끼고 계신 거야",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Yawa_Yawa.fco/14/2"
+    },
+    {
+      "character": "루디",
+      "speaker_ids_in_scope": [
+        "Rudi"
+      ],
+      "addressed_to": "소닉·아버지 티안차이·자말",
+      "speech_level": "초면에는 부드러운 존댓말, 선택지와 친숙한 대화에서는 자연스러운 반말이 섞임",
+      "forms_of_address": [
+        "소닉 씨",
+        "아버지",
+        "자말"
+      ],
+      "ending_tendencies": [
+        "-요",
+        "-세요",
+        "-네요",
+        "-일까요?"
+      ],
+      "character_notes": "아다바트를 안내하는 온화한 여성입니다. 아버지가 소닉을 경계한다는 말을 농담으로 여길 만큼 티안차이의 과보호를 잘 알아차리지 못합니다.",
+      "avoid": [
+        "모든 선택지를 존댓말로 바꾸기",
+        "아버지를 싫어하는 듯한 각색",
+        "과도한 애교체"
+      ],
+      "example": "조심하세요, 그리고 또 이곳에 와서 이야기해 주세요",
+      "source_line_id": "base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Rudi_Rudi.fco/27/1"
+    },
+    {
+      "character": "티안차이",
+      "speaker_ids_in_scope": [
+        "Thianchai"
+      ],
+      "addressed_to": "소닉·딸 루디",
+      "speech_level": "평소에는 호방한 어른의 반말, 루디 이야기가 나오면 과격하게 외치는 반말",
+      "forms_of_address": [
+        "젊은이",
+        "자네",
+        "내 딸",
+        "루디"
+      ],
+      "ending_tendencies": [
+        "-하나?",
+        "-하게",
+        "-마라!!",
+        "-할 셈이지!"
+      ],
+      "character_notes": "손님에게는 친절하지만 딸 루디에게 관심을 보인다고 생각하면 무엇이든 구애로 오해하는 과보호 아버지입니다.",
+      "avoid": [
+        "위협을 실제 폭력 의도로 과장",
+        "한국어 욕설 추가",
+        "평상시까지 고함체로 통일"
+      ],
+      "example": "질문을 핑계로 말을 걸어서 내 딸에게 접근할 셈이지!",
+      "source_line_id": "base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Thianchai_Thianchai.fco/7/1"
+    },
+    {
+      "character": "자말",
+      "speaker_ids_in_scope": [
+        "Jamal"
+      ],
+      "addressed_to": "소닉·아버지 티안차이·누나 루디",
+      "speech_level": "편안하고 현실적인 청년의 반말",
+      "forms_of_address": [
+        "너",
+        "아버지",
+        "루디 누나"
+      ],
+      "ending_tendencies": [
+        "-지",
+        "-거든",
+        "-인가?",
+        "-할게"
+      ],
+      "character_notes": "티안차이의 과보호를 이해하고 대신 수습하는 아들이며 바다와 낚시에 익숙합니다.",
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "아버지를 경멸하는 말투",
+        "영어판보다 거친 표현 추가"
+      ],
+      "example": "신경 쓰지 마, 내가 아버지를 진정시킬게",
+      "source_line_id": "base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Jamal_Jamal.fco/9/1"
+    },
+    {
+      "character": "람브로스",
+      "speaker_ids_in_scope": [
+        "Rambrs"
+      ],
+      "addressed_to": "소닉·아들 알렉시스",
+      "speech_level": "거칠지만 정이 깊은 뱃사람의 반말",
+      "forms_of_address": [
+        "너",
+        "소닉",
+        "아들",
+        "알렉시스"
+      ],
+      "ending_tendencies": [
+        "-군",
+        "-거야",
+        "-잖아",
+        "-라고!"
+      ],
+      "character_notes": "항해 때문에 집을 자주 비우며, 이를 막으려 장난친 아들에게 화를 냈다가 사랑을 확인시켜 줍니다.",
+      "speaker_boundary_note": "아들의 항의와 응답이 같은 FCO에 섞여 있으므로 대화 문맥으로 화자를 구분합니다.",
+      "avoid": [
+        "아들에게 욕설 추가",
+        "부자 화해의 감정 축소",
+        "영어판 중복 문장 우선"
+      ],
+      "example": "내가 배를 타도 너를 잊은 적은 없어!",
+      "source_line_id": "base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Rambrs_Rambrs.fco/14/5"
+    },
+    {
+      "character": "춘",
+      "speaker_ids_in_scope": [
+        "Chun"
+      ],
+      "addressed_to": "소닉·할아버지 종셴·누나 이린",
+      "speech_level": "먹을 것을 좋아하는 어린아이의 친근한 반말",
+      "forms_of_address": [
+        "소닉",
+        "할아버지",
+        "이린 누나",
+        "찰스 형"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-해 줘",
+        "-했어",
+        "-일까?"
+      ],
+      "character_notes": "걱정하면 배가 고파지는 아이입니다. 종셴에게 줄 복숭아 만두를 두 번 먹어 버리고 세 번째에야 참는 반복 희극을 유지합니다.",
+      "speaker_boundary_note": "TownMan_Chun 파일에는 이린의 발화가 섞여 있으므로 문맥에 따라 화자를 구분합니다.",
+      "avoid": [
+        "지나친 아기 말투",
+        "먹은 사실을 숨기는 반복 구조 삭제",
+        "이린의 발화를 춘의 말투로 통일"
+      ],
+      "example": "이번에는 진짜야!",
+      "source_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Chun_Chun.fco/30/2"
+    },
+    {
+      "character": "이린",
+      "speaker_ids_in_scope": [
+        "Erin"
+      ],
+      "addressed_to": "소닉·춘·할아버지 종셴·찰스",
+      "speech_level": "장난기 많고 다소 어린 말투의 반말",
+      "forms_of_address": [
+        "소닉",
+        "춘",
+        "할아버지",
+        "찰스 오빠"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-해 줘~",
+        "-구나~"
+      ],
+      "character_notes": "심심함을 참지 못해 소닉에게 술래잡기를 제안하며, 춘에게는 누나이지만 말투는 매우 천진하고 장난스럽습니다. 일본어의 유아 발음은 정보 손실이 없는 범위에서 자연스러운 어린아이 말투로 옮깁니다.",
+      "speaker_boundary_note": "TownMan_Erin 파일에는 춘·찰스와 함께 있는 제작용 배치 문구가 섞여 있습니다.",
+      "avoid": [
+        "일본어 유아 발음을 철자 오류로 그대로 흉내 내기",
+        "누나라는 관계를 이유로 성숙한 말투로 만들기",
+        "과도한 아기 말투"
+      ],
+      "example": "내가 소닉과 놀아 줄게",
+      "source_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Erin_Erin.fco/15/2"
+    },
+    {
+      "character": "린",
+      "speaker_ids_in_scope": [
+        "Rin"
+      ],
+      "addressed_to": "소닉 일행·손녀 화린·마을 사람",
+      "speech_level": "붙임성 좋고 기세 있는 노년 여성의 반말",
+      "forms_of_address": [
+        "자네",
+        "자네들",
+        "손녀",
+        "화린"
+      ],
+      "ending_tendencies": [
+        "-라네",
+        "-구먼",
+        "-하게",
+        "-인가?"
+      ],
+      "character_notes": "춘난의 고기만두 가게를 지키는 화린의 할머니입니다. 마을 전통에 자부심이 강하고 손녀를 걱정하면서도 겉으로는 호방하게 말합니다.",
+      "speaker_boundary_note": "TownMan_Rin 파일의 일부 항목은 손녀 화린의 발화이므로 대화 문맥으로 구분합니다.",
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "모든 어미를 고어체로 통일",
+        "화린의 발화를 린의 노년 말투로 번역"
+      ],
+      "example": "우리 고기만두는 나의… 아니, 이 마을의 자랑이라네",
+      "source_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Rin_Rin.fco/30/2"
+    },
+    {
+      "character": "종셴",
+      "speaker_ids_in_scope": [
+        "Zonshen"
+      ],
+      "addressed_to": "소닉 일행·손주 춘과 이린·의대생 찰스",
+      "speech_level": "자신만만하고 호방한 노의사의 반말",
+      "forms_of_address": [
+        "자네",
+        "자네들",
+        "손주들",
+        "젊은이"
+      ],
+      "ending_tendencies": [
+        "-하게",
+        "-구먼",
+        "-라네",
+        "-겠네"
+      ],
+      "character_notes": "춘난 촌장이자 의사입니다. 소닉의 야간 변신을 병으로 오해해 약·지압·기공을 차례로 시도하며, 실패해도 권위와 선의를 잃지 않습니다.",
+      "speaker_boundary_note": "선택지의 소닉 발화는 종셴의 노년 말투로 바꾸지 않습니다.",
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "의학 용어를 과도하게 전문화",
+        "치료 실패를 악의적인 돌팔이 묘사로 각색"
+      ],
+      "example": "하지만 안심하게! 내가 못 고칠 병은 없으니!",
+      "source_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Zonshen_Zonshen.fco/22/3"
+    },
+    {
+      "character": "산드라",
+      "speaker_ids_in_scope": [
+        "Sandra"
+      ],
+      "addressed_to": "소닉과 칩·각 지역 주민",
+      "speech_level": "우아하고 붙임성 있는 성인 여성의 존댓말",
+      "forms_of_address": [
+        "소닉 씨",
+        "당신",
+        "꼬마"
+      ],
+      "ending_tendencies": [
+        "-네요",
+        "-실까요?",
+        "-세요",
+        "-군요"
+      ],
+      "character_notes": "세계 각지를 여행하며 주민과 지역 풍경에 관한 5문제 퀴즈를 냅니다. 정답·오답 선택지는 짧고 명확하게 유지하며, 일부 오답은 일본어 말장난을 가능한 범위에서 살립니다.",
+      "speaker_boundary_note": "Town_Mykonos_Common 등에 작은 っ가 つ로 추출된 같은 문장의 변형이 다수 존재합니다. 구조상 별도 translation_key이므로 번역은 모두 기록하되 원문 확인 필요로 구분합니다.",
+      "avoid": [
+        "영어판에서 바뀐 정답이나 인명 우선",
+        "퀴즈 선택지 병합",
+        "지역마다 말투를 바꾸기"
+      ],
+      "example": "제가 내는 문제에 답해 주시겠어요?",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Sandra_Sandra.fco/14/7"
+    },
+    {
+      "character": "이만",
+      "speaker_ids_in_scope": [
+        "Imarn"
+      ],
+      "addressed_to": "소닉과 칩·점술 손님",
+      "speech_level": "익살스럽고 능청스러운 노년 여성의 반말",
+      "forms_of_address": [
+        "자네",
+        "자네들"
+      ],
+      "ending_tendencies": [
+        "-라네",
+        "-구먼",
+        "-하지",
+        "-인가?"
+      ],
+      "character_notes": "점술 도구를 자주 잃어버리고 주문도 실수하지만, 긴 성격 점에서는 장점·단점·조언을 체계적으로 들려줍니다. 반복되는 결과문은 의미 차이를 유지합니다.",
+      "avoid": [
+        "특정 한국 지역 사투리로 고정",
+        "성격 점 결과를 임의로 축약",
+        "영어판의 농담으로 일본어 조언 교체"
+      ],
+      "example": "믿고 안 믿고는 자네 마음이지",
+      "source_line_id": "base-common/BaseGame/Town_PetraCapital_Common/TownMan_Imarn_Imarn.fco/23/3"
+    },
+    {
+      "character": "브렌다",
+      "speaker_ids_in_scope": [
+        "Brenda"
+      ],
+      "addressed_to": "소닉·취재 대상",
+      "speech_level": "속도감 있고 자신감 넘치는 성인 여성의 반말",
+      "forms_of_address": [
+        "소닉",
+        "너",
+        "당신"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-해 줘!",
+        "-일까?"
+      ],
+      "character_notes": "자신을 미녀 프리랜서 작가라고 소개하며 세계 이변을 취재합니다. 일본어 자막에 라틴 문자로 적힌 YES, GREAT 및 SONIC THE WEREHOG 계열 선택지는 영어 표기를 보존합니다.",
+      "speaker_boundary_note": "여러 지역 아카이브에 동일 선택지의 글꼴·OCR 변형이 있으며 구조상 별도 translation_key로 기록합니다.",
+      "avoid": [
+        "영어판 전용 언론 농담 추가",
+        "오답 선택지 삭제",
+        "Dr. 에그맨 표기 규칙 위반"
+      ],
+      "example": "GREAT!! 엄청난 특종이야",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Brenda_Brenda.fco/7/0"
+    },
+    {
+      "character": "웬토스와 말하는 차오",
+      "speaker_ids_in_scope": [
+        "Sunafkin"
+      ],
+      "addressed_to": "소닉·서로",
+      "speech_level": "웬토스는 심하게 긴장한 존댓말, 차오는 활달한 반말",
+      "forms_of_address": [
+        "웬토스",
+        "차오",
+        "너"
+      ],
+      "ending_tendencies": [
+        "웬토스: -습니다, -인가요",
+        "차오: -다 차오, -해라 차오"
+      ],
+      "character_notes": "작업표의 Sunafkin 화자 ID와 달리 실제 내용은 여행 상인 웬토스와 그가 들고 다니는 말하는 차오의 대화입니다. 차오의 문장 끝 말버릇은 인물 구분에 필요한 범위에서 유지합니다.",
+      "speaker_boundary_note": "file_owner_inferred만으로 실제 화자를 하나로 확정하지 않습니다. 후반에는 여러 글꼴 아카이브의 OCR 변형이 반복됩니다.",
+      "avoid": [
+        "두 인물의 말투 통일",
+        "차오의 영어판 이탈리아 억양 역수입",
+        "{GLYPH} 수량·가격 표식 변경"
+      ],
+      "example": "웬토스는 여행 상인이니까 제대로 말해야 한다 차오!!",
+      "source_line_id": "base-common/BaseGame/Town_Snow_Common/TownMan_Sunafkin_Sunafkin.fco/3/1"
+    },
+    {
+      "character": "아나",
+      "speaker_ids_in_scope": [
+        "Ana"
+      ],
+      "addressed_to": "소닉·무사이드·아버지 콰미",
+      "speech_level": "꿈 많고 추진력이 강한 젊은 여성의 반말",
+      "forms_of_address": [
+        "너",
+        "왕자님",
+        "자기",
+        "아빠"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-해 줘!",
+        "-거야!"
+      ],
+      "character_notes": "세계 어딘가의 운명의 왕자를 찾아 마을을 떠나며, 샤마르에서 관광 안내인 무사이드를 보자마자 연인으로 확신합니다. 아나의 거침없는 오해와 무사이드의 당황한 존댓말을 분리합니다.",
+      "speaker_boundary_note": "같은 FCO에 브렌다와 무사이드의 발화가 길게 섞여 있으므로 문맥에 따라 실제 화자의 말투로 번역합니다.",
+      "avoid": [
+        "무사이드의 거절을 동의로 바꾸기",
+        "영어판 전용 거친 표현 추가",
+        "아나의 적극성을 비속어로 표현"
+      ],
+      "example": "보자마자 알았어! 당신이 바로 내 왕자님이야!",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Ana_Ana.fco/35/8"
+    },
+    {
+      "character": "그레고리오스",
+      "speaker_ids_in_scope": [
+        "Gregrus"
+      ],
+      "addressed_to": "소닉과 칩·마을 사람",
+      "speech_level": "평소에는 온화하고 장황한 존댓말, 밤에는 염세적인 존댓말",
+      "forms_of_address": [
+        "여행자분",
+        "당신",
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "-습니다",
+        "-군요",
+        "-십시오",
+        "-일까요?"
+      ],
+      "character_notes": "아포토스의 신부로 스테이지 입구와 메달을 설명합니다. 밤에는 다크 가이아 영향으로 모든 일을 무의미하게 여기지만, 이후 악령을 걱정하고 웨어혹 소닉의 정체를 시험합니다.",
+      "avoid": [
+        "성직자 말투를 과도한 고어체로 만들기",
+        "밤의 염세를 비속어로 표현",
+        "게임 시스템 설명 축약"
+      ],
+      "example": "그곳에 여러분의 밝은 미래가 있을 것 같군요",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Gregrus_Gregrus.fco/2/3"
+    },
+    {
+      "character": "마칸토니오",
+      "speaker_ids_in_scope": [
+        "Makantnio"
+      ],
+      "addressed_to": "소닉과 칩",
+      "speech_level": "호기심 많고 조금 겁이 많은 성인 남성의 반말",
+      "forms_of_address": [
+        "너",
+        "자네"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지?",
+        "-해 줘!"
+      ],
+      "character_notes": "유령을 무서워하면서도 계속 걱정해 여러 지역까지 뒤쫓습니다. 두 유령을 재미있는 녀석들이라 여기며 구조를 부탁합니다.",
+      "speaker_boundary_note": "다른 지역 아카이브에 작은 っ가 つ로 추출된 동일 문장 변형이 있습니다.",
+      "avoid": [
+        "유령에 대한 걱정을 적대감으로 바꾸기",
+        "OCR 변형을 새 대사로 해석"
+      ],
+      "example": "그 유령들이 마음에 걸려 여기까지 왔는데…",
+      "source_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Makantnio_Makantnio.fco/33/0"
+    },
+    {
+      "character": "에릭과 아나스타시아",
+      "speaker_ids_in_scope": [
+        "Eric"
+      ],
+      "addressed_to": "소닉과 칩·서로",
+      "speech_level": "에릭은 유쾌한 노년 남성의 반말, 아나스타시아는 퉁명스럽지만 정다운 노년 여성의 반말",
+      "forms_of_address": [
+        "자네",
+        "할멈"
+      ],
+      "ending_tendencies": [
+        "에릭: -라네, -구먼, -인가?",
+        "아나스타시아: -야, -마, -했어?"
+      ],
+      "character_notes": "아나스타시아가 틀니를 잃은 동안 에릭이 알아듣기 힘든 말을 제멋대로 통역합니다. 틀니를 되찾은 뒤에는 아나스타시아가 직접 에릭을 꾸짖습니다.",
+      "speaker_boundary_note": "작업표는 file_owner_inferred로 Eric 하나만 제시하지만 실제 발화는 부부 두 사람에게 나뉩니다.",
+      "avoid": [
+        "아나스타시아의 웅얼거림을 정상 문장으로 복구",
+        "에릭의 거짓 통역을 사실로 확정"
+      ],
+      "example": "엉터리 통역만 했잖아! 절대 용서 못 해!!",
+      "source_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Eric_Eric.fco/39/1"
+    },
+    {
+      "character": "데프 빅",
+      "speaker_ids_in_scope": [
+        "Defbig"
+      ],
+      "addressed_to": "소닉·가수 지망생",
+      "speech_level": "리듬감 있고 과장된 음악 프로듀서의 반말",
+      "forms_of_address": [
+        "브라더",
+        "맨",
+        "너"
+      ],
+      "ending_tendencies": [
+        "-라고!",
+        "-인 거야!",
+        "-해 봐!"
+      ],
+      "character_notes": "일본어의 가타카나 영어를 자주 섞습니다. 랩 미니게임은 마지막 말의 운과 정답 관계가 핵심이므로 줄과 선택지를 보존합니다.",
+      "avoid": [
+        "영어판 전용 속어 역수입",
+        "릴 앤을 영어판의 케이트로 교체",
+        "랩 선택지 병합"
+      ],
+      "example": "내 랩에 멋지게 맞춰 봐, 맨!!",
+      "source_line_id": "base-common/BaseGame/Town_NYCity_Common/TownMan_Defbig_Defbig.fco/22/4"
+    },
+    {
+      "character": "EF-XB2006",
+      "speaker_ids_in_scope": [
+        "EfighterC"
+      ],
+      "addressed_to": "소닉",
+      "speech_level": "초기에는 딱딱한 기계체, 분석 뒤에는 선택 결과에 따라 열혈·소녀풍·냉소적 말투",
+      "forms_of_address": [
+        "너",
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "초기: -다, -습니까",
+        "인격별 어미를 분리"
+      ],
+      "character_notes": "잡담 답변을 분석해 소닉과 친해질 만한 인격을 구성하는 에그맨 로봇입니다. 로봇체의 어색함과 세 가지 인격의 차이를 유지합니다.",
+      "avoid": [
+        "모든 인격을 같은 말투로 통일",
+        "결번 항목을 일반 대사로 꾸미기"
+      ],
+      "example": "좋아. 너와 나눈 대화로 친해질 수 있을 만한 성격을 구축해 봤다",
+      "source_line_id": "base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterC_EfighterC.fco/27/1"
+    },
+    {
+      "character": "이포리타",
+      "speaker_ids_in_scope": [
+        "Ipporita"
+      ],
+      "addressed_to": "소닉·할머니",
+      "speech_level": "부지런하고 순진한 어린아이의 반말",
+      "forms_of_address": [
+        "너",
+        "할머니",
+        "아저씨"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-해 줘",
+        "-일까?"
+      ],
+      "character_notes": "아픈 할머니를 대신해 밤낮으로 심부름합니다. 선물을 기뻐하면서도 할머니의 엄한 훈육을 오해하지 않습니다.",
+      "avoid": [
+        "할머니를 학대자로 확정",
+        "아이 말투를 과도하게 유아화"
+      ],
+      "example": "사실은 아주 다정한 할머니셔",
+      "source_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ipporita_Ipporita.fco/22/7"
+    },
+    {
+      "character": "루이 몽탕",
+      "speaker_ids_in_scope": [
+        "Luimontn"
+      ],
+      "addressed_to": "소닉",
+      "speech_level": "과장되고 연극적인 여성형 반말",
+      "forms_of_address": [
+        "당신"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-해 줘!",
+        "-인 거야?"
+      ],
+      "character_notes": "38세 사진가이자 자칭 러브 헌터로 소닉에게 진정한 사랑 레슨을 합니다. 가타카나 영어와 끊어 말하기를 적절히 유지합니다.",
+      "avoid": [
+        "영어판 전용 성적 농담 추가",
+        "평범한 남성 말투로 평준화"
+      ],
+      "example": "내가 당신에게 진정한 사랑의 비결을 가르쳐 줄게!",
+      "source_line_id": "base-common/BaseGame/Town_NYCity_Common/TownMan_Luimontn_Luimontn.fco/13/8"
+    },
+    {
+      "character": "사업가 보스",
+      "speaker_ids_in_scope": [
+        "Boss"
+      ],
+      "addressed_to": "소닉·이포리타",
+      "speech_level": "사무적이고 거리감 있는 성인 남성의 반말에서 따뜻한 말투로 변화",
+      "forms_of_address": [
+        "자네",
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "-군",
+        "-해 주게",
+        "-겠나"
+      ],
+      "character_notes": "해고 사실을 숨긴 채 세계를 떠돌며 이포리타에게 익명 선물을 보냅니다. 아이의 감사로 타인의 행복을 바라는 마음을 되찾습니다.",
+      "avoid": [
+        "초반부터 다정한 속내를 노골화",
+        "영어판의 노골적 비하 표현 추가"
+      ],
+      "example": "이번에는 모두를 행복하게 만드는 일을 하고 싶어",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Boss_Boss.fco/21/2"
+    },
+    {
+      "character": "라이몬도와 대학생들",
+      "speaker_ids_in_scope": [
+        "Raimond"
+      ],
+      "addressed_to": "소닉·릴리·페데리카·프랑코",
+      "speech_level": "라이몬도는 무뚝뚝한 청년 반말, 다른 학생은 관계에 따라 편한 반말",
+      "forms_of_address": [
+        "너",
+        "릴리",
+        "페데리카",
+        "프랑코"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-지",
+        "-않을래?"
+      ],
+      "character_notes": "한 FCO 안에 여러 대학생의 연애 대화가 섞여 있습니다. 페데리카의 고백 거절과 릴리와의 관계 진전을 정보 공개 순서대로 유지합니다.",
+      "avoid": [
+        "file owner를 모든 실제 화자로 확정",
+        "연애 관계를 미리 단정"
+      ],
+      "example": "릴리라서 좋아",
+      "source_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Raimond_Raimond.fco/26/5"
+    },
+    {
+      "character": "야스민과 제나",
+      "speaker_ids_in_scope": [
+        "Yasmin"
+      ],
+      "addressed_to": "소닉·자매 서로",
+      "speech_level": "야스민은 강한 척하는 츤데레형 반말, 제나는 소심한 동생 말투",
+      "forms_of_address": [
+        "너",
+        "언니",
+        "제나"
+      ],
+      "ending_tendencies": [
+        "야스민: -란 말이야, -해!",
+        "제나: -요, -못 해"
+      ],
+      "character_notes": "자칭 샤마르의 프리티 자매입니다. 야스민의 허세 뒤 두려움과 소닉에 대한 호감, 제나의 걱정을 구분합니다.",
+      "avoid": [
+        "두 자매 말투 통일",
+        "호감을 성인 로맨스로 과장"
+      ],
+      "example": "아주 조금이야! 정말 조금뿐이라고!",
+      "source_line_id": "base-common/BaseGame/Town_PetraCapital_Common/TownMan_Yasmin_Yasmin.fco/39/3"
+    },
+    {
+      "character": "식당 주인 할아버지",
+      "speaker_ids_in_scope": [
+        "Jiji"
+      ],
+      "addressed_to": "소닉과 칩·아내",
+      "speech_level": "활기찬 노년 요리사의 반말",
+      "forms_of_address": [
+        "자네",
+        "조수",
+        "할멈",
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "-일세",
+        "-하겠나",
+        "-게"
+      ],
+      "character_notes": "손님이 줄어든 식당을 살리려고 세계 식재료와 새 메뉴를 연구합니다. 아내의 밤 성격 변화와 맛 평가는 별도 발화로 구분합니다.",
+      "avoid": [
+        "특정 지역 사투리 과장",
+        "식재료 이름 임의 변경"
+      ],
+      "example": "조수여! 또 이야기 좀 들어 주겠나!?",
+      "source_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Jiji_Jiji.fco/32/0"
+    },
+    {
+      "character": "엘리오와 루치아",
+      "speaker_ids_in_scope": [
+        "Erio"
+      ],
+      "addressed_to": "소닉·부모·남매 서로",
+      "speech_level": "다정하고 책임감 있는 어린 남매의 반말",
+      "forms_of_address": [
+        "소닉",
+        "엄마",
+        "아빠",
+        "오빠"
+      ],
+      "ending_tendencies": [
+        "-야",
+        "-해 줘!",
+        "-할게"
+      ],
+      "character_notes": "어머니의 생일을 위해 운동 유도, 링 모으기, 선물과 파티를 준비합니다. 루치아 발화를 같은 FCO의 실제 문맥으로 분리합니다.",
+      "avoid": [
+        "어머니 체형 농담을 모욕적으로 강화",
+        "남매 발화 혼동"
+      ],
+      "example": "엄마가 기뻐하셔서 정말 기뻐!",
+      "source_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Erio_Erio.fco/38/0"
+    },
+    {
+      "character": "샤디와 라비브",
+      "speaker_ids_in_scope": [
+        "Shady",
+        "Rabib"
+      ],
+      "addressed_to": "소닉·부자 서로",
+      "speech_level": "샤디는 소심하지만 단호한 청년, 라비브는 거칠지만 정 많은 아버지의 반말",
+      "forms_of_address": [
+        "너",
+        "아버지",
+        "아들"
+      ],
+      "ending_tendencies": [
+        "샤디: -하고 싶어, -요",
+        "라비브: -란 말이야, -겠어"
+      ],
+      "character_notes": "카펫 장인의 가업과 가수의 꿈을 둘러싼 부자 갈등이 데프 빅의 오디션으로 이어집니다.",
+      "avoid": [
+        "부친의 거친 말투에 한국어 욕설 추가",
+        "샤디의 결심을 소극적으로 약화"
+      ],
+      "example": "그 가수라는 게 되어 보란 말이야!",
+      "source_line_id": "base-common/BaseGame/Town_PetraCapital_Common/TownMan_Rabib_Rabib.fco/22/5"
+    },
+    {
+      "character": "라티프",
+      "speaker_ids_in_scope": [
+        "Ratif"
+      ],
+      "addressed_to": "소닉·형",
+      "speech_level": "허둥대고 형을 무서워하는 성인 남성의 반말",
+      "forms_of_address": [
+        "너",
+        "형"
+      ],
+      "ending_tendencies": [
+        "-해 줘",
+        "-어떡하지",
+        "-거야"
+      ],
+      "character_notes": "졸음을 쫓으려 차를 마시다 잠들어 가게 매상을 잃고, 산술 문제로 금액을 다시 셉니다.",
+      "avoid": [
+        "산술 숫자나 정답 관계 변경",
+        "영어판의 폭력적 관용구 직역"
+      ],
+      "example": "어, 어떡하지… 또 형에게 혼날 거야…",
+      "source_line_id": "base-common/BaseGame/Town_PetraCapital_Common/TownMan_Ratif_Ratif.fco/20/0"
+    },
+    {
+      "character": "라니아",
+      "speaker_ids_in_scope": [
+        "Rania"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 친근한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "밝고 솔직한 샤마르 주민. 안내할 때는 간결하게 말함",
+      "source_line_id": "town/Town_PetraCapital_Common/Rania"
+    },
+    {
+      "character": "릴 앤",
+      "speaker_ids_in_scope": [
+        "Lilanne"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "가수를 꿈꾸는 자신감 있는 젊은이. 영어식 리듬은 일본어에 있을 때만 보존",
+      "source_line_id": "town/Town_NYCity_Common/Lilanne"
+    },
+    {
+      "character": "루카스",
+      "speaker_ids_in_scope": [
+        "Rouks"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "가족과 소닉에게 편한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "가족을 걱정하는 따뜻한 말투. 과도한 아버지식 고어체 금지",
+      "source_line_id": "town/Town_EuropeanCity_Common/Rouks"
+    },
+    {
+      "character": "무사이드",
+      "speaker_ids_in_scope": [
+        "Msaid"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "손님에게 활달한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "빠른 관광 안내와 장사꾼다운 적극성을 살리되 지역 사투리는 추가하지 않음",
+      "source_line_id": "town/Town_PetraCapital_Common/Msaid"
+    },
+    {
+      "character": "바르바라",
+      "speaker_ids_in_scope": [
+        "Balbara"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "남편과 소닉에게 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "현실적이고 생활감 있는 식당 주인 말투",
+      "source_line_id": "town/Town_Africa_Common/Balbara"
+    },
+    {
+      "character": "아이다",
+      "speaker_ids_in_scope": [
+        "Aida"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "손님에게 친근한 존댓말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "차분한 보석상 말투. 감정이 격해질 때만 반말에 가까워짐",
+      "source_line_id": "town/Town_EuropeanCity_Common/Aida"
+    },
+    {
+      "character": "치초",
+      "speaker_ids_in_scope": [
+        "Chicho"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 친근한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "다정한 구두 장인. 가족 문제에서는 진지하고 솔직함",
+      "source_line_id": "town/Town_EuropeanCity_Common/Chicho"
+    },
+    {
+      "character": "프랑코",
+      "speaker_ids_in_scope": [
+        "Franko"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "친구와 소닉에게 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "젊고 직설적이지만 과도하게 거친 표현은 피함",
+      "source_line_id": "town/Town_EuropeanCity_Common/Franko"
+    },
+    {
+      "character": "다비드",
+      "speaker_ids_in_scope": [
+        "Dadid"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "또래에게 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "수줍고 망설이는 청년. 도라 앞에서는 더 조심스러움",
+      "source_line_id": "town/Town_EuropeanCity_Common/Dadid"
+    },
+    {
+      "character": "데니스",
+      "speaker_ids_in_scope": [
+        "Dnyz"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "마을 아이와 소닉에게 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "마우로를 엄하게 꾸짖지만 가족처럼 아끼는 말투",
+      "source_line_id": "town/Town_EuropeanCity_Common/Dnyz"
+    },
+    {
+      "character": "슈이폰",
+      "speaker_ids_in_scope": [
+        "Shuifon"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 노인 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "은퇴 권법가의 느긋하고 담담한 말투",
+      "source_line_id": "town/Town_China_Common/Shuifon"
+    },
+    {
+      "character": "나탈리아",
+      "speaker_ids_in_scope": [
+        "Nataria"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "관찰력이 좋고 솔직한 대학생 말투",
+      "source_line_id": "town/Town_EuropeanCity_Common/Nataria"
+    },
+    {
+      "character": "도라",
+      "speaker_ids_in_scope": [
+        "Dora"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉과 다비드에게 조심스러운 존댓말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "심하게 수줍어 말을 더듬지만 유아어로 과장하지 않음",
+      "source_line_id": "town/Town_EuropeanCity_Common/Dora"
+    },
+    {
+      "character": "오토",
+      "speaker_ids_in_scope": [
+        "Otto"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "학생과 소닉에게 따뜻한 노인 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "기숙사 사감. 피클과 80년 지기라 피클이라 부름",
+      "source_line_id": "town/Town_EuropeanCity_Common/Otto"
+    },
+    {
+      "character": "페데리카",
+      "speaker_ids_in_scope": [
+        "Federica"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "친구와 소닉에게 발랄한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "연애 감정을 솔직하게 드러내는 대학생",
+      "source_line_id": "town/Town_EuropeanCity_Common/Federica"
+    },
+    {
+      "character": "제나",
+      "speaker_ids_in_scope": [
+        "Zena"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 조심스러운 존댓말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "언니를 걱정하는 소심한 동생. 다급할 때도 기본 존댓말 유지",
+      "source_line_id": "town/Town_PetraCapital_Common/Zena"
+    },
+    {
+      "character": "알렉시스",
+      "speaker_ids_in_scope": [
+        "Arex"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 밝은 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "선원 아버지를 자랑스러워하는 장난기 있는 아이",
+      "source_line_id": "town/Town_Mykonos_Common/Arex"
+    },
+    {
+      "character": "피클 교수 조수",
+      "speaker_ids_in_scope": [
+        "Assist"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 친근한 반말, 교수에게 존대",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "연구원다운 설명과 소닉을 동경하는 흥분을 구분",
+      "source_line_id": "town/Town_EULabo_Common/Assist"
+    },
+    {
+      "character": "마우로",
+      "speaker_ids_in_scope": [
+        "Mauro"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 허세 섞인 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "부모가 없는 외로움을 허세로 감추는 아이. 비속어는 추가하지 않음",
+      "source_line_id": "town/Town_EuropeanCity_Common/Mauro"
+    },
+    {
+      "character": "사파",
+      "speaker_ids_in_scope": [
+        "Safa"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 친근한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "길 잃는 누나 파티마를 진심으로 걱정하는 동생",
+      "source_line_id": "town/Town_PetraCapital_Common/Safa"
+    },
+    {
+      "character": "일마",
+      "speaker_ids_in_scope": [
+        "Ilma"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 노인 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "손녀를 엄하게 챙기는 할머니. 악의적인 말투로 과장하지 않음",
+      "source_line_id": "town/Town_EuropeanCity_Common/Ilma"
+    },
+    {
+      "character": "이프산",
+      "speaker_ids_in_scope": [
+        "Ifsan"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 노인 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "코 막힌 감탄을 반복하는 익살스러운 노인",
+      "source_line_id": "town/Town_PetraCapital_Common/Ifsan"
+    },
+    {
+      "character": "스두키",
+      "speaker_ids_in_scope": [
+        "Sdoky"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 밝은 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "관광 안내인을 꿈꾸며 빠른 말하기를 연습하는 아이",
+      "source_line_id": "town/Town_PetraCapital_Common/Sdoky"
+    },
+    {
+      "character": "에그 파이터 A/B",
+      "speaker_ids_in_scope": [
+        "EfighterA",
+        "EfighterB"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "상대에게 기계적인 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "카타카나 기계 말투를 띄엄띄엄한 한국어로 옮기되 가독성을 해치지 않음",
+      "source_line_id": "town/Town_EggManBase_Common/EfighterA, EfighterB"
+    },
+    {
+      "character": "야야",
+      "speaker_ids_in_scope": [
+        "Yaya"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 수줍은 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "말수가 매우 적고 침묵·망설임을 그대로 보존",
+      "source_line_id": "town/Town_Africa_Common/Yaya"
+    },
+    {
+      "character": "우토바",
+      "speaker_ids_in_scope": [
+        "Utoba"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 느긋한 반말",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "늘 졸린 신전 수리공. 기도할 때는 정중함",
+      "source_line_id": "town/Town_EULabo_Common/Utoba"
+    },
+    {
+      "character": "라이라",
+      "speaker_ids_in_scope": [
+        "Raira"
+      ],
+      "addressed_to": "상황별",
+      "speech_level": "소닉에게 차분한 반말, 교수에게 존대",
+      "forms_of_address": [
+        "소닉"
+      ],
+      "ending_tendencies": [
+        "문맥과 상대에 따라 조정"
+      ],
+      "avoid": [
+        "영어판에만 있는 농담 추가",
+        "사투리의 임의 창작",
+        "화자 미확정 항목의 단정"
+      ],
+      "example": "유적을 연구하는 유학생다운 차분하고 정확한 안내",
+      "source_line_id": "town/Town_PetraLabo_Common/Raira"
+    }
+  ]
+}

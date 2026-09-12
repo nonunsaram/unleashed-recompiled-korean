@@ -1,0 +1,308 @@
+[
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "d4911ff36158d2d151e15cfd",
+    "archive": "evrt_m1_02",
+    "japanese": "チップのこと知ってる人 \nどこにもいないねえ ",
+    "before": "날 아는 사람은\n어디에도 없네",
+    "after": "칩을 아는 사람은\n어디에도 없네",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "0dc26af3ddc8d1007b4e2408",
+    "archive": "evrt_m6_03",
+    "japanese": "チップを叩き起こしたんだ",
+    "before": "나를 깨운 거야",
+    "after": "칩을 깨운 거야",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "889af4978f94eaf9b5b60945",
+    "archive": "evrt_m6_03",
+    "japanese": "それでダークガイアはバラバラになって \nチップも混乱して……",
+    "before": "그래서 다크 가이아는 산산이 흩어지고\n나도 혼란에 빠져서…",
+    "after": "그래서 다크 가이아는 산산이 흩어지고\n칩도 혼란에 빠져서…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "4c0733156f81e84c109d9b99",
+    "archive": "evrt_m6_03",
+    "japanese": "そしたらチップが それを癒す ",
+    "before": "그러면 내가 그 상처를 치유하고",
+    "after": "그러면 칩이 그 상처를 치유하고",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "3260c55449f266a16b9a33a9",
+    "archive": "evrt_m6_03",
+    "japanese": "チップたちは \nそれを繰り返して来たんだ ",
+    "before": "우리는\n그 일을 계속 반복해 왔어",
+    "after": "칩과 다크 가이아는\n그 일을 계속 반복해 왔어",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "d01d64ccee579bc2a6c338e8",
+    "archive": "evrt_m6_03",
+    "japanese": "ううん チップは何もしてない ",
+    "before": "아니, 난 아무것도 하지 않았어",
+    "after": "아니, 칩은 아무것도 하지 않았어",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "0d01d00a280d7d11aebe2cff",
+    "archive": "evrt_m6_03",
+    "japanese": "そんなソニックだから \nチップは……",
+    "before": "그런 소닉이니까\n나는…",
+    "after": "그런 소닉이니까\n칩은…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "27fa8196eb05eb29f09b8b1d",
+    "archive": "evrt_m6_03",
+    "japanese": "チップはずっと この星の中にいたけど ",
+    "before": "난 줄곧 이 별 안에 있었지만",
+    "after": "칩은 줄곧 이 별 안에 있었지만",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "3de9c8157660ce511c744f12",
+    "archive": "evrt_m6_03",
+    "japanese": "ソニックがチップの記憶探してくれたの ",
+    "before": "소닉이 내 기억을 찾아 준 것도",
+    "after": "소닉이 칩의 기억을 찾아 준 것도",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "261837789180fc0cbc6e7687",
+    "archive": "evrt_m6_03",
+    "japanese": "Hey！",
+    "before": "이봐!",
+    "after": "Hey!",
+    "reason": "Preserve Sonic English; exact Japanese subtitle/audio trigger match at frame 4609"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "fb5aa8d2ecc191b0eadb0f39",
+    "archive": "evrt_m6_03",
+    "japanese": "え……だって \nチップの記憶 戻ったし……",
+    "before": "어… 하지만\n내 기억도 돌아왔고…",
+    "after": "어… 하지만\n칩의 기억도 돌아왔고…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "992fc0c76d50c6884097d40b",
+    "archive": "evrt_m6_03",
+    "japanese": "ここから先はチップの役目で……えと ",
+    "before": "이제부터는 내가 해야 할 일이고… 저기",
+    "after": "이제부터는 칩이 해야 할 일이고… 저기",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "c28eb7801f1f71bc337580be",
+    "archive": "evrt_m7_04",
+    "japanese": "チップの役目も終わる ",
+    "before": "내 역할도 끝나",
+    "after": "칩의 역할도 끝나",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "cutscenes-all.json",
+    "translation_key": "77ae8989ec180bc3d75dc06d",
+    "archive": "evrt_s2_01",
+    "japanese": "なかみは いつもといっしょだって \nチップわかってるから！ ね！",
+    "before": "속은 언제나 똑같다는 걸\n나는 알고 있으니까! 응!",
+    "after": "속은 언제나 똑같다는 걸\n칩은 알고 있으니까! 응!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "8612a3fa821c531b5dac3024",
+    "archive": "EvilActionCommon",
+    "japanese": "ソニック！ \nチップのことはいいから とどめを刺して！",
+    "before": "소닉!\n나는 됐으니까 마지막 일격을 날려!",
+    "after": "소닉!\n칩은 됐으니까 마지막 일격을 날려!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "702d79cbab7f91c2a524486d",
+    "archive": "EvilActionCommon",
+    "japanese": "ソニック！ チップのことは気にしないで\nダークガイアに とどめを刺して！",
+    "before": "소닉! 나는 신경 쓰지 말고\n다크 가이아에게 마지막 일격을 날려!",
+    "after": "소닉! 칩은 신경 쓰지 말고\n다크 가이아에게 마지막 일격을 날려!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "697ad1e1f652b08d627e63cd",
+    "archive": "EvilActionCommon",
+    "japanese": "ソニック！ ここは チップにまかせて！",
+    "before": "소닉! 여기는 나에게 맡겨!",
+    "after": "소닉! 여기는 칩에게 맡겨!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "2711289ab66f0b366dd125cd",
+    "archive": "EvilActionCommon",
+    "japanese": "チップ もう だめだ……",
+    "before": "난 이제 안 되겠어…",
+    "after": "칩은 이제 안 되겠어…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "7e47885980382033afe1d76a",
+    "archive": "EvilActionCommon",
+    "japanese": "ダークガイアはチップがひきつける！\n今のうちに このシールドをなんとかして！",
+    "before": "다크 가이아는 내가 유인할게!\n그동안 이 실드를 어떻게든 해 줘!",
+    "after": "다크 가이아는 칩이 유인할게!\n그동안 이 실드를 어떻게든 해 줘!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "e08efef4658b92360a60cfee",
+    "archive": "EvilActionCommon",
+    "japanese": "ダークガイアはチップがひきつける！\n今のうちに この壁をなんとかして！",
+    "before": "다크 가이아는 내가 유인할게!\n그동안 이 벽을 어떻게든 해 줘!",
+    "after": "다크 가이아는 칩이 유인할게!\n그동안 이 벽을 어떻게든 해 줘!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "2d079034eae11af29dcc8dbc",
+    "archive": "EvilActionCommon",
+    "japanese": "ダークガイアはチップがひきつける！\n今のうちに バリアをなんとかして！",
+    "before": "다크 가이아는 내가 유인할게!\n그동안 배리어를 어떻게든 해 줘!",
+    "after": "다크 가이아는 칩이 유인할게!\n그동안 배리어를 어떻게든 해 줘!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "0ac47841dd86034ab4932987",
+    "archive": "EvilActionCommon",
+    "japanese": "ソニック！ チップが押さえているあいだに\nダークガイアの弱点を叩いて！",
+    "before": "소닉! 내가 붙잡고 있는 동안\n다크 가이아의 약점을 때려!",
+    "after": "소닉! 칩이 붙잡고 있는 동안\n다크 가이아의 약점을 때려!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "30cdb4f3281d628652c7a9df",
+    "archive": "SonicActionCommon",
+    "japanese": "ソニック！ チップのことは気にしないで \nダークガイアに とどめを刺して！",
+    "before": "소닉! 나는 신경 쓰지 말고\n다크 가이아에게 마지막 일격을 날려!",
+    "after": "소닉! 칩은 신경 쓰지 말고\n다크 가이아에게 마지막 일격을 날려!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "3594c55649638dc6ee67dfe9",
+    "archive": "SonicActionCommon",
+    "japanese": "ダークガイアは チップがひきつける！ \n今のうちに このシールドをなんとかして！",
+    "before": "다크 가이아는 내가 유인할게!\n그동안 이 실드를 어떻게든 해 줘!",
+    "after": "다크 가이아는 칩이 유인할게!\n그동안 이 실드를 어떻게든 해 줘!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "e60d77647367abf97acbb78a",
+    "archive": "SonicActionCommon",
+    "japanese": "ダークガイアは チップがひきつける！ \n今のうちに この壁をなんとかして！",
+    "before": "다크 가이아는 내가 유인할게!\n그동안 이 벽을 어떻게든 해 줘!",
+    "after": "다크 가이아는 칩이 유인할게!\n그동안 이 벽을 어떻게든 해 줘!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "0f1b55e71f452f8f33f03700",
+    "archive": "SonicActionCommon",
+    "japanese": "ダークガイアは チップがひきつける！ \n今のうちに バリアをなんとかして！",
+    "before": "다크 가이아는 내가 유인할게!\n그동안 배리어를 어떻게든 해 줘!",
+    "after": "다크 가이아는 칩이 유인할게!\n그동안 배리어를 어떻게든 해 줘!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "ae59be5f23b3418b40bb93c2",
+    "archive": "SonicActionCommon",
+    "japanese": "ソニック！ チップが押さえているあいだに \nダークガイアの弱点を叩いて！",
+    "before": "소닉! 내가 붙잡고 있는 동안\n다크 가이아의 약점을 때려!",
+    "after": "소닉! 칩이 붙잡고 있는 동안\n다크 가이아의 약점을 때려!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "4b0d5169aaa56a8c86109e32",
+    "archive": "Town_Africa_Common",
+    "japanese": "ダークガイアを倒したら チップは…… \nううん なんでもない……",
+    "before": "다크 가이아를 쓰러뜨리면 나는…\n아니, 아무것도 아니야…",
+    "after": "다크 가이아를 쓰러뜨리면 칩은…\n아니, 아무것도 아니야…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "7a4883535c5bd9080380e1d6",
+    "archive": "Town_Africa_Common",
+    "japanese": "チップとソニックは仲間だよね！ \nこれからも ずっと ずっと！",
+    "before": "나와 소닉은 동료지!\n앞으로도 영원히!",
+    "after": "칩과 소닉은 동료지!\n앞으로도 영원히!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "65d8c415aefb72f8f929effd",
+    "archive": "Town_Africa_Common",
+    "japanese": "チップのきおくがもどったの \nみーんなソニックのおかげだよ！",
+    "before": "내 기억이 돌아온 건\n전부 소닉 덕분이야!",
+    "after": "칩의 기억이 돌아온 건\n전부 소닉 덕분이야!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "4e64c8966186936acb90e665",
+    "archive": "Town_Africa_Common",
+    "japanese": "この戦いが終わったら……\nチップは どうなっちゃうのかな……",
+    "before": "이 싸움이 끝나면…\n나는 어떻게 되는 걸까…",
+    "after": "이 싸움이 끝나면…\n칩은 어떻게 되는 걸까…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "0b958dc6191d9c619a5cbb7a",
+    "archive": "Town_Mykonos_Common",
+    "japanese": "チップとソニックは仲間だよね！ \nこれからも ずつと ずつと！",
+    "before": "나와 소닉은 동료지!\n앞으로도 영원히!",
+    "after": "칩과 소닉은 동료지!\n앞으로도 영원히!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "7b54b33f70f0d85dac0a3c5f",
+    "archive": "Town_Mykonos_Common",
+    "japanese": "チップのきおくがもどつたの \nみーんなソニックのおかげだよ！",
+    "before": "내 기억이 돌아온 건\n전부 소닉 덕분이야!",
+    "after": "칩의 기억이 돌아온 건\n전부 소닉 덕분이야!",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  },
+  {
+    "file": "hint-all.json",
+    "translation_key": "d545883a901506f0dda2b93a",
+    "archive": "Town_Mykonos_Common",
+    "japanese": "この戦いが終わつたら……\nチップは どうなつちゃうのかな……",
+    "before": "이 싸움이 끝나면…\n나는 어떻게 되는 걸까…",
+    "after": "이 싸움이 끝나면…\n칩은 어떻게 되는 걸까…",
+    "reason": "Preserve Japanese Chip name-form self-reference; author review 2026-09-12"
+  }
+]
