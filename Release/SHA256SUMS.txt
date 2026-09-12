@@ -1,2 +1,2 @@
-b42667b076606f6d01ed0a2081cd6d57fdd034ed8da92e9d8f911599f3027429  UnleashedRecompiled-Korean-1.0.0-Basic.zip
-3612c84d112e0227e2e50d39bc1fa94e19a24565cd6c1a023eb17ee04bc00313  UnleashedRecompiled-Korean-1.0.0-Full.zip
+c5a52acd139095289674480006a7b33ee1d5a44ac22a737bd729ff4655f0e8fe  UnleashedRecompiled-Korean-1.0.2-Basic.zip
+4795d064807e5cff5861435f3b94e0286699fb97f6d177fdc5b08eacc1f9356c  UnleashedRecompiled-Korean-1.0.2-Full.zip

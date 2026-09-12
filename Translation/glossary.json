@@ -1103,12 +1103,12 @@
     {
       "japanese": "エッグ・ドラグーン / パーフェクト・ダークガイア",
       "english": "Egg Dragoon / Perfect Dark Gaia",
-      "korean": "에그 드래군 / 퍼펙트 다크 가이아",
+      "korean": "에그 드라군 / 퍼펙트 다크 가이아",
       "category": "보스",
       "status": "임시",
       "evidence": "일본어 레코드와 비디오테이프 제목 및 영어 고유명사를 대조한 음역",
       "forbidden_variants": [
-        "에그 드라군",
+        "에그 드래군",
         "완전체 다크 가이아"
       ]
     },

@@ -97,3 +97,14 @@ temp/
 !/Release/v1.0.1/BASIC-CHANGES-EN.md
 !/Release/v1.0.1/TRANSLATION-AND-COMPATIBILITY-AUDIT.md
 !/Release/v1.0.1/translation-verification.json
+!/Release/v1.0.2/
+/Release/v1.0.2/*
+!/Release/v1.0.2/README-KO.md
+!/Release/v1.0.2/README-EN.md
+!/Release/v1.0.2/GameBanana-post.md
+!/Release/v1.0.2/Upload-guide-KO.md
+!/Release/v1.0.2/manifest.json
+!/Release/v1.0.2/CHANGELOG-KO.md
+!/Release/v1.0.2/BASIC-CHANGES-KO.md
+!/Release/v1.0.2/BASIC-CHANGES-EN.md
+!/Release/v1.0.2/COMPATIBILITY-AUDIT.md

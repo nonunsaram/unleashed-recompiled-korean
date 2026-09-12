@@ -1,0 +1,21 @@
+{
+  "version": "1.0.2",
+  "assets": [
+    {
+      "file": "UnleashedRecompiled-Korean-1.0.2-Basic.zip",
+      "sha256": "c5a52acd139095289674480006a7b33ee1d5a44ac22a737bd729ff4655f0e8fe",
+      "bytes": 11879197
+    },
+    {
+      "file": "UnleashedRecompiled-Korean-1.0.2-Full.zip",
+      "sha256": "4795d064807e5cff5861435f3b94e0286699fb97f6d177fdc5b08eacc1f9356c",
+      "bytes": 32041938
+    }
+  ],
+  "unleashHDCompatibility": "1.4.2",
+  "compatibilityArchiveSha256": "23f6366b88e08b9f5f2b3fcd085f6d25a427541048d498477c4d55340769b752",
+  "setupSha256": "8d9f214a3f09a263ad9f9c75fe41d0cc5a286a8e7f98f73bfcc8515490b3d393",
+  "patchedExeSha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+  "patchedExeChangedFromV101": false,
+  "published": false
+}
