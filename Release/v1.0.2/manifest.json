@@ -3,13 +3,13 @@
   "assets": [
     {
       "file": "UnleashedRecompiled-Korean-1.0.2-Basic.zip",
-      "sha256": "c5a52acd139095289674480006a7b33ee1d5a44ac22a737bd729ff4655f0e8fe",
-      "bytes": 11879197
+      "sha256": "2e52ab56bccaf1aff6e891ef8f356cdf224bb5b101b0d8048bb3c74d9e07e224",
+      "bytes": 12674046
     },
     {
       "file": "UnleashedRecompiled-Korean-1.0.2-Full.zip",
-      "sha256": "4795d064807e5cff5861435f3b94e0286699fb97f6d177fdc5b08eacc1f9356c",
-      "bytes": 32041938
+      "sha256": "9674901c56a9f8982724eb1254cf064ec24aecdcb3e3d8ebfba8b8a9067525be",
+      "bytes": 32869549
     }
   ],
   "unleashHDCompatibility": "1.4.2",
@@ -17,5 +17,15 @@
   "setupSha256": "8d9f214a3f09a263ad9f9c75fe41d0cc5a286a8e7f98f73bfcc8515490b3d393",
   "patchedExeSha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
   "patchedExeChangedFromV101": false,
-  "published": false
+  "published": false,
+  "userGameTest": {
+    "finalLogoAccepted": true,
+    "fourModsEnabledTogether": true,
+    "exhaustiveCoverage": false
+  },
+  "titleLogoSha256": {
+    "Original": "8e8fb1c8682030818cf6fbcdbfaa5bf1daed04e37695ce500047d9412ba8925a",
+    "Japanese": "0ced82b2db0518db83efa7d500ba224a7069f24a0a89b9abf9b33343465b74d2",
+    "Custom": "87d11a196af7796e572f0b8a79c5ccf15d2c0ad1270d19dc77c31d15e65f0bfd"
+  }
 }

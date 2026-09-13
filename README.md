@@ -4,6 +4,10 @@
 
 **Unleashed Recompiled v1.0.3 Windows x64**용 비공식 한국어 패치의 소스 저장소입니다. 게임 본편, 업데이트, DLC, 완성된 게임 실행 파일은 포함하지 않습니다.
 
+## v1.0.2
+
+로고 선택과 한글 World Adventure 로고, UnleasHD 호환 옵션, 번역 수정이 포함됩니다. [패치노트](Release/v1.0.2/CHANGELOG-KO.md)와 [모드 순서](Release/v1.0.2/MODS-KO.md)를 참고하세요.
+
 ## 배포판
 
 | 구분 | 적용 범위 | 설치 방식 |
@@ -25,7 +29,7 @@
 
 ### 전체판
 
-Full판은 Basic판을 먼저 설치할 필요가 없습니다. 게임을 최소 한 번 실행하여 초기 설정을 완료하고 `config.toml`이 생성된 뒤 진행하세요. 상세 경로 및 오류 안내는 [v1.0.1 한국어 안내](Release/v1.0.1/README-KO.md)와 [English instructions](Release/v1.0.1/README-EN.md)를 참고하세요.
+Full판은 Basic판을 먼저 설치할 필요가 없습니다. 게임을 최소 한 번 실행하여 초기 설정을 완료하고 `config.toml`이 생성된 뒤 진행하세요. 상세 경로 및 오류 안내는 [v1.0.2 한국어 안내](Release/v1.0.2/README-KO.md)와 [English instructions](Release/v1.0.2/README-EN.md)를 참고하세요.
 
 1. Full ZIP을 HMM에 설치하고 게임을 종료합니다.
 2. HMM에서 모드 폴더를 열고 `KoreanFullSetup.exe`를 실행합니다.

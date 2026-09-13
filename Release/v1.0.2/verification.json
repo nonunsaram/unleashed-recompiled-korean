@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "zipIntegrity": true,
+  "safePaths": true,
+  "resourceFiles": 50,
+  "unleashHDCompatibilityVerified": true,
+  "installerRealExeRoundTrip": true,
+  "gameExeSha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+  "setupSha256": "8d9f214a3f09a263ad9f9c75fe41d0cc5a286a8e7f98f73bfcc8515490b3d393",
+  "actualGameLaunched": false,
+  "published": false,
+  "userGameTest": {
+    "finalLogoAccepted": true,
+    "fourModsEnabledTogether": true,
+    "exhaustiveCoverage": false
+  },
+  "finalLogoMatchesUserTestedFiles": true,
+  "titleLogoChoices": 4
+}

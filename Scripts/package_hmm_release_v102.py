@@ -1,6 +1,7 @@
 """Assemble reproducible v1.0.2 Basic and Full packages from v1.0.1."""
 from pathlib import Path
 import datetime,hashlib,json,shutil,zipfile
+from configure_features_v102 import configure
 
 R=Path(__file__).resolve().parents[1]
 VERSION='1.0.2'
@@ -20,21 +21,7 @@ def safe_extract(archive,destination):
         z.extractall(destination)
 
 def update_config(root):
-    ini=root/'mod.ini'
-    text=ini.read_text(encoding='utf8').replace('Version="1.0.1"',f'Version="{VERSION}"')
-    text=text.replace('IncludeDirCount=2','IncludeDir2="Compatibility/None"\nIncludeDirCount=3')
-    ini.write_text(text,encoding='utf8')
-    schema=json.loads((root/'ConfigSchema.json').read_text(encoding='utf8'))
-    schema['Groups'].append({'Name':'Compatibility','DisplayName':'호환성','Elements':[{
-        'Name':'IncludeDir2','DisplayName':'UnleasHD 호환','Description':[
-            'UnleasHD 1.4.2를 사용하면 해당 항목을 선택하세요.',
-            '한국어 패치를 UnleasHD보다 위에 두고 HMM에서 저장한 뒤 게임을 다시 시작하세요.'
-        ],'Type':'UnleasHDCompatibility','DefaultValue':'Compatibility/None','Value':'Compatibility/None'}]})
-    schema['Enums']['UnleasHDCompatibility']=[
-        {'DisplayName':'사용 안 함','Value':'Compatibility/None','Description':['UnleasHD를 사용하지 않을 때 선택합니다.']},
-        {'DisplayName':'UnleasHD 1.4.2','Value':'Compatibility/UnleasHD-1.4.2','Description':['2배 해상도 월드맵 지명과 스테이지명을 한국어로 표시합니다.']}
-    ]
-    (root/'ConfigSchema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    configure(root)
 
 def build():
     assert sha(BASE)==BASE_SHA and sha(FULL)==FULL_SHA
@@ -55,13 +42,15 @@ def build():
             before=sha(target);shutil.copy2(source,target)
             if root==basic:replaced.append({'relative':rel.as_posix(),'v101Sha256':before,'v102Sha256':sha(target)})
         update_config(root)
-        compat=root/'Compatibility/UnleasHD-1.4.2/Languages/English';compat.mkdir(parents=True)
+        compat=root/'Compatibility/UnleasHD-1.4.2/Languages/English';compat.mkdir(parents=True,exist_ok=True)
         for name in ('+WorldMap.ar.00','+WorldMap.arl'):
             source=R/'Build/UnleasHD-Compatibility-v102/Archive'/name
             assert source.is_file();shutil.copy2(source,compat/name)
         (root/'Compatibility/README-KO.txt').write_text(
             'UnleasHD 1.4.2 사용 시 HMM 모드 설정에서 UnleasHD 호환을 켜고, 한국어 패치를 UnleasHD보다 위에 두세요.\n',encoding='utf8')
     docs=R/'publish/unleashed-recompiled-korean/Release/v1.0.2'
+    for root in (basic,full):
+        shutil.copy2(docs/'MODS-KO.md',root/'MODS-KO.md')
     for lang in ('KO','EN'):
         bp=basic/f'README-{lang}.md'
         bp.write_text(bp.read_text(encoding='utf8').replace('1.0.1','1.0.2')+
@@ -69,18 +58,20 @@ def build():
         shutil.copy2(docs/f'README-{lang}.md',full/f'README-{lang}.md')
     shutil.copy2(basic/'README-KO.md',full/'BASIC-README-KO.md')
     backend=R/'Build/FullBackend-v102/Package'
-    shutil.rmtree(full/'Support');shutil.copytree(backend/'Support',full/'Support')
+    support = (full/'Support').resolve()
+    assert support.is_relative_to(work.resolve()) and support.name == 'Support'
+    shutil.rmtree(support);shutil.copytree(backend/'Support',support)
     shutil.copy2(backend/'KoreanFullSetup.exe',full/'KoreanFullSetup.exe')
     public=R/'publish/unleashed-recompiled-korean'
     with zipfile.ZipFile(full/'Source.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         allowed={'.py','.cs','.ps1','.md','.txt','.json','.cpp','.h','.patch','.ttf','.png','.pdf'}
         sources=[]
-        for name in ('Scripts','Translation','Patches','Licenses','Assets/Installer','Tools/Fonts','Release/v1.0.2'):
+        for name in ('Scripts','Translation','Patches','Licenses','Assets/Installer','Assets/TitleLogo','Tools/Fonts','Release/v1.0.2'):
             folder=public/name
             if folder.exists():sources.extend(p for p in folder.rglob('*') if p.is_file())
         sources.extend(p for p in public.iterdir() if p.is_file())
         for p in sorted(set(sources)):
-            if p==docs/'manifest.json':continue
+            if p.parent == docs and p.name in {'manifest.json','verification.json','SHA256SUMS.txt'}:continue
             if p.suffix.lower() in allowed and p.stat().st_size<100*1024*1024:
                 z.write(p,'Source/'+p.relative_to(public).as_posix())
     archives=[]
@@ -89,10 +80,11 @@ def build():
         with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
             for p in sorted(root.rglob('*')):
                 if p.is_file():z.write(p,'UnleashedKorean/'+p.relative_to(root).as_posix())
+                elif p.is_dir() and not any(p.iterdir()):z.write(p,'UnleashedKorean/'+p.relative_to(root).as_posix()+'/')
         with zipfile.ZipFile(path) as z:assert z.testzip() is None
         archives.append({'file':path.name,'sha256':sha(path),'bytes':path.stat().st_size})
     (output/'SHA256SUMS.txt').write_text(''.join(x['sha256']+'  '+x['file']+'\n' for x in archives),encoding='ascii')
-    for name in ('GameBanana-post.md','Upload-guide-KO.md','CHANGELOG-KO.md'):
+    for name in ('GameBanana-post.md','GameBanana-update.md','Upload-guide-KO.md','CHANGELOG-KO.md','MODS-KO.md'):
         shutil.copy2(docs/name,output/name)
     manifest=json.loads((backend/'Support/manifest.json').read_text())
     verification={'version':VERSION,'archives':archives,'translationArchives':25,'translationRows':272,
@@ -100,12 +92,15 @@ def build():
         'compatibilityArchiveSha256':sha(R/'Build/UnleasHD-Compatibility-v102/Archive/+WorldMap.ar.00'),
         'setupSha256':sha(full/'KoreanFullSetup.exe'),'patchedExeSha256':manifest['files'][0]['patchedSha256'],
         'patchedExeChangedFromV101':False,'gameLaunched':False,'published':False,'replacedResources':replaced,
-        'stagingDirectory':str(work)}
+        'stagingDirectory':str(work),
+        'userGameTest': {'finalLogoAccepted':True,'fourModsEnabledTogether':True,'exhaustiveCoverage':False},
+        'titleLogoSha256':{v['name']:v['archiveSha256'] for v in json.loads((R/'Build/TitleLogo-v102/verification.json').read_text())['variants']}}
     (output/'package-verification.json').write_text(json.dumps(verification,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     public_manifest={'version':VERSION,'assets':archives,'unleashHDCompatibility':'1.4.2',
         'compatibilityArchiveSha256':verification['compatibilityArchiveSha256'],
         'setupSha256':verification['setupSha256'],'patchedExeSha256':verification['patchedExeSha256'],
-        'patchedExeChangedFromV101':False,'published':False}
+        'patchedExeChangedFromV101':False,'published':False,
+        'userGameTest':verification['userGameTest'],'titleLogoSha256':verification['titleLogoSha256']}
     (docs/'manifest.json').write_text(json.dumps(public_manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps(verification,ensure_ascii=False,indent=2))
 

@@ -6,3 +6,7 @@
 - UnleasHD 1.4.2용 2배 해상도 한국어 월드맵 호환 리소스를 추가했습니다. HMM의 모드 설정에서 **UnleasHD 호환 → UnleasHD 1.4.2**를 선택하고, 한국어 패치를 UnleasHD보다 위에 두세요.
 
 Crimson Carnival over Eggmanland와 Windmill Isle Act 5는 자체 `StageList_list.fco`로 새 액트명을 추가하므로 한국어 패치의 기존 액트명 표와 자동 병합되지 않습니다. 두 모드는 이번 호환 옵션의 대상이 아닙니다.
+
+다른 모드를 함께 쓸 때는 한국어 패치를 가장 위에 두세요. [모드별 역할·권장 순서](MODS-KO.md)에 UnleasHD 설정과 비교 검토 방법을 정리했습니다.
+
+- 타이틀 로고 4종 선택과 한글 문구·외부 광선의 World Adventure 로고를 추가했습니다.
