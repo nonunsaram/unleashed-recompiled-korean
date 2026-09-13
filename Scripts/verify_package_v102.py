@@ -26,8 +26,15 @@ def main():
     assert [n for n in full if Path(n).suffix.lower() in ('.exe','.dll','.xex')]==['KoreanFullSetup.exe']
     review=json.loads((R/'Build/Translation-v102/resource-verification.json').read_text(encoding='utf-8-sig'))
     assert review['passed'] and len(review['archives'])==25 and len(review['patches'])==50
+    baseline={x['relative']:x for x in report['subtitleBaselinePatches']}
+    assert len(baseline)==32 and report['userGameTest']['drSubtitleAccepted'] and report['userGameTest']['excellentSubtitleAccepted']
+    for item in baseline.values():
+        assert sha(basic[item['relative']])==item['afterSha256']
+        assert basic[item['relative']]==full[item['relative']]
+        assert basic[item['relative']]==(R/'UnleashedRecomp-Windows/mods/UnleashedKorean'/item['relative']).read_bytes()
     for item in review['patches']:
-        assert sha(basic[item['relative']])==item['after_sha256']
+        expected=baseline[item['relative']]['afterSha256'] if item['relative'] in baseline else item['after_sha256']
+        assert sha(basic[item['relative']])==expected
         assert basic[item['relative']]==full[item['relative']]
     for package in (basic,full):
         ini=configparser.ConfigParser();ini.read_string(package['mod.ini'].decode('utf8'))
@@ -60,15 +67,22 @@ def main():
         assert not any(Path(n).suffix.lower() in ('.exe','.dll','.xex','.ar','.arl','.bin','.zip') for n in z.namelist())
         for name in ('build_full_backend_v102.py','package_hmm_release_v102.py','verify_package_v102.py',
                      'subtitle_resource_functions_v102.ps1','render_korean_ui_textures.py','ui_texture_layout_v041.py',
-                     'configure_features_v102.py','prepare_title_logo_v102.py'):
+                     'configure_features_v102.py','prepare_title_logo_v102.py',
+                     'patch_subtitle_atlas_baseline.py','subtitle_resource_functions_baseline.ps1',
+                     'prepare_latin_baseline_fix.py','build_latin_baseline_review.ps1',
+                     'stage_latin_baseline_review.py','verify_latin_baseline_review.py',
+                     'prepare_cutscene_full_review.py','export_cutscene_full_review.ps1','audit_cutscene_full_review.py'):
             assert z.read('Source/Scripts/'+name)==(R/'publish/unleashed-recompiled-korean/Scripts'/name).read_bytes()
+    for key in ('fantasticSubtitleAccepted','okBuddySubtitleAccepted','firstNightLongSubtitleAccepted'):
+        assert report['userGameTest'][key]
     subprocess.run([sys.executable,str(R/'Scripts/test_full_release_v101.py'),
         '--package',str(work/'Full/UnleashedKorean')],check=True)
     result={'passed':True,'zipIntegrity':True,'safePaths':True,'resourceFiles':50,
         'unleashHDCompatibilityVerified':True,'installerRealExeRoundTrip':True,
         'gameExeSha256':report['patchedExeSha256'],'setupSha256':report['setupSha256'],
         'actualGameLaunched':False,'published':False,
-        'userGameTest':report['userGameTest'],'finalLogoMatchesUserTestedFiles':True,'titleLogoChoices':4}
+        'userGameTest':report['userGameTest'],'finalLogoMatchesUserTestedFiles':True,'titleLogoChoices':4,
+        'revision':report['revision'],'subtitleBaselineFiles':len(baseline),'subtitleBaselineMatchesUserTestedFiles':True}
     (output/'release-verification.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf8')
     print(json.dumps(result,indent=2))
 

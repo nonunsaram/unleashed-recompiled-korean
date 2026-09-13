@@ -34,6 +34,11 @@ def build():
     review=json.loads((R/'Build/Translation-v102/resource-verification.json').read_text(encoding='utf-8-sig'))
     assert review['passed'] and len(review['archives'])==25 and len(review['patches'])==50
     assert sum(x['changed_physical_cells'] for x in review['archives'])==170
+    hotfix=json.loads((R/'Build/LatinBaseline-Audit/packing-verification.json').read_text(encoding='utf8'))
+    assert hotfix['passed'] and len(hotfix['archives'])==16
+    baseline_check=json.loads((R/'Build/LatinBaseline-Audit/fixed-verification.json').read_text(encoding='utf8'))
+    assert baseline_check['passed'] and not baseline_check['commonFontBaselineMismatches']
+    baseline_patches=[]
     replaced=[]
     for root in (basic,full):
         for item in review['patches']:
@@ -41,6 +46,16 @@ def build():
             assert target.is_file() and source.is_file() and sha(source)==item['after_sha256']
             before=sha(target);shutil.copy2(source,target)
             if root==basic:replaced.append({'relative':rel.as_posix(),'v101Sha256':before,'v102Sha256':sha(target)})
+        # Apply the in-game approved baseline correction after the original v1.0.2 text revision.
+        for archive in hotfix['archives']:
+            for part in archive['parts']:
+                rel=Path('Inspire/subtitle/English')/part['name'];target=root/rel
+                source=R/'Build/LatinBaseline-Audit/Packed'/part['name']
+                assert target.is_file() and sha(source)==part['sha256']
+                original=R/'Build/GameBanana-v102-20260913-222451/Basic/UnleashedKorean'/rel
+                assert sha(target)==sha(original),f'Unexpected pre-hotfix resource: {rel}'
+                before=sha(target);shutil.copy2(source,target)
+                if root==basic:baseline_patches.append({'relative':rel.as_posix(),'beforeSha256':before,'afterSha256':sha(target)})
         update_config(root)
         compat=root/'Compatibility/UnleasHD-1.4.2/Languages/English';compat.mkdir(parents=True,exist_ok=True)
         for name in ('+WorldMap.ar.00','+WorldMap.arl'):
@@ -64,7 +79,7 @@ def build():
     shutil.copy2(backend/'KoreanFullSetup.exe',full/'KoreanFullSetup.exe')
     public=R/'publish/unleashed-recompiled-korean'
     with zipfile.ZipFile(full/'Source.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-        allowed={'.py','.cs','.ps1','.md','.txt','.json','.cpp','.h','.patch','.ttf','.png','.pdf'}
+        allowed={'.py','.cs','.ps1','.md','.txt','.json','.cpp','.h','.patch','.ttf','.png','.pdf','.csv'}
         sources=[]
         for name in ('Scripts','Translation','Patches','Licenses','Assets/Installer','Assets/TitleLogo','Tools/Fonts','Release/v1.0.2'):
             folder=public/name
@@ -92,11 +107,13 @@ def build():
         'compatibilityArchiveSha256':sha(R/'Build/UnleasHD-Compatibility-v102/Archive/+WorldMap.ar.00'),
         'setupSha256':sha(full/'KoreanFullSetup.exe'),'patchedExeSha256':manifest['files'][0]['patchedSha256'],
         'patchedExeChangedFromV101':False,'gameLaunched':False,'published':False,'replacedResources':replaced,
-        'stagingDirectory':str(work),
-        'userGameTest': {'finalLogoAccepted':True,'fourModsEnabledTogether':True,'exhaustiveCoverage':False},
+        'stagingDirectory':str(work),'revision':'20260914-subtitle-baseline',
+        'subtitleBaselinePatches':baseline_patches,
+        'subtitleBaselineVerification':{k:v for k,v in baseline_check.items() if k!='cases'},
+        'userGameTest': {'finalLogoAccepted':True,'fourModsEnabledTogether':True,'exhaustiveCoverage':False,'drSubtitleAccepted':True,'excellentSubtitleAccepted':True,'fantasticSubtitleAccepted':True,'okBuddySubtitleAccepted':True,'firstNightLongSubtitleAccepted':True,'confirmedGalleryEntries':[1,4,15,22,35]},
         'titleLogoSha256':{v['name']:v['archiveSha256'] for v in json.loads((R/'Build/TitleLogo-v102/verification.json').read_text())['variants']}}
     (output/'package-verification.json').write_text(json.dumps(verification,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    public_manifest={'version':VERSION,'assets':archives,'unleashHDCompatibility':'1.4.2',
+    public_manifest={'version':VERSION,'revision':verification['revision'],'subtitleBaselineArchives':16,'assets':archives,'unleashHDCompatibility':'1.4.2',
         'compatibilityArchiveSha256':verification['compatibilityArchiveSha256'],
         'setupSha256':verification['setupSha256'],'patchedExeSha256':verification['patchedExeSha256'],
         'patchedExeChangedFromV101':False,'published':False,

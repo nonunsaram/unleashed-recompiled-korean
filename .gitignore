@@ -115,3 +115,5 @@ temp/
 !/Release/v1.0.2/GameBanana-update.md
 !/Release/v1.0.2/verification.json
 !/Release/v1.0.2/SHA256SUMS.txt
+
+!/Release/v1.0.2/hotfix-diff-verification.json

@@ -1,0 +1,343 @@
+{
+  "status": "user_approved_for_v102_hotfix",
+  "audit": {
+    "catalogLatinOrDigitRows": 1137,
+    "cutsceneArchives": 43,
+    "cutsceneCellsMapped": 610,
+    "unmappedOrLengthMismatch": [],
+    "caseAliases": [],
+    "drRows": 11,
+    "drArchives": [
+      "evrt_m0_01_05",
+      "evrt_m1_03_2",
+      "evrt_m2_01",
+      "evrt_m2_03",
+      "evrt_m3_02",
+      "evrt_m3_03",
+      "evrt_m5_02",
+      "evrt_m7_01",
+      "evrt_m8_02"
+    ],
+    "drArchivesByteIdenticalToV100": true
+  },
+  "catalogCounts": {
+    "core-ui-all.json": 52,
+    "cutscenes-all.json": 23,
+    "hint-all.json": 12,
+    "item-ui-all.json": 365,
+    "media-room-ending-ui-all.json": 189,
+    "skill-ui-all.json": 15,
+    "stage-ui-all.json": 248,
+    "town-dialogue-all.json": 233
+  },
+  "fontVerification": {
+    "passed": true,
+    "fixedArchives": 16,
+    "serializedSubtitleCells": 306,
+    "asciiGlyphInstancesChecked": 119,
+    "printableAsciiTested": 94,
+    "commonFontLettersAndDigits": 57,
+    "commonFontBaselineMismatches": [],
+    "drExamples": 11,
+    "gameLaunched": false,
+    "releasePackagesModified": false
+  },
+  "metadataVerification": {
+    "passed": true,
+    "nonMessageFcoPropertiesUnchanged": true,
+    "cells": 569
+  },
+  "commonShippedVerification": {
+    "archive": "+Town_EggManBase_Common",
+    "matchedPages": 7,
+    "identicalToVerifiedCommonAtlas": true
+  },
+  "installation": {
+    "passed": true,
+    "archives": [
+      {
+        "archive": "evrt_m0_01_05",
+        "changedMembers": [
+          "evrt_m0_01_05_event.fte",
+          "evrt_m0_01_05_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m0_01_05.ar.00",
+            "sha256": "b4ca294ec58371962e7d7dce7c798d1558f0115d6a0eafd25af777eef8b6f3ee"
+          },
+          {
+            "name": "+evrt_m0_01_05.arl",
+            "sha256": "34bbcf6c254f0002fa63880a2e23a4a93a263a2908c030ecc580b8ba0a8bc827"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m1_03_2",
+        "changedMembers": [
+          "evrt_m1_03_2_event.fte",
+          "evrt_m1_03_2_event_000.dds",
+          "evrt_m2_01_event.fte",
+          "evrt_m2_01_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m1_03_2.ar.00",
+            "sha256": "da7e19f134beefc1995a05e97dc04eec78a638454b2ba04d4213daa374061787"
+          },
+          {
+            "name": "+evrt_m1_03_2.arl",
+            "sha256": "ab8a812e080cd361c529505099ecb6ffb4cd3dba7f9f50eb7dfa8445852fc6dd"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m2_01",
+        "changedMembers": [
+          "evrt_m2_01_event.fte",
+          "evrt_m2_01_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m2_01.ar.00",
+            "sha256": "08923de1a01deee026aeeecc499024070aa65c886939bb7caa3fbd6650f85fac"
+          },
+          {
+            "name": "+evrt_m2_01.arl",
+            "sha256": "aa0fed992b6aaa2c6143ad2cfce39545f59a21fad0d49b55cac40298b1c5a1f8"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m2_02",
+        "changedMembers": [
+          "evrt_m2_02_event.fte",
+          "evrt_m2_02_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m2_02.ar.00",
+            "sha256": "799135c0b0b024a5a60e8722c416a31f85c9275ffcc4e8c0c2c311f33b0ec19f"
+          },
+          {
+            "name": "+evrt_m2_02.arl",
+            "sha256": "c3c47a9d3d43bff7a2215e2f930b9a77d737b090817c8055a134887d7c36beb4"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m2_03",
+        "changedMembers": [
+          "evrt_m2_03_event.fte",
+          "evrt_m2_03_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m2_03.ar.00",
+            "sha256": "a80c63ff77b736ea99a2bf073e7a98f525b8bba354d2788ff11d88eb123035d6"
+          },
+          {
+            "name": "+evrt_m2_03.arl",
+            "sha256": "37f66ba5b28ea0e417e98fce53221cf55ba4f3dd57453779385b78048d6e0e58"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m3_02",
+        "changedMembers": [
+          "evrt_m3_02_event.fte",
+          "evrt_m3_02_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m3_02.ar.00",
+            "sha256": "8cd0680b41e7dd954390767737e0f5259823a7bb91ca1491495da7cfcd37f142"
+          },
+          {
+            "name": "+evrt_m3_02.arl",
+            "sha256": "2ed5dd6c059402787c9af1843d8ec4ef9088b5d10dca51bb1b925e41fd58bdf3"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m3_03",
+        "changedMembers": [
+          "evrt_m3_03_event.fte",
+          "evrt_m3_03_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m3_03.ar.00",
+            "sha256": "ae71c591758df962e880057497277458fec54652fae6b7a7172e1db56898b819"
+          },
+          {
+            "name": "+evrt_m3_03.arl",
+            "sha256": "d150ccddbf7c77b7b7e58892eda80183ac89f3ccefaa18993ee05f19d9f1e941"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m3_05",
+        "changedMembers": [
+          "evrt_m3_05_event.fte",
+          "evrt_m3_05_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m3_05.ar.00",
+            "sha256": "e01339798071ea98b33af68c6663479e34afd82b1d7ef63ababb59dbf875c6d7"
+          },
+          {
+            "name": "+evrt_m3_05.arl",
+            "sha256": "d23e52386f40cd17bf3ce6c0fae0f9972b341e37cd80504dccbe779c5235e50e"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m4_01",
+        "changedMembers": [
+          "evrt_m4_01_event.fte",
+          "evrt_m4_01_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m4_01.ar.00",
+            "sha256": "2819ec37e7cbb59b9803234d52724aca180e905c7ccf7af91907ae619e1fdeb9"
+          },
+          {
+            "name": "+evrt_m4_01.arl",
+            "sha256": "4a5a9a90722d07d0b4129fba095d47697b3cd5ab4ab7fc89558ce6bb64c82cf4"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m5_02",
+        "changedMembers": [
+          "evrt_m5_02_event.fte",
+          "evrt_m5_02_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m5_02.ar.00",
+            "sha256": "49848784c54cbafada6f28c652b8af594f21a60b49e82becf8057ad2b89895bd"
+          },
+          {
+            "name": "+evrt_m5_02.arl",
+            "sha256": "33f3b40155b30c0e237bc9658e8815a80a656c0cb98994f6fbe071463d01df74"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m6_02",
+        "changedMembers": [
+          "evrt_m6_02_event.fte",
+          "evrt_m6_02_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m6_02.ar.00",
+            "sha256": "9025e03182a25291aad6e4dd2338359542cadd00226be222b97630020b7b8e3f"
+          },
+          {
+            "name": "+evrt_m6_02.arl",
+            "sha256": "d0ed64c233ec7c8dade6e893b94dd0a809895c37af5e201b0626889fd01b65f1"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m6_03",
+        "changedMembers": [
+          "evrt_m6_03_event.fte",
+          "evrt_m6_03_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m6_03.ar.00",
+            "sha256": "7563d357742c9c32c9e8d47f1b7dd94fe36c0d2697ef70ce930ee8e29c680947"
+          },
+          {
+            "name": "+evrt_m6_03.arl",
+            "sha256": "54da85e18c6bc3024a883b34851d9097d0ce1ac7a5a7cae50e7fb059f79cdb1b"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m7_01",
+        "changedMembers": [
+          "evrt_m7_01_event.fte",
+          "evrt_m7_01_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m7_01.ar.00",
+            "sha256": "aaa73423e18d45fa9086ec1c4e3920040eac02b7b14738fa65284875068cc1a3"
+          },
+          {
+            "name": "+evrt_m7_01.arl",
+            "sha256": "818f635a36e3d93624ecc45d627726f16722a5d5735aa8fc5e9e0626f1d0eea1"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m8_02",
+        "changedMembers": [
+          "evrt_m8_02_event.fte",
+          "evrt_m8_02_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m8_02.ar.00",
+            "sha256": "06a40ceedc24756683976e603e04254f91c511d1ac5cba9daa84b61118bb2b44"
+          },
+          {
+            "name": "+evrt_m8_02.arl",
+            "sha256": "11bca2969c3a97dd154062901a0a5e86c210c840e97f08f8fc3c5d309879d4a0"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m8_04",
+        "changedMembers": [
+          "evrt_m8_04_event.fte",
+          "evrt_m8_04_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m8_04.ar.00",
+            "sha256": "96c3517044a7d48459330b1791487e3ad10b068f1933d43ac42f09091a52cbcd"
+          },
+          {
+            "name": "+evrt_m8_04.arl",
+            "sha256": "0984e83c5da78028c17a857738a2e4a31b30f3aea5b74498a40883cd2b6ca5be"
+          }
+        ]
+      },
+      {
+        "archive": "evrt_m8_06_2",
+        "changedMembers": [
+          "evrt_m8_06_2_event.fte",
+          "evrt_m8_06_2_event_000.dds"
+        ],
+        "parts": [
+          {
+            "name": "+evrt_m8_06_2.ar.00",
+            "sha256": "44c7812c34e1c1d82dd0b7f5290b7f3cd69e91d699734dc719f702df1fbd1d46"
+          },
+          {
+            "name": "+evrt_m8_06_2.arl",
+            "sha256": "9196ea0475ca776c8ffc8cbc97df88dcbfc27de148bc608558643c3be2320aa6"
+          }
+        ]
+      }
+    ],
+    "releasePackagesUnchanged": true,
+    "installed": true,
+    "installedFiles": 32
+  },
+  "userGameTest": {
+    "drSubtitleAccepted": true,
+    "excellentSubtitleAccepted": true,
+    "excellentGalleryTitle": "테일즈의 보고",
+    "excellentGalleryPosition": 15
+  }
+}

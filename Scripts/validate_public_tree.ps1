@@ -102,15 +102,18 @@ foreach ($file in $files | Where-Object { $_.Extension -eq '.json' }) {
     }
 }
 
-$expectedChecksums = @(
-    'b42667b076606f6d01ed0a2081cd6d57fdd034ed8da92e9d8f911599f3027429  UnleashedRecompiled-Korean-1.0.0-Basic.zip',
-    '3612c84d112e0227e2e50d39bc1fa94e19a24565cd6c1a023eb17ee04bc00313  UnleashedRecompiled-Korean-1.0.0-Full.zip'
-)
+# Current release checksums come from the reviewed manifest, not a stale v1.0.0 constant.
+$releaseManifestPath = Join-Path $root 'Release/v1.0.2/manifest.json'
+$releaseManifest = Get-Content -LiteralPath $releaseManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$expectedChecksums = @($releaseManifest.assets | ForEach-Object { $_.sha256 + '  ' + $_.file })
+if ($releaseManifest.version -ne '1.0.2' -or $expectedChecksums.Count -ne 2) {
+    Add-Error 'Current release manifest must contain both v1.0.2 packages.'
+}
 $checksumPath = Join-Path $root 'Release/SHA256SUMS.txt'
 if (Test-Path -LiteralPath $checksumPath) {
     $actualChecksums = @((Get-Content -LiteralPath $checksumPath -Encoding UTF8) | Where-Object { $_.Trim() })
     if (($actualChecksums -join "`n") -cne ($expectedChecksums -join "`n")) {
-        Add-Error 'Release/SHA256SUMS.txt 내용이 검증된 v1.0.0 값과 다릅니다.'
+        Add-Error 'Release/SHA256SUMS.txt 내용이 현재 릴리스 manifest와 다릅니다.'
     }
 }
 

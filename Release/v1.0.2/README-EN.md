@@ -15,3 +15,8 @@ The added act-name tables from Crimson Carnival over Eggmanland and Windmill Isl
 Select the title logo in the Korean patch settings. The user-edited Japanese logo includes a left-aligned Korean caption. The default follows the game.
 
 Recommended HMM order, top to bottom: Korean Translation, UnleasHD (1440p), Visual Overhaul – Characters, High Resolution Textures. Top entries have priority. All four were enabled together in a user gameplay test; this is not exhaustive coverage of every stage and configuration.
+
+
+## September 14, 2026 revision (version remains 1.0.2)
+
+Aligned cutscene Latin letters, digits and punctuation to a shared baseline and adjusted glyph widths. The user verified `Dr.` and `Excellent!` in game. Both Basic and Full include this correction. Replace the HMM mod with the revised package and restart the game. The Full EXE patch is unchanged; an existing installation does not require rerunning the Full setup tool.

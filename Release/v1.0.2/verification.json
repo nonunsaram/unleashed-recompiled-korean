@@ -12,8 +12,23 @@
   "userGameTest": {
     "finalLogoAccepted": true,
     "fourModsEnabledTogether": true,
-    "exhaustiveCoverage": false
+    "exhaustiveCoverage": false,
+    "drSubtitleAccepted": true,
+    "excellentSubtitleAccepted": true,
+    "fantasticSubtitleAccepted": true,
+    "okBuddySubtitleAccepted": true,
+    "firstNightLongSubtitleAccepted": true,
+    "confirmedGalleryEntries": [
+      1,
+      4,
+      15,
+      22,
+      35
+    ]
   },
   "finalLogoMatchesUserTestedFiles": true,
-  "titleLogoChoices": 4
+  "titleLogoChoices": 4,
+  "revision": "20260914-subtitle-baseline",
+  "subtitleBaselineFiles": 32,
+  "subtitleBaselineMatchesUserTestedFiles": true
 }

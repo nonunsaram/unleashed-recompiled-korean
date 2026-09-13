@@ -113,13 +113,7 @@ Python 3.12 및 `pefile`, `capstone`, `keystone-engine`, `bsdiff4`가 필요합�
 
 ## 릴리스 산출물 확인
 
-공식 v1.0.0 Release에는 다음 세 파일만 첨부합니다.
-
-- `UnleashedRecompiled-Korean-1.0.0-Basic.zip`
-- `UnleashedRecompiled-Korean-1.0.0-Full.zip`
-- `SHA256SUMS.txt`
-
-ZIP은 저장소에 커밋하지 않습니다. 기존 검증된 ZIP을 다시 빌드하거나 수정하지 않고 그대로 업로드하며, 업로드 후 내려받은 파일을 [`Release/SHA256SUMS.txt`](Release/SHA256SUMS.txt)와 다시 대조합니다.
+현행 배포 파일은 1.0.2 Basic·Full ZIP과 SHA256SUMS.txt입니다. ZIP은 GameBanana에 게시하며 저장소에 커밋하지 않습니다. GitHub에는 소스와 설명서, [`Release/v1.0.2/manifest.json`](Release/v1.0.2/manifest.json), 검증 결과 및 [`Release/SHA256SUMS.txt`](Release/SHA256SUMS.txt)를 게시합니다. 새 수정 배포는 이전 ZIP을 보관하고 검증한 새 파일과 체크섬을 함께 교체합니다.
 
 ## 재현성 한계
 
@@ -142,3 +136,10 @@ python Scripts/verify_package_v101.py --output outputs/GameBanana-1.0.1-Reviewed
 최신 패키징은 `Build/Translation-v101/resource-verification.json`의 원본·결과 해시와 일치하는 34개 아카이브 파일만 교체합니다. 과거 Basic ZIP을 그대로 복사하는 것만으로는 이번 번역 수정이 들어가지 않습니다. 출력 폴더가 이미 있으면 다른 이름을 사용하여 기존 후보를 보존하세요.
 
 `extend_native_font_v101.py`는 보존된 EXE의 글꼴 스냅샷/텍스처에 누락된 혹을 추가합니다. Python의 numpy, Pillow, scipy, zstandard와 LINE Seed KR Regular/Bold가 필요합니다. 기존 글꼴을 통째로 다시 배치하지 않습니다.
+
+
+## v1.0.2 영문 자막 수정 배포 (2026-09-14)
+
+사용자가 확인한 `Dr.`·`Excellent!` 수정본을 같은 버전에 반영합니다. [자막 점검 및 생성 순서](Translation/review/latin-baseline/README-KO.md)의 1–9단계를 완료한 뒤 `package_hmm_release_v102.py`, `verify_package_v102.py`를 실행합니다. 기존 출력 폴더는 먼저 보관해야 합니다. 자막 생성 중간 결과와 게임 원본은 Git에 포함하지 않습니다.
+
+패키징은 기존 1.0.2 번역 변경 뒤에 검증된 자막 16개 묶음을 덮어씌웁니다. 이전 리소스 해시, 수정본 해시, Basic/Full 일치 및 인게임에서 확인한 HMM 설치본과의 일치를 검사합니다. 버전은 1.0.2이며 manifest의 revision은 `20260914-subtitle-baseline`으로 구분합니다. 이전 릴리스 소스는 커밋 `c3cd9f0`에 남아 있습니다. ZIP은 GameBanana 업로드용이고 GitHub에는 소스·설명서·체크섬을 게시합니다.

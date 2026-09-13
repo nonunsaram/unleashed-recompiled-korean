@@ -1,0 +1,184 @@
+{
+  "status": "release_approved_after_file_review_and_selected_in_game_checks",
+  "archiveHashes": {
+    "evrt_m0_01_05": "b4ca294ec58371962e7d7dce7c798d1558f0115d6a0eafd25af777eef8b6f3ee",
+    "evrt_m0_06": "3a99ef87a95938204a82bdbebbe2fa80e3263dcf8c8078d491a3ed088f763e15",
+    "evrt_m1_01": "d380ce4aa87c85c86e0c337a6bfde4b62570e1d04c67de3c5a69b63b8ec5f9a7",
+    "evrt_m1_02": "d306c58cdb731b67047814ca7d812b2c74bacfb79b3a6085a603e938de38f37e",
+    "evrt_m1_03_1": "a2d3d6535eb5ec7ef4a328d3245c641399dd822b8fc5c6931e25640389d8c605",
+    "evrt_m1_03_2": "da7e19f134beefc1995a05e97dc04eec78a638454b2ba04d4213daa374061787",
+    "evrt_m2_01": "08923de1a01deee026aeeecc499024070aa65c886939bb7caa3fbd6650f85fac",
+    "evrt_m2_02": "799135c0b0b024a5a60e8722c416a31f85c9275ffcc4e8c0c2c311f33b0ec19f",
+    "evrt_m2_03": "a80c63ff77b736ea99a2bf073e7a98f525b8bba354d2788ff11d88eb123035d6",
+    "evrt_m3_01": "86541b871c52fd52d285320e254010408297bc9604481dea8b9ad5d92bb7de17",
+    "evrt_m3_02": "8cd0680b41e7dd954390767737e0f5259823a7bb91ca1491495da7cfcd37f142",
+    "evrt_m3_03": "ae71c591758df962e880057497277458fec54652fae6b7a7172e1db56898b819",
+    "evrt_m3_05": "e01339798071ea98b33af68c6663479e34afd82b1d7ef63ababb59dbf875c6d7",
+    "evrt_m4_01": "2819ec37e7cbb59b9803234d52724aca180e905c7ccf7af91907ae619e1fdeb9",
+    "evrt_m5_02": "49848784c54cbafada6f28c652b8af594f21a60b49e82becf8057ad2b89895bd",
+    "evrt_m6_01": "ed07e80e276f2a71455333fba241daa77306c0bc3b62b390d31d8b6b285cc499",
+    "evrt_m6_02": "9025e03182a25291aad6e4dd2338359542cadd00226be222b97630020b7b8e3f",
+    "evrt_m6_03": "7563d357742c9c32c9e8d47f1b7dd94fe36c0d2697ef70ce930ee8e29c680947",
+    "evrt_m7_01": "aaa73423e18d45fa9086ec1c4e3920040eac02b7b14738fa65284875068cc1a3",
+    "evrt_m7_02": "d25bd73634b0bc61fd8cbbe219fd991a1a6895edad19026bc61f6f6065fbf093",
+    "evrt_m7_04": "8c0d0ef3bbda142602854aeda3be12f852d2f2b0dbcf85400ccae64ceed2ca8c",
+    "evrt_m8_01": "16cc566c5de9ecb6d788a603ca0d0dcd0ff265c4af19a83559593f438d128294",
+    "evrt_m8_02": "06a40ceedc24756683976e603e04254f91c511d1ac5cba9daa84b61118bb2b44",
+    "evrt_m8_03": "d8de57a971daa3956f010fb1ebd8a1b77a701723470fa5729fe4601315351cb9",
+    "evrt_m8_04": "96c3517044a7d48459330b1791487e3ad10b068f1933d43ac42f09091a52cbcd",
+    "evrt_m8_05": "bfd177bc8d3b3e604cba7b285047d04d07d964a7f5e48f45e7895b1fc576360d",
+    "evrt_m8_06_1": "1984d57adfcedca39fc17b232d9c9f6ff80bf374ff5bd70cb52e99ef7521407b",
+    "evrt_m8_06_2": "44c7812c34e1c1d82dd0b7f5290b7f3cd69e91d699734dc719f702df1fbd1d46",
+    "evrt_m8_09": "b13ea81735553f5b99d74cfc2c4cb951aa2a4cbb65d1bafe3d12e7e7d996b90e",
+    "evrt_m8_10": "b716b01d6e577ade357a6d7e287f3e6d2e388798c8e6278ff31dc6827fa7fccf",
+    "evrt_m8_13": "95de7367beeb2cd134e7c3d527c48a158de7db78090c205e4917da0e34d5871b",
+    "evrt_m8_14": "6f639ce1bb2d3b1c934b2df5f3730c9905fd4f357e9c60bb05b8f240cedb2a32",
+    "evrt_m8_15": "793ec69249c97264e67ad4f10025c0249f9da3ca75d779b606b1440334556c8b",
+    "evrt_m8_16": "382118c6ca0ddda76464001d1c7f401c3cf02c02a814bc4ba6354f0ec485c578",
+    "evrt_s1_04": "3134289b5306af00bc8f14320da910e7c383fcddac2a0f87837a839defeb39fd",
+    "evrt_s1_06": "216efa6c06c134fad86c6505613fdb5610e0f7449db06fb0498fa1b99b2f2e6f",
+    "evrt_s2_01": "1ad92a28fbb0efa53f357760351ad4a8f8e688fb95cce5bb482a0f2b92c54f91",
+    "evrt_s2_03": "2942b35528ea37a75c2126fe9b8507a7ba488908f6b846b2910e259bc22fb0e6",
+    "evrt_s2_04": "5d6afd141ed85a2df3d5aad5cc7f549e07943258b33aea02681996dd6fd5a452",
+    "evrt_s3_03": "94348b5692c207ccebe6955d4a07c660ac189f39c846fc0edbc91cb28b7b7348",
+    "evrt_t0_03": "228df8d42b882ad86ed8d3a6a0635f0c30f821f35810360411c8c9b222731d2e",
+    "evrt_t0_04": "cff60f8c948776d70b2784b2fe2867d912710ebf366f866698c2ae6cbaafb98f",
+    "ExStageTails_Common": "6bdf0eb434fd93db86d3cfdf1c48714df5423ec0484bd05e6049078de2271a2c"
+  },
+  "archives": 43,
+  "tables": 46,
+  "catalogRows": 610,
+  "nonemptyPhysicalRows": 568,
+  "intentionallyEmptyCatalogRows": 42,
+  "glyphInstancesChecked": 3167,
+  "englishPhysicalRows": 23,
+  "englishUniqueSceneRows": 21,
+  "englishGalleryEntries": [
+    1,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    15,
+    16,
+    19,
+    22,
+    23,
+    24,
+    29,
+    31,
+    35
+  ],
+  "visuallyReviewedEnglishPhysicalRows": 23,
+  "visuallyReviewedLongestRows": 12,
+  "pixelAlertsReviewed": [
+    {
+      "archive": "evrt_m1_01",
+      "thresholdMismatchPixels": 1,
+      "differingPixels": [
+        {
+          "x": 5,
+          "y": 25,
+          "dds": 143,
+          "reference": 127
+        }
+      ],
+      "actualBounds": [
+        3,
+        22,
+        6,
+        29
+      ],
+      "referenceBounds": [
+        3,
+        22,
+        6,
+        29
+      ]
+    },
+    {
+      "archive": "evrt_m1_02",
+      "thresholdMismatchPixels": 1,
+      "differingPixels": [
+        {
+          "x": 5,
+          "y": 25,
+          "dds": 143,
+          "reference": 127
+        }
+      ],
+      "actualBounds": [
+        3,
+        22,
+        6,
+        29
+      ],
+      "referenceBounds": [
+        3,
+        22,
+        6,
+        29
+      ]
+    },
+    {
+      "archive": "evrt_m8_06_2",
+      "thresholdMismatchPixels": 1,
+      "differingPixels": [
+        {
+          "x": 5,
+          "y": 27,
+          "dds": 164,
+          "reference": 127
+        }
+      ],
+      "actualBounds": [
+        3,
+        24,
+        6,
+        31
+      ],
+      "referenceBounds": [
+        3,
+        24,
+        6,
+        31
+      ]
+    }
+  ],
+  "confirmedGlyphOrMessageDefects": [],
+  "maxLines": 2,
+  "maxAtlasLineWidth": 770,
+  "legacyColorEndDifferentFromMessageEnd": 490,
+  "colorScope": "Legacy color fields preserved; range semantics are not validated by monochrome DDS reconstruction. Inspect sentence ends in game.",
+  "unreferencedPhysicalRowsExplanation": {
+    "duplicateTablesStoredWithAdjacentScene": 22,
+    "tornadoGameplaySubtitlesWithoutCutsceneResourceXml": 4
+  },
+  "inGamePreviouslyConfirmed": [
+    1,
+    4,
+    15,
+    22,
+    35
+  ],
+  "additionalLongSentenceChecks": [
+    4,
+    42,
+    53
+  ],
+  "inGameReviewPending": false,
+  "newGameFilesModifiedDuringAudit": false,
+  "githubPushPerformed": false,
+  "previewLimitations": "FTE widths and actual DDS glyphs only; game viewport scaling, extra spacing, anchoring, color ranges and wrapping are not emulated.",
+  "exhaustiveInGameCoverage": false,
+  "userApprovedRelease": true,
+  "userConfirmedExpressions": [
+    "Dr.",
+    "Excellent!",
+    "Fantastic!",
+    "OK, Buddy!",
+    "첫날밤 긴 자막"
+  ]
+}

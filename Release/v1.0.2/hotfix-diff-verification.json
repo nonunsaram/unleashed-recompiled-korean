@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "previousReleasePreserved": true,
+  "packages": [
+    {
+      "edition": "Basic",
+      "changedSubtitleArchives": 16,
+      "changedFiles": [
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m0_01_05.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m1_03_2.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m2_01.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m2_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m2_03.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m3_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m3_03.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m3_05.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m4_01.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m5_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m6_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m6_03.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m7_01.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m8_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m8_04.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m8_06_2.ar.00",
+        "UnleashedKorean/README-EN.md",
+        "UnleashedKorean/README-KO.md"
+      ],
+      "sameMemberList": true
+    },
+    {
+      "edition": "Full",
+      "changedSubtitleArchives": 16,
+      "changedFiles": [
+        "UnleashedKorean/BASIC-README-KO.md",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m0_01_05.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m1_03_2.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m2_01.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m2_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m2_03.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m3_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m3_03.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m3_05.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m4_01.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m5_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m6_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m6_03.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m7_01.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m8_02.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m8_04.ar.00",
+        "UnleashedKorean/Inspire/subtitle/English/+evrt_m8_06_2.ar.00",
+        "UnleashedKorean/README-EN.md",
+        "UnleashedKorean/README-KO.md",
+        "UnleashedKorean/Source.zip"
+      ],
+      "sameMemberList": true
+    }
+  ]
+}
