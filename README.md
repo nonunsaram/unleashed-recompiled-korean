@@ -4,6 +4,10 @@
 
 **Unleashed Recompiled v1.0.3 Windows x64**용 비공식 한국어 패치의 소스 저장소입니다. 게임 본편, 업데이트, DLC, 완성된 게임 실행 파일은 포함하지 않습니다.
 
+## v1.0.3
+
+대사창 줄바꿈, 돈 파치오 대사, 웨어혹 `STRENGTH` 레벨 업 표기를 보완했습니다. HMM 로고 선택 표기를 정리했으며, 실험적인 소닉 언리쉬드 한국어 로고는 배포와 공개 소스에 포함하지 않았습니다. [패치노트](Release/v1.0.3/CHANGELOG-KO.md)를 참고하세요.
+
 ## v1.0.2
 
 로고 선택과 한글 World Adventure 로고, UnleasHD 호환 옵션, 번역 수정이 포함됩니다. [패치노트](Release/v1.0.2/CHANGELOG-KO.md)와 [모드 순서](Release/v1.0.2/MODS-KO.md)를 참고하세요.

@@ -530,10 +530,10 @@
       "content_role": "skill_ui",
       "japanese": "ATTACK が\nレべルアップした！",
       "english": "Strength\nleveled up!",
-      "korean": "ATTACK이\n레벨 업했다!",
+      "korean": "STRENGTH가\n레벨 업했다!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "レべル의 べ는 동일 문구 정상본 レベル 및 영어 셀로 확인한 OCR 이형입니다. 라틴 능력명과 원문 줄바꿈을 보존했습니다."
+      "review_note": "レべル의 べ는 동일 문구 정상본 レベル 및 영어 셀로 확인한 OCR 이형입니다. 라틴 능력명과 원문 줄바꿈을 보존했습니다. [2026-09-16] Author request: match English STATUS UI rather than Japanese ATTACK label"
     },
     {
       "translation_key": "803342d593ef5fbd2801ceb2",
@@ -629,10 +629,10 @@
       "content_role": "skill_ui",
       "japanese": "ATTACK が\nレベルアップした！",
       "english": "Strength\nleveled up!",
-      "korean": "ATTACK이\n레벨 업했다!",
+      "korean": "STRENGTH가\n레벨 업했다!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "일본어 셀의 라틴 능력명과 원문 줄바꿈을 보존했습니다."
+      "review_note": "일본어 셀의 라틴 능력명과 원문 줄바꿈을 보존했습니다. [2026-09-16] Author request: match English STATUS UI rather than Japanese ATTACK label"
     },
     {
       "translation_key": "54cd1a1da9f0e562425463df",

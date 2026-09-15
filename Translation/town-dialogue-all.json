@@ -1073,10 +1073,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "きみが 最近シャマールに来た子？\nやあやあ はじめまして！\n僕は 観光案内人のムサーイドで……",
       "english": "You must be new to the\narea. I'm Musaid, the\nlocal tour guide.",
-      "korean": "당신이 최근 샤마르에 왔다는 분인가요?\n반갑습니다!\n저는 관광 안내인 무사이드고…",
+      "korean": "당신이 최근 샤마르에\n왔다는 분인가요? 반갑습니다!\n저는 관광 안내인 무사이드고…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "무사이드와 아나의 혼합 대화입니다."
+      "review_note": "무사이드와 아나의 혼합 대화입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "98009963888958ab22e8d128",
@@ -2645,10 +2645,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "やっと ECに帰れるらしい……",
       "english": "Looks like I can finally\ngo back to Empire City.",
-      "korean": "드디어 엠파이어 시티로 돌아갈 수 있겠어…",
+      "korean": "드디어 엠파이어 시티로\n돌아갈 수 있겠어…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "606dbb9df4ea1259007bb8bd",
@@ -5323,10 +5323,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "おまえ 客なの？\nへ？ ここは店だよ 「大樹の陰」",
       "english": "You a customer?\nThis is Treeshade, my shop.",
-      "korean": "너 손님이야?\n뭐? 여긴 '큰 나무 그늘'이라는 가게야",
+      "korean": "너 손님이야? 뭐?\n여긴 '큰 나무 그늘'이라는 가게야",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "9e180979ae8178a9c240f263",
@@ -6051,10 +6051,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "そうだ！ 今日は\nあの子の好物を作ってあげよう！",
       "english": "I know! I'll cook up her\nfavorite meal for dinner\ntoday.",
-      "korean": "그래! 오늘은\n그 아이가 좋아하는 걸 만들어 줘야지!",
+      "korean": "그래! 오늘은 그 아이가\n좋아하는 걸 만들어 줘야지!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "0ffddbba11263ee16596e283",
@@ -8125,10 +8125,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "リング ダシテ!!\n{GLYPH:1}{GLYPH:46}コ ダシテネ!!",
       "english": "Lemme see some rings!\nGive me {GLYPH:1}{GLYPH:46}!",
-      "korean": "링 내놔!!\n{GLYPH:1}{GLYPH:46}개 내놔!!",
+      "korean": "링을 내 줘!!\n{GLYPH:1}{GLYPH:46}개면 돼!!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": ""
+      "review_note": "[2026-09-16] Japanese-source meaning and natural Korean speech review"
     },
     {
       "translation_key": "494ddcacccce01c6dbbb01e7",
@@ -9165,10 +9165,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "先日は精霊たちを呼びかけたが\n今回は精霊に おりてきてもらうのだ",
       "english": "Before, we called out to\nthe spirits. Now, we will\ncall them here to us.",
-      "korean": "지난번에는 정령들을 불렀지만\n이번에는 정령들이 내려오게 할 것이네",
+      "korean": "지난번에는 정령들을 불렀지만\n이번에는 정령들이\n내려오게 할 것이네",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "449e196e0bd143eb59877ab6",
@@ -11132,10 +11132,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ぜ～ったい\n誰にも 言わないって約束するなら\nオレのヒミツ 教えてやるよ！",
       "english": "If you promise to never\ntell anyone, I'll let you\nin on a little secret.",
-      "korean": "절~대로\n아무에게도 말하지 않겠다고 약속하면\n내 비밀을 알려 줄게!",
+      "korean": "절~대로 아무에게도 말하지 않겠다고\n약속하면 내 비밀을 알려 줄게!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "87b8ef70524ae48d36e092a5",
@@ -11197,10 +11197,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ズバリ 言うよ！ \nシャマールとECの大地の精霊が \nソニックたちを 呼んでいるよ！",
       "english": "They speak to me! The\nspirits are calling you\nto Shamar and Empire City!",
-      "korean": "딱 잘라 말할게!\n샤마르와 엠파이어 시티의 대지의 정령이\n소닉 일행을 부르고 있어!",
+      "korean": "딱 잘라 말할게! 샤마르와\n엠파이어 시티의 대지의 정령이\n소닉 일행을 부르고 있어!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "EC는 영어 지명 Empire City에 맞춰 엠파이어 시티로 풀어 썼습니다."
+      "review_note": "EC는 영어 지명 Empire City에 맞춰 엠파이어 시티로 풀어 썼습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "80b0a73bf6e4769ba431a1d4",
@@ -11210,10 +11210,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ぜ～ったい \n誰にも 言わないって約束するなら \nオレのヒミツ 教えてやるよ！",
       "english": "If you promise to never\ntell anyone, I'll let you\nin on a little secret.",
-      "korean": "절~대로\n아무에게도 말하지 않겠다고 약속하면\n내 비밀을 알려 줄게!",
+      "korean": "절~대로 아무에게도 말하지 않겠다고\n약속하면 내 비밀을 알려 줄게!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "c70ad5c1a83798fb2d0d3895",
@@ -11262,10 +11262,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "シャマールとかECにも行ってみた？ \nそこからも ビンビン感じるよ！ \n行ってないなら 行ってみなよ！",
       "english": "Have you checked out\nShamar and Empire City\nyet? Visit them, too!",
-      "korean": "샤마르나 엠파이어 시티에도 가 봤어?\n거기서도 강하게 느껴져!\n안 가 봤으면 가 봐!",
+      "korean": "샤마르나 엠파이어 시티에도\n가 봤어? 거기서도 강하게 느껴져!\n안 가 봤으면 가 봐!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "EC는 영어 지명 Empire City에 맞춰 엠파이어 시티로 풀어 썼습니다."
+      "review_note": "EC는 영어 지명 Empire City에 맞춰 엠파이어 시티로 풀어 썼습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "94e3b5894c68867495c700ad",
@@ -16124,10 +16124,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "惜しいわね！ \nでも とってもいい感じ \nECへの愛を感じたわ",
       "english": "Almost! You've gotten the\nhang of it. I can tell\nyou like this place.",
-      "korean": "아깝네요!\n그래도 아주 좋은 느낌이에요\n엠파이어 시티를 향한 사랑이 느껴져요",
+      "korean": "아깝네요! 그래도 아주\n좋은 느낌이에요 엠파이어 시티를\n향한 사랑이 느껴져요",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "3668c6cb12aa47eba5b1329b",
@@ -18114,10 +18114,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "수량·가격의 미해결 {GLYPH} 표식을 그대로 보존했습니다."
+      "review_note": "수량·가격의 미해결 {GLYPH} 표식을 그대로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "f076aa841c1a7f483be80db2",
@@ -18142,10 +18142,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "수량·가격의 미해결 {GLYPH} 표식을 그대로 보존했습니다."
+      "review_note": "수량·가격의 미해결 {GLYPH} 표식을 그대로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "7ae9178b0840fb4e538ade73",
@@ -24265,10 +24265,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ラジオで聞いたんじゃが\nECが今 荒れてるようじゃのう",
       "english": "I heard on the radio\nthat things are getting\nrough in Empire City.",
-      "korean": "라디오에서 들었는데\n엠파이어 시티가 지금 혼란스럽다더군",
+      "korean": "라디오에서 들었는데\n엠파이어 시티가\n지금 혼란스럽다더군",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "9e342ad00e1c1e676ef56c92",
@@ -24304,10 +24304,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ラジオで聞いたんじゃが \nECが今 荒れてるようじゃのう",
       "english": "I heard on the radio\nthat things are getting\nrough in Empire City.",
-      "korean": "라디오에서 들었는데\n엠파이어 시티가 지금 혼란스럽다더군",
+      "korean": "라디오에서 들었는데\n엠파이어 시티가\n지금 혼란스럽다더군",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "dcc8636351d6b042c32561e9",
@@ -25640,10 +25640,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "いなかったら いいんだけど\n今 ECは危険みたいね……",
       "english": "I sure hope she's not.\nI hear it's quite the\ndangerous place right now.",
-      "korean": "없으면 좋겠는데\n지금 엠파이어 시티는 위험한 모양이야…",
+      "korean": "없으면 좋겠는데\n지금 엠파이어 시티는\n위험한 모양이야…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "3686d89aaa5416b8766b142d",
@@ -28132,10 +28132,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -28157,10 +28157,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -28464,10 +28464,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ああ それね～ {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コ ね\nそれでもよろしいか？",
       "english": "Ah, yes. That will be\n{GLYPH:1}{GLYPH:46} rings for {GLYPH:2}{GLYPH:46}.\nIs that all right?",
-      "korean": "아, 그거요~ {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개입니다\n그래도 괜찮습니까?",
+      "korean": "아, 그거요~\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개입니다\n그래도 괜찮습니까?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "c1d54b2e94555047412d5bd9",
@@ -28490,10 +28490,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "これね～ {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コね\nこの値段でよろしいか？",
       "english": "I'll pay {GLYPH:1}{GLYPH:46} rings\nfor {GLYPH:2}{GLYPH:46}. Do we have\na deal?",
-      "korean": "이거요~ {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개입니다\n이 가격으로 괜찮습니까?",
+      "korean": "이거요~\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개입니다\n이 가격으로 괜찮습니까?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "8a9b3f1b3965833720013339",
@@ -31238,10 +31238,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "さあ ソニック君！ \nチュンナンの神殿に\nカオスエメラルドを納めるのです！",
       "english": "Now, make haste, Sonic!\nGet a Chaos Emerald\nto that temple!",
-      "korean": "자, 소닉 군!\n춘난의 신전에\n카오스 에메랄드를 되돌려 놓으십시오!",
+      "korean": "자, 소닉 군! 춘난의 신전에\n카오스 에메랄드를\n되돌려 놓으십시오!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다."
+      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "f501028ce67da21acc8b811f",
@@ -31407,10 +31407,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "さて！ 次は\nホロスカのガイア神殿に\nカオスエメラルドを納めるのです！",
       "english": "Sonic, you must bring\na Chaos Emerald to\nthe Holoska Temple!",
-      "korean": "자! 다음은\n홀로스카의 가이아 신전에\n카오스 에메랄드를 되돌려 놓으십시오!",
+      "korean": "자! 다음은 홀로스카의\n가이아 신전에 카오스 에메랄드를\n되돌려 놓으십시오!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다."
+      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "0e8d18d1d6b4e788bef8b88a",
@@ -31511,10 +31511,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "あと…… そうそう！ \nシャマールの隣にある\n  EC  にも行けるはずです",
       "english": "Ah, and you should also\nbe able to visit Empire\nCity, next to Shamar.",
-      "korean": "그리고… 그렇지!\n샤마르 옆에 있는\n엠파이어 시티에도 갈 수 있을 겁니다",
+      "korean": "그리고… 그렇지!\n샤마르 옆에 있는 엠파이어 시티에도\n갈 수 있을 겁니다",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다."
+      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "e9c3ba1cd868ad5bfea0f2b3",
@@ -31667,10 +31667,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ソニック君の 今のチカラで \n行けるようになった所が \nシャマールと ECにあるはずです",
       "english": "Sonic, you should be able\nto reach new areas within\nShamar and Empire City.",
-      "korean": "지금 소닉 군의 힘으로\n갈 수 있게 된 곳이\n샤마르와 엠파이어 시티에 있을 겁니다",
+      "korean": "지금 소닉 군의 힘으로\n갈 수 있게 된 곳이 샤마르와\n엠파이어 시티에 있을 겁니다",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다."
+      "review_note": "주요 인물 말투와 진행 안내 문구 사용자 검수 대상입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "afaeea48662e6e6d50171899",
@@ -32525,10 +32525,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "星の力が カオスエメラルドを癒し \nカオスエメラルドは星の傷を癒す \n……という道理ですね",
       "english": "The emeralds, healed by\nthe planet's energy,\nin turn heal the planet.",
-      "korean": "별의 힘이 카오스 에메랄드를 치유하고\n카오스 에메랄드는 별의 상처를 치유한다\n…그런 이치이지요",
+      "korean": "별의 힘이 카오스 에메랄드를\n치유하고 카오스 에메랄드는 별의\n상처를 치유한다 …그런 이치이지요",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "주요 인물 설명·용어·말투 사용자 검수 대상입니다."
+      "review_note": "주요 인물 설명·용어·말투 사용자 검수 대상입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "9af39aaf1034db8d97d18b90",
@@ -33045,10 +33045,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ガイアゲートとは 世界各国に存在する\nアクションステージに 空間移動できる\n特殊な古代の装置です",
       "english": "Gaia Gates are ancient\ndevices found in stages\ndotting the world, Sonic.",
-      "korean": "가이아 게이트는 세계 각지에 있는\n액션 스테이지로 공간 이동할 수 있는\n특별한 고대 장치입니다",
+      "korean": "가이아 게이트는 세계 각지의\n액션 스테이지로 공간 이동하는\n특별한 고대 장치입니다",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "주요 인물 설명·용어·말투 사용자 검수 대상입니다."
+      "review_note": "주요 인물 설명·용어·말투 사용자 검수 대상입니다. [2026-09-16] Meaning-preserving shortening for natural three-line Korean layout; reflow review"
     },
     {
       "translation_key": "0acb9efa385f545c6996be8e",
@@ -33279,10 +33279,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "フラッシュの使える数は有限ですぞ \nなくなったら 私が補充しますから \n気軽に声をかけてください",
       "english": "It's a limited use flash,\nbut I'll recharge it any\ntime you have a need.",
-      "korean": "플래시 사용 횟수는 한정되어 있습니다\n다 쓰면 내가 충전해 줄 테니\n편하게 말을 거십시오",
+      "korean": "플래시 사용 횟수는 정해져 있습니다\n다 쓰면 내가 충전해 줄 테니\n편하게 말을 거십시오",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "피클 교수 힌트·용어·말투 사용자 검수 대상입니다."
+      "review_note": "피클 교수 힌트·용어·말투 사용자 검수 대상입니다. [2026-09-16] Meaning-preserving shortening for natural three-line Korean layout; reflow review"
     },
     {
       "translation_key": "cadfc16cdc7b39ba09bf2ef3",
@@ -33435,10 +33435,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "そういう道は \n大抵が ゴールへの近道なんです",
       "english": "Most side paths will turn\nout to be shortcuts to\nthe goal, my boy.",
-      "korean": "그런 길은\n대부분 골인 지점으로 가는 지름길입니다",
+      "korean": "그런 길은 대부분\n골인 지점으로 가는 지름길입니다",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "피클 교수 힌트·용어·말투 사용자 검수 대상입니다."
+      "review_note": "피클 교수 힌트·용어·말투 사용자 검수 대상입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "f01f2b756a82278c115320c4",
@@ -36139,10 +36139,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "カンテイシステム起動…… 完了！\n{GLYPH:2}{GLYPH:46}個でリング {GLYPH:1}{GLYPH:46}コってとこドモな！ ……タブン",
       "english": "Appraisal scan complete.\nYour total is {GLYPH:1}{GLYPH:46} rings\nfor {GLYPH:2}{GLYPH:46}! I think.",
-      "korean": "감정 시스템 기동… 완료!\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개 정도다! …아마도",
+      "korean": "감정 시스템 기동… 완료!\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개 정도다!\n…아마도",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "461f9b5d33946b5ee13762cf",
@@ -37910,10 +37910,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -37935,10 +37935,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -48002,10 +48002,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "まえに「これはあたしが \n大好きな花よ」って \nおしゃべりした おじさんがいたの",
       "english": "Well, I had said that to\na man I was talking to\nbefore.",
-      "korean": "예전에 어떤 아저씨에게\n'이건 내가 정말 좋아하는 꽃이야'라고\n말한 적이 있어",
+      "korean": "예전에 어떤 아저씨에게 '이건\n내가 정말 좋아하는 꽃이야'라고\n말한 적이 있어",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "b1e15660d13df886c2ef52c3",
@@ -52101,10 +52101,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "最新情報じゃないかもしれんが \nシャマールやEC そしてアダバタにも \n混乱が起きておるようじゃな……",
       "english": "Disturbances have been\nreported in Empire City,\nShamar and Adabat!",
-      "korean": "최신 정보가 아닐지 모르지만\n샤마르와 엠파이어 시티, 아다바트에도\n혼란이 일어나는 모양이군…",
+      "korean": "예전 소식일 수도 있지만\n샤마르, 엠파이어 시티,\n아다바트도 혼란스럽다더군…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] Shorten phrasing with source meaning retained"
     },
     {
       "translation_key": "631106729e25aa1ec0c9137f",
@@ -54544,10 +54544,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "以下はジジのミッション6完了前",
       "english": "Following text is before Gigi's Mission 6 is completed.",
-      "korean": "이하는 식당 할아버지의 미션 6 완료 전",
+      "korean": "이하는 식당 할아버지의\n미션 6 완료 전",
       "status": "확정 검수 · 제작용 원문",
       "source_quality": "provisional",
-      "review_note": "0.4.8 원문 자체가 테스트 문자·보조 대화·등장 조건·기재 오류 안내입니다. 원본 그룹/셀 및 일본어·영어를 대조하여 제작용 문구로 분류하고 현재 번역을 유지합니다. 실제 게임에서 절대로 호출되지 않는다고 단정하지 않습니다.",
+      "review_note": "0.4.8 원문 자체가 테스트 문자·보조 대화·등장 조건·기재 오류 안내입니다. 원본 그룹/셀 및 일본어·영어를 대조하여 제작용 문구로 분류하고 현재 번역을 유지합니다. 실제 게임에서 절대로 호출되지 않는다고 단정하지 않습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "제작용 문구 판독 확정",
@@ -54794,10 +54794,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -54819,10 +54819,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -56307,10 +56307,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "やつと ECに帰れるらしい……",
       "english": "Looks like I can finally\ngo back to Empire City.",
-      "korean": "드디어 엠파이어 시티로 돌아갈 수 있겠어…",
+      "korean": "드디어 엠파이어 시티로\n돌아갈 수 있겠어…",
       "status": "확정 검수",
       "source_quality": "provisional",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -59568,10 +59568,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "「ついでに シャマールや \n エンパイアシティにも誘え」とも!!",
       "english": "Not only that, it also\nwelcomed him to go to\nShamar and Empire City!",
-      "korean": "'그리고 샤마르와\n엠파이어 시티로도 이끌라'고 했습니다!!",
+      "korean": "'그리고 샤마르와 엠파이어 시티로도\n이끌라'고 했습니다!!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "작은 っ가 つ로 보이는 추출 특성이 있으나 문맥과 영어 대조로 판독 가능한 항목입니다."
+      "review_note": "작은 っ가 つ로 보이는 추출 특성이 있으나 문맥과 영어 대조로 판독 가능한 항목입니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "4f8fa1cfeaacb8768be16080",
@@ -61082,10 +61082,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ワシ アイス屋をひらきたいんだ \nなあ アンタ！ \nワシにアイス作りを教えてくれ！",
       "english": "I'm gonna open my own\nplace. Would ya teach me\nhow to make ice cream?",
-      "korean": "나도 아이스크림 가게를 열고 싶어\n부탁이야!\n내게 아이스크림 만드는 법을 가르쳐 줘!",
+      "korean": "나도 아이스크림 가게를 열고 싶어\n부탁이야! 내게 아이스크림\n만드는 법을 가르쳐 줘!",
       "status": "확정 검수",
       "source_quality": "provisional",
-      "review_note": "0.4.8 일본어 문장과 한국어 번역을 다시 대조했습니다. 원본 FCO 메시지·루비와 카탈로그의 연결이 일치합니다. 기존 OCR 표기 이형은 의미를 바꾸지 않으므로 번역을 유지합니다.",
+      "review_note": "0.4.8 일본어 문장과 한국어 번역을 다시 대조했습니다. 원본 FCO 메시지·루비와 카탈로그의 연결이 일치합니다. 기존 OCR 표기 이형은 의미를 바꾸지 않으므로 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -62773,10 +62773,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "こちらですと {GLYPH:2}{GLYPH:46}個で\nリング{GLYPH:1}{GLYPH:46}コで引き取りますが よろしいでしょうか？",
       "english": "I'll give you {GLYPH:1}{GLYPH:46} rings\nfor {GLYPH:2}{GLYPH:46} of those. Do\nyou wish to sell?",
-      "korean": "이 상품은 {GLYPH:2}{GLYPH:46}개에\n링 {GLYPH:1}{GLYPH:46}개로 매입합니다. 괜찮으신가요?",
+      "korean": "이 상품은 {GLYPH:2}{GLYPH:46}개에\n링 {GLYPH:1}{GLYPH:46}개로 매입합니다.\n괜찮으신가요?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "249837f6c467442414eed14e",
@@ -66774,10 +66774,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "惜しいわね！ \nでも とつてもいい感じ \nECへの愛を感じたわ",
       "english": "Almost! You've gotten the\nhang of it. I can tell\nyou like this place.",
-      "korean": "아깝네요!\n그래도 아주 좋은 느낌이에요\n엠파이어 시티를 향한 사랑이 느껴져요",
+      "korean": "아깝네요! 그래도 아주\n좋은 느낌이에요 엠파이어 시티를\n향한 사랑이 느껴져요",
       "status": "확정 검수",
       "source_quality": "provisional",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -68037,10 +68037,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買つていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -68087,10 +68087,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売つてくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -72500,10 +72500,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ナゾのEC在住カメラマンの \nルイ＝モンタン 38歳とは \nアタシのことよ……",
       "english": "The mysterious Empire\nCity photographer, Louie\nMontaine (age 38), that's who!",
-      "korean": "수수께끼의 엠파이어 시티 거주 사진가\n루이 몽탕, 38세가\n바로 나야…",
+      "korean": "수수께끼의 엠파이어 시티 거주\n사진가 루이 몽탕, 38세가\n바로 나야…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "ab49a187c8d91ab7430ed69e",
@@ -73109,10 +73109,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "クールでホットにひきつけて \nデートでエスコートした彼女に効く\nトドメの一撃…… それは……",
       "english": "How to win the heart of\nthe girl you managed to\nescort this far...",
-      "korean": "쿨하고 뜨겁게 사로잡고\n데이트에서 에스코트한 그녀에게 먹힐\n마지막 한 방… 그건…",
+      "korean": "쿨하고 뜨겁게 사로잡고\n데이트에서 에스코트한 그녀에게\n먹힐 마지막 한 방… 그건…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "0ecb7926e394a061d7afbbe6",
@@ -75158,10 +75158,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -75183,10 +75183,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -75476,10 +75476,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それね とっても お買い得！ \n{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コよぉ どうかしら？",
       "english": "It's a deal that can't\nbe beat! {GLYPH:1}{GLYPH:46} rings\nfor {GLYPH:2}{GLYPH:46}. What do you say?",
-      "korean": "그거 정말 저렴해요!\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개예요. 어떠세요?",
+      "korean": "그거 정말 저렴해요!\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개예요.\n어떠세요?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "2824d407c6131126097f612a",
@@ -75489,10 +75489,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "売りたいですって？ \nいいわよぉ そういうのもやってるから ウチ",
       "english": "You want to sell\nsomething? Sure, I buy\nmerchandise, too.",
-      "korean": "팔고 싶다고요?\n좋아요, 우리 가게는 매입도 하니까요",
+      "korean": "팔고 싶다고요? 좋아요,\n우리 가게는 매입도 하니까요",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "2439a3146aa6df71154c10ef",
@@ -76513,10 +76513,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "そういや アダバタとECも \n大混乱って話やってんけど \nそこらへん どうなったん？",
       "english": "I hear Adabat and Empire\nCity are in total chaos.\nWhat's going on out there?",
-      "korean": "그러고 보니 아다바트와 엠파이어 시티도\n큰 혼란에 빠졌다던데\n거긴 어떻게 됐어?",
+      "korean": "그러고 보니 아다바트와\n엠파이어 시티도 큰 혼란에\n빠졌다던데 거긴 어떻게 됐어?",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "d69fe691b33a1bab7193dadb",
@@ -76942,10 +76942,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "フン！フン！\n今 けっこう 危険らしいから\nECへは 行かんほうがいいぞ",
       "english": "Aaachoo! I hear there is\ndanger in Empire City.\nStay away, you hear me?",
-      "korean": "흥! 흥!\n지금 꽤 위험하다니\n엠파이어 시티에는 가지 않는 게 좋아",
+      "korean": "흥! 흥! 지금 꽤 위험하다니\n엠파이어 시티에는\n가지 않는 게 좋아",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "7906a8bbd5ed54ad39b48f12",
@@ -80777,10 +80777,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "ただ \n論理的にすぎるわけではない",
       "english": "However, that doesn't\nmean you are\noverly logical.",
-      "korean": "그렇다고\n지나치게 논리적이기만 한 것도 아니야",
+      "korean": "그렇다고 지나치게\n논리적이기만 한 것도 아니야",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "4d7daed4ea3058278e9ee3d3",
@@ -82723,10 +82723,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "星が またひとつ 戻ったみたいね",
       "english": "The planet's one step\ncloser to being \nwhole again.",
-      "korean": "별의 조각이 또 하나 돌아온 모양이구나",
+      "korean": "별의 조각이 또 하나\n돌아온 모양이구나",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "9cada387633a92146e2dec50",
@@ -82814,10 +82814,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "星がまたひとつ戻ったみたいね",
       "english": "The planet's one step\ncloser to being \nwhole again.",
-      "korean": "별의 조각이 또 하나 돌아온 모양이구나",
+      "korean": "별의 조각이 또 하나\n돌아온 모양이구나",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "53e89ef6b8b0f355ee85c29e",
@@ -85061,10 +85061,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -85086,10 +85086,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -87886,10 +87886,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "そんで ソニック！ \nオメェは どのミッションがいいんだ？",
       "english": "Hey, Sonic!\nWhat kinda mission you want?",
-      "korean": "그래서 소닉!\n어떤 미션이 좋아?",
+      "korean": "자, 소닉!\n어떤 미션이 좋아?",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] Japanese-source meaning and natural Korean speech review"
     },
     {
       "translation_key": "9779a4fad11047a704b2e7ee",
@@ -87912,10 +87912,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "極寒の地のホットドッグチェーン\nドン・ファッチョ ホロスカ店だよ！",
       "english": "For ice-cold hot dogs,\ncome to Don Fachio's Holoska Hot Dog Stand!",
-      "korean": "극한의 땅에 자리한 핫도그 체인\n돈 파치오 홀로스카점이다!",
+      "korean": "혹한의 땅에 자리한 핫도그 체인\n돈 파치오 홀로스카점이다!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] Japanese-source meaning and natural Korean speech review"
     },
     {
       "translation_key": "d94d7f8a942c384e794067ed",
@@ -88523,10 +88523,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "旅の珍しいお話などありましたら\nぜひ今度聞かせてくださいね",
       "english": "Please come tell me about\nanything unusual that\nhappens during your trip.",
-      "korean": "여행 중에 겪은 신기한 이야기가 있으면\n다음에 꼭 들려주세요",
+      "korean": "여행 중에 겪은\n신기한 이야기가 있으면\n다음에 꼭 들려주세요",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "ac60a2e05537866a1a3a2291",
@@ -89822,10 +89822,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -89847,10 +89847,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -90001,10 +90001,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "いらんもんは 引き取るからな \n旅さ出る前に荷物さ ちゃんと整理してくとええ！",
       "english": "Lighten your load before\nyou set out! I'll buy\nwhatever you don't need.",
-      "korean": "필요 없는 건 사 줄 테니\n여행을 떠나기 전에 짐을 잘 정리해 둬!",
+      "korean": "필요 없는 건 사 줄 테니\n여행을 떠나기 전에\n짐을 잘 정리해 둬!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "4a6c8675efb94462f3a86c41",
@@ -90014,10 +90014,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "んだー これなら{GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コだなあ \nどうだ？売ってくれるか？",
       "english": "Let me see... I'll give\nyou {GLYPH:1}{GLYPH:46} rings for {GLYPH:2}{GLYPH:46}\nof those.",
-      "korean": "어디 보자, 이거라면 {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개겠군\n어때? 팔겠나?",
+      "korean": "어디 보자, 이거라면\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개겠군\n어때? 팔겠나?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "문자 코드가 미해결된 수량 자리표시자 4개를 원문 그대로 보존했습니다."
+      "review_note": "문자 코드가 미해결된 수량 자리표시자 4개를 원문 그대로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "a9697dbb7dacfb329d26016d",
@@ -93737,10 +93737,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら{GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コ出せるね\nこれで売ってくれるのかな？",
       "english": "For that, I'll give you\n{GLYPH:1}{GLYPH:46} rings for {GLYPH:2}{GLYPH:46}.\nAre you ready to sell?",
-      "korean": "그거라면 {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개를 줄게\n이 값에 팔겠어?",
+      "korean": "그거라면 {GLYPH:2}{GLYPH:46}개에\n링 {GLYPH:1}{GLYPH:46}개를 줄게\n이 값에 팔겠어?",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "수량과 가격의 미해결 글리프 표식을 원문 그대로 보존했습니다."
+      "review_note": "수량과 가격의 미해결 글리프 표식을 원문 그대로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "b9a8558fa5953b8f143c40cd",
@@ -96663,10 +96663,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "それなら たしか……  {GLYPH:2}{GLYPH:46}個でリング{GLYPH:1}{GLYPH:46}コチャオ！ \n買っていくチャオ？",
       "english": "You-a got it!\nThat's-a {GLYPH:1}{GLYPH:46} rings for-a {GLYPH:2}{GLYPH:46}.\nYou-a sure, friend?",
-      "korean": "그러면 분명… {GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
+      "korean": "그러면 분명…\n{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개다 차오!\n사 갈 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",
@@ -96688,10 +96688,10 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "{GLYPH:2}{GLYPH:46}個で リング{GLYPH:1}{GLYPH:46}コで引き取るチャオ！ \n売ってくれるチャオ？",
       "english": "We-a give you {GLYPH:1}{GLYPH:46} rings\nfor-a {GLYPH:2}{GLYPH:46} of those!",
-      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로 사겠다 차오!\n팔 건가 차오?",
+      "korean": "{GLYPH:2}{GLYPH:46}개에 링 {GLYPH:1}{GLYPH:46}개로\n사겠다 차오! 팔 건가 차오?",
       "status": "확정 검수",
       "source_quality": "unresolved",
-      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",
+      "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines",
       "source_review": {
         "version": "0.4.8",
         "category": "대사·문구 검수 확정",

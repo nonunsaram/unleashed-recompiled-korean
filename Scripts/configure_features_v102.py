@@ -23,12 +23,12 @@ def configure(root):
         {'DisplayName': 'UnleasHD 1.4.2', 'Value': 'Compatibility/UnleasHD-1.4.2'}]
     logos = [
         {'DisplayName': '게임 기본값', 'Value': 'TitleLogos/Default'},
-        {'DisplayName': '영어판 로고 (소닉 언리시드)', 'Value': 'TitleLogos/Original'},
-        {'DisplayName': '일본어판 로고 (소닉 월드 어드벤처)', 'Value': 'TitleLogos/Japanese'}]
+        {'DisplayName': '소닉 언리쉬드 (영문 원본)', 'Value': 'TitleLogos/Original'},
+        {'DisplayName': '소닉 월드 어드벤처 (일본어 원본)', 'Value': 'TitleLogos/Japanese'}]
     report_path = R/'Build/TitleLogo-v102/verification.json'
     report = json.loads(report_path.read_text(encoding='utf8'))
     if report['customReady']:
-        logos.append({'DisplayName': '일본어판 로고 (사용자 편집)', 'Value': 'TitleLogos/Custom'})
+        logos.append({'DisplayName': '소닉 월드 어드벤처 (한국어 편집)', 'Value': 'TitleLogos/Custom'})
     defaults = {'IncludeDir2': 'Compatibility/None', 'IncludeDir3': 'TitleLogos/Default'}
     for key, title, kind, values, description in [
         ('IncludeDir2', 'UnleasHD 호환', 'UnleasHDCompatibility', compatibility,
@@ -36,7 +36,7 @@ def configure(root):
         ('IncludeDir3', '타이틀 로고', 'TitleLogoVariant', logos,
          ['한국어 메뉴를 유지하면서 타이틀 화면의 로고를 선택합니다.',
           '게임 기본값은 기존 로고 설정을 따릅니다. 로고 모드를 함께 쓰면 한국어 패치를 위에 두세요.',
-          '사용자 편집 로고는 상단 문구를 한국어로 표시합니다.' if report['customReady'] else '사용자 편집 로고는 수정 원본을 받은 뒤 선택지에 추가됩니다.'])]:
+          '한국어 편집은 일본어판 로고의 상단 문구를 한국어로 표시합니다.' if report['customReady'] else '사용자 편집 로고는 수정 원본을 받은 뒤 선택지에 추가됩니다.'])]:
         current = ini['Main'].get(key, defaults[key]).strip('"')
         if ini.has_section('Compatibility') and key == 'IncludeDir2':
             current = ini['Compatibility'].get(key, current).strip('"')

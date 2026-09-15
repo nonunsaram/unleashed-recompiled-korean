@@ -436,10 +436,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "夜のステージに隠されている月の鍵をあわせて使うことで\nボスステージに行くことができるみたいだよ",
       "english": "daytime stages and the Moon Key\nhidden in nighttime stages.",
-      "korean": "밤 스테이지에 숨겨진 달의 열쇠를 함께 사용하면\n보스 스테이지에 갈 수 있는 모양이야",
+      "korean": "밤 스테이지에 숨겨진\n달의 열쇠를 함께 사용하면\n보스 스테이지에 갈 수 있는 모양이야",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "9fa7576ee80b7df3c3740d1e",
@@ -462,10 +462,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "夜のアクションステージにある月の鍵を合わせて使うことで\nボスステージに行くことができるみたいだよ",
       "english": "daytime stages and the Moon Key\nwithin nighttime stages.",
-      "korean": "밤 액션 스테이지에 있는 달의 열쇠를 함께 사용하면\n보스 스테이지에 갈 수 있는 모양이야",
+      "korean": "밤 액션 스테이지에 있는 달의 열쇠를\n함께 사용하면 보스 스테이지에\n갈 수 있는 모양이야",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "67cfbd08c704ecf0169d044b",
@@ -1411,10 +1411,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "ね ね ソニック\nあの水の入ったツボ あの鳥にぶつけられないかな？",
       "english": "Ooh! Hey! Sonic!\nThink you can hit that bird\nwith that water jug?",
-      "korean": "있지, 있지, 소닉\n저 물이 든 항아리로 저 새를 맞힐 수 없을까?",
+      "korean": "있지, 있지, 소닉\n저 물이 든 항아리로\n저 새를 맞힐 수 없을까?",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "동일한 일본어 원문으로 검수된 기존 힌트 번역을 적용했습니다."
+      "review_note": "동일한 일본어 원문으로 검수된 기존 힌트 번역을 적용했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "3b958e0913ff42efb5d4f01c",
@@ -1541,10 +1541,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "やつらが あのハコをピンクのところに持っていくと\nなんか まずいみたいだね",
       "english": "I think it's bad news if they carry those\nboxes over to the pink place Sonic.",
-      "korean": "저 녀석들이 그 상자를 분홍색 장소로 가져가면\n뭔가 위험한 것 같아",
+      "korean": "저 녀석들이 그 상자를 분홍색 장소로\n가져가면 뭔가 위험한 것 같아",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "동일한 일본어 원문으로 검수된 기존 힌트 번역을 적용했습니다."
+      "review_note": "동일한 일본어 원문으로 검수된 기존 힌트 번역을 적용했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "e09025d9c25ba3185f24080d",
@@ -1554,10 +1554,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "あのハコみたいなのをピンクのとこに持っていかれると\nヤツラが パワーアップしちゃうみたいだよ！",
       "english": "Looks like those boxes make them\nstronger if you let 'em take them over\nto the pink place!",
-      "korean": "저 상자 같은 걸 녀석들이 분홍색 장소로 가져가면\n파워 업해 버리는 모양이야!",
+      "korean": "저 상자 같은 걸 녀석들이 분홍색 장소로\n가져가면 파워 업해 버리는 모양이야!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": "동일한 일본어 원문으로 검수된 기존 힌트 번역을 적용했습니다."
+      "review_note": "동일한 일본어 원문으로 검수된 기존 힌트 번역을 적용했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "82cacc84b7edfee6ac163e30",
@@ -3543,10 +3543,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "いかにキサマといえども コイツには かなうまい！",
       "english": "Even YOU won't last long against\nTHIS one!",
-      "korean": "아무리 네놈이라도 이 녀석에게는 당해 내지 못할 거다!",
+      "korean": "아무리 네놈이라도\n이 녀석에게는 당해 내지 못할 거다!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "7e5f158dc03c0d6d164454c1",
@@ -3829,10 +3829,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "{GLYPH:102}ボタンや{GLYPH:103}ボタンを押すとパンチが出るよ \n柵や物を壊すことができるね！",
       "english": "You can punch by pressing\nthe {GLYPH:102} or {GLYPH:103} button. You\ncan even break stuff!",
-      "korean": "{GLYPH:102} 버튼이나 {GLYPH:103} 버튼을 누르면 펀치를 날릴 수 있어\n울타리나 물건도 부술 수 있네!",
+      "korean": "{GLYPH:102} 버튼이나 {GLYPH:103} 버튼을 누르면\n펀치를 날릴 수 있어\n울타리나 물건도 부술 수 있네!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "1fe9965d528cf7bb4746601f",
@@ -3881,10 +3881,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "この段差 ソニックの手を使って登れないかな？ \n段差の下に行って {GLYPH:101}ボタンを押してみようよ！",
       "english": "Maybe you could reach\nthat ledge and climb up\nwith the {GLYPH:101} button.",
-      "korean": "이 단차는 소닉의 손을 이용해 올라갈 수 없을까?\n단차 아래로 가서 {GLYPH:101} 버튼을 눌러 보자!",
+      "korean": "이 단차는 소닉의 손을 이용해\n올라갈 수 없을까?\n단차 아래로 가서 {GLYPH:101} 버튼을 눌러 보자!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "3c11af1f6baff94f8d2a4851",
@@ -4024,10 +4024,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "柱のそばで{GLYPH:101}ボタンを押すと柱につかまれるよ！",
       "english": "Hit the {GLYPH:101} button by a\ncolumn to grab on, Sonic!",
-      "korean": "기둥 옆에서 {GLYPH:101} 버튼을 누르면 기둥을 잡을 수 있어!",
+      "korean": "기둥 옆에서 {GLYPH:101} 버튼을 누르면\n기둥을 잡을 수 있어!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "d620e39490ca1f5fbeba4126",
@@ -4193,10 +4193,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "ポーズメニューの技リストを見て研究しよう！",
       "english": "You can take a look at them\nfrom the Pause Menu Skills option!",
-      "korean": "일시정지 메뉴의 기술 목록을 보며 연구해 보자!",
+      "korean": "일시정지 메뉴의 기술 목록을 보며\n연구해 보자!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "237bf3d3980ebf033f224cb5",
@@ -4258,10 +4258,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "出っぱりにつかまったら 行きたい方向に\n左スティックを倒しながらジャンプで移動できるよ",
       "english": "Once you grab it, you can tilt\nthe left stick in the direction\nyou want to go, then jump!",
-      "korean": "돌출된 곳을 잡았으면 가고 싶은 쪽으로\n왼쪽 스틱을 기울이면서 점프해 이동할 수 있어",
+      "korean": "돌출된 곳을 잡았으면\n가고 싶은 쪽으로 왼쪽 스틱을 기울이면서\n점프해 이동할 수 있어",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "74bfcc42f71c399764edb075",
@@ -4401,10 +4401,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "でも 画面左下の青いガードポイントがなくなると\nガードができなくなるから気をつけて！",
       "english": "Oh, but watch out for the blue Guard\nPoints on the lower left! If they run out,\nyou won't be able to block any more!",
-      "korean": "하지만 화면 왼쪽 아래의 파란 가드 포인트가 없어지면\n가드할 수 없게 되니까 조심해!",
+      "korean": "하지만 화면 왼쪽 아래의\n파란 가드 포인트가 없어지면\n가드할 수 없게 되니까 조심해!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "8dc90388a8b019c31d9f3c02",
@@ -4414,10 +4414,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "柱のそばで{GLYPH:101}ボタンを押すと柱につかまれるよ！",
       "english": "Press the {GLYPH:101} button by a\ncolumn to grab on, Sonic!",
-      "korean": "기둥 옆에서 {GLYPH:101} 버튼을 누르면 기둥을 잡을 수 있어!",
+      "korean": "기둥 옆에서 {GLYPH:101} 버튼을 누르면\n기둥을 잡을 수 있어!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "1782fd12fc169bd80dc872ea",
@@ -5077,10 +5077,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "あの扉 モンスターが守ってるね \nぜんぶ倒さないと 開かなさそうだ……",
       "english": "There's monsters guarding that door.\nGuess we'll have to take 'em all out!",
-      "korean": "저 문은 괴물들이 지키고 있네\n전부 쓰러뜨리지 않으면 열리지 않을 것 같아…",
+      "korean": "저 문은 괴물들이 지키고 있네\n전부 쓰러뜨리지 않으면\n열리지 않을 것 같아…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "86fd2501d2841ecf91649bf6",
@@ -5428,10 +5428,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "{GLYPH:104}ボタンでガードをしながら 左スティックと\n{GLYPH:100}ボタンで素早く前後左右に移動できるよ",
       "english": "Dodge quickly when \nguarding by moving the left stick \nand pressing {GLYPH:100}.",
-      "korean": "{GLYPH:104} 버튼으로 가드하면서 왼쪽 스틱과\n{GLYPH:100} 버튼으로 앞뒤와 좌우로 빠르게 움직일 수 있어",
+      "korean": "{GLYPH:104} 버튼으로 가드하면서\n왼쪽 스틱과 {GLYPH:100} 버튼으로\n앞뒤와 좌우로 빠르게 움직일 수 있어",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "395715a608d753093d06fdc0",
@@ -5480,10 +5480,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "スタートボタンを押すと表示される\nポーズメニューから ステータス画面に行けるよ",
       "english": "Press START to pause,\nthen select \"Status\" to view\nthe Status screen.",
-      "korean": "스타트 버튼을 누르면 표시되는\n일시정지 메뉴에서 스테이터스 화면으로 갈 수 있어",
+      "korean": "스타트 버튼을 누르면 표시되는\n일시정지 메뉴에서\n스테이터스 화면으로 갈 수 있어",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "036c063f2f1de01302d8d3fd",
@@ -5493,10 +5493,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "ステータス画面では 集めた経験値を色々な能力に\n割り振って レべルアップすることができるよ",
       "english": "You can assign EXP to various abilities\nat this important screen.",
-      "korean": "스테이터스 화면에서는 모은 경험치를 여러 능력에\n배분해서 레벨 업할 수 있어",
+      "korean": "스테이터스 화면에서는\n모은 경험치를 여러 능력에 배분해서\n레벨 업할 수 있어",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "1c04a1034cfe06993e2f6d70",
@@ -5857,10 +5857,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "エッグマンのメカを倒すには画面に表示される\n{GLYPH:100} {GLYPH:101} {GLYPH:102} {GLYPH:103}のマークと同じボタンを押すんだ！",
       "english": "Sonic! To defeat Eggman's robot,\npress the buttons ({GLYPH:100} {GLYPH:101} {GLYPH:102} {GLYPH:103})\nthat appear on-screen to attack!",
-      "korean": "에그맨의 메카를 쓰러뜨리려면 화면에 표시되는\n{GLYPH:100} {GLYPH:101} {GLYPH:102} {GLYPH:103} 표시와 같은 버튼을 눌러!",
+      "korean": "에그맨의 메카를 쓰러뜨리려면\n화면에 표시되는 {GLYPH:100} {GLYPH:101} {GLYPH:102} {GLYPH:103} 표시와\n같은 버튼을 눌러!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "ab44f5ccdf22ea1d43a5bc22",
@@ -6156,10 +6156,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "ね ね ソニック \nあの水の入ったツボ あの鳥にぶつけられないかな？",
       "english": "Ooh! Hey! Sonic!\nThink you can hit that bird with\nhat water jug?",
-      "korean": "있지, 있지, 소닉\n저 물이 든 항아리로 저 새를 맞힐 수 없을까?",
+      "korean": "있지, 있지, 소닉\n저 물이 든 항아리로\n저 새를 맞힐 수 없을까?",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "5e8904a0fa3e2f28c9d78ce8",
@@ -6286,10 +6286,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "やつらが あのハコをピンクのところに持っていくと \nなんか まずいみたいだね",
       "english": "I think it's bad news if they carry those\nboxes over to the pink place Sonic.",
-      "korean": "저 녀석들이 그 상자를 분홍색 장소로 가져가면\n뭔가 위험한 것 같아",
+      "korean": "저 녀석들이 그 상자를 분홍색 장소로\n가져가면 뭔가 위험한 것 같아",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "d31bee65c60657a963c8f8d9",
@@ -6299,10 +6299,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "あのハコみたいなのをピンクのとこに持っていかれると \nヤツラが パワーアップしちゃうみたいだよ！",
       "english": "Looks like those boxes make them\nstrongerif you let 'em take them\nover to the pink place!",
-      "korean": "저 상자 같은 걸 녀석들이 분홍색 장소로 가져가면\n파워 업해 버리는 모양이야!",
+      "korean": "저 상자 같은 걸 녀석들이 분홍색 장소로\n가져가면 파워 업해 버리는 모양이야!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "d30693669209e4c9f5d7d20b",
@@ -7521,10 +7521,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "逃げ場はないぞ ソニック……！ \nいかにキサマといえども コイツには かなうまい！",
       "english": "Even YOU won't last long against\nTHIS one!",
-      "korean": "도망칠 곳은 없다, 소닉…!\n아무리 네놈이라도 이 녀석에게는 당해 내지 못할 거다!",
+      "korean": "도망칠 곳은 없다, 소닉…!\n아무리 네놈이라도\n이 녀석에게는 당해 내지 못할 거다!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "7538a0c2f11b7219a3f145ca",
@@ -7651,10 +7651,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "エッグマンサマ マダ フカンゼン ナ ジョウタイデスノデ アマリ ムリ ヲ ナサルト……",
       "english": "Remember, Doctor. It is not yet complete.\nHandle it roughly and...",
-      "korean": "에그맨 님, 아직 불완전한 상태이므로 너무 무리하시면…",
+      "korean": "에그맨 님, 아직 불완전한 상태이므로\n너무 무리하시면…",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "74fe0ec144cdf7408902bc12",
@@ -7664,10 +7664,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "システム オールグリーン エネルギージュウデンガ カンリョウシマシタ",
       "english": "All systems green.\nEnergy charge... complete.",
-      "korean": "시스템 올 그린 에너지 충전이 완료되었습니다",
+      "korean": "시스템 올 그린\n에너지 충전이 완료되었습니다",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "c7ccb6ab0888047a31e93628",
@@ -7872,10 +7872,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "黄色いリングを 1コでも持っていれば \n敵の攻撃を受けても ミスにはならないみたい",
       "english": "Looks like enemy attacks\nwon't finish you off as long as\nyou have one ring.",
-      "korean": "노란 링을 하나라도 가지고 있으면\n적의 공격을 받아도 미스가 되지는 않는 모양이야",
+      "korean": "노란 링을 하나라도 가지고 있으면\n적의 공격을 받아도\n미스가 되지는 않는 모양이야",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "ed2d2626cfc129338ff083ad",
@@ -7989,10 +7989,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "チェックポイントを通過すると \nミスをしてもチェックポイントから再開できるよ",
       "english": "You'll start over from the last checkpoint\nyou crossed if you mess up!",
-      "korean": "체크포인트를 통과하면\n미스해도 체크포인트에서 다시 시작할 수 있어",
+      "korean": "체크포인트를 통과하면 미스해도\n체크포인트에서 다시 시작할 수 있어",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "316c906ab02f97adf9610967",
@@ -8145,10 +8145,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "ジャンプセレクターという装置に触ると \n{GLYPH:100}ボタンで上に {GLYPH:102}ボタンで右にジャンプ！",
       "english": "Press the {GLYPH:100} button on a\njump selector to jump up,\nor {GLYPH:102} to jump right!",
-      "korean": "점프 셀렉터라는 장치에 닿으면\n{GLYPH:100} 버튼으로 위로, {GLYPH:102} 버튼으로 오른쪽으로 점프!",
+      "korean": "점프 셀렉터라는 장치에 닿으면\n{GLYPH:100} 버튼으로 위로,\n{GLYPH:102} 버튼으로 오른쪽으로 점프!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "d34a7f62a30443d266289ca4",
@@ -8405,10 +8405,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "立ち止まっている時に\n{GLYPH:101}ボタンを連打すると足払いができるよ！",
       "english": "Repeatedly press {GLYPH:101}\nto perform a leg sweep.",
-      "korean": "멈춰 서 있을 때\n{GLYPH:101} 버튼을 연타하면 다리 후리기를 쓸 수 있어!",
+      "korean": "멈춰 서 있을 때 {GLYPH:101} 버튼을 연타하면\n다리 후리기를 쓸 수 있어!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "3409c1218942d700c2e96475",
@@ -8431,10 +8431,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "{GLYPH:101}ボタンを押しながら 左スティックを\n急に左右に倒すとドリフトができるよ！",
       "english": "Drift while turning by \nquickly moving the left \nstick while pressing {GLYPH:101}!",
-      "korean": "{GLYPH:101} 버튼을 누른 채 왼쪽 스틱을\n빠르게 좌우로 기울이면 드리프트를 할 수 있어!",
+      "korean": "{GLYPH:101} 버튼을 누른 채\n왼쪽 스틱을 빠르게 좌우로 기울이면\n드리프트를 할 수 있어!",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "a453b1ce75a2b3547c936bda",
@@ -8444,10 +8444,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "急カーブもドリフトで曲がろう！ {GLYPH:106}や{GLYPH:107}と\n左スティックでも 同じようにドリフトができるよ",
       "english": "Use Sonic Drift to turn in \ntight curves! You can also \nuse {GLYPH:106} and {GLYPH:107}.",
-      "korean": "급커브도 드리프트로 돌아보자! {GLYPH:106}이나 {GLYPH:107}과\n왼쪽 스틱을 사용해도 똑같이 드리프트할 수 있어",
+      "korean": "급커브도 드리프트로 돌아보자!\n{GLYPH:106}이나 {GLYPH:107}과 왼쪽 스틱을 사용해도\n똑같이 드리프트할 수 있어",
       "status": "자체 검수",
       "source_quality": "unresolved",
-      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다."
+      "review_note": "버튼·수치 특수 글리프를 원문과 같은 순서로 보존했습니다. [2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "19094025f2c5e07afc1b8f55",
@@ -8912,10 +8912,10 @@
       "speaker_evidence": "unresolved",
       "japanese": "教授のカメラ すごいね～ \nコレ使えば 夜におかしくなる人を助けられるね！",
       "english": "This camera's great! We can\nuse it to help the folks\nwho act weird at night!",
-      "korean": "교수님의 카메라 굉장하네\n이걸 쓰면 밤에 이상해지는 사람들을 도울 수 있어!",
+      "korean": "교수님의 카메라 굉장하네\n이걸 쓰면 밤에 이상해지는 사람들을\n도울 수 있어!",
       "status": "자체 검수",
       "source_quality": "provisional",
-      "review_note": ""
+      "review_note": "[2026-09-16] FTE-width wrapping; preserve all non-whitespace text; maximum 3 visible dialogue lines"
     },
     {
       "translation_key": "c68d3f0df9b198eddf963875",

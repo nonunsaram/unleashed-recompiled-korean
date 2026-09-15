@@ -117,3 +117,16 @@ temp/
 !/Release/v1.0.2/SHA256SUMS.txt
 
 !/Release/v1.0.2/hotfix-diff-verification.json
+
+!/Release/v1.0.3/
+/Release/v1.0.3/*
+!/Release/v1.0.3/README-KO.md
+!/Release/v1.0.3/README-EN.md
+!/Release/v1.0.3/GameBanana-post.md
+!/Release/v1.0.3/Upload-guide-KO.md
+!/Release/v1.0.3/manifest.json
+!/Release/v1.0.3/CHANGELOG-KO.md
+!/Release/v1.0.3/BASIC-CHANGES-KO.md
+!/Release/v1.0.3/BASIC-CHANGES-EN.md
+!/Release/v1.0.3/MODS-KO.md
+!/Release/v1.0.3/GameBanana-update.md
