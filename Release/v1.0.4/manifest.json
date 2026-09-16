@@ -1,22 +1,31 @@
 {
   "version": "1.0.4",
+  "revision": "20260916-final-audit",
+  "cumulativeResourceVerification": {
+    "passed": true,
+    "cumulativeResourceFiles": 171,
+    "baselineSubtitleFiles": 32,
+    "baselineSubtitleArchives": 16,
+    "translationOverlayFiles": 42,
+    "unexpectedChanges": 0
+  },
   "archives": [
     {
       "file": "UnleashedRecompiled-Korean-1.0.4-Basic.zip",
-      "sha256": "575888be313bfdff3c4d26681c63b763fb142d5324434da0daba571d64ec49a2",
-      "bytes": 16677787
+      "sha256": "44233e40144705260b7ccb31ed37735edbce834e66f54a24bb8a947393228ad0",
+      "bytes": 16678721
     },
     {
       "file": "UnleashedRecompiled-Korean-1.0.4-Full.zip",
-      "sha256": "621890164f5295f43e8ca9cea7b6a2a410a8effdd63173407fa42cfdffef93de",
-      "bytes": 37178638
+      "sha256": "5c3905790e6b2076e70c9bcc83e9276c608103f962ca89fdd56b9c78d2c4e1da",
+      "bytes": 37512048
     }
   ],
   "translationArchives": 21,
   "resourceFiles": 42,
   "changedPhysicalCells": 15474,
   "unleashHDCompatibility": "1.4.2",
-  "setupSha256": "94210bbe8f7a68a7c594bc9783a3cccdc9a28a5678a94199e3ba695cd3c6544f",
+  "setupSha256": "98615ca1adb242a0e346431138ab93a449279e4da3b9f41a5967da18ca05757b",
   "patchedExeSha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
   "gameLaunched": false,
   "published": false,
@@ -26,5 +35,7 @@
     "titleLogo": "TitleLogos/Default"
   },
   "titleLogoChoices": 5,
-  "approvedTitleAssetsPreserved": true
+  "approvedTitleAssetsPreserved": true,
+  "userConfirmedCorrectedInGameDisplay": true,
+  "publishedFieldScope": "GameBanana package publication; managed by the user, separately from GitHub source updates."
 }

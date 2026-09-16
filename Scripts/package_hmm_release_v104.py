@@ -12,10 +12,11 @@ import uuid
 import zipfile
 
 from configure_features_v104 import configure
+from release_contract_v104 import verify_folder
 
 R = Path(__file__).resolve().parents[1]
 VERSION = "1.0.4"
-SOURCE_MOD = R / "Build" / "Development-v104" / "UnleashedKorean"
+SOURCE_MOD = R / "Build" / "Development-v104-Final" / "UnleashedKorean"
 PUBLIC = R / "publish" / "unleashed-recompiled-korean"
 RELEASE = PUBLIC / "Release" / "v1.0.4"
 PYTHON = Path("C:/Users/iobo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe")
@@ -64,7 +65,7 @@ def compile_full_backend(destination: Path) -> tuple[Path, dict]:
 
 
 def source_zip(full: Path) -> None:
-    allowed = {".py", ".cs", ".ps1", ".md", ".txt", ".json", ".cpp", ".h", ".patch", ".ttf", ".png", ".pdf", ".csv"}
+    allowed = {".py", ".cjs", ".cs", ".ps1", ".md", ".txt", ".json", ".cpp", ".h", ".patch", ".ttf", ".png", ".pdf", ".csv"}
     folders = ("Scripts", "Translation", "Patches", "Licenses", "Assets/Installer", "Assets/TitleLogo", "Tools/Fonts", "Release/v1.0.4")
     files = []
     for name in folders:
@@ -72,11 +73,16 @@ def source_zip(full: Path) -> None:
         if folder.exists():
             files.extend(path for path in folder.rglob("*") if path.is_file())
     files.extend(path for path in PUBLIC.iterdir() if path.is_file())
+    # Published validation code must include its own local modules and review inputs.
+    for name in ("Scripts/astra_review_common.cjs", "Scripts/source_status_common_v048.cjs",
+                 "Translation/review/astra-final/fixes.json", "Translation/review/source-status-v048/decisions.json",
+                 "Translation/review/v103/edits.json", "Translation/display-overrides-v042.json"):
+        assert (PUBLIC/name).is_file(), "Missing public validation dependency: " + name
     forbidden = ("KoreanOfficial", "vector", "title-logo-review")
     with zipfile.ZipFile(full / "Source.zip", "w", zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for path in sorted(set(files)):
             rel = path.relative_to(PUBLIC).as_posix()
-            if path == RELEASE / "manifest.json":
+            if path.parent == RELEASE and path.name in {"manifest.json", "verification.json", "SHA256SUMS.txt", "final-audit.json"}:
                 continue
             if any(token.lower() in rel.lower() for token in forbidden):
                 continue
@@ -98,11 +104,12 @@ def archive(root: Path, path: Path) -> None:
 
 def main() -> None:
     assert SOURCE_MOD.is_dir() and RELEASE.is_dir()
+    cumulative = verify_folder(SOURCE_MOD)
     for name in ("verification.json", "reflow-verification.json", "layer-verification.json"):
         assert json.loads((R / "Translation/review/v103" / name).read_text(encoding="utf8"))["passed"]
     resources = json.loads((R / "Build/Translation-v103/resource-verification.json").read_text(encoding="utf8"))
     assert resources["passed"] and len(resources["archives"]) == 21 and len(resources["patches"]) == 42
-    output = R / "outputs" / f"GameBanana-{VERSION}"
+    output = R / "outputs" / f"GameBanana-{VERSION}-FinalCandidate"
     assert not output.exists(), f"Refusing to overwrite {output}"
     staging = R / "Build" / ("GameBanana-v104-" + uuid.uuid4().hex)
     basic = staging / "Basic" / "UnleashedKorean"
@@ -130,6 +137,7 @@ def main() -> None:
         for lang in ("KO", "EN"):
             shutil.copy2(RELEASE / f"README-{lang}.md", full / f"README-{lang}.md")
         setup, manifest = compile_full_backend(full)
+        verify_folder(basic)
         source_zip(full)
         output.mkdir(parents=True)
         records = []
@@ -142,7 +150,7 @@ def main() -> None:
         for name in ("GameBanana-post.md", "GameBanana-update.md", "Upload-guide-KO.md", "CHANGELOG-KO.md", "MODS-KO.md", "CREDITS.md"):
             shutil.copy2(RELEASE / name, output / name)
         report = {
-            "version": VERSION, "archives": records, "translationArchives": 21,
+            "version": VERSION, "revision": "20260916-final-audit", "cumulativeResourceVerification": cumulative, "archives": records, "translationArchives": 21,
             "resourceFiles": 42, "changedPhysicalCells": sum(x["changed_physical_cells"] for x in resources["archives"]),
             "unleashHDCompatibility": "1.4.2", "setupSha256": sha(setup),
             "patchedExeSha256": manifest["files"][0]["patchedSha256"], "gameLaunched": False,
@@ -156,7 +164,7 @@ def main() -> None:
             },
         }
         (output / "package-verification.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
-        public_manifest = {key: report[key] for key in ("version", "archives", "translationArchives", "resourceFiles", "changedPhysicalCells", "unleashHDCompatibility", "setupSha256", "patchedExeSha256", "gameLaunched", "published", "defaultConfiguration", "titleLogoChoices", "approvedTitleAssetsPreserved")}
+        public_manifest = {key: report[key] for key in ("version", "revision", "cumulativeResourceVerification", "archives", "translationArchives", "resourceFiles", "changedPhysicalCells", "unleashHDCompatibility", "setupSha256", "patchedExeSha256", "gameLaunched", "published", "defaultConfiguration", "titleLogoChoices", "approvedTitleAssetsPreserved")}
         (RELEASE / "manifest.json").write_text(json.dumps(public_manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
         print(json.dumps(report, ensure_ascii=False, indent=2))
     except Exception:

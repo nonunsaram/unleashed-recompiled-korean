@@ -9,3 +9,6 @@ Five title choices are available: Game default, English Sonic Unleashed, Sonic U
 Korean Unleashed logo: 프랑사랑단. HD title textures: UnleasHD Team. See CREDITS.md. Restart the game after changing settings.
 
 Install the Basic ZIP in HedgeModManager, enable the mod and save. Basic does not modify the game executable. Restore the executable using the Full installer before switching from Full to Basic.
+
+
+Revision: `20260916-final-audit`. Final candidate retaining the approved English subtitle baseline correction.

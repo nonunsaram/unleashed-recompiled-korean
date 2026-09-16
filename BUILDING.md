@@ -152,3 +152,10 @@ python Scripts/verify_package_v101.py --output outputs/GameBanana-1.0.1-Reviewed
 사용자가 게임에서 확인한 `Build/TitleLogo-Choices/Variants`를 변경 없이 `Build/Development-v104/UnleashedKorean/TitleLogos`로 복사합니다. 나머지 내용은 검증된 1.0.3 모드와 같습니다. `configure_features_v104.py`는 다섯 선택지를 구성하고, `package_hmm_release_v104.py`는 Basic·Full을 만듭니다. `verify_package_v104.py`는 두 ZIP, 기존 번역의 보존, 승인된 로고 해시, Full 설치·복원을 검사합니다. `test_features_config_v104.ps1`은 실제 HMM 소스로 70가지 설정 조합을 저장·재읽기합니다.
 
 최신 패치 버전은 1.0.4이며, 지원하는 게임 버전은 계속 Unleashed Recompiled 1.0.3입니다.
+
+
+### 1.0.4 최종 검토 개정
+
+`prepare_final_release_v104.py`는 정상 확인된 최종 1.0.2 Basic ZIP을 해시로 고정하고, 1.0.3 번역 변경 42개 파일과 승인된 1.0.4 로고를 합칩니다. 예전 개발 폴더를 그대로 기반으로 쓰지 않습니다. `release_contract_v104.py`가 생성 전후에 누적 리소스 전체와 자막 수정 32개 파일을 검사합니다. `package_hmm_release_v104.py` 출력은 `outputs/GameBanana-1.0.4-FinalCandidate`입니다.
+
+`audit_final_payload_v104.py`는 모든 아카이브와 DDS를 검사하며, `export_final_cutscene_v104.ps1`과 `audit_final_cutscene_v104.py`는 해당 추출물로 컷신 문구·글자를 검토합니다. `verify_final_tables_v104.ps1`는 실제 문구·글꼴표를 검사합니다. 원본 보존 8개 셀과 외부 공용 아이콘 참조는 별도 근거와 제한 사항을 기록합니다.

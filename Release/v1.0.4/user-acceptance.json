@@ -1,0 +1,10 @@
+{
+  "version": "1.0.4",
+  "revision": "20260916-final-audit",
+  "date": "2026-09-16",
+  "userConfirmedCorrectedInGameDisplay": true,
+  "scope": "User confirmation of corrected display after testing the final candidate; not an exhaustive gameplay claim.",
+  "githubSourceUpdateAuthorized": true,
+  "gameBananaUploadManagedBy": "user",
+  "distributionZipsRebuiltAfterAcceptance": false
+}

@@ -1,0 +1,16 @@
+{
+  "reason": "Missing approved Latin subtitle baseline correction; do not distribute these earlier v1.0.4 ZIPs.",
+  "archives": [
+    {
+      "file": "UnleashedRecompiled-Korean-1.0.4-Basic.zip",
+      "sha256": "575888be313bfdff3c4d26681c63b763fb142d5324434da0daba571d64ec49a2",
+      "bytes": 16677787
+    },
+    {
+      "file": "UnleashedRecompiled-Korean-1.0.4-Full.zip",
+      "sha256": "621890164f5295f43e8ca9cea7b6a2a410a8effdd63173407fa42cfdffef93de",
+      "bytes": 37178638
+    }
+  ],
+  "replacementRevision": "20260916-final-audit"
+}

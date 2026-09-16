@@ -13,12 +13,15 @@
   "titleLogoChoices": 5,
   "approvedTitleAssetsPreserved": true,
   "unleashHDCompatibilityVerified": true,
-  "unchangedNonLogoFiles": 158,
+  "cumulativeResourceVerification": {
+    "passed": true,
+    "cumulativeResourceFiles": 171,
+    "baselineSubtitleFiles": 32,
+    "baselineSubtitleArchives": 16,
+    "translationOverlayFiles": 42,
+    "unexpectedChanges": 0
+  },
   "installerRealExeRoundTrip": true,
   "actualGameLaunched": false,
-  "published": false,
-  "hmmConfigRoundTripCount": 70,
-  "defaultDoesNotOverrideTitle": true,
-  "userApprovedExistingHaloAnimation": true,
-  "gameBananaUploaded": false
+  "published": false
 }

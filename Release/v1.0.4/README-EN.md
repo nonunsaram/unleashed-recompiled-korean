@@ -9,3 +9,6 @@ Five title choices are available: Game default, English Sonic Unleashed, Sonic U
 Korean Unleashed logo: 프랑사랑단. HD title textures: UnleasHD Team. See CREDITS.md. Restart the game after changing settings.
 
 Full includes Basic. Run the game once to create its configuration, install Full in HMM and close the game. Run KoreanFullSetup.exe from the mod folder, select UnleashedRecomp.exe and apply the EXE translation. A working v1.0.3 Full EXE translation does not need to be reapplied. Restore the EXE before removing Full or switching to Basic, and retain the korean-native-backup folder.
+
+
+Revision: `20260916-final-audit`. Final candidate retaining the approved English subtitle baseline correction.

@@ -1,5 +1,7 @@
 # GameBanana v1.0.4 업로드 안내
 
+이번 최종 후보는 `outputs/GameBanana-1.0.4-FinalCandidate`에 있습니다. 앞서 만든 `outputs/GameBanana-1.0.4`의 ZIP은 자막 수정이 누락되어 있으므로 업로드하지 마세요. 최종 후보의 체크섬을 기준으로 사용합니다.
+
 기존 한국어 패치 페이지 https://gamebanana.com/mods/715787 에 업데이트합니다.
 
 1. `UnleashedRecompiled-Korean-1.0.4-Basic.zip`과 `UnleashedRecompiled-Korean-1.0.4-Full.zip`을 그대로 업로드합니다.

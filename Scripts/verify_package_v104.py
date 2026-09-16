@@ -8,6 +8,7 @@ import subprocess
 import sys
 import uuid
 import zipfile
+from release_contract_v104 import verify_payload
 
 R = Path(__file__).resolve().parents[1]
 VERSION = "1.0.4"
@@ -25,7 +26,7 @@ def config(blob: bytes) -> configparser.ConfigParser:
 
 
 def main() -> None:
-    output = R / "outputs" / f"GameBanana-{VERSION}"
+    output = R / "outputs" / f"GameBanana-{VERSION}-FinalCandidate"
     report = json.loads((output / "package-verification.json").read_text(encoding="utf8"))
     sums = set((output / "SHA256SUMS.txt").read_text(encoding="ascii").splitlines())
     packages = {}
@@ -78,15 +79,8 @@ def main() -> None:
         for name, item in approved["variants"].items():
             for file, digest in item["archives"].items():
                 assert sha(package[f"TitleLogos/{name}/{file}"]) == digest
-    # Every non-logo, non-document resource must remain identical to released 1.0.3.
-    with zipfile.ZipFile(R / "outputs/GameBanana-1.0.3/UnleashedRecompiled-Korean-1.0.3-Basic.zip") as prior:
-        unchanged = 0
-        for name in prior.namelist():
-            rel = name.removeprefix("UnleashedKorean/")
-            if name.endswith("/") or rel.startswith("TitleLogos/") or rel in {"mod.ini", "ConfigSchema.json"} or rel.endswith(".md"):
-                continue
-            assert prior.read(name) == basic[rel] == full[rel], rel
-            unchanged += 1
+    cumulative = verify_payload(basic)
+    assert verify_payload(full,full=True)==cumulative
     manifest = json.loads(full["Support/manifest.json"])
     assert manifest["version"] == VERSION and manifest["scope"] == "native-exe"
     assert sha(full["KoreanFullSetup.exe"]) == report["setupSha256"]
@@ -102,7 +96,7 @@ def main() -> None:
         "basicFiles": len(basic), "fullFiles": len(full), "resourceFiles": len(resources["patches"]),
         "defaultConfiguration": report["defaultConfiguration"], "titleLogoChoices": 5,
         "approvedTitleAssetsPreserved": True, "unleashHDCompatibilityVerified": True,
-        "unchangedNonLogoFiles": unchanged, "installerRealExeRoundTrip": True, "actualGameLaunched": False, "published": False,
+        "cumulativeResourceVerification": cumulative, "installerRealExeRoundTrip": True, "actualGameLaunched": False, "published": False,
     }
     (output / "release-verification.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     print(json.dumps(result, ensure_ascii=False, indent=2))
