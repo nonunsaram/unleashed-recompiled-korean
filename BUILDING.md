@@ -143,3 +143,12 @@ python Scripts/verify_package_v101.py --output outputs/GameBanana-1.0.1-Reviewed
 사용자가 확인한 `Dr.`·`Excellent!` 수정본을 같은 버전에 반영합니다. [자막 점검 및 생성 순서](Translation/review/latin-baseline/README-KO.md)의 1–9단계를 완료한 뒤 `package_hmm_release_v102.py`, `verify_package_v102.py`를 실행합니다. 기존 출력 폴더는 먼저 보관해야 합니다. 자막 생성 중간 결과와 게임 원본은 Git에 포함하지 않습니다.
 
 패키징은 기존 1.0.2 번역 변경 뒤에 검증된 자막 16개 묶음을 덮어씌웁니다. 이전 리소스 해시, 수정본 해시, Basic/Full 일치 및 인게임에서 확인한 HMM 설치본과의 일치를 검사합니다. 버전은 1.0.2이며 manifest의 revision은 `20260914-subtitle-baseline`으로 구분합니다. 이전 릴리스 소스는 커밋 `c3cd9f0`에 남아 있습니다. ZIP은 GameBanana 업로드용이고 GitHub에는 소스·설명서·체크섬을 게시합니다.
+
+
+## v1.0.4 로고 배포
+
+`prepare_title_logo_reworked.py` → `prepare_title_logo_hd.py` → `prepare_title_logo_choices.py`가 로고 처리 단계입니다. 이전 장면 배치 입력과 원본 게임 자료, 고정된 UnleasHD 커밋의 타이틀 아카이브가 필요합니다. 공개 트리만으로 완전 재생성하는 빌드는 아닙니다. 한국어 원본은 `Assets/TitleLogo/Reworked/KoreanLogo.png`에 포함합니다.
+
+사용자가 게임에서 확인한 `Build/TitleLogo-Choices/Variants`를 변경 없이 `Build/Development-v104/UnleashedKorean/TitleLogos`로 복사합니다. 나머지 내용은 검증된 1.0.3 모드와 같습니다. `configure_features_v104.py`는 다섯 선택지를 구성하고, `package_hmm_release_v104.py`는 Basic·Full을 만듭니다. `verify_package_v104.py`는 두 ZIP, 기존 번역의 보존, 승인된 로고 해시, Full 설치·복원을 검사합니다. `test_features_config_v104.ps1`은 실제 HMM 소스로 70가지 설정 조합을 저장·재읽기합니다.
+
+최신 패치 버전은 1.0.4이며, 지원하는 게임 버전은 계속 Unleashed Recompiled 1.0.3입니다.

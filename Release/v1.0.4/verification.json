@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "zipIntegrity": true,
+  "safePaths": true,
+  "basicFiles": 177,
+  "fullFiles": 183,
+  "resourceFiles": 42,
+  "defaultConfiguration": {
+    "dlc": "WorldMapVariants/AllDLC",
+    "compatibility": "Compatibility/None",
+    "titleLogo": "TitleLogos/Default"
+  },
+  "titleLogoChoices": 5,
+  "approvedTitleAssetsPreserved": true,
+  "unleashHDCompatibilityVerified": true,
+  "unchangedNonLogoFiles": 158,
+  "installerRealExeRoundTrip": true,
+  "actualGameLaunched": false,
+  "published": false,
+  "hmmConfigRoundTripCount": 70,
+  "defaultDoesNotOverrideTitle": true,
+  "userApprovedExistingHaloAnimation": true,
+  "gameBananaUploaded": false
+}

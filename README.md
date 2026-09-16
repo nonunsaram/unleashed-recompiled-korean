@@ -4,6 +4,10 @@
 
 **Unleashed Recompiled v1.0.3 Windows x64**용 비공식 한국어 패치의 소스 저장소입니다. 게임 본편, 업데이트, DLC, 완성된 게임 실행 파일은 포함하지 않습니다.
 
+## v1.0.4
+
+프랑사랑단 님이 재작업한 한국어 로고와 네 가지 고해상도 타이틀 선택지를 추가했습니다. 게임 기본값은 다른 모드와 게임 원본을 그대로 따릅니다. 기존 등장 연출을 유지합니다. [패치노트](Release/v1.0.4/CHANGELOG-KO.md) · [설치 안내](Release/v1.0.4/README-KO.md) · [로고 크레딧](Release/v1.0.4/CREDITS.md)
+
 ## v1.0.3
 
 대사창 줄바꿈, 돈 파치오 대사, 웨어혹 `STRENGTH` 레벨 업 표기를 보완했습니다. HMM 로고 선택 표기를 정리했으며, 실험적인 소닉 언리쉬드 한국어 로고는 배포와 공개 소스에 포함하지 않았습니다. [패치노트](Release/v1.0.3/CHANGELOG-KO.md)를 참고하세요.
@@ -33,7 +37,7 @@
 
 ### 전체판
 
-Full판은 Basic판을 먼저 설치할 필요가 없습니다. 게임을 최소 한 번 실행하여 초기 설정을 완료하고 `config.toml`이 생성된 뒤 진행하세요. 상세 경로 및 오류 안내는 [v1.0.2 한국어 안내](Release/v1.0.2/README-KO.md)와 [English instructions](Release/v1.0.2/README-EN.md)를 참고하세요.
+Full판은 Basic판을 먼저 설치할 필요가 없습니다. 게임을 최소 한 번 실행하여 초기 설정을 완료하고 `config.toml`이 생성된 뒤 진행하세요. 상세 경로 및 오류 안내는 [v1.0.4 한국어 안내](Release/v1.0.4/README-KO.md)와 [English instructions](Release/v1.0.4/README-EN.md)를 참고하세요.
 
 1. Full ZIP을 HMM에 설치하고 게임을 종료합니다.
 2. HMM에서 모드 폴더를 열고 `KoreanFullSetup.exe`를 실행합니다.
@@ -61,6 +65,8 @@ v1.0.1의 설계·호환성·검증 범위는 [Full 백엔드 감사](Release/v1
 ## 크레딧과 권리
 
 - 한국어 패치: nonunsaram
+- 소닉 언리쉬드 한국어 로고: 프랑사랑단
+- 고해상도 타이틀 자료: UnleasHD Team
 - 제작 보조: GPT-6 Astra
 - Unleashed Recompiled: hedge-dev
 - HedgeModManager: hedge-dev / SuperSonic16

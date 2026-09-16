@@ -1,0 +1,30 @@
+{
+  "version": "1.0.4",
+  "archives": [
+    {
+      "file": "UnleashedRecompiled-Korean-1.0.4-Basic.zip",
+      "sha256": "575888be313bfdff3c4d26681c63b763fb142d5324434da0daba571d64ec49a2",
+      "bytes": 16677787
+    },
+    {
+      "file": "UnleashedRecompiled-Korean-1.0.4-Full.zip",
+      "sha256": "621890164f5295f43e8ca9cea7b6a2a410a8effdd63173407fa42cfdffef93de",
+      "bytes": 37178638
+    }
+  ],
+  "translationArchives": 21,
+  "resourceFiles": 42,
+  "changedPhysicalCells": 15474,
+  "unleashHDCompatibility": "1.4.2",
+  "setupSha256": "94210bbe8f7a68a7c594bc9783a3cccdc9a28a5678a94199e3ba695cd3c6544f",
+  "patchedExeSha256": "f8869e8b33d7b1b9a5e501592e28c320f43717364e65e40d4c56b67d310b0589",
+  "gameLaunched": false,
+  "published": false,
+  "defaultConfiguration": {
+    "dlc": "WorldMapVariants/AllDLC",
+    "compatibility": "Compatibility/None",
+    "titleLogo": "TitleLogos/Default"
+  },
+  "titleLogoChoices": 5,
+  "approvedTitleAssetsPreserved": true
+}

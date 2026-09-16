@@ -130,3 +130,9 @@ temp/
 !/Release/v1.0.3/BASIC-CHANGES-EN.md
 !/Release/v1.0.3/MODS-KO.md
 !/Release/v1.0.3/GameBanana-update.md
+
+!/Release/v1.0.4/
+/Release/v1.0.4/*
+!/Release/v1.0.4/*.md
+!/Release/v1.0.4/*.json
+!/Release/v1.0.4/SHA256SUMS.txt

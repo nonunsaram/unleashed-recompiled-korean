@@ -1,0 +1,121 @@
+{
+  "sourceRepository": "https://github.com/UnleasHD-Team/UnleasHD",
+  "sourceRevision": "c7a709743926a94eb4b9337c54d9abdb103fb8f1",
+  "variants": {
+    "Default": {
+      "archives": {},
+      "members": {},
+      "roundTrip": true,
+      "atlasSize": null,
+      "haloSize": null,
+      "routing": "passthrough",
+      "sceneIdenticalToPrevious": true
+    },
+    "Original": {
+      "archives": {
+        "+Title.ar.00": "8162a0599a582c9babeed310305fed64fa1a338a426762ef12e811d9ed6f35fe",
+        "+Title.arl": "8b2dec415b435775b8ab75af93ec9d0c2bd2aa8a09f8f669c792197f4e1c08eb"
+      },
+      "members": {
+        "mat_title_001.dds": "9ecbb67fd835fa10b74793870465b15c890d814e1c9bf5be952ab265818135ee",
+        "mat_title_004.dds": "16aacb075a62f17dd9635e480bb1e0bc98fd7ac51392675976a1e1bbdd74980d",
+        "ui_title.yncp": "98ab5578bbb7657d3d7d0b6b7b7505e47a4db43e9f3386b61f548ebda779455e"
+      },
+      "roundTrip": true,
+      "atlasSize": [
+        3072,
+        1536
+      ],
+      "haloSize": [
+        1920,
+        1920
+      ],
+      "sceneIdenticalToPrevious": true,
+      "routing": "title_1"
+    },
+    "Korean": {
+      "archives": {
+        "+Title.ar.00": "77828e824dcfca53b4e7f4ffd82681294a5b80727fa054650befdae731c653f0",
+        "+Title.ar.01": "fa1d45928a07589d216fbfd6ce316460fe3555b1697a6b9687ca5741893b06ca",
+        "+Title.ar.02": "d4d0d8034426a839d5363cfba56a991586cb77dd158b1162d7dee912fdd9ea9d",
+        "+Title.arl": "169f3f66c55a50d21ca0ab506f72be9d45105aa6400296b9df8a464ecf0c6077"
+      },
+      "members": {
+        "mat_title_001.dds": "b0fa4f32abc3889028a3bb5b8a552a60c3cbb9c83caa638477678e654bd9240c",
+        "mat_title_004.dds": "ed8f7cce0030ad3d07a82225be84acc55620a8939f0648b16c91d569d3f16514",
+        "ui_title.yncp": "2522109090389fdef86ba07a84472864202ebefa403e4bac07c17275abddf5f3"
+      },
+      "roundTrip": true,
+      "atlasSize": [
+        3072,
+        3072
+      ],
+      "haloSize": [
+        1920,
+        1920
+      ],
+      "sceneIdenticalToPrevious": true,
+      "routing": "title_1"
+    },
+    "Japanese": {
+      "archives": {
+        "+Title.ar.00": "699fa0909616a6d03e0560cf56225b28c466304a5c1c35b84e921c46c732bb6c",
+        "+Title.arl": "8b2dec415b435775b8ab75af93ec9d0c2bd2aa8a09f8f669c792197f4e1c08eb"
+      },
+      "members": {
+        "mat_title_001.dds": "9ecbb67fd835fa10b74793870465b15c890d814e1c9bf5be952ab265818135ee",
+        "mat_title_004.dds": "16aacb075a62f17dd9635e480bb1e0bc98fd7ac51392675976a1e1bbdd74980d",
+        "ui_title.yncp": "ba0716ce04474b7bc4137ee752ace20906ba30468bbc8ddd7d8a1c0197ea453a"
+      },
+      "roundTrip": true,
+      "atlasSize": [
+        3072,
+        1536
+      ],
+      "haloSize": [
+        1920,
+        1920
+      ],
+      "sceneIdenticalToPrevious": true,
+      "routing": "title_2"
+    },
+    "Custom": {
+      "archives": {
+        "+Title.ar.00": "8094ba37cd633c53364b0810ba658b7c5e7051ddfc5ab60a4f1a157ab3b41e97",
+        "+Title.ar.01": "bc99e73aea14d014072933bd97be76614b047a250d6883956ab12e376e65bdcb",
+        "+Title.ar.02": "0ced82b2db0518db83efa7d500ba224a7069f24a0a89b9abf9b33343465b74d2",
+        "+Title.arl": "2c3b72dbf8db11ff422915c515c44e812f4cfd33d064f98294a9a6fcb9d62233"
+      },
+      "members": {
+        "mat_title_001.dds": "e0f2296276b7e13743bd1305e1607c719211bac3b211fac21bb14c554c23dec2",
+        "mat_title_004.dds": "15b3748fc62c86c96d1af56eb7fdbf973b5be8e32f6900d808a4f4d3998e4ea3",
+        "ui_title.yncp": "ba0716ce04474b7bc4137ee752ace20906ba30468bbc8ddd7d8a1c0197ea453a"
+      },
+      "roundTrip": true,
+      "atlasSize": [
+        3072,
+        1536
+      ],
+      "haloSize": [
+        1920,
+        1920
+      ],
+      "sceneIdenticalToPrevious": true,
+      "routing": "title_2"
+    }
+  },
+  "koreanGlowMultiplier": 0.92,
+  "worldKoreanSourceSize": [
+    404,
+    27
+  ],
+  "worldKoreanInkSize": [
+    210,
+    21
+  ],
+  "worldKoreanCaptionResampling": "Lanczos 3x; no invented lettering detail",
+  "koreanLogoArtist": "프랑사랑단",
+  "inGameApproval": "User approved the supplied logo appearance and explicitly chose to preserve the existing World Adventure halo animation on 2026-09-16.",
+  "gameDefault": "No title resource override",
+  "releaseAssetsMatchApprovedLocalAssets": true
+}
