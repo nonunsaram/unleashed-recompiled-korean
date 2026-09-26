@@ -1,0 +1,3582 @@
+{
+  "version": "0.4.12",
+  "policy": "Common English preserved; fixed font sizes and alignment per family",
+  "labels": [
+    {
+      "texture": 0,
+      "box": [
+        0,
+        0,
+        256,
+        32
+      ],
+      "korean": "윈드밀 아일",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 3,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        1,
+        255,
+        31
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        32,
+        256,
+        64
+      ],
+      "korean": "루프탑 런",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 35,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        33,
+        255,
+        63
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        64,
+        256,
+        96
+      ],
+      "korean": "드래곤 로드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 67,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        65,
+        255,
+        95
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        96,
+        256,
+        128
+      ],
+      "korean": "사바나 시타델",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 99,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        97,
+        255,
+        127
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        128,
+        256,
+        160
+      ],
+      "korean": "쿨 에지",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 131,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        129,
+        255,
+        159
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        160,
+        256,
+        192
+      ],
+      "korean": "애리드 샌즈",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 163,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        161,
+        255,
+        191
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        192,
+        256,
+        224
+      ],
+      "korean": "정글 조이라이드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 195,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        193,
+        255,
+        223
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        224,
+        256,
+        256
+      ],
+      "korean": "스카이스크래이퍼 스캠퍼",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 227,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        225,
+        255,
+        255
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        0,
+        256,
+        256,
+        288
+      ],
+      "korean": "에그맨 랜드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 259,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        257,
+        255,
+        287
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        0,
+        512,
+        32
+      ],
+      "korean": "화이트 아일랜드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 3,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        1,
+        511,
+        31
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        32,
+        512,
+        64
+      ],
+      "korean": "오렌지 루프스",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 35,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        33,
+        511,
+        63
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        64,
+        512,
+        96
+      ],
+      "korean": "드래곤 로드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 67,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        65,
+        511,
+        95
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        96,
+        512,
+        128
+      ],
+      "korean": "크레이 캐슬",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 99,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        97,
+        511,
+        127
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        128,
+        512,
+        160
+      ],
+      "korean": "쿨 에지",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 131,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        129,
+        511,
+        159
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        160,
+        512,
+        192
+      ],
+      "korean": "핫 데저트",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 163,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        161,
+        511,
+        191
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        192,
+        512,
+        224
+      ],
+      "korean": "정글 조이라이드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 195,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        193,
+        511,
+        223
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        224,
+        512,
+        256
+      ],
+      "korean": "스카이스크래이퍼 스캠퍼",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 227,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        225,
+        511,
+        255
+      ]
+    },
+    {
+      "texture": 0,
+      "box": [
+        256,
+        256,
+        512,
+        288
+      ],
+      "korean": "에그맨 랜드",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 259,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        257,
+        511,
+        287
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        0,
+        256,
+        32
+      ],
+      "korean": "윈드밀 아일",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 3,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        1,
+        255,
+        31
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        32,
+        256,
+        64
+      ],
+      "korean": "루프탑 런",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 35,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        33,
+        255,
+        63
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        64,
+        256,
+        96
+      ],
+      "korean": "드래곤 로드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 67,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        65,
+        255,
+        95
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        96,
+        256,
+        128
+      ],
+      "korean": "사바나 시타델",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 99,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        97,
+        255,
+        127
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        128,
+        256,
+        160
+      ],
+      "korean": "쿨 에지",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 131,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        129,
+        255,
+        159
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        160,
+        256,
+        192
+      ],
+      "korean": "애리드 샌즈",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 163,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        161,
+        255,
+        191
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        192,
+        256,
+        224
+      ],
+      "korean": "정글 조이라이드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 195,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        193,
+        255,
+        223
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        224,
+        256,
+        256
+      ],
+      "korean": "스카이스크래이퍼 스캠퍼",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 227,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        225,
+        255,
+        255
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        0,
+        256,
+        256,
+        288
+      ],
+      "korean": "에그맨 랜드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 259,
+      "group": "stage_names",
+      "layout_box": [
+        1,
+        257,
+        255,
+        287
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        0,
+        512,
+        32
+      ],
+      "korean": "화이트 아일랜드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 3,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        1,
+        511,
+        31
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        32,
+        512,
+        64
+      ],
+      "korean": "오렌지 루프스",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 35,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        33,
+        511,
+        63
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        64,
+        512,
+        96
+      ],
+      "korean": "드래곤 로드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 67,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        65,
+        511,
+        95
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        96,
+        512,
+        128
+      ],
+      "korean": "크레이 캐슬",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 99,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        97,
+        511,
+        127
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        128,
+        512,
+        160
+      ],
+      "korean": "쿨 에지",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 131,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        129,
+        511,
+        159
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        160,
+        512,
+        192
+      ],
+      "korean": "핫 데저트",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 163,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        161,
+        511,
+        191
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        192,
+        512,
+        224
+      ],
+      "korean": "정글 조이라이드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 195,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        193,
+        511,
+        223
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        224,
+        512,
+        256
+      ],
+      "korean": "스카이스크래이퍼 스캠퍼",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 227,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        225,
+        511,
+        255
+      ]
+    },
+    {
+      "texture": 32,
+      "box": [
+        256,
+        256,
+        512,
+        288
+      ],
+      "korean": "에그맨 랜드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 259,
+      "top": 259,
+      "group": "stage_names",
+      "layout_box": [
+        257,
+        257,
+        511,
+        287
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        0,
+        240,
+        26
+      ],
+      "korean": "대시",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 10.75,
+      "top": 4.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        1,
+        239,
+        25
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        26,
+        240,
+        52
+      ],
+      "korean": "가드",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 15.25,
+      "top": 30.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        27,
+        239,
+        51
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        52,
+        240,
+        78
+      ],
+      "korean": "언리쉬",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 16.875,
+      "top": 56.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        53,
+        239,
+        77
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        78,
+        240,
+        104
+      ],
+      "korean": "공격",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 2.5,
+      "top": 82.5,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        79,
+        239,
+        103
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        104,
+        240,
+        130
+      ],
+      "korean": "공격",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 3.5,
+      "top": 108.5,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        105,
+        239,
+        129
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        130,
+        240,
+        156
+      ],
+      "korean": "던지기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 2.5,
+      "top": 134.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        131,
+        239,
+        155
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        156,
+        240,
+        182
+      ],
+      "korean": "잡기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 4.5,
+      "top": 160.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        157,
+        239,
+        181
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        182,
+        240,
+        208
+      ],
+      "korean": "점프",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 5.25,
+      "top": 186.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        183,
+        239,
+        207
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        208,
+        240,
+        234
+      ],
+      "korean": "더블 점프",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 4.5,
+      "top": 212.625,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        209,
+        239,
+        233
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        234,
+        240,
+        260
+      ],
+      "korean": "걷기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 53.75,
+      "top": 238.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        235,
+        95,
+        259
+      ]
+    },
+    {
+      "texture": 10,
+      "box": [
+        0,
+        260,
+        240,
+        286
+      ],
+      "korean": "달리기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 45.375,
+      "top": 264.625,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        261,
+        95,
+        285
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        0,
+        240,
+        26
+      ],
+      "korean": "퀵 스텝",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 29.25,
+      "top": 4.5,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        1,
+        239,
+        25
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        26,
+        240,
+        52
+      ],
+      "korean": "라이트 대시",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 2.75,
+      "top": 30.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        27,
+        239,
+        51
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        52,
+        240,
+        78
+      ],
+      "korean": "호밍 어택",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 4.5,
+      "top": 56.625,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        53,
+        239,
+        77
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        78,
+        240,
+        104
+      ],
+      "korean": "부스트",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 3.5,
+      "top": 82.375,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        79,
+        239,
+        103
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        104,
+        240,
+        130
+      ],
+      "korean": "앉기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 3.0,
+      "top": 108.5,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        105,
+        239,
+        129
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        130,
+        240,
+        156
+      ],
+      "korean": "스톰핑",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 3.5,
+      "top": 134.625,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        131,
+        239,
+        155
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        156,
+        240,
+        182
+      ],
+      "korean": "점프",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 4.25,
+      "top": 160.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        157,
+        239,
+        181
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        182,
+        240,
+        208
+      ],
+      "korean": "카메라",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 15.25,
+      "top": 186.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        183,
+        239,
+        207
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        208,
+        240,
+        234
+      ],
+      "korean": "걷기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 9.75,
+      "top": 212.75,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        209,
+        95,
+        233
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        234,
+        240,
+        260
+      ],
+      "korean": "달리기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 1.375,
+      "top": 238.625,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        235,
+        95,
+        259
+      ]
+    },
+    {
+      "texture": 11,
+      "box": [
+        0,
+        260,
+        240,
+        286
+      ],
+      "korean": "이동",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 19,
+      "align": "left",
+      "anchor_x": 12.75,
+      "top": 264.5,
+      "group": "loading_controls",
+      "layout_box": [
+        1,
+        261,
+        239,
+        285
+      ]
+    },
+    {
+      "texture": 16,
+      "box": [
+        92,
+        0,
+        197,
+        32
+      ],
+      "korean": "부스트",
+      "style": "white",
+      "font": "regular",
+      "background": true,
+      "size": 24,
+      "align": "center",
+      "anchor_x": 135,
+      "top": 4,
+      "group": "16",
+      "layout_box": [
+        25,
+        1,
+        245,
+        31
+      ]
+    },
+    {
+      "texture": 16,
+      "box": [
+        92,
+        32,
+        197,
+        64
+      ],
+      "korean": "가드",
+      "style": "white",
+      "font": "regular",
+      "background": true,
+      "size": 24,
+      "align": "center",
+      "anchor_x": 135,
+      "top": 36,
+      "group": "16",
+      "layout_box": [
+        25,
+        33,
+        245,
+        63
+      ]
+    },
+    {
+      "texture": 16,
+      "box": [
+        92,
+        64,
+        197,
+        96
+      ],
+      "korean": "공격",
+      "style": "white",
+      "font": "regular",
+      "background": true,
+      "size": 24,
+      "align": "center",
+      "anchor_x": 135,
+      "top": 68,
+      "group": "16",
+      "layout_box": [
+        25,
+        65,
+        245,
+        95
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        0,
+        126,
+        30
+      ],
+      "korean": "확인",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 7.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        1,
+        126,
+        29
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        30,
+        126,
+        60
+      ],
+      "korean": "뒤로",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 37.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        31,
+        126,
+        59
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        60,
+        126,
+        90
+      ],
+      "korean": "시간 보내기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 67.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        61,
+        126,
+        89
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        90,
+        126,
+        120
+      ],
+      "korean": "다음",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 97.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        91,
+        126,
+        119
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        120,
+        126,
+        150
+      ],
+      "korean": "리플레이",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 127.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        121,
+        126,
+        149
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        150,
+        126,
+        180
+      ],
+      "korean": "전환",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 157.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        151,
+        126,
+        179
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        180,
+        126,
+        210
+      ],
+      "korean": "상세",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 187.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        181,
+        126,
+        209
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        270,
+        126,
+        300
+      ],
+      "korean": "시작",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 277.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        271,
+        126,
+        299
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        300,
+        126,
+        330
+      ],
+      "korean": "대화",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 307.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        301,
+        126,
+        329
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        330,
+        126,
+        360
+      ],
+      "korean": "플래시",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 337.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        331,
+        126,
+        359
+      ]
+    },
+    {
+      "texture": 17,
+      "box": [
+        0,
+        360,
+        126,
+        390
+      ],
+      "korean": "취소",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 367.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        361,
+        126,
+        389
+      ]
+    },
+    {
+      "texture": 18,
+      "box": [
+        0,
+        0,
+        160,
+        30
+      ],
+      "korean": "시간 보내기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 7.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        1,
+        159,
+        29
+      ]
+    },
+    {
+      "texture": 18,
+      "box": [
+        0,
+        30,
+        160,
+        60
+      ],
+      "korean": "사진 찍기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 37.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        31,
+        159,
+        59
+      ]
+    },
+    {
+      "texture": 18,
+      "box": [
+        0,
+        60,
+        160,
+        90
+      ],
+      "korean": "대화 / 사용",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 22,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 67.75,
+      "group": "common_buttons",
+      "layout_box": [
+        1,
+        61,
+        159,
+        89
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        0,
+        0,
+        183,
+        32
+      ],
+      "korean": "기술 목록",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 24,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 3,
+      "group": "pause_heading",
+      "layout_box": [
+        1,
+        1,
+        182,
+        31
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        0,
+        32,
+        183,
+        64
+      ],
+      "korean": "소지품",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 24,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 35,
+      "group": "pause_heading",
+      "layout_box": [
+        1,
+        33,
+        182,
+        63
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        128,
+        98,
+        256,
+        128
+      ],
+      "korean": "공중",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 103,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        99,
+        255,
+        127
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        128,
+        128,
+        256,
+        158
+      ],
+      "korean": "가드 중",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 133,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        129,
+        255,
+        157
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        128,
+        158,
+        256,
+        188
+      ],
+      "korean": "대시 중",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 163,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        159,
+        255,
+        187
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        128,
+        188,
+        256,
+        218
+      ],
+      "korean": "모으기",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 193,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        189,
+        255,
+        217
+      ]
+    },
+    {
+      "texture": 19,
+      "box": [
+        128,
+        218,
+        256,
+        248
+      ],
+      "korean": "길게 누르기",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 223,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        219,
+        255,
+        247
+      ]
+    },
+    {
+      "texture": 25,
+      "box": [
+        0,
+        0,
+        183,
+        32
+      ],
+      "korean": "기술 목록",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 24,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 3,
+      "group": "pause_heading",
+      "layout_box": [
+        1,
+        1,
+        182,
+        31
+      ]
+    },
+    {
+      "texture": 25,
+      "box": [
+        0,
+        32,
+        183,
+        64
+      ],
+      "korean": "소지품",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 24,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 35,
+      "group": "pause_heading",
+      "layout_box": [
+        1,
+        33,
+        182,
+        63
+      ]
+    },
+    {
+      "texture": 25,
+      "box": [
+        128,
+        98,
+        256,
+        128
+      ],
+      "korean": "점프 중",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 103,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        99,
+        255,
+        127
+      ]
+    },
+    {
+      "texture": 25,
+      "box": [
+        128,
+        128,
+        256,
+        158
+      ],
+      "korean": "가드 중",
+      "style": "white",
+      "font": "bold",
+      "background": true,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 133,
+      "group": "pause_conditions",
+      "layout_box": [
+        129,
+        129,
+        255,
+        157
+      ]
+    },
+    {
+      "texture": 21,
+      "box": [
+        0,
+        486,
+        81,
+        512
+      ],
+      "korean": "종료",
+      "style": "white",
+      "font": "slant",
+      "background": false,
+      "size": 23,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 489,
+      "group": "21",
+      "layout_box": [
+        1,
+        487,
+        80,
+        511
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        38,
+        26,
+        91,
+        51
+      ],
+      "korean": "켜기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 30.5,
+      "group": "23",
+      "layout_box": [
+        39,
+        27,
+        90,
+        50
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        165,
+        26,
+        216,
+        51
+      ],
+      "korean": "끄기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 30.5,
+      "group": "23",
+      "layout_box": [
+        166,
+        27,
+        215,
+        50
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        9,
+        52,
+        125,
+        78
+      ],
+      "korean": "저장 장치",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 56.5,
+      "group": "23",
+      "layout_box": [
+        10,
+        53,
+        124,
+        77
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        164,
+        52,
+        221,
+        78
+      ],
+      "korean": "새 항목",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 56.5,
+      "group": "23",
+      "layout_box": [
+        165,
+        53,
+        220,
+        77
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        48,
+        78,
+        211,
+        103
+      ],
+      "korean": "효과음",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 82.5,
+      "group": "23",
+      "layout_box": [
+        49,
+        79,
+        210,
+        102
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        0,
+        103,
+        130,
+        128
+      ],
+      "korean": "밝기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 107.5,
+      "group": "23",
+      "layout_box": [
+        1,
+        104,
+        129,
+        127
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        138,
+        103,
+        256,
+        128
+      ],
+      "korean": "옵션",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 106.5,
+      "group": "23",
+      "layout_box": [
+        139,
+        104,
+        255,
+        127
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        25,
+        128,
+        109,
+        154
+      ],
+      "korean": "음악",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 132.5,
+      "group": "23",
+      "layout_box": [
+        26,
+        129,
+        108,
+        153
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        128,
+        128,
+        256,
+        154
+      ],
+      "korean": "자막",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 132.5,
+      "group": "23",
+      "layout_box": [
+        129,
+        129,
+        255,
+        153
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        24,
+        154,
+        108,
+        180
+      ],
+      "korean": "음성",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 158.5,
+      "group": "23",
+      "layout_box": [
+        25,
+        155,
+        107,
+        179
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        165,
+        154,
+        225,
+        180
+      ],
+      "korean": "키",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 158.5,
+      "group": "23",
+      "layout_box": [
+        166,
+        155,
+        224,
+        179
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        20,
+        180,
+        111,
+        205
+      ],
+      "korean": "소리",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 184.5,
+      "group": "23",
+      "layout_box": [
+        21,
+        181,
+        110,
+        204
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        134,
+        180,
+        256,
+        205
+      ],
+      "korean": "이어하기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 184.5,
+      "group": "23",
+      "layout_box": [
+        135,
+        181,
+        255,
+        204
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        80,
+        206,
+        180,
+        231
+      ],
+      "korean": "카메라",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 210.5,
+      "group": "23",
+      "layout_box": [
+        81,
+        207,
+        179,
+        230
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        14,
+        232,
+        117,
+        257
+      ],
+      "korean": "설치",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 236.5,
+      "group": "23",
+      "layout_box": [
+        15,
+        233,
+        116,
+        256
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        142,
+        232,
+        249,
+        257
+      ],
+      "korean": "기본",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 236.5,
+      "group": "23",
+      "layout_box": [
+        143,
+        233,
+        248,
+        256
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        60,
+        258,
+        208,
+        283
+      ],
+      "korean": "좌우",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 262.5,
+      "group": "23",
+      "layout_box": [
+        61,
+        259,
+        207,
+        282
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        8,
+        284,
+        129,
+        309
+      ],
+      "korean": "상하",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 288.5,
+      "group": "23",
+      "layout_box": [
+        9,
+        285,
+        128,
+        308
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        132,
+        284,
+        256,
+        309
+      ],
+      "korean": "언어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 288.5,
+      "group": "23",
+      "layout_box": [
+        133,
+        285,
+        255,
+        308
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        10,
+        310,
+        116,
+        335
+      ],
+      "korean": "반전",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 314.5,
+      "group": "23",
+      "layout_box": [
+        11,
+        311,
+        115,
+        334
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        150,
+        310,
+        242,
+        335
+      ],
+      "korean": "시작",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 192,
+      "top": 314.5,
+      "group": "23",
+      "layout_box": [
+        151,
+        311,
+        241,
+        334
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        50,
+        336,
+        204,
+        362
+      ],
+      "korean": "게임 시작",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 340.5,
+      "group": "23",
+      "layout_box": [
+        51,
+        337,
+        203,
+        361
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        62,
+        362,
+        200,
+        388
+      ],
+      "korean": "불러오기",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 366.5,
+      "group": "23",
+      "layout_box": [
+        63,
+        363,
+        199,
+        387
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        66,
+        388,
+        200,
+        413
+      ],
+      "korean": "새 게임",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 392.5,
+      "group": "23",
+      "layout_box": [
+        67,
+        389,
+        199,
+        412
+      ]
+    },
+    {
+      "texture": 23,
+      "box": [
+        52,
+        414,
+        211,
+        440
+      ],
+      "korean": "저장 장치",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 17,
+      "align": "center",
+      "anchor_x": 128,
+      "top": 418.5,
+      "group": "23",
+      "layout_box": [
+        53,
+        415,
+        210,
+        439
+      ]
+    },
+    {
+      "texture": 24,
+      "box": [
+        0,
+        0,
+        128,
+        26
+      ],
+      "korean": "영어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 3,
+      "group": "24",
+      "layout_box": [
+        1,
+        1,
+        127,
+        25
+      ]
+    },
+    {
+      "texture": 24,
+      "box": [
+        0,
+        26,
+        128,
+        52
+      ],
+      "korean": "일본어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 29,
+      "group": "24",
+      "layout_box": [
+        1,
+        27,
+        127,
+        51
+      ]
+    },
+    {
+      "texture": 24,
+      "box": [
+        0,
+        52,
+        128,
+        78
+      ],
+      "korean": "프랑스어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 55,
+      "group": "24",
+      "layout_box": [
+        1,
+        53,
+        127,
+        77
+      ]
+    },
+    {
+      "texture": 24,
+      "box": [
+        0,
+        78,
+        128,
+        104
+      ],
+      "korean": "독일어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 81,
+      "group": "24",
+      "layout_box": [
+        1,
+        79,
+        127,
+        103
+      ]
+    },
+    {
+      "texture": 24,
+      "box": [
+        0,
+        104,
+        128,
+        130
+      ],
+      "korean": "이탈리아어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 107,
+      "group": "24",
+      "layout_box": [
+        1,
+        105,
+        127,
+        129
+      ]
+    },
+    {
+      "texture": 24,
+      "box": [
+        0,
+        130,
+        128,
+        156
+      ],
+      "korean": "스페인어",
+      "style": "white",
+      "font": "regular",
+      "background": false,
+      "size": 20,
+      "align": "center",
+      "anchor_x": 64,
+      "top": 133,
+      "group": "24",
+      "layout_box": [
+        1,
+        131,
+        127,
+        155
+      ]
+    },
+    {
+      "texture": 26,
+      "box": [
+        0,
+        27,
+        90,
+        57
+      ],
+      "korean": "구매",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 26,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 29.5,
+      "group": "26",
+      "layout_box": [
+        1,
+        28,
+        89,
+        56
+      ]
+    },
+    {
+      "texture": 26,
+      "box": [
+        0,
+        57,
+        90,
+        87
+      ],
+      "korean": "판매",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 26,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 59.5,
+      "group": "26",
+      "layout_box": [
+        1,
+        58,
+        89,
+        86
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        0,
+        512,
+        46
+      ],
+      "korean": "도감",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 4,
+      "group": "media",
+      "layout_box": [
+        1,
+        1,
+        511,
+        45
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        46,
+        512,
+        92
+      ],
+      "korean": "설정 자료집",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 50,
+      "group": "media",
+      "layout_box": [
+        1,
+        47,
+        511,
+        91
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        92,
+        512,
+        138
+      ],
+      "korean": "주민 소개",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 96,
+      "group": "media",
+      "layout_box": [
+        1,
+        93,
+        511,
+        137
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        138,
+        512,
+        184
+      ],
+      "korean": "적 도감",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 142,
+      "group": "media",
+      "layout_box": [
+        1,
+        139,
+        511,
+        183
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        184,
+        512,
+        230
+      ],
+      "korean": "기념품",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 188,
+      "group": "media",
+      "layout_box": [
+        1,
+        185,
+        511,
+        229
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        230,
+        512,
+        276
+      ],
+      "korean": "이벤트 갤러리",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 234,
+      "group": "media",
+      "layout_box": [
+        1,
+        231,
+        511,
+        275
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        276,
+        512,
+        322
+      ],
+      "korean": "리플레이 뷰어",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 280,
+      "group": "media",
+      "layout_box": [
+        1,
+        277,
+        511,
+        321
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        322,
+        512,
+        368
+      ],
+      "korean": "BGM 감상",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 326,
+      "group": "media",
+      "layout_box": [
+        1,
+        323,
+        511,
+        367
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        368,
+        512,
+        414
+      ],
+      "korean": "에그맨의 기계",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 372,
+      "group": "media",
+      "layout_box": [
+        1,
+        369,
+        511,
+        413
+      ]
+    },
+    {
+      "texture": 28,
+      "box": [
+        0,
+        414,
+        512,
+        460
+      ],
+      "korean": "다크 가이아의 부하들",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "left",
+      "anchor_x": 3,
+      "top": 418,
+      "group": "media",
+      "layout_box": [
+        1,
+        415,
+        511,
+        459
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        0,
+        512,
+        46
+      ],
+      "korean": "도감",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 4,
+      "group": "media",
+      "layout_box": [
+        1,
+        1,
+        511,
+        45
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        46,
+        512,
+        92
+      ],
+      "korean": "설정 자료집",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 50,
+      "group": "media",
+      "layout_box": [
+        1,
+        47,
+        511,
+        91
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        92,
+        512,
+        138
+      ],
+      "korean": "주민 소개",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 96,
+      "group": "media",
+      "layout_box": [
+        1,
+        93,
+        511,
+        137
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        138,
+        512,
+        184
+      ],
+      "korean": "적 도감",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 142,
+      "group": "media",
+      "layout_box": [
+        1,
+        139,
+        511,
+        183
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        184,
+        512,
+        230
+      ],
+      "korean": "기념품",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 188,
+      "group": "media",
+      "layout_box": [
+        1,
+        185,
+        511,
+        229
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        230,
+        512,
+        276
+      ],
+      "korean": "이벤트 갤러리",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 234,
+      "group": "media",
+      "layout_box": [
+        1,
+        231,
+        511,
+        275
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        276,
+        512,
+        322
+      ],
+      "korean": "리플레이 뷰어",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 280,
+      "group": "media",
+      "layout_box": [
+        1,
+        277,
+        511,
+        321
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        322,
+        512,
+        368
+      ],
+      "korean": "BGM 감상",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 326,
+      "group": "media",
+      "layout_box": [
+        1,
+        323,
+        511,
+        367
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        368,
+        512,
+        414
+      ],
+      "korean": "에그맨의 기계",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 372,
+      "group": "media",
+      "layout_box": [
+        1,
+        369,
+        511,
+        413
+      ]
+    },
+    {
+      "texture": 29,
+      "box": [
+        0,
+        414,
+        512,
+        460
+      ],
+      "korean": "다크 가이아의 부하들",
+      "style": "gold",
+      "font": "bold",
+      "background": false,
+      "size": 34,
+      "align": "center",
+      "anchor_x": 256,
+      "top": 418,
+      "group": "media",
+      "layout_box": [
+        1,
+        415,
+        511,
+        459
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        0,
+        256,
+        32
+      ],
+      "korean": "아포토스",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 3,
+      "group": "31",
+      "layout_box": [
+        1,
+        1,
+        255,
+        31
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        32,
+        256,
+        64
+      ],
+      "korean": "스파고니아",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 35,
+      "group": "31",
+      "layout_box": [
+        1,
+        33,
+        255,
+        63
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        64,
+        256,
+        96
+      ],
+      "korean": "춘난",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 67,
+      "group": "31",
+      "layout_box": [
+        1,
+        65,
+        255,
+        95
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        96,
+        256,
+        128
+      ],
+      "korean": "마주리",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 99,
+      "group": "31",
+      "layout_box": [
+        1,
+        97,
+        255,
+        127
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        128,
+        256,
+        160
+      ],
+      "korean": "홀로스카",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 131,
+      "group": "31",
+      "layout_box": [
+        1,
+        129,
+        255,
+        159
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        160,
+        256,
+        192
+      ],
+      "korean": "샤마르",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 163,
+      "group": "31",
+      "layout_box": [
+        1,
+        161,
+        255,
+        191
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        192,
+        256,
+        224
+      ],
+      "korean": "아다바트",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 195,
+      "group": "31",
+      "layout_box": [
+        1,
+        193,
+        255,
+        223
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        224,
+        256,
+        256
+      ],
+      "korean": "엠파이어 시티",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 227,
+      "group": "31",
+      "layout_box": [
+        1,
+        225,
+        255,
+        255
+      ]
+    },
+    {
+      "texture": 31,
+      "box": [
+        0,
+        256,
+        256,
+        288
+      ],
+      "korean": "에그맨 랜드",
+      "style": "white",
+      "font": "bold",
+      "background": false,
+      "size": 25,
+      "align": "right",
+      "anchor_x": 252,
+      "top": 259,
+      "group": "31",
+      "layout_box": [
+        1,
+        257,
+        255,
+        287
+      ]
+    }
+  ]
+}

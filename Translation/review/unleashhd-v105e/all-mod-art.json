@@ -1,0 +1,2907 @@
+{
+  "counts": {
+    "+Town_Common.arl": 1,
+    "Compatibility": 154,
+    "Inspire": 47,
+    "Languages": 257,
+    "TitleLogos": 8,
+    "WorldMapVariants": 112
+  },
+  "rows": [
+    {
+      "archive": "+Town_Common.arl",
+      "file": "mat_talk_comon_002.dds",
+      "top": "+Town_Common.arl"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_gate_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_gate_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_misson_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.arl",
+      "file": "mat_start_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+BossCommon.arl",
+      "file": "mat_boss_en_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.arl",
+      "file": "mat_qte_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilSonic.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilSonic.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "evex_ex00_event_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "evex_ex01_event_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_ex_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_qte_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.arl",
+      "file": "mat_loadinfo_text_evil_e.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.arl",
+      "file": "mat_loadinfo_text_sonic_e.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.arl",
+      "file": "mat_load_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Sonic.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Sonic.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Sonic.arl",
+      "file": "mat_qte_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "mat_playscreen_en_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.arl",
+      "file": "mat_su_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.arl",
+      "file": "mat_playscreen_en_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.arl",
+      "file": "mat_su_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_comon_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_comon_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_pause_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_pause_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_status_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.arl",
+      "file": "mat_status_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Title.arl",
+      "file": "mat_title_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Title.arl",
+      "file": "mat_title_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.arl",
+      "file": "mat_pause_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.arl",
+      "file": "mat_shop_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.arl",
+      "file": "mat_townscreen_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "mat_gate_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "mat_gate_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Labo_Common.arl",
+      "file": "mat_media_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Labo_Common.arl",
+      "file": "mat_media_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "Compatibility"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m0_01_05.arl",
+      "file": "evrt_m0_01_05_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m0_06.arl",
+      "file": "evrt_m0_06_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m1_01.arl",
+      "file": "evrt_m1_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m1_02.arl",
+      "file": "evrt_m1_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m1_03_1.arl",
+      "file": "evrt_m1_03_1_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m1_03_2.arl",
+      "file": "evrt_m1_03_2_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m1_03_2.arl",
+      "file": "evrt_m2_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m2_01.arl",
+      "file": "evrt_m2_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m2_02.arl",
+      "file": "evrt_m2_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m2_03.arl",
+      "file": "evrt_m2_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m3_01.arl",
+      "file": "evrt_m3_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m3_02.arl",
+      "file": "evrt_m3_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m3_03.arl",
+      "file": "evrt_m3_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m3_05.arl",
+      "file": "evrt_m3_05_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m4_01.arl",
+      "file": "evrt_m4_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m4_01.arl",
+      "file": "evrt_m4_01_event_001.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m5_02.arl",
+      "file": "evrt_m5_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m6_01.arl",
+      "file": "evrt_m6_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m6_02.arl",
+      "file": "evrt_m6_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m6_03.arl",
+      "file": "evrt_m6_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m7_01.arl",
+      "file": "evrt_m7_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m7_02.arl",
+      "file": "evrt_m7_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m7_04.arl",
+      "file": "evrt_m7_04_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_01.arl",
+      "file": "evrt_m8_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_02.arl",
+      "file": "evrt_m8_02_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_03.arl",
+      "file": "evrt_m8_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_04.arl",
+      "file": "evrt_m8_04_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_05.arl",
+      "file": "evrt_m8_05_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_06_1.arl",
+      "file": "evrt_m8_06_1_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_06_2.arl",
+      "file": "evrt_m8_06_2_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_09.arl",
+      "file": "evrt_m8_09_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_10.arl",
+      "file": "evrt_m8_10_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_13.arl",
+      "file": "evrt_m8_13_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_14.arl",
+      "file": "evrt_m8_14_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_15.arl",
+      "file": "evrt_m8_15_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_15.arl",
+      "file": "evrt_m8_16_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_m8_16.arl",
+      "file": "evrt_m8_16_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_s1_04.arl",
+      "file": "evrt_s1_04_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_s1_06.arl",
+      "file": "evrt_s1_06_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_s2_01.arl",
+      "file": "evrt_s2_01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_s2_03.arl",
+      "file": "evrt_s2_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_s2_04.arl",
+      "file": "evrt_s2_04_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_s3_03.arl",
+      "file": "evrt_s3_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_t0_03.arl",
+      "file": "evrt_t0_03_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+evrt_t0_04.arl",
+      "file": "evrt_t0_04_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+ExStageTails_Common.arl",
+      "file": "evex_ex00_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Inspire/subtitle/English/+ExStageTails_Common.arl",
+      "file": "evex_ex01_event_000.dds",
+      "top": "Inspire"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_gate_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_gate_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_misson_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ActionCommon.arl",
+      "file": "mat_start_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+BossCommon.arl",
+      "file": "mat_boss_en_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilActionCommon.arl",
+      "file": "mat_qte_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilSonic.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+EvilSonic.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "evex_ex00_event_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "evex_ex01_event_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_ex_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_qte_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+ExStageTails_Common.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Loading.arl",
+      "file": "mat_loadinfo_text_evil_e.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Loading.arl",
+      "file": "mat_loadinfo_text_sonic_e.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Loading.arl",
+      "file": "mat_load_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Loading.arl",
+      "file": "mat_load_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Sonic.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Sonic.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Sonic.arl",
+      "file": "mat_qte_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "mat_playscreen_en_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SonicActionCommon.arl",
+      "file": "mat_su_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SuperSonic.arl",
+      "file": "mat_playscreen_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SuperSonic.arl",
+      "file": "mat_playscreen_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SuperSonic.arl",
+      "file": "mat_playscreen_en_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SuperSonic.arl",
+      "file": "mat_su_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_comon_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_comon_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_pause_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_pause_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_status_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+SystemCommonCore.arl",
+      "file": "mat_status_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Title.arl",
+      "file": "mat_title_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Title.arl",
+      "file": "mat_title_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Africa_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_China_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Common.arl",
+      "file": "mat_pause_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Common.arl",
+      "file": "mat_shop_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Common.arl",
+      "file": "mat_townscreen_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "mat_gate_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "mat_gate_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EggManBase_Common.arl",
+      "file": "mat_result_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EULabo_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_EuropeanCity_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Labo_Common.arl",
+      "file": "mat_media_en_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Labo_Common.arl",
+      "file": "mat_media_en_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Mykonos_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_NYCity_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_ConverseMain_009.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraCapital_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_PetraLabo_Common.arl",
+      "file": "fte_Korean_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_Snow_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_007.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_ConverseMain_008.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "Languages/English/+Town_SouthEastAsia_Common.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "Languages"
+    },
+    {
+      "archive": "TitleLogos/Custom/+Title.arl",
+      "file": "mat_title_001.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Custom/+Title.arl",
+      "file": "mat_title_004.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Japanese/+Title.arl",
+      "file": "mat_title_001.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Japanese/+Title.arl",
+      "file": "mat_title_004.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Korean/+Title.arl",
+      "file": "mat_title_001.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Korean/+Title.arl",
+      "file": "mat_title_004.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Original/+Title.arl",
+      "file": "mat_title_001.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "TitleLogos/Original/+Title.arl",
+      "file": "mat_title_004.dds",
+      "top": "TitleLogos"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/AllDLC/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ApotosShamar/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/BaseGame/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/ChunNan/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Holoska/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Mazuri/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_ConverseMain_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_000.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_003.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_004.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_005.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "fte_Korean_006.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "mat_mainmenu_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_001.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_002.dds",
+      "top": "WorldMapVariants"
+    },
+    {
+      "archive": "WorldMapVariants/Spagonia/Languages/English/WorldMap.arl",
+      "file": "mat_worldmap_en_003.dds",
+      "top": "WorldMapVariants"
+    }
+  ]
+}

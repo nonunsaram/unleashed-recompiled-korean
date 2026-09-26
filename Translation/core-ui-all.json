@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "creator": "nonunsaram",
-  "updated_at": "2026-09-07",
+  "updated_at": "2026-09-25",
   "source_catalog": "Analysis/Full-Text-Extraction/Catalog-Reviewed",
   "scope": {
     "name": "핵심 UI",
@@ -3302,7 +3302,7 @@
       "content_role": "name_tag",
       "japanese": "ワン",
       "english": "Wang",
-      "korean": "완",
+      "korean": "왕",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -3313,7 +3313,7 @@
       "content_role": "name_tag",
       "japanese": "立ちふさがる男 ワン",
       "english": "Wang the Impeding",
-      "korean": "길을 막아선 완",
+      "korean": "길을 막아선 왕",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -3632,7 +3632,7 @@
       "content_role": "name_tag",
       "japanese": "イルマ",
       "english": "Irma",
-      "korean": "일마",
+      "korean": "이르마",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -3643,7 +3643,7 @@
       "content_role": "name_tag",
       "japanese": "イッポリータ",
       "english": "Ippolita",
-      "korean": "이포리타",
+      "korean": "이폴리타",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""

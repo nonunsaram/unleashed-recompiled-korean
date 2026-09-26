@@ -1,0 +1,493 @@
+{
+  "decision": "Irma=이르마, Ippolita=이폴리타; 그 밖의 이름 유지",
+  "catalog_entries": [
+    {
+      "file": "core-ui-all.json",
+      "translation_key": "52af69eadbaf0dad4c675003",
+      "representative_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ilma_Ilma.fco/0/0",
+      "japanese": "イルマ",
+      "english": "Irma",
+      "before": "일마",
+      "after": "이르마"
+    },
+    {
+      "file": "core-ui-all.json",
+      "translation_key": "92a069737de8247c627af048",
+      "representative_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ipporita_Ipporita.fco/0/0",
+      "japanese": "イッポリータ",
+      "english": "Ippolita",
+      "before": "이포리타",
+      "after": "이폴리타"
+    },
+    {
+      "file": "media-room-ending-ui-all.json",
+      "translation_key": "3601a90454f0b81ad40f4da7",
+      "representative_line_id": "base-common/BaseGame/Town_EULabo_Common/MediaRoomJP_list.fco/61/0",
+      "japanese": "イルマ",
+      "english": "Irma",
+      "before": "일마",
+      "after": "이르마"
+    },
+    {
+      "file": "media-room-ending-ui-all.json",
+      "translation_key": "623d1865affa32d0f2713be7",
+      "representative_line_id": "base-common/BaseGame/Town_EULabo_Common/MediaRoomJP_list.fco/61/1",
+      "japanese": " イッポリータの祖母 いつも帽子 \nを深くかぶっているので顔が見えな \nい 趣味は帽子作りで なかなか器 \n用にたくさんの可愛い帽子を作る \n ただし全部自分用らしいが……",
+      "english": "Ippolita's\ngrandmother, who\nkeeps her hat on so\ntight that very few\nget a good look at\nher face.\n\nIrma's hobby is\nhat making, and she\nhappens to be quite\ngood at it. Sadly,\nthough, her\ncharming chapeaus\nseem to be meant\nfor one head\nonly: hers.",
+      "before": "이포리타의 할머니. 늘 모자를\n깊이 눌러써서 얼굴이 보이지\n않는다. 취미는 모자 만들기로\n솜씨 좋게 귀여운 모자를 잔뜩\n만든다. 다만 모두 자신이 쓸\n것인 듯하다…….",
+      "after": "이폴리타의 할머니. 늘 모자를\n깊이 눌러써서 얼굴이 보이지\n않는다. 취미는 모자 만들기로\n솜씨 좋게 귀여운 모자를 잔뜩\n만든다. 다만 모두 자신이 쓸\n것인 듯하다……."
+    },
+    {
+      "file": "media-room-ending-ui-all.json",
+      "translation_key": "88cda157a0e0479b9b5cd68b",
+      "representative_line_id": "base-common/BaseGame/Town_EULabo_Common/MediaRoomJP_list.fco/77/0",
+      "japanese": "イッポリータ",
+      "english": "Ippolita",
+      "before": "이포리타",
+      "after": "이폴리타"
+    },
+    {
+      "file": "media-room-ending-ui-all.json",
+      "translation_key": "880d65e7309835ca22641abe",
+      "representative_line_id": "base-common/BaseGame/Town_EULabo_Common/MediaRoomJP_list.fco/77/1",
+      "japanese": " 祖母のイルマと一緒に暮らしてい \nる女の子 \n 幼いながらしっかり者でいつも忙 \nしく動き回っている \n 将来の夢は大学へ行って勉強する \nこと",
+      "english": "A little girl who\nlives with her\ngrandmother, Irma.\nShe is exceptionally\nresponsible for her\nage, and never\nseems to stop\nrunning errands.\n\nIppolita dreams of\nattending the\nuniversity when she\ngrows up, so she\ncan \"get in\na 'ploma.\"",
+      "before": "할머니 일마와 함께 사는 소녀.\n어리지만 야무져서 늘 바쁘게\n돌아다닌다. 장래 희망은 대학에\n가서 공부하는 것이다.",
+      "after": "할머니 이르마와 함께 사는 소녀.\n어리지만 야무져서 늘 바쁘게\n돌아다닌다. 장래 희망은 대학에\n가서 공부하는 것이다."
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "81d62c6cfacb5338fadc0134",
+      "representative_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Boss_Boss.fco/18/4",
+      "japanese": "あのイルマって ばあさんが病気で\nあの子が 薬で困っていると？",
+      "english": "That Irma lady is sick?\nAnd the girl's having\na hard time?",
+      "before": "일마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?",
+      "after": "이르마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "58f41365b620b011c795737a",
+      "representative_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Sandra_Sandra.fco/85/2",
+      "japanese": "「イッポリータ」",
+      "english": "Ippolita",
+      "before": "이포리타",
+      "after": "이폴리타"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "2703d78048f3982e75f813b3",
+      "representative_line_id": "base-common/BaseGame/Town_Africa_Common/TownMan_Sandra_Sandra.fco/88/1",
+      "japanese": "「イルマ」",
+      "english": "Irma",
+      "before": "일마",
+      "after": "이르마"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "af25245ef11f12cc2fd390db",
+      "representative_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ilma_Ilma.fco/9/0",
+      "japanese": "こないだ\n孫の イッポリータから \nとても いいにおいがしたんだが",
+      "english": "My granddaughter, little\nIppolita, smelled so good\nthe other day.",
+      "before": "얼마 전에\n손녀 이포리타에게서\n아주 좋은 냄새가 났는데",
+      "after": "얼마 전에\n손녀 이폴리타에게서\n아주 좋은 냄새가 났는데"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "f6c5ed0c255881de5f6dd459",
+      "representative_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ilma_Ilma.fco/10/1",
+      "japanese": "イッポリータは\nまだ買い物から\n帰ってこないのかね……",
+      "english": "The sun'll come up either\nway, but I wish she'd\njust get home.",
+      "before": "이포리타는\n아직 장을 보러 갔다가\n돌아오지 않은 건가…",
+      "after": "이폴리타는\n아직 장을 보러 갔다가\n돌아오지 않은 건가…"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "874b5e37017e6bb78554c3a4",
+      "representative_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ilma_Ilma.fco/11/0",
+      "japanese": "あんた…… 見たよ\nイッポリータに\n何か あげていたね",
+      "english": "I noticed you gave\nsomething to my\nIppolita.",
+      "before": "너… 봤단다\n이포리타에게\n뭔가 주더구나",
+      "after": "너… 봤단다\n이폴리타에게\n뭔가 주더구나"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "7bc9372a8035d8c499c17452",
+      "representative_line_id": "base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ilma_Ilma.fco/11/1",
+      "japanese": "最近 イッポリータが \nやけにニコニコ ごきげんで……",
+      "english": "She has been in an\nespecially chipper\nmood these days.",
+      "before": "요즘 이포리타가\n유난히 싱글벙글 기분이 좋아서…",
+      "after": "요즘 이폴리타가\n유난히 싱글벙글 기분이 좋아서…"
+    },
+    {
+      "file": "town-dialogue-all.json",
+      "translation_key": "5ec4b8e6da0b1812a2ceee28",
+      "representative_line_id": "base-common/BaseGame/Town_Mykonos_Common/TownMan_Boss_Boss.fco/18/4",
+      "japanese": "あのイルマつて ばあさんが病気で\nあの子が 薬で困つていると？",
+      "english": "That Irma lady is sick?\nAnd the girl's having\na hard time?",
+      "before": "일마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?",
+      "after": "이르마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?"
+    }
+  ],
+  "physical_cells": [
+    {
+      "translation_key": "81d62c6cfacb5338fadc0134",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "fco_file": "TownMan_Boss_Boss.fco",
+      "group_index": 18,
+      "cell_index": 4
+    },
+    {
+      "translation_key": "58f41365b620b011c795737a",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 85,
+      "cell_index": 2
+    },
+    {
+      "translation_key": "2703d78048f3982e75f813b3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 88,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "58f41365b620b011c795737a",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 85,
+      "cell_index": 2
+    },
+    {
+      "translation_key": "2703d78048f3982e75f813b3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 88,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "3601a90454f0b81ad40f4da7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 61,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "623d1865affa32d0f2713be7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 61,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "88cda157a0e0479b9b5cd68b",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 77,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "880d65e7309835ca22641abe",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 77,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "3601a90454f0b81ad40f4da7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 61,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "623d1865affa32d0f2713be7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 61,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "88cda157a0e0479b9b5cd68b",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 77,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "880d65e7309835ca22641abe",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 77,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "81d62c6cfacb5338fadc0134",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Boss_Boss.fco",
+      "group_index": 18,
+      "cell_index": 4
+    },
+    {
+      "translation_key": "52af69eadbaf0dad4c675003",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ilma_Ilma.fco",
+      "group_index": 0,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "af25245ef11f12cc2fd390db",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ilma_Ilma.fco",
+      "group_index": 9,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f6c5ed0c255881de5f6dd459",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ilma_Ilma.fco",
+      "group_index": 10,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "874b5e37017e6bb78554c3a4",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ilma_Ilma.fco",
+      "group_index": 11,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "7bc9372a8035d8c499c17452",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ilma_Ilma.fco",
+      "group_index": 11,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "f6c5ed0c255881de5f6dd459",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ilma_Ilma.fco",
+      "group_index": 12,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "92a069737de8247c627af048",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Ipporita_Ipporita.fco",
+      "group_index": 0,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "58f41365b620b011c795737a",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 85,
+      "cell_index": 2
+    },
+    {
+      "translation_key": "2703d78048f3982e75f813b3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 88,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "5ec4b8e6da0b1812a2ceee28",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "fco_file": "TownMan_Boss_Boss.fco",
+      "group_index": 18,
+      "cell_index": 4
+    },
+    {
+      "translation_key": "58f41365b620b011c795737a",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 85,
+      "cell_index": 2
+    },
+    {
+      "translation_key": "2703d78048f3982e75f813b3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 88,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "81d62c6cfacb5338fadc0134",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "fco_file": "TownMan_Boss_Boss.fco",
+      "group_index": 18,
+      "cell_index": 4
+    },
+    {
+      "translation_key": "58f41365b620b011c795737a",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 85,
+      "cell_index": 2
+    },
+    {
+      "translation_key": "2703d78048f3982e75f813b3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 88,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "81d62c6cfacb5338fadc0134",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "fco_file": "TownMan_Boss_Boss.fco",
+      "group_index": 18,
+      "cell_index": 4
+    },
+    {
+      "translation_key": "58f41365b620b011c795737a",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 85,
+      "cell_index": 2
+    },
+    {
+      "translation_key": "2703d78048f3982e75f813b3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "fco_file": "TownMan_Sandra_Sandra.fco",
+      "group_index": 88,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "3601a90454f0b81ad40f4da7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 61,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "623d1865affa32d0f2713be7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 61,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "88cda157a0e0479b9b5cd68b",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 77,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "880d65e7309835ca22641abe",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 77,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "3601a90454f0b81ad40f4da7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 61,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "623d1865affa32d0f2713be7",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 61,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "88cda157a0e0479b9b5cd68b",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 77,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "880d65e7309835ca22641abe",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 77,
+      "cell_index": 1
+    }
+  ]
+}

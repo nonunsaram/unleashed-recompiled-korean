@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "creator": "nonunsaram",
-  "updated_at": "2026-09-12",
+  "updated_at": "2026-09-25",
   "entries": [
     {
       "japanese": "ソニック",
@@ -1196,6 +1196,50 @@
         "웨어호그"
       ],
       "usage_note": "조사: 웨어혹으로, 웨어혹의"
+    },
+    {
+      "japanese": "ワン",
+      "english": "Wang",
+      "korean": "왕",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "춘난 상점 주인. 한자 성 Wang의 국내 통용 표기와 사용자 제보를 반영",
+      "forbidden_variants": [
+        "완"
+      ]
+    },
+    {
+      "japanese": "ジョセフ",
+      "english": "Josef",
+      "korean": "조세프",
+      "category": "마을 인물",
+      "status": "확정",
+      "evidence": "2026-09-25 사용자 결정. 스파고니아 상점 주인과 상점명은 일본어 ジョセフ 기준 표기 유지",
+      "forbidden_variants": [
+        "요제프"
+      ]
+    },
+    {
+      "japanese": "イルマ",
+      "english": "Irma",
+      "korean": "이르마",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "2026-09-25 사용자 결정. 일본어판을 기본으로 하되 실제 인명에 가까운 표기를 적용",
+      "forbidden_variants": [
+        "일마"
+      ]
+    },
+    {
+      "japanese": "イッポリータ",
+      "english": "Ippolita",
+      "korean": "이폴리타",
+      "category": "인물",
+      "status": "확정",
+      "evidence": "2026-09-25 사용자 결정. 일본어판을 기본으로 하되 실제 인명에 가까운 표기를 적용",
+      "forbidden_variants": [
+        "이포리타"
+      ]
     }
   ]
 }

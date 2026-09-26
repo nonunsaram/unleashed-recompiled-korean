@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "handledHdUiTextures": 43,
+  "remainingKoreanDdsOverlaps": 17,
+  "counts": {
+    "korean-font-atlas": 15,
+    "translated-tails-event": 2
+  },
+  "fullConflictFree": false,
+  "entries": [
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "evex_ex00_event_000.dds",
+      "kind": "translated-tails-event",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "evex_ex01_event_000.dds",
+      "kind": "translated-tails-event",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "korean-font-atlas",
+      "decision": "retain Korean asset; its text must remain translated"
+    }
+  ]
+}

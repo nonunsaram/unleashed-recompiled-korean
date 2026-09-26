@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "catalog_entries": 7,
+  "physical_cells": 70,
+  "archive_count": 20,
+  "gameplay_verified": false,
+  "archives": [
+    {
+      "package": "Apotos & Shamar Adventure Pack",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "EvilActionCommon",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 23,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "SonicActionCommon",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 24,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 43,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "changed_cells": 5,
+      "changed_fco_files": [
+        "ItemList_list.fco",
+        "TownMan_Wan_Wan.fco"
+      ],
+      "other_files_preserved": 42,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_EggManBase_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 30,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "changed_cells": 7,
+      "changed_fco_files": [
+        "ItemList_list.fco",
+        "MediaRoom_list.fco",
+        "MediaRoomJP_list.fco"
+      ],
+      "other_files_preserved": 24,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 57,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 43,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 40,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 53,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "changed_cells": 7,
+      "changed_fco_files": [
+        "ItemList_list.fco",
+        "MediaRoom_list.fco",
+        "MediaRoomJP_list.fco"
+      ],
+      "other_files_preserved": 24,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_Snow_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 34,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_SouthEastAsia_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 36,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "Chun-nan Adventure Pack",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "Empire City & Adabat Adventure Pack",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "Holoska Adventure Pack",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "Mazuri Adventure Pack",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "Spagonia Adventure Pack",
+      "archive": "WorldMap",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "ItemList_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    }
+  ]
+}

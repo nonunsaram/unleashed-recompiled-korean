@@ -136,3 +136,7 @@ temp/
 !/Release/v1.0.4/*.md
 !/Release/v1.0.4/*.json
 !/Release/v1.0.4/SHA256SUMS.txt
+
+!/Release/v1.0.5-review15/
+/Release/v1.0.5-review15/*
+!/Release/v1.0.5-review15/*.md

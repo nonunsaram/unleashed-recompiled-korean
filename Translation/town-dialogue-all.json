@@ -2840,7 +2840,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "あのイルマって ばあさんが病気で\nあの子が 薬で困っていると？",
       "english": "That Irma lady is sick?\nAnd the girl's having\na hard time?",
-      "korean": "일마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?",
+      "korean": "이르마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -15188,7 +15188,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "「イッポリータ」",
       "english": "Ippolita",
-      "korean": "이포리타",
+      "korean": "이폴리타",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -15331,7 +15331,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "「イルマ」",
       "english": "Irma",
-      "korean": "일마",
+      "korean": "이르마",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -46522,7 +46522,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "こないだ\n孫の イッポリータから \nとても いいにおいがしたんだが",
       "english": "My granddaughter, little\nIppolita, smelled so good\nthe other day.",
-      "korean": "얼마 전에\n손녀 이포리타에게서\n아주 좋은 냄새가 났는데",
+      "korean": "얼마 전에\n손녀 이폴리타에게서\n아주 좋은 냄새가 났는데",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -46561,7 +46561,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "イッポリータは\nまだ買い物から\n帰ってこないのかね……",
       "english": "The sun'll come up either\nway, but I wish she'd\njust get home.",
-      "korean": "이포리타는\n아직 장을 보러 갔다가\n돌아오지 않은 건가…",
+      "korean": "이폴리타는\n아직 장을 보러 갔다가\n돌아오지 않은 건가…",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -46574,7 +46574,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "あんた…… 見たよ\nイッポリータに\n何か あげていたね",
       "english": "I noticed you gave\nsomething to my\nIppolita.",
-      "korean": "너… 봤단다\n이포리타에게\n뭔가 주더구나",
+      "korean": "너… 봤단다\n이폴리타에게\n뭔가 주더구나",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -46587,7 +46587,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "最近 イッポリータが \nやけにニコニコ ごきげんで……",
       "english": "She has been in an\nespecially chipper\nmood these days.",
-      "korean": "요즘 이포리타가\n유난히 싱글벙글 기분이 좋아서…",
+      "korean": "요즘 이폴리타가\n유난히 싱글벙글 기분이 좋아서…",
       "status": "자체 검수",
       "source_quality": "provisional",
       "review_note": ""
@@ -56451,7 +56451,7 @@
       "speaker_evidence": "file_owner_inferred",
       "japanese": "あのイルマつて ばあさんが病気で\nあの子が 薬で困つていると？",
       "english": "That Irma lady is sick?\nAnd the girl's having\na hard time?",
-      "korean": "일마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?",
+      "korean": "이르마라는 할머니가 병에 걸려서\n그 아이가 약 때문에 곤란하다고?",
       "status": "확정 검수",
       "source_quality": "provisional",
       "review_note": "0.4.8 같은 일본어 문장인 검수 완료 항목과 대조했습니다. 문장 의미·고유명사·수치가 맞으며, 작은 っ·줄바꿈·문장부호 이형은 한국어 의미에 영향을 주지 않습니다. 다른 셀의 정답/거절/제작용 용도를 일괄 복사하지 않고 해당 셀의 번역을 유지합니다.",

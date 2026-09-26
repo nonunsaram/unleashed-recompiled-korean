@@ -1,0 +1,2495 @@
+{
+  "totalBaseDds": 257,
+  "counts": {
+    "ui-or-other": 45,
+    "legacy-converse": 104,
+    "korean-glyph": 106,
+    "event": 2
+  },
+  "koreanGlyphPages": 106,
+  "koreanGlyphPagesHdOverridden": 0,
+  "koreanGlyphPagesSizeKnown": 106,
+  "koreanGlyphArchiveCounts": {
+    "EvilActionCommon": 7,
+    "ExStageTails_Common": 7,
+    "SonicActionCommon": 7,
+    "Town_Africa_Common": 8,
+    "Town_China_Common": 8,
+    "Town_EggManBase_Common": 7,
+    "Town_EULabo_Common": 8,
+    "Town_EuropeanCity_Common": 8,
+    "Town_Mykonos_Common": 8,
+    "Town_NYCity_Common": 8,
+    "Town_PetraCapital_Common": 8,
+    "Town_PetraLabo_Common": 8,
+    "Town_Snow_Common": 7,
+    "Town_SouthEastAsia_Common": 7
+  },
+  "rows": [
+    {
+      "archive": "ActionCommon",
+      "file": "mat_gate_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ActionCommon",
+      "file": "mat_gate_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ActionCommon",
+      "file": "mat_misson_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ActionCommon",
+      "file": "mat_playscreen_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ActionCommon",
+      "file": "mat_playscreen_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ActionCommon",
+      "file": "mat_result_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ActionCommon",
+      "file": "mat_start_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "BossCommon",
+      "file": "mat_boss_en_003.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "EvilActionCommon",
+      "file": "mat_qte_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "archive": "EvilSonic",
+      "file": "mat_playscreen_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "EvilSonic",
+      "file": "mat_playscreen_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "evex_ex00_event_000.dds",
+      "kind": "event",
+      "hasHdOverride": true,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "evex_ex01_event_000.dds",
+      "kind": "event",
+      "hasHdOverride": true,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "mat_ex_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        128,
+        64
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "mat_playscreen_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "mat_qte_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "archive": "ExStageTails_Common",
+      "file": "mat_result_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Loading",
+      "file": "mat_load_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Loading",
+      "file": "mat_load_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": false,
+      "baseSize": null
+    },
+    {
+      "archive": "Loading",
+      "file": "mat_loadinfo_text_evil_e.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Loading",
+      "file": "mat_loadinfo_text_sonic_e.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Sonic",
+      "file": "mat_playscreen_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Sonic",
+      "file": "mat_playscreen_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Sonic",
+      "file": "mat_qte_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "mat_playscreen_en_004.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        256,
+        16
+      ]
+    },
+    {
+      "archive": "SonicActionCommon",
+      "file": "mat_su_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        256,
+        128
+      ]
+    },
+    {
+      "archive": "SuperSonic",
+      "file": "mat_playscreen_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SuperSonic",
+      "file": "mat_playscreen_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SuperSonic",
+      "file": "mat_playscreen_en_003.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SuperSonic",
+      "file": "mat_su_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_comon_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_comon_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_pause_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_pause_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_result_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_status_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "SystemCommonCore",
+      "file": "mat_status_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Title",
+      "file": "mat_title_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Title",
+      "file": "mat_title_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": false,
+      "baseSize": null
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Africa_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_China_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Common",
+      "file": "mat_pause_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Town_Common",
+      "file": "mat_shop_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Town_Common",
+      "file": "mat_townscreen_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "mat_gate_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "mat_gate_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        512,
+        128
+      ]
+    },
+    {
+      "archive": "Town_EggManBase_Common",
+      "file": "mat_result_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EULabo_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_EuropeanCity_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Labo_Common",
+      "file": "mat_media_en_001.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Town_Labo_Common",
+      "file": "mat_media_en_002.dds",
+      "kind": "ui-or-other",
+      "hasHdOverride": true,
+      "baseSize": null
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Mykonos_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_NYCity_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_ConverseMain_009.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraCapital_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_PetraLabo_Common",
+      "file": "fte_Korean_007.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_Snow_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_000.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_001.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_002.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_003.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_004.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_005.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_006.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_007.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_ConverseMain_008.dds",
+      "kind": "legacy-converse",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_000.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_001.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_002.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_003.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_004.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_005.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    },
+    {
+      "archive": "Town_SouthEastAsia_Common",
+      "file": "fte_Korean_006.dds",
+      "kind": "korean-glyph",
+      "hasHdOverride": false,
+      "baseSize": [
+        512,
+        512
+      ]
+    }
+  ]
+}

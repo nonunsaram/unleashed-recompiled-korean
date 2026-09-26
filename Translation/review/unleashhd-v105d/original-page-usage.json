@@ -1,0 +1,211 @@
+[
+  {
+    "archive": "EvilActionCommon",
+    "originalPageCount": 1,
+    "originalGlyphIds": 252,
+    "overlappingFcoFiles": [
+      {
+        "file": "GeneralMessage_list.fco",
+        "matchingIds": 64,
+        "totalIds": 81
+      }
+    ]
+  },
+  {
+    "archive": "ExStageTails_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 284,
+    "overlappingFcoFiles": [
+      {
+        "file": "evex_ex00_event.fco",
+        "matchingIds": 42,
+        "totalIds": 42
+      },
+      {
+        "file": "evex_ex01_event.fco",
+        "matchingIds": 28,
+        "totalIds": 28
+      }
+    ]
+  },
+  {
+    "archive": "SonicActionCommon",
+    "originalPageCount": 1,
+    "originalGlyphIds": 252,
+    "overlappingFcoFiles": [
+      {
+        "file": "GeneralMessage_list.fco",
+        "matchingIds": 64,
+        "totalIds": 81
+      }
+    ]
+  },
+  {
+    "archive": "Town_Africa_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": [
+      {
+        "file": "TownMan_Esee_Esee.fco",
+        "matchingIds": 86,
+        "totalIds": 1337
+      }
+    ]
+  },
+  {
+    "archive": "Town_China_Common",
+    "originalPageCount": 2,
+    "originalGlyphIds": 453,
+    "overlappingFcoFiles": [
+      {
+        "file": "TownMan_Anastsia_Anastsia.fco",
+        "matchingIds": 15,
+        "totalIds": 307
+      },
+      {
+        "file": "TownMan_Brenda_Brenda.fco",
+        "matchingIds": 30,
+        "totalIds": 4095
+      },
+      {
+        "file": "TownMan_Charz_Charz.fco",
+        "matchingIds": 15,
+        "totalIds": 2699
+      },
+      {
+        "file": "TownMan_Chun_Chun.fco",
+        "matchingIds": 45,
+        "totalIds": 2315
+      },
+      {
+        "file": "TownMan_Eric_Eric.fco",
+        "matchingIds": 15,
+        "totalIds": 1680
+      },
+      {
+        "file": "TownMan_Erin_Erin.fco",
+        "matchingIds": 15,
+        "totalIds": 942
+      },
+      {
+        "file": "TownMan_Fatima_Fatima.fco",
+        "matchingIds": 15,
+        "totalIds": 941
+      },
+      {
+        "file": "TownMan_Guwek_Guwek.fco",
+        "matchingIds": 3,
+        "totalIds": 3637
+      },
+      {
+        "file": "TownMan_HotdogChn_HotdogChn.fco",
+        "matchingIds": 15,
+        "totalIds": 612
+      },
+      {
+        "file": "TownMan_Jinrin_Jinrin.fco",
+        "matchingIds": 15,
+        "totalIds": 709
+      },
+      {
+        "file": "TownMan_Rin_Rin.fco",
+        "matchingIds": 15,
+        "totalIds": 1880
+      },
+      {
+        "file": "TownMan_Said_Said.fco",
+        "matchingIds": 15,
+        "totalIds": 2590
+      },
+      {
+        "file": "TownMan_Sandra_Sandra.fco",
+        "matchingIds": 15,
+        "totalIds": 6350
+      },
+      {
+        "file": "TownMan_Shuifon_Shuifon.fco",
+        "matchingIds": 15,
+        "totalIds": 1314
+      },
+      {
+        "file": "TownMan_Sunafkin_Sunafkin.fco",
+        "matchingIds": 15,
+        "totalIds": 2844
+      },
+      {
+        "file": "TownMan_Wan_Wan.fco",
+        "matchingIds": 15,
+        "totalIds": 581
+      },
+      {
+        "file": "TownMan_Warrin_Warrin.fco",
+        "matchingIds": 15,
+        "totalIds": 942
+      },
+      {
+        "file": "TownMan_Yawa_Yawa.fco",
+        "matchingIds": 30,
+        "totalIds": 2332
+      },
+      {
+        "file": "TownMan_Zonshen_Zonshen.fco",
+        "matchingIds": 30,
+        "totalIds": 4107
+      }
+    ]
+  },
+  {
+    "archive": "Town_EggManBase_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_EULabo_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_EuropeanCity_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_Mykonos_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_NYCity_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_PetraCapital_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_PetraLabo_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_Snow_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  },
+  {
+    "archive": "Town_SouthEastAsia_Common",
+    "originalPageCount": 1,
+    "originalGlyphIds": 228,
+    "overlappingFcoFiles": []
+  }
+]

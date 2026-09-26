@@ -1,0 +1,700 @@
+{
+  "decision": "Wang = 왕",
+  "catalog_entries": [
+    {
+      "file": "core-ui-all.json",
+      "translation_key": "8f6d66c30e1c4af51f26c29b",
+      "representative_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Wan_Wan.fco/0/0",
+      "japanese": "ワン",
+      "english": "Wang",
+      "before": "완",
+      "after": "왕"
+    },
+    {
+      "file": "core-ui-all.json",
+      "translation_key": "e48d7755134a763aa470ff24",
+      "representative_line_id": "base-common/BaseGame/Town_China_Common/TownMan_Wan_Wan.fco/0/1",
+      "japanese": "立ちふさがる男 ワン",
+      "english": "Wang the Impeding",
+      "before": "길을 막아선 완",
+      "after": "길을 막아선 왕"
+    },
+    {
+      "file": "item-ui-all.json",
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "representative_line_id": "base-common/BaseGame/EvilActionCommon/ItemList_list.fco/38/0",
+      "japanese": "ワンさんの弁当",
+      "english": "Wang's Box Lunch",
+      "before": "완 씨의 도시락",
+      "after": "왕 씨의 도시락"
+    },
+    {
+      "file": "item-ui-all.json",
+      "translation_key": "49b1d0616b23dbe655879131",
+      "representative_line_id": "base-common/BaseGame/EvilActionCommon/ItemList_list.fco/38/1",
+      "japanese": "店主のワンさんの手作りお弁当 \nワンさんのご機嫌がいいと大盛りになることも",
+      "english": "A homemade lunch. Pop in on\na good day for an extra\nhelping.",
+      "before": "주인 완 씨가 직접 만든 도시락\n완 씨의 기분이 좋으면 곱빼기가 되기도 한다",
+      "after": "주인 왕 씨가 직접 만든 도시락\n왕 씨의 기분이 좋으면 곱빼기가 되기도 한다"
+    },
+    {
+      "file": "item-ui-all.json",
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "representative_line_id": "base-common/BaseGame/EvilActionCommon/ItemList_list.fco/39/0",
+      "japanese": "ワンさんの中華麺",
+      "english": "Wang's Noodles",
+      "before": "완 씨의 중화면",
+      "after": "왕 씨의 중화면"
+    },
+    {
+      "file": "media-room-ending-ui-all.json",
+      "translation_key": "2564bef5806b4cec58dcaea9",
+      "representative_line_id": "base-common/BaseGame/Town_EULabo_Common/MediaRoomJP_list.fco/84/0",
+      "japanese": "ワン",
+      "english": "Wang",
+      "before": "완",
+      "after": "왕"
+    },
+    {
+      "file": "media-room-ending-ui-all.json",
+      "translation_key": "9c920e905569e727c0272d47",
+      "representative_line_id": "base-common/BaseGame/Town_EULabo_Common/MediaRoomJP_list.fco/86/1",
+      "japanese": " ジンリンとワンの娘 肉まん屋に \n生まれたが 肉まんばかりの人生に \n少しうんざりしている \n 最近は肉まんを食べるのは美容の \n敵だといい野菜ばかりを食べている \nお年頃の女の子",
+      "english": "Jinlin and Wang's\ndaughter.\n\nHualin was born\ninto a family of\nbun-makers, and as\nyou might imagine,\nshe is thoroughly\nbunned out. She\nhas switched to an\nall-vegetable diet\n(\"for my\ncomplexion!\" she\nsays) in hopes of\nreversing a\nlifetime of meat\nbun damage while\nstill of\nmarriageable age.",
+      "before": "진린과 완의 딸. 고기만두 가게\n집안에서 태어났지만 만두뿐인\n삶에 조금 질렸다. 최근에는\n고기만두가 미용의 적이라며\n채소만 먹는 한창 나이의 소녀다.",
+      "after": "진린과 왕의 딸. 고기만두 가게\n집안에서 태어났지만 만두뿐인\n삶에 조금 질렸다. 최근에는\n고기만두가 미용의 적이라며\n채소만 먹는 한창 나이의 소녀다."
+    }
+  ],
+  "physical_cells": [
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "EvilActionCommon",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "EvilActionCommon",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "EvilActionCommon",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "SonicActionCommon",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "SonicActionCommon",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "SonicActionCommon",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "8f6d66c30e1c4af51f26c29b",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "TownMan_Wan_Wan.fco",
+      "group_index": 0,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "e48d7755134a763aa470ff24",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "fco_file": "TownMan_Wan_Wan.fco",
+      "group_index": 0,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "2564bef5806b4cec58dcaea9",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 84,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "9c920e905569e727c0272d47",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 86,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "2564bef5806b4cec58dcaea9",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 84,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "9c920e905569e727c0272d47",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 86,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EggManBase_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EggManBase_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EggManBase_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "2564bef5806b4cec58dcaea9",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 84,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "9c920e905569e727c0272d47",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoomJP_list.fco",
+      "group_index": 86,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "2564bef5806b4cec58dcaea9",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 84,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "9c920e905569e727c0272d47",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "fco_file": "MediaRoom_list.fco",
+      "group_index": 86,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Snow_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Snow_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_Snow_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_SouthEastAsia_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_SouthEastAsia_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "Town_SouthEastAsia_Common",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "base-common",
+      "package": "BaseGame",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "dlc-common",
+      "package": "Apotos & Shamar Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "dlc-common",
+      "package": "Apotos & Shamar Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "dlc-common",
+      "package": "Apotos & Shamar Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "dlc-common",
+      "package": "Chun-nan Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "dlc-common",
+      "package": "Chun-nan Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "dlc-common",
+      "package": "Chun-nan Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "dlc-common",
+      "package": "Empire City & Adabat Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "dlc-common",
+      "package": "Empire City & Adabat Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "dlc-common",
+      "package": "Empire City & Adabat Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "dlc-common",
+      "package": "Holoska Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "dlc-common",
+      "package": "Holoska Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "dlc-common",
+      "package": "Holoska Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "dlc-common",
+      "package": "Mazuri Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "dlc-common",
+      "package": "Mazuri Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "dlc-common",
+      "package": "Mazuri Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "f0f5b6d86978e7e37b037784",
+      "source_kind": "dlc-common",
+      "package": "Spagonia Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 0
+    },
+    {
+      "translation_key": "49b1d0616b23dbe655879131",
+      "source_kind": "dlc-common",
+      "package": "Spagonia Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 38,
+      "cell_index": 1
+    },
+    {
+      "translation_key": "8c693a598c42aacc12814fb3",
+      "source_kind": "dlc-common",
+      "package": "Spagonia Adventure Pack",
+      "archive": "WorldMap",
+      "fco_file": "ItemList_list.fco",
+      "group_index": 39,
+      "cell_index": 0
+    }
+  ]
+}

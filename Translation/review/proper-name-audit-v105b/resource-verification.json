@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "catalog_entries": 14,
+  "physical_cells": 40,
+  "archive_count": 8,
+  "gameplay_verified": false,
+  "archives": [
+    {
+      "package": "BaseGame",
+      "archive": "Town_Africa_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "TownMan_Boss_Boss.fco",
+        "TownMan_Sandra_Sandra.fco"
+      ],
+      "other_files_preserved": 42,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_China_Common",
+      "changed_cells": 2,
+      "changed_fco_files": [
+        "TownMan_Sandra_Sandra.fco"
+      ],
+      "other_files_preserved": 43,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_EULabo_Common",
+      "changed_cells": 8,
+      "changed_fco_files": [
+        "MediaRoom_list.fco",
+        "MediaRoomJP_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_EuropeanCity_Common",
+      "changed_cells": 10,
+      "changed_fco_files": [
+        "TownMan_Boss_Boss.fco",
+        "TownMan_Ilma_Ilma.fco",
+        "TownMan_Ipporita_Ipporita.fco",
+        "TownMan_Sandra_Sandra.fco"
+      ],
+      "other_files_preserved": 54,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_Mykonos_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "TownMan_Boss_Boss.fco",
+        "TownMan_Sandra_Sandra.fco"
+      ],
+      "other_files_preserved": 42,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_NYCity_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "TownMan_Boss_Boss.fco",
+        "TownMan_Sandra_Sandra.fco"
+      ],
+      "other_files_preserved": 39,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_PetraCapital_Common",
+      "changed_cells": 3,
+      "changed_fco_files": [
+        "TownMan_Boss_Boss.fco",
+        "TownMan_Sandra_Sandra.fco"
+      ],
+      "other_files_preserved": 52,
+      "roundtrip_verified": true
+    },
+    {
+      "package": "BaseGame",
+      "archive": "Town_PetraLabo_Common",
+      "changed_cells": 8,
+      "changed_fco_files": [
+        "MediaRoom_list.fco",
+        "MediaRoomJP_list.fco"
+      ],
+      "other_files_preserved": 25,
+      "roundtrip_verified": true
+    }
+  ]
+}

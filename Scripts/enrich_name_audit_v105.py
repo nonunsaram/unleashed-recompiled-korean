@@ -1,0 +1,83 @@
+"""Add in-game locations and evidence-weighted recommendations to name audit."""
+from __future__ import annotations
+import csv,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'Translation/review/proper-name-audit-v105'
+REGIONS={
+ 'Town_Africa_Common':('마주리','아프리카풍 추정 (내부 코드 Africa)'),
+ 'Town_China_Common':('춘난','중국풍 (세가 공식 소개)'),
+ 'Town_EULabo_Common':('연구실','특정 국가 미확인'),
+ 'Town_EggManBase_Common':('에그맨 랜드','특정 국가 미확인'),
+ 'Town_EuropeanCity_Common':('스파고니아','유럽풍 (세가 공식 소개); 이탈리아 단정 불가'),
+ 'Town_Mykonos_Common':('아포토스','지중해풍 (세가 공식 소개)'),
+ 'Town_NYCity_Common':('엠파이어 시티','고층 도시풍 (세가 공식 소개); 내부 코드 NYCity'),
+ 'Town_PetraCapital_Common':('샤마르','아라비아풍 (세가 공식 소개)'),
+ 'Town_Snow_Common':('홀로스카','설국풍 (세가 공식 소개)'),
+ 'Town_SouthEastAsia_Common':('아다바트','동남아시아풍 추정 (내부 코드 SouthEastAsia)'),
+}
+RECOMMEND={
+ '6eb23920508410d4ce9d520d':('쿠워드','유지','일본어 クーウォド와 내부 Quwod를 우선. Kwod만으로 쿼드 확정 불가','중'),
+ 'fbc2d77303a107570fb20e4c':('데니스','유지','Denise는 영어권에서도 /s/·/z/ 발음이 갈림. 드니즈가 유일한 정답은 아님','중'),
+ '52af69eadbaf0dad4c675003':('이르마','변경 추천','Irma의 한국어 관용 표기에 가까움. 일본어 イルマ와는 발음 차이 존재','중'),
+ '92a069737de8247c627af048':('이폴리타','변경 추천','Ippolita의 ol과 이탈리아계 이름 표기를 반영','중'),
+ '1cbcc46fad028bbe156f19ae':('조세프','유지 확정','사용자 결정. 일본어 ジョセフ 기준을 유지하고 영어 Josef와의 차이는 기록','높음'),
+ 'df408559739cb12a9d647de6':('이프산','유지','일본어 イフサーン과 내부 Ifsan을 우선. 영어 Ehsan은 차이 있음','중'),
+ '16e632d48a3f4b6c60ebcdda':('스두키','유지','일본어 スドゥキー와 내부 Sdoky 우선. Sadiq는 영어판 다른 이름','높음'),
+ 'f8b81bb1f56a5a6ce2775c03':('야리수레','유지','일본어 スーレ와 내부 Yarisure 우선. Thure의 현지 발음은 게임에서 미확인','중'),
+ '645e891cfb772ac1c0fdbb06':('파티마','유지','일본어 ファティマ와 영어 Sammar는 다른 이름. 일본어 기준 유지','높음'),
+ 'e6785377c924d5a074c2a335':('릴 앤','유지','일본어 リル・アン과 영어 Li\'l Kate는 다른 이름. 일본어 기준 유지','높음'),
+ 'afbba6e74d13ab9e20eb515b':('디나','유지','일본어 ディナ와 영어 Dimah는 다른 이름. 일본어 기준 유지','높음'),
+ '15683f3678b478595b3b659a':('후줄','유지','일본어 フズル과 영어 Hizir는 다른 이름. 일본어 기준 유지','높음'),
+ '3327c7be085b387ac167fb0b':('사파','유지','일본어 サファー와 영어 Safi는 다른 이름. 일본어 기준 유지','높음'),
+ '485e7f2b0df2d418e24b02ca':('제나','유지','일본어 ゼーナ와 영어 Samia는 다른 이름. 일본어 기준 유지','높음'),
+}
+
+def main():
+ rows=[r for r in json.loads((ROOT/'Translation/core-ui-all.json').read_text(encoding='utf8'))['items'] if r.get('content_role')=='name_tag']
+ assert len(rows)==113 and set(RECOMMEND)<={r['translation_key'] for r in rows}
+ fields=['translation_key','japanese','english','korean','in_game_location','nationality','region_motif','recommendation','action','confidence','reason','representative_line_id']
+ full=[]
+ for r in rows:
+  archive=r['representative_line_id'].split('/')[2]
+  location,motif=REGIONS[archive]
+  rec=RECOMMEND.get(r['translation_key'])
+  full.append({'translation_key':r['translation_key'],'japanese':r['japanese'],'english':r['english'],'korean':r['korean'],
+               'in_game_location':location,'nationality':'미확인','region_motif':motif,
+               'recommendation':rec[0] if rec else r['korean'],'action':rec[1] if rec else '유지',
+               'confidence':rec[3] if rec else '', 'reason':rec[2] if rec else '',
+               'representative_line_id':r['representative_line_id']})
+ with (OUT/'name-regions-113.csv').open('w',newline='',encoding='utf-8-sig') as f:
+  w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(full)
+ candidates=[r for r in full if r['translation_key'] in RECOMMEND]
+ location_order=['마주리','스파고니아','엠파이어 시티','샤마르','홀로스카']
+ candidates.sort(key=lambda r:(location_order.index(r['in_game_location']),r['japanese']))
+ lines=['# 인명 후보 14건: 등장 지역과 추천','',
+        '여기서 지역은 **인물이 게임에 등장하는 장소**입니다. 국적·출생지는 원문에 명시되지 않아 모두 미확인으로 표기했습니다. 스파고니아를 이탈리아, 홀로스카를 핀란드로 확정하지 않습니다.','',
+        '기존 번역 정책은 일본어판 이름 우선, 영어판은 대조입니다. 조세프는 사용자 결정으로 유지 확정했습니다. 아래 두 건의 변경 추천은 제안일 뿐이며 현재 게임 리소스에는 아직 적용하지 않았습니다.','',
+        '| 등장 지역 | 일본어 / 영어 | 현재 | 추천 | 판단 |', '|---|---|---|---|---|']
+ for r in candidates:
+  lines.append(f"| {r['in_game_location']} | {r['japanese']} / {r['english']} | {r['korean']} | **{r['recommendation']}** ({r['action']}) | {r['reason']} |")
+ lines += ['', '## Josef와 Denise', '',
+          '- **Josef**: 게임의 일본어 이름 `ジョセフ`를 기준으로 `조세프`를 유지하기로 사용자가 결정했습니다. 영어판 철자 `Josef`는 중부 유럽식으로 읽으면 `요제프`에 가깝지만, 스파고니아는 특정 실존 국가가 아니며 인물의 발음도 확인되지 않았습니다. 현재 상점 이름과 대사 역시 `조세프`로 일치합니다.',
+          '- **Denise**: 영어 발음은 영국식 끝소리 /z/, 미국식 /s/가 함께 쓰입니다. 일본어 `ドニーズ`는 /z/에 가깝지만 현재 `데니스`도 영어 미국식과 국내 관용 표기에서 자연스럽습니다. 따라서 `드니즈`가 반드시 더 맞지는 않으며 **데니스 유지**를 추천합니다.',
+          '', '## 릴 앤 / Li’l Kate', '',
+          '- 일본어판에서 본인이 `リル・アン`이라고 소개하고, 다른 인물이 이름만 부를 때는 `アン`이라고 합니다. 영어판 같은 대사는 `Li\'l Kate`입니다. 내부 파일명도 `Lilanne`이므로 단순 음역 차이가 아닌 판본별 이름 변경입니다.',
+          '- `Li\'l`은 `little`의 구어적 축약으로 별명·예명 앞에 쓸 수 있습니다. 앤과 케이트는 각각 이름이지만 `릴 앤`과 `Li\'l Kate` 중 어느 전체 표현이 더 흔한 정식 이름인지 판단할 자료는 없습니다. 이 인물은 가수를 꿈꾸므로 예명처럼 읽는 것이 자연스럽습니다.',
+          '- 추천은 **릴 앤 유지**입니다. 한국어판의 일본어 원문 우선 원칙과 게임 속 자기소개에 맞고, 영어판의 `Li\'l Kate`는 대체 이름으로 기록합니다. 영어명이 더 글로벌하게 들린다는 추정만으로 원래 이름을 교체하지 않습니다.',
+          '', '## 표기 선택 원칙', '',
+          '1. 같은 이름의 발음·철자만 다르면 일본어, 영어, 실제 언어권의 발음을 함께 보고 자연스러운 한국어 표기를 정합니다. 사용자가 확정한 표기를 우선합니다.',
+          '2. 이름 자체가 바뀐 경우에는 두 판본을 혼합하지 않고 한쪽 이름을 일관되게 사용합니다. 공식 한국어 표기나 작품 안에서 들리는 발음이 있으면 우선 검토하고, 근거가 없으면 기존 일본어판 기준을 유지합니다.',
+          '3. 등장 장소로 인물의 국적을 추정하지 않습니다. 영어 현지화의 의도는 별도 제작 자료가 없으므로 단정하지 않습니다.',
+          '', '## 근거와 범위', '',
+          '- 원문: `Translation/core-ui-all.json`의 이름표 113건 및 해당 `TownMan_*.fco` 일본어·영어 대사.',
+          '- 지역 코드: 각 항목의 `representative_line_id`; 지역명이 들어간 상점 이름표와 대사로 대응 확인.',
+          '- 세가 공식 소개: <https://sonic.sega.jp/SonicWorldAdventure/> — 스파고니아 유럽풍, 샤마르 아라비아풍, 홀로스카 설국풍 등.',
+          '- Denise 영어 발음: <https://dictionary.cambridge.org/us/pronunciation/english/denise>.',
+          '- Josef 중부 유럽 발음 참고: <https://de.wiktionary.org/wiki/Josef>.',
+          '- `Li\'l`의 용법: <https://www.dictionary.com/culture/slang/lil>.',
+          '- 릴 앤 게임 대사: `TownMan_Lilanne_Lilanne.fco/2/0`, `TownMan_Defbig_Defbig.fco/45/5` (일본어/영어 카탈로그).',
+          '- 전체 113건의 지역·추천은 `name-regions-113.csv`에 있습니다.']
+ (OUT/'regional-recommendations-KO.md').write_text('\n'.join(lines)+'\n',encoding='utf8')
+ print(json.dumps({'nameTags':len(full),'candidates':len(candidates),'changeRecommendations':sum(r['action']=='변경 추천' for r in candidates),'regions':sorted({r['in_game_location'] for r in full})},ensure_ascii=False))
+if __name__=='__main__':main()

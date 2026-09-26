@@ -1,0 +1,115 @@
+﻿translation_key,japanese,english,korean,in_game_location,nationality,region_motif,recommendation,action,confidence,reason,representative_line_id
+9b3084f97d9d438e74ee0a1c,アナ,Ana,아나,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),아나,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Ana_Ana.fco/0/0
+548b55014e3556200792d951,ボス,Boss,보스,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),보스,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Boss_Boss.fco/0/0
+1ef50cdf0e25b95cc6c6fcd8,ブレンダ,Brenda,브렌다,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),브렌다,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Brenda_Brenda.fco/0/0
+a622a9d48f9274fdea91e28f,コフィー,Kofi,코피,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),코피,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_CofyStore_CofyStore.fco/0/0
+bf8d3f12e922e16333a400ed,エシー,Essie,에시,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),에시,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Esee_Esee.fco/0/0
+645e891cfb772ac1c0fdbb06,ファティマ,Sammar,파티마,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),파티마,유지,높음,일본어 ファティマ와 영어 Sammar는 다른 이름. 일본어 기준 유지,base-common/BaseGame/Town_Africa_Common/TownMan_Fatima_Fatima.fco/0/0
+8725d9e17cdeb816aa49a8ce,グウェク村長,Village Elder Gwek,그웨크 촌장,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),그웨크 촌장,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Guwek_Guwek.fco/0/0
+365574de170bd15ec0d6113f,グウェク元村長,Former Village Elder Gwek,전 촌장 그웨크,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),전 촌장 그웨크,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Guwek_Guwek.fco/0/1
+b8f4d1c172be800954e1e794,"ドン・ファッチョ マズーリ店
+あいうえおあいうえおあいうえおあいう",Don Fachio's Mazuri,돈 파치오 마주리점,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),돈 파치오 마주리점,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_HotdogAfr_HotdogAfr.fco/0/0
+b55c29f4f31f1efb032c74a9,クワミ,Kwami,콰미,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),콰미,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Kuwmi_Kuwmi.fco/0/0
+c06c597bf7da110f573e8da5,挙動不審な男 クワミ,Kwami acting really strange,수상한 남자 콰미,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),수상한 남자 콰미,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Kuwmi_Kuwmi.fco/0/1
+d466f2ed223fec6f218bba0d,なにかを感じたクワミ,Kwami Sensing Something,무언가를 느낀 콰미,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),무언가를 느낀 콰미,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Kuwmi_Kuwmi.fco/0/2
+c960c07b9d5b7ed664e43672,なにかを強く感じたクワミ,Kwami Really Sensing Something,무언가를 강하게 느낀 콰미,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),무언가를 강하게 느낀 콰미,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Kuwmi_Kuwmi.fco/0/3
+88daf56a7f0f48b573f2baa9,ムサーイド,Musaid,무사이드,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),무사이드,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Msaid_Msaid.fco/0/0
+6eb23920508410d4ce9d520d,クーウォド,Kwod,쿠워드,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),쿠워드,유지,중,일본어 クーウォド와 내부 Quwod를 우선. Kwod만으로 쿼드 확정 불가,base-common/BaseGame/Town_Africa_Common/TownMan_Quwod_Quwod.fco/0/0
+3a5f505798836d403847829f,サイイド,Sa'id,사이드,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),사이드,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Said_Said.fco/0/0
+a4dc8b7eeb289844af2c22bb,サンドラ,Sandra,산드라,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),산드라,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Sandra_Sandra.fco/0/0
+2821b4d7ea6a50c130742ec5,ウェントス,Wentos,웬토스,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),웬토스,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Sunafkin_Sunafkin.fco/0/0
+5d3a75e8c1c2928d4daa5394,チャオ人形,Chao,차오 인형,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),차오 인형,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Sunafkin_Sunafkin.fco/0/1
+e267a92ae8c689828beaba4c,旅商人 ウェントス,Traveling Salesman Wentos,떠돌이 상인 웬토스,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),떠돌이 상인 웬토스,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Sunafkin_Sunafkin.fco/0/2
+3ebb89606148bbd4aecfc7f1,謎の青年,A mysterious youth,수수께끼의 청년,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),수수께끼의 청년,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Sunafkin_Sunafkin.fco/0/3
+d3697c821816bbe7c7383ef7,テイルス,Tails,테일즈,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),테일즈,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Tails_Tails.fco/0/0
+8f1ab06391655c753ced8e3d,ワーリン,Hualin,화린,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),화린,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Warrin_Warrin.fco/0/0
+1643733f5a8f1020076541fe,家出中のワーリン,Hualin the runaway,가출한 화린,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),가출한 화린,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Warrin_Warrin.fco/0/1
+5561fcb1f5b8df9bc64c1d2f,ヤワ,Yawa,야와,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),야와,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Yawa_Yawa.fco/0/0
+64e863f231ba955fb404cbfa,ヤヤ,Yaya,야야,마주리,미확인,아프리카풍 추정 (내부 코드 Africa),야야,유지,,,base-common/BaseGame/Town_Africa_Common/TownMan_Yaya_Yaya.fco/0/0
+e10c4713b4bf0190046f9022,アナスタシア,Anastasia,아나스타시아,춘난,미확인,중국풍 (세가 공식 소개),아나스타시아,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Anastsia_Anastsia.fco/0/0
+38f1051a429547dfdd85e330,医学生 チャールズ,Med School Student Charles,의대생 찰스,춘난,미확인,중국풍 (세가 공식 소개),의대생 찰스,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Charz_Charz.fco/0/0
+45b9e46131217ef34ba27394,チュン,Chun,춘,춘난,미확인,중국풍 (세가 공식 소개),춘,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Chun_Chun.fco/0/0
+25781063101c36c87ee9046e,エリック,Eric,에릭,춘난,미확인,중국풍 (세가 공식 소개),에릭,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Eric_Eric.fco/0/0
+c59b0ee3b40dba54b9da454f,イーリン,Yilin,이린,춘난,미확인,중국풍 (세가 공식 소개),이린,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Erin_Erin.fco/0/0
+d92b3f65b149669f807cc2cf,ドン・ファッチョ  チュンナン店,Don Fachio's Chun-nan,돈 파치오 춘난점,춘난,미확인,중국풍 (세가 공식 소개),돈 파치오 춘난점,유지,,,base-common/BaseGame/Town_China_Common/TownMan_HotdogChn_HotdogChn.fco/0/0
+56d8caf74b28395865194caa,ジンリン,Jinlin,진린,춘난,미확인,중국풍 (세가 공식 소개),진린,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Jinrin_Jinrin.fco/0/0
+728f891506031549753e7807,リン,Lin,린,춘난,미확인,중국풍 (세가 공식 소개),린,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Rin_Rin.fco/0/0
+00086b904e5cf7ce5cea5184,シュイフォン,Shuifon,슈이폰,춘난,미확인,중국풍 (세가 공식 소개),슈이폰,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Shuifon_Shuifon.fco/0/0
+8f6d66c30e1c4af51f26c29b,ワン,Wang,왕,춘난,미확인,중국풍 (세가 공식 소개),왕,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Wan_Wan.fco/0/0
+e48d7755134a763aa470ff24,立ちふさがる男 ワン,Wang the Impeding,길을 막아선 왕,춘난,미확인,중국풍 (세가 공식 소개),길을 막아선 왕,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Wan_Wan.fco/0/1
+5bc40d6c60a957dbb0a734de,ゾンシェン村長,Village Elder Zonshen,종셴 촌장,춘난,미확인,중국풍 (세가 공식 소개),종셴 촌장,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Zonshen_Zonshen.fco/0/0
+d5e26b0fa9f4b2949f438c77,気をためる ゾンシェン村長,Concentrating Zonshen,기를 모으는 종셴 촌장,춘난,미확인,중국풍 (세가 공식 소개),기를 모으는 종셴 촌장,유지,,,base-common/BaseGame/Town_China_Common/TownMan_Zonshen_Zonshen.fco/0/1
+29d18d70929fb311aa809a87,ピックル教授,Professor Pickle,피클 교수,연구실,미확인,특정 국가 미확인,피클 교수,유지,,,base-common/BaseGame/Town_EULabo_Common/TownMan_Kyoju_Kyoju.fco/0/0
+b51c553c59330b20dae9c82a,EF-MD1991,EF-MD1991,EF-MD1991,에그맨 랜드,미확인,특정 국가 미확인,EF-MD1991,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterA_EfighterA.fco/0/0
+eb12050c701fd99839525d75,EF-DC1998,EF-DC1998,EF-DC1998,에그맨 랜드,미확인,특정 국가 미확인,EF-DC1998,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterB_EfighterB.fco/0/0
+f0c2f082cc4e6e7fd1d9756f,EF-XB2006,EF-XB2006,EF-XB2006,에그맨 랜드,미확인,특정 국가 미확인,EF-XB2006,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterC_EfighterC.fco/0/0
+04f99044fab12a2e743a3729,熱血EF-XB2006,Zealous EF-XB2006,열혈 EF-XB2006,에그맨 랜드,미확인,특정 국가 미확인,열혈 EF-XB2006,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterC_EfighterC.fco/0/1
+776a902b9a8fe6c7e74b0ef7,あまえんぼうのEF-XB2006,Childish EF-XB2006,응석받이 EF-XB2006,에그맨 랜드,미확인,특정 국가 미확인,응석받이 EF-XB2006,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterC_EfighterC.fco/0/2
+d860dd176ad603bfb3407e48,クールなEF-XB2006,Brainy EF-XB2006,냉철한 EF-XB2006,에그맨 랜드,미확인,특정 국가 미확인,냉철한 EF-XB2006,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_EfighterC_EfighterC.fco/0/3
+1031cd8f8fc343305c63119d,ドン・ファッチョ エッグマンランド店,Don Fachio's Eggmanland,돈 파치오 에그맨 랜드점,에그맨 랜드,미확인,특정 국가 미확인,돈 파치오 에그맨 랜드점,유지,,,base-common/BaseGame/Town_EggManBase_Common/TownMan_HotdogEgb_HotdogEgb.fco/0/0
+db8afdaff5d7ce4a3f063709,アイダ,Aida,아이다,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,아이다,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Aida_Aida.fco/0/0
+f3064ce4f6c754cb63fcfcb2,エミー,Amy,에이미,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,에이미,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Amy_Amy.fco/0/0
+6e8df61740864666be1c3f39,ピックル教授の助手,Professor Pickle's Assistant,피클 교수의 조수,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,피클 교수의 조수,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Assist_Assist.fco/0/0
+69dcecad2374694ddb584d87,バルバラ,Barbara,바르바라,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,바르바라,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Balbara_Balbara.fco/0/0
+7e249e0de7687c199746b048,チッチョ,Ciccio,치초,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,치초,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Chicho_Chicho.fco/0/0
+6078dd754fa7fa1395648544,ダヴィド,David,다비드,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,다비드,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Dadid_Dadid.fco/0/0
+fbc2d77303a107570fb20e4c,ドニーズ,Denise,데니스,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,데니스,유지,중,Denise는 영어권에서도 /s/·/z/ 발음이 갈림. 드니즈가 유일한 정답은 아님,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Dnyz_Dnyz.fco/0/0
+8f98dedacf7542b244b0ef1d,ドーラ,Dora,도라,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,도라,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Dora_Dora.fco/0/0
+14a81e3a7af45fe788ed5923,エリオ,Elio,엘리오,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,엘리오,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Erio_Erio.fco/0/0
+c99b73bd9da6403210613b06,フェデリカ,Federica,페데리카,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,페데리카,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Federica_Federica.fco/0/0
+aef030d561d116a31e89e2aa,フランコ,Franco,프랑코,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,프랑코,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Franko_Franko.fco/0/0
+598b4b7540e508a4c3b91a30,ドン・ファッチョ スパゴニア店,Don Fachio's Spagonia,돈 파치오 스파고니아점,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,돈 파치오 스파고니아점,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_HotdogEuc_HotdogEuc.fco/0/0
+52af69eadbaf0dad4c675003,イルマ,Irma,일마,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,이르마,변경 추천,중,Irma의 한국어 관용 표기에 가까움. 일본어 イルマ와는 발음 차이 존재,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ilma_Ilma.fco/0/0
+92a069737de8247c627af048,イッポリータ,Ippolita,이포리타,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,이폴리타,변경 추천,중,Ippolita의 ol과 이탈리아계 이름 표기를 반영,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Ipporita_Ipporita.fco/0/0
+56dd848973d3c0939c439b8a,ジジ,Gigi,지지,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,지지,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Jiji_Jiji.fco/0/0
+1cbcc46fad028bbe156f19ae,ジョセフ,Josef,조세프,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,조세프,유지 확정,높음,사용자 결정. 일본어 ジョセフ 기준을 유지하고 영어 Josef와의 차이는 기록,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Josef_Josef.fco/0/0
+f3a00deac87e499aa40d5044,マーカントニオ,Marcantonio,마르칸토니오,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,마르칸토니오,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Makantnio_Makantnio.fco/0/0
+c3e313d7035494053d773894,マウロ,Mauro,마우로,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,마우로,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Mauro_Mauro.fco/0/0
+485c853be76e0c3d3315c7ae,ナタリア,Natalia,나탈리아,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,나탈리아,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Nataria_Nataria.fco/0/0
+d4dbf84ab9c147826a6f4852,オットー寮長,Otto (Head of the Dormitory),기숙사장 오토,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,기숙사장 오토,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Otto_Otto.fco/0/0
+e5c7d766a2fa5ce5d9153741,ライモンド,Raimondo,라이몬도,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,라이몬도,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Raimond_Raimond.fco/0/0
+ddbb181f0fb4e4a482379e2c,リリー,Lilli,릴리,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,릴리,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Riry_Riry.fco/0/0
+d2ae8db608778cb2c41588e6,ルーカス,Lucas,루카스,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,루카스,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Rouks_Rouks.fco/0/0
+8fa789ff8aa86b8356429c4d,ルチア,Lucia,루치아,스파고니아,미확인,유럽풍 (세가 공식 소개); 이탈리아 단정 불가,루치아,유지,,,base-common/BaseGame/Town_EuropeanCity_Common/TownMan_Rutia_Rutia.fco/0/0
+d64098267c63ee4c8e92ce5f,アレクシス,Alexis,알렉시스,아포토스,미확인,지중해풍 (세가 공식 소개),알렉시스,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_Arex_Arex.fco/0/0
+04a377cd9c5016d6ece48585,グレゴリウス神父,Gregorios,그레고리오스 신부,아포토스,미확인,지중해풍 (세가 공식 소개),그레고리오스 신부,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_Gregrus_Gregrus.fco/0/0
+964d4a177ab791331c33b675,ドン・ファッチョ  アポトス店,Don Fachio's Apotos,돈 파치오 아포토스점,아포토스,미확인,지중해풍 (세가 공식 소개),돈 파치오 아포토스점,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_HotdogMyk_HotdogMyk.fco/0/0
+59e09c9b2c99c4f47fd28646,アイス屋のおじさん,The Ice Cream Man,아이스크림 가게 아저씨,아포토스,미확인,지중해풍 (세가 공식 소개),아이스크림 가게 아저씨,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_Icecream_Icecream.fco/0/0
+983e1c7df7e765f3bfec8436,ミロス,Milos,밀로스,아포토스,미확인,지중해풍 (세가 공식 소개),밀로스,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_Miros_Miros.fco/0/0
+7da1f9a0014ccd7c82855190,ランブロス,Lambros,람브로스,아포토스,미확인,지중해풍 (세가 공식 소개),람브로스,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_Rambrs_Rambrs.fco/0/0
+005ced0b48c527641f289a0d,ムフィード,Mufid,무피드,아포토스,미확인,지중해풍 (세가 공식 소개),무피드,유지,,,base-common/BaseGame/Town_Mykonos_Common/TownMan_Ufid_Ufid.fco/0/0
+dd990f1d47eff86c31f7770e,デフ・ビッグ,Def Big,데프 빅,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,데프 빅,유지,,,base-common/BaseGame/Town_NYCity_Common/TownMan_Defbig_Defbig.fco/0/0
+d10f514f0b16dfe707f218a6,ドン・ファッチョ  EC店,Don Fachio's Empire City,돈 파치오 엠파이어 시티점,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,돈 파치오 엠파이어 시티점,유지,,,base-common/BaseGame/Town_NYCity_Common/TownMan_HotdogNyc_HotdogNyc.fco/0/0
+e6785377c924d5a074c2a335,リル・アン,Li'l Kate,릴 앤,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,릴 앤,유지,높음,일본어 リル・アン과 영어 Li'l Kate는 다른 이름. 일본어 기준 유지,base-common/BaseGame/Town_NYCity_Common/TownMan_Lilanne_Lilanne.fco/0/0
+64a7dade0859da1c321c2c40,ルイ＝モンタン,Louie Montaine,루이 몽탕,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,루이 몽탕,유지,,,base-common/BaseGame/Town_NYCity_Common/TownMan_Luimontn_Luimontn.fco/0/0
+ec1439dcfd8bb769cc9932eb,ロバート,Robert,로버트,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,로버트,유지,,,base-common/BaseGame/Town_NYCity_Common/TownMan_Rbart_Rbart.fco/0/0
+4b737129e00a08e501725808,エリザべス,Elizabeth,엘리자베스,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,엘리자베스,유지,,,base-common/BaseGame/Town_NYCity_Common/TownMan_Riz_Riz.fco/0/0
+bd30af56dc8648541dcf6b7e,シャーディー,Shadi,샤디,엠파이어 시티,미확인,고층 도시풍 (세가 공식 소개); 내부 코드 NYCity,샤디,유지,,,base-common/BaseGame/Town_NYCity_Common/TownMan_Shady_Shady.fco/0/0
+ee5cf0abcc7d217dea177ac0,アラ,Ara,아라,샤마르,미확인,아라비아풍 (세가 공식 소개),아라,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Ara_Ara.fco/0/0
+afbba6e74d13ab9e20eb515b,ディナ,Dimah,디나,샤마르,미확인,아라비아풍 (세가 공식 소개),디나,유지,높음,일본어 ディナ와 영어 Dimah는 다른 이름. 일본어 기준 유지,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Dina_Dina.fco/0/0
+b74f987f7a074cf9f90545a7,エルハン,Erhan,에르한,샤마르,미확인,아라비아풍 (세가 공식 소개),에르한,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Erhan_Erhan.fco/0/0
+15683f3678b478595b3b659a,フズル,Hizir,후줄,샤마르,미확인,아라비아풍 (세가 공식 소개),후줄,유지,높음,일본어 フズル과 영어 Hizir는 다른 이름. 일본어 기준 유지,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Fzul_Fzul.fco/0/0
+df85ce7cbf012069269b077b,ドン・ファッチョ  シャマール店,Don Fachio's Shamar,돈 파치오 샤마르점,샤마르,미확인,아라비아풍 (세가 공식 소개),돈 파치오 샤마르점,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_HotdogPtr_HotdogPtr.fco/0/0
+df408559739cb12a9d647de6,イフサーン,Ehsan,이프산,샤마르,미확인,아라비아풍 (세가 공식 소개),이프산,유지,중,일본어 イフサーン과 내부 Ifsan을 우선. 영어 Ehsan은 차이 있음,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Ifsan_Ifsan.fco/0/0
+c2ff10a181545d3ff85b54d0,イマーン,Iman,이만,샤마르,미확인,아라비아풍 (세가 공식 소개),이만,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Imarn_Imarn.fco/0/0
+ed2967d749563a8f6e0bf693,ラビーブ,Labib,라비브,샤마르,미확인,아라비아풍 (세가 공식 소개),라비브,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Rabib_Rabib.fco/0/0
+abe71495a14c7b89274edd7b,ライラ,Layla,라이라,샤마르,미확인,아라비아풍 (세가 공식 소개),라이라,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Raira_Raira.fco/0/0
+05eee2b5a5e82c405a4430d4,ラニア,Raniya,라니아,샤마르,미확인,아라비아풍 (세가 공식 소개),라니아,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Rania_Rania.fco/0/0
+4feaa0c0aa763cf83d0bc9d2,ラティーフ,Latif,라티프,샤마르,미확인,아라비아풍 (세가 공식 소개),라티프,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Ratif_Ratif.fco/0/0
+3327c7be085b387ac167fb0b,サファー,Safi,사파,샤마르,미확인,아라비아풍 (세가 공식 소개),사파,유지,높음,일본어 サファー와 영어 Safi는 다른 이름. 일본어 기준 유지,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Safa_Safa.fco/0/0
+16e632d48a3f4b6c60ebcdda,スドゥキー,Sadiq,스두키,샤마르,미확인,아라비아풍 (세가 공식 소개),스두키,유지,높음,일본어 スドゥキー와 내부 Sdoky 우선. Sadiq는 영어판 다른 이름,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Sdoky_Sdoky.fco/0/0
+943d6fcdac80200c83f06763,ウトバ,Utba,우트바,샤마르,미확인,아라비아풍 (세가 공식 소개),우트바,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Utoba_Utoba.fco/0/0
+0e647296decb95334c39a52c,ヤスミン,Yasmine,야스민,샤마르,미확인,아라비아풍 (세가 공식 소개),야스민,유지,,,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Yasmin_Yasmin.fco/0/0
+485e7f2b0df2d418e24b02ca,ゼーナ,Samia,제나,샤마르,미확인,아라비아풍 (세가 공식 소개),제나,유지,높음,일본어 ゼーナ와 영어 Samia는 다른 이름. 일본어 기준 유지,base-common/BaseGame/Town_PetraCapital_Common/TownMan_Zena_Zena.fco/0/0
+753c8dded4ef27251a7ed62d,ドン・ファッチョ ホロスカ店,Don Fachio's Holoska,돈 파치오 홀로스카점,홀로스카,미확인,설국풍 (세가 공식 소개),돈 파치오 홀로스카점,유지,,,base-common/BaseGame/Town_Snow_Common/TownMan_HotdogSnw_HotdogSnw.fco/0/0
+8f55fb72e4f1013ac3bc5942,マルケッタ,Marketa,마르케타,홀로스카,미확인,설국풍 (세가 공식 소개),마르케타,유지,,,base-common/BaseGame/Town_Snow_Common/TownMan_Marketa_Marketa.fco/0/0
+cc41f7af7baca68313475c5a,サリアンナ,Sarianna,사리안나,홀로스카,미확인,설국풍 (세가 공식 소개),사리안나,유지,,,base-common/BaseGame/Town_Snow_Common/TownMan_Sarianna_Sarianna.fco/0/0
+f98f1360fa7f1c0dc367e553,ウルスレ,Ursule,우르슬레,홀로스카,미확인,설국풍 (세가 공식 소개),우르슬레,유지,,,base-common/BaseGame/Town_Snow_Common/TownMan_Urusure_Urusure.fco/0/0
+983f4580bd4ba59f46512838,ヤリ＝ペッカ,Jari-Pekka,야리페카,홀로스카,미확인,설국풍 (세가 공식 소개),야리페카,유지,,,base-common/BaseGame/Town_Snow_Common/TownMan_Yaripeka_Yaripeka.fco/0/0
+f8b81bb1f56a5a6ce2775c03,ヤリ＝スーレ,Jari-Thure,야리수레,홀로스카,미확인,설국풍 (세가 공식 소개),야리수레,유지,중,일본어 スーレ와 내부 Yarisure 우선. Thure의 현지 발음은 게임에서 미확인,base-common/BaseGame/Town_Snow_Common/TownMan_Yarisure_Yarisure.fco/0/0
+6cd321170803163a4c5eaaa6,ドン・ファッチョ  アダバタ店,Don Fachio's Adabat,돈 파치오 아다바트점,아다바트,미확인,동남아시아풍 추정 (내부 코드 SouthEastAsia),돈 파치오 아다바트점,유지,,,base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_HotdogSea_HotdogSea.fco/0/0
+3484ca58b7e3f308360a9dbc,ジャマル,Jamal,자말,아다바트,미확인,동남아시아풍 추정 (내부 코드 SouthEastAsia),자말,유지,,,base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Jamal_Jamal.fco/0/0
+bfc0d2b1c941c4113619c1ab,ケーオ,Keeo,케오,아다바트,미확인,동남아시아풍 추정 (내부 코드 SouthEastAsia),케오,유지,,,base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Keeo_Keeo.fco/0/0
+991d8e68eb7c5473496972a5,ナギ,Nagi,나기,아다바트,미확인,동남아시아풍 추정 (내부 코드 SouthEastAsia),나기,유지,,,base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Nagi_Nagi.fco/0/0
+028705eb339eef9d08a5fa1a,ルディ,Rudi,루디,아다바트,미확인,동남아시아풍 추정 (내부 코드 SouthEastAsia),루디,유지,,,base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Rudi_Rudi.fco/0/0
+c5e473af61232a26c2eb802c,ティアンチャイ,Teanchai,티안차이,아다바트,미확인,동남아시아풍 추정 (내부 코드 SouthEastAsia),티안차이,유지,,,base-common/BaseGame/Town_SouthEastAsia_Common/TownMan_Thianchai_Thianchai.fco/0/0
