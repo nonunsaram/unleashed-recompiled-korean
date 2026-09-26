@@ -11,4 +11,4 @@ UnleasHD 자료 기준: `c7a709743926a94eb4b9337c54d9abdb103fb8f1`, `UnleasHD/Ma
 
 ## 1.0.5-review16 검토본
 
-UnleasHD의 무수정 HD UI·원본 로고 중복 파일은 제외했습니다. 한국어 UI·이름표·한국어 추가 타이틀 로고와 DLC 미리보기 수정본에는 UnleasHD Team의 그림이 남아 있으며, 수정본 공개 배포 허락은 아직 확인되지 않았습니다. 정확한 포함 파일은 UnleasHD-permission-texture-list.csv를 참고하세요.
+UnleasHD의 무수정 HD UI·원본 로고 중복 파일은 제외했습니다. 한국어 UI·이름표·한국어 추가 타이틀 로고에는 UnleasHD Team의 그림이 남아 있으며, 수정본 공개 배포 허락은 아직 확인되지 않았습니다. 정확한 포함 파일은 UnleasHD-permission-texture-list.csv를 참고하세요.

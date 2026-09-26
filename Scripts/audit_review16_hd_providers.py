@@ -83,7 +83,8 @@ def main():
         ("Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00","mat_worldmap_en_001.dds","Korean world map UI"),
         ("Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00","mat_worldmap_en_002.dds","Korean world map UI"),
         ("Compatibility/UnleasHD-1.4.2/+Town_Common.ar.00","mat_talk_comon_002.dds","Korean nameplate"),
-        ("Compatibility/UnleasHD-1.4.2/+WorldMap.ar.00","mat_stage_ss_082.dds","DLC preview correction"),
+        # The DLC preview correction (Compatibility/UnleasHD-1.4.2/+WorldMap, mat_stage_ss_082.dds) was
+        # dropped from review16 by drop_review16_dlc_preview.py; UnleasHD supplies its own preview.
     ]
     for variant in ("Korean","Custom"):
         for name in ("mat_title_001.dds","mat_title_004.dds"):
@@ -94,7 +95,7 @@ def main():
         retained.append({"archive":split_part(path,name),"file":name,"category":category,"size":size(data),
                          "sha256":digest(data),"unchangedFromReview15":True,
                          "source":SRC_4K if category=="Korean title logo" else SRC_1440})
-    assert len(retained)==23
+    assert len(retained)==22
     # Verify all 7 DLC selections with the HD profile and all 5 title choices.
     # Lower HD providers must remain reachable; higher Korean edits must remain.
     combinations=[]

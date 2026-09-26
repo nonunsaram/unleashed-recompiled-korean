@@ -573,18 +573,6 @@
       "source": "UnleasHD 1.4.2 1440p"
     },
     {
-      "archive": "Compatibility/UnleasHD-1.4.2/+WorldMap.ar.00",
-      "file": "mat_stage_ss_082.dds",
-      "category": "DLC preview correction",
-      "size": [
-        2048,
-        1024
-      ],
-      "sha256": "8bca80b074631607a46108cbbe05543090ef522b06675dec4764f66e4c3fb007",
-      "unchangedFromReview15": true,
-      "source": "UnleasHD 1.4.2 1440p"
-    },
-    {
       "archive": "TitleLogos/Korean/+Title.ar.00",
       "file": "mat_title_001.dds",
       "category": "Korean title logo",
@@ -848,5 +836,13 @@
   "retainedKoreanHdGraphicsByteIdentical": true,
   "gameplayVerified": false,
   "verificationMethod": "Actual installed archive extraction plus loader-order and normalized-UV checks",
-  "permissionPending": true
+  "permissionPending": true,
+  "excludedAfterReview": [
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/+WorldMap.ar.00",
+      "file": "mat_stage_ss_082.dds",
+      "sha256": "8bca80b074631607a46108cbbe05543090ef522b06675dec4764f66e4c3fb007",
+      "reason": "DLC preview correction changed only UnleasHD's own image"
+    }
+  ]
 }
