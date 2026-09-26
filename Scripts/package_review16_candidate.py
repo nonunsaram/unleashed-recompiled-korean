@@ -134,10 +134,16 @@ def main() -> None:
     assert not OUTPUT.exists() and not WORK.exists()
     OUTPUT.mkdir(parents=True)
     WORK.mkdir(parents=True)
+    # Release guard (AGENTS.md): refuse to start from a development folder that is not the approved one.
+    from check_release_guard import require_pass
+    require_pass([MOD], "development folder before packaging")
     source = WORK / "Source.zip"
     source_zip(source)
     manifest = setup_full()
     records = [create_archive("Basic", source), create_archive("Full", source)]
+    # Checked right after the ZIPs are written; failures are renamed *-FAILED.zip and stop the run
+    # before SHA256SUMS or any verification file is written.
+    require_pass([OUTPUT / r["file"] for r in records] + [MOD], "review16 candidate ZIPs")
     (OUTPUT / "SHA256SUMS.txt").write_text(
         "".join(f"{r['sha256']}  {r['file']}\n" for r in records), encoding="ascii")
     for name in ("CHANGELOG-KO.md", "GameBanana-update.md", "Upload-guide-KO.md", "HD-ASSET-AUDIT-KO.md", "UnleasHD-permission-texture-list.csv", "provider-and-permission-audit.json"):

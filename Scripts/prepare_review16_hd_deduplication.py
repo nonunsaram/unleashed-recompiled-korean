@@ -1,5 +1,21 @@
-"""Remove duplicate unchanged HD textures. Preserve every Korean HD edit."""
+"""Remove duplicate unchanged HD textures. Preserve every Korean HD edit.
+
+DO NOT RUN for review16 (see AGENTS.md): this rebuilds Build/Development-v105p-Playtest/UnleashedKorean
+from v105o and would bring back the excluded DLC preview correction. It exits before writing anything
+unless ALLOW_REVIEW16_REBUILD=1 is set, and even then it re-applies the exclusion and the release guard.
+"""
 from __future__ import annotations
+
+if __name__ == "__main__":
+    import os as _os
+    import sys as _sys
+    if _os.environ.get("ALLOW_REVIEW16_REBUILD") != "1":
+        print("STOP: prepare_review16_hd_deduplication.py is disabled for review16. It rebuilds "
+              "Build/Development-v105p-Playtest/UnleashedKorean from v105o and would bring back the excluded "
+              "DLC preview correction (Compatibility/UnleasHD-1.4.2/+WorldMap, mat_stage_ss_082.dds). "
+              "Use the existing v105p folder as is (AGENTS.md). Set ALLOW_REVIEW16_REBUILD=1 only with the "
+              "user's explicit approval. Nothing was written.", file=_sys.stderr)
+        raise SystemExit(2)
 
 import hashlib
 import io
@@ -152,3 +168,13 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    # Mandatory follow-up for any approved rebuild: remove the DLC preview correction again,
+    # restore the approved 22-row permission CSV if the rebuilt folder lacks it, then run the guard.
+    from drop_review16_dlc_preview import exclude_dev_folder
+    from check_release_guard import require_pass
+    moved = exclude_dev_folder(NEW, WORK / "DLCPreviewExcluded")
+    print("DLC preview exclusion re-applied:", moved)
+    approved_csv = ROOT / "publish/unleashed-recompiled-korean/Release/v1.0.5-review16/UnleasHD-permission-texture-list.csv"
+    if not (NEW / approved_csv.name).is_file():
+        shutil.copy2(approved_csv, NEW / approved_csv.name)
+    require_pass([NEW], "rebuilt development folder")

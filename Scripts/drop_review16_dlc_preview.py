@@ -158,6 +158,30 @@ def archive_names(read, names):
     return out
 
 
+def exclude_dev_folder(mod_root: Path, backup_root: Path) -> list[str]:
+    """Idempotently move the DLC-preview archive out of a development folder (never deletes).
+
+    Stops if the archive holds anything besides mat_stage_ss_082.dds or has extra split parts.
+    """
+    present = [rel for rel in DROP if (mod_root / rel).exists()]
+    extra = sorted(p.name for p in (mod_root / DROP[0]).parent.glob("+WorldMap.ar.*") if p.name != "+WorldMap.ar.00")
+    assert not extra, f"unexpected +WorldMap split parts {extra}: stop and ask the user"
+    if (mod_root / DROP[0]).exists():
+        names = [m for m, _ in ar_members((mod_root / DROP[0]).read_bytes())]
+        assert names == [TARGET], f"{DROP[0]} holds {names}: stop and ask the user"
+    moved = []
+    for rel in present:
+        dest, n = backup_root / rel, 1
+        while dest.exists():
+            n += 1
+            dest = (backup_root / rel).with_name(f"{Path(rel).name}.{n}")
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(mod_root / rel), str(dest))
+        assert not (mod_root / rel).exists() and dest.is_file()
+        moved.append(f"{rel} -> {dest}")
+    return moved
+
+
 def check_drop_contents() -> None:
     ar, arl = (MOD / DROP[0]).read_bytes(), (MOD / DROP[1]).read_bytes()
     members = ar_members(ar)
@@ -279,10 +303,7 @@ def main() -> None:
         shutil.copy2(src, previous[ed])
         assert previous[ed].read_bytes() == src.read_bytes()
     removed = WORK / "removed-from-dev"
-    for rel in DROP:
-        (removed / rel).parent.mkdir(parents=True, exist_ok=True)
-        shutil.move(str(MOD / rel), str(removed / rel))
-        assert not (MOD / rel).exists() and (removed / rel).is_file()
+    assert len(exclude_dev_folder(MOD, removed)) == 2
     loader = check_loader(MOD)
     assert loader["koreanProvidersOfPreview"] == [] and loader["selectionsChecked"] == 70
     for p in csv_copies:
@@ -361,6 +382,8 @@ def main() -> None:
                         "unchangedEntries": unchanged, "archiveMembers": 1079})
     with zipfile.ZipFile(OUTPUT / records[0]["file"]) as b, zipfile.ZipFile(OUTPUT / records[1]["file"]) as f:
         assert all_members(b) == all_members(f)
+    from check_release_guard import require_pass  # AGENTS.md: guard right after the ZIPs are written
+    require_pass([OUTPUT / r["file"] for r in records] + [MOD], "review16 candidate ZIPs")
     s_text, s_crlf = to_lf((DOCS / "SHA256SUMS.txt").read_bytes())
     sums = from_lf("".join(f"{r['sha256']}  {r['file']}\n" for r in records), s_crlf)
     for p in (OUTPUT / "SHA256SUMS.txt", DOCS / "SHA256SUMS.txt"):
