@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "version": "1.0.5-review16",
+  "retainedModifiedHdArtworkInstances": 23,
+  "removedRawHdInstances": 32,
+  "removedBaseGameCopies": 28,
+  "basicFullResourcesIdentical": true,
+  "allRetainedHdEditsVerifiedInBothZips": true,
+  "noGameBinariesInSourceZip": true,
+  "installerTests": [
+    "no-xex install/reinstall/restore",
+    "unrelated-xex install/reinstall/restore",
+    "stock-xex install/reinstall/restore",
+    "v1.0.0 install -> guarded upgrade -> old full restore -> v1.0.1 install/restore",
+    "standalone restore without Support/config",
+    "production embedded-manifest mismatch no writes"
+  ],
+  "gameplayVerified": false,
+  "permissionPending": true,
+  "publicRelease": false
+}

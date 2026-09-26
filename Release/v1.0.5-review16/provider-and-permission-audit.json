@@ -1,0 +1,829 @@
+{
+  "passed": true,
+  "version": "1.0.5-review16",
+  "installedHdProviderChecks": [
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_gate_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ActionCommon.ar.00",
+      "providerSha256": "f6d529465422c04b2aa54986ebd97198e9e912f6250d510ad8faee455bd8530d",
+      "providerSize": [
+        1024,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_misson_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ActionCommon.ar.00",
+      "providerSha256": "7bdea64613e7c1d0f282e1d0b5e454f8ec3ff24a4559c93f4e8b101afddf3b04",
+      "providerSize": [
+        1024,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_playscreen_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ActionCommon.ar.00",
+      "providerSha256": "d55972a8f7e04a4f91e45456f407b8d20f7a1bfb25c85cbaef766bfc939c4a80",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_playscreen_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ActionCommon.ar.00",
+      "providerSha256": "5517e93d4b92072ee46e0beec24c910eddd5ced78a27667614f3b80a1dcab8b0",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_result_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ActionCommon.ar.00",
+      "providerSha256": "0f6f9ef97b9f6afd0058a2df109fcd2e8b17f35ec3c9807eb67e7f5200f9849a",
+      "providerSize": [
+        1024,
+        1024
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_start_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ActionCommon.ar.00",
+      "providerSha256": "3cc4b65cff5492882600e4f77da12c3e444590408bbd5c6d841768fdddd0d07b",
+      "providerSize": [
+        1024,
+        1024
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+BossCommon.ar.00",
+      "file": "mat_boss_en_003.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+BossCommon.ar.00",
+      "providerSha256": "ffada14ae0603193a00bd0f899e091e76d5483a88baa93c95f2da9e77049150b",
+      "providerSize": [
+        256,
+        128
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilActionCommon.ar.00",
+      "file": "mat_qte_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+EvilActionCommon.ar.00",
+      "providerSha256": "bb5d561d6d0bf475404098694210a784b8a567f5c4e13f6036b701df0baaee3c",
+      "providerSize": [
+        512,
+        512
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilSonic.ar.00",
+      "file": "mat_playscreen_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+EvilSonic.ar.00",
+      "providerSha256": "d55972a8f7e04a4f91e45456f407b8d20f7a1bfb25c85cbaef766bfc939c4a80",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+EvilSonic.ar.00",
+      "file": "mat_playscreen_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+EvilSonic.ar.00",
+      "providerSha256": "5517e93d4b92072ee46e0beec24c910eddd5ced78a27667614f3b80a1dcab8b0",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.ar.00",
+      "file": "mat_ex_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ExStageTails_Common.ar.00",
+      "providerSha256": "2688fd64b2d06bbe78cea1bcfa4b7f31adb4d90737c897df52f85356b3323bf1",
+      "providerSize": [
+        256,
+        128
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.ar.00",
+      "file": "mat_playscreen_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ExStageTails_Common.ar.00",
+      "providerSha256": "d55972a8f7e04a4f91e45456f407b8d20f7a1bfb25c85cbaef766bfc939c4a80",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.ar.00",
+      "file": "mat_qte_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ExStageTails_Common.ar.00",
+      "providerSha256": "bb5d561d6d0bf475404098694210a784b8a567f5c4e13f6036b701df0baaee3c",
+      "providerSize": [
+        512,
+        512
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ExStageTails_Common.ar.00",
+      "file": "mat_result_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+ExStageTails_Common.ar.00",
+      "providerSha256": "0f6f9ef97b9f6afd0058a2df109fcd2e8b17f35ec3c9807eb67e7f5200f9849a",
+      "providerSize": [
+        1024,
+        1024
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.ar.00",
+      "file": "mat_load_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Loading.ar.00",
+      "providerSha256": "99332b11b5378f5ab41e1a06bd941f045d127496a80d723e9bc40ff6293664af",
+      "providerSize": [
+        1024,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Sonic.ar.00",
+      "file": "mat_playscreen_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Sonic.ar.00",
+      "providerSha256": "d55972a8f7e04a4f91e45456f407b8d20f7a1bfb25c85cbaef766bfc939c4a80",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Sonic.ar.00",
+      "file": "mat_playscreen_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Sonic.ar.00",
+      "providerSha256": "5517e93d4b92072ee46e0beec24c910eddd5ced78a27667614f3b80a1dcab8b0",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Sonic.ar.00",
+      "file": "mat_qte_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Sonic.ar.00",
+      "providerSha256": "bb5d561d6d0bf475404098694210a784b8a567f5c4e13f6036b701df0baaee3c",
+      "providerSize": [
+        512,
+        512
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.ar.00",
+      "file": "mat_playscreen_en_004.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SonicActionCommon.ar.00",
+      "providerSha256": "1c46e0cedb99b6f2d55203f49f82df683b0769d5cb3dc70272c8f335b90e6071",
+      "providerSize": [
+        512,
+        32
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.ar.00",
+      "file": "mat_playscreen_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SuperSonic.ar.00",
+      "providerSha256": "d55972a8f7e04a4f91e45456f407b8d20f7a1bfb25c85cbaef766bfc939c4a80",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.ar.00",
+      "file": "mat_playscreen_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SuperSonic.ar.00",
+      "providerSha256": "5517e93d4b92072ee46e0beec24c910eddd5ced78a27667614f3b80a1dcab8b0",
+      "providerSize": [
+        256,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.ar.00",
+      "file": "mat_playscreen_en_003.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SuperSonic.ar.00",
+      "providerSha256": "2c7ac9aa6499f4cbc50dc622dd1d5bc21f43f5e1239ab6155cbe577b3c1ce52f",
+      "providerSize": [
+        512,
+        32
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_pause_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SystemCommonCore.ar.00",
+      "providerSha256": "2cca4776977f21d4ae997c83291fc207a5f1ddcc670bd9ef13d739233019a47b",
+      "providerSize": [
+        512,
+        128
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_result_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SystemCommonCore.ar.00",
+      "providerSha256": "0f6f9ef97b9f6afd0058a2df109fcd2e8b17f35ec3c9807eb67e7f5200f9849a",
+      "providerSize": [
+        1024,
+        1024
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_status_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+SystemCommonCore.ar.00",
+      "providerSha256": "bdd64f2fac99ae6b2b0db517bbbf2d62f87ab640e7f83780c148a62f781b45a2",
+      "providerSize": [
+        512,
+        128
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.ar.00",
+      "file": "mat_townscreen_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Town_Common.ar.00",
+      "providerSha256": "05313358507505308da7d55b9eb99f39c49fb5b935e6e4690131a33c0f3626d6",
+      "providerSize": [
+        64,
+        32
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.ar.00",
+      "file": "mat_gate_en_002.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Town_EggManBase_Common.ar.00",
+      "providerSha256": "f6d529465422c04b2aa54986ebd97198e9e912f6250d510ad8faee455bd8530d",
+      "providerSize": [
+        1024,
+        256
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.ar.00",
+      "file": "mat_result_en_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/Languages/English/+Town_EggManBase_Common.ar.00",
+      "providerSha256": "0f6f9ef97b9f6afd0058a2df109fcd2e8b17f35ec3c9807eb67e7f5200f9849a",
+      "providerSize": [
+        1024,
+        1024
+      ],
+      "isTitle": false
+    },
+    {
+      "removedArchive": "TitleLogos/Original/+Title.ar.00",
+      "file": "mat_title_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/+Title.ar.00",
+      "providerSha256": "07ba9f6925395d05b36e191bbe43e5580dd3067ac634fcc5de15b4f88ac79a75",
+      "providerSize": [
+        2048,
+        1024
+      ],
+      "isTitle": true
+    },
+    {
+      "removedArchive": "TitleLogos/Original/+Title.ar.00",
+      "file": "mat_title_004.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/+Title.ar.00",
+      "providerSha256": "ae9d1b55696ff64467a33e309712114d250f5288d696607878a8ce0aac41ecef",
+      "providerSize": [
+        1280,
+        1280
+      ],
+      "isTitle": true
+    },
+    {
+      "removedArchive": "TitleLogos/Japanese/+Title.ar.00",
+      "file": "mat_title_001.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/+Title.ar.00",
+      "providerSha256": "07ba9f6925395d05b36e191bbe43e5580dd3067ac634fcc5de15b4f88ac79a75",
+      "providerSize": [
+        2048,
+        1024
+      ],
+      "isTitle": true
+    },
+    {
+      "removedArchive": "TitleLogos/Japanese/+Title.ar.00",
+      "file": "mat_title_004.dds",
+      "provider": "UnleashedRecomp-Windows/mods/UnleasHD-1440p/MainMod/+Title.ar.00",
+      "providerSha256": "ae9d1b55696ff64467a33e309712114d250f5288d696607878a8ce0aac41ecef",
+      "providerSize": [
+        1280,
+        1280
+      ],
+      "isTitle": true
+    }
+  ],
+  "retainedModifiedUnleasHDArtwork": [
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00",
+      "file": "mat_gate_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "cece4b730f26a3902385f54e45dbb84d81644cf5cffdaaab987fe5eccd38b410",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.ar.00",
+      "file": "mat_loadinfo_text_evil_e.dds",
+      "category": "Korean UI",
+      "size": [
+        480,
+        640
+      ],
+      "sha256": "b324692aab7f566eefb107135cbe21b2a9083f7e50a313133a6d826e21e4f1da",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.ar.00",
+      "file": "mat_loadinfo_text_sonic_e.dds",
+      "category": "Korean UI",
+      "size": [
+        480,
+        640
+      ],
+      "sha256": "52bb47ccd649ae22c5a5d71f192cc946ffe78ce108742b4fa00fc5c93f5abfca",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.ar.00",
+      "file": "mat_su_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        256
+      ],
+      "sha256": "4e350f11c2727bc775e05198150bf7618b921033e6d2e7c4c25736d845f22677",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.ar.00",
+      "file": "mat_su_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        256
+      ],
+      "sha256": "4e350f11c2727bc775e05198150bf7618b921033e6d2e7c4c25736d845f22677",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_comon_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        256,
+        1024
+      ],
+      "sha256": "92ff20dddedb8ab4e7936ad300fa1a51e66b557e213c6fc98d15fc4ab3135d9f",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_comon_en_002.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "579aab6a2435c1604c883e00e62ecdea99186ea6b4443b81802e6798d9e8be4f",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_pause_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "4ea67ff38826eb5cb76ca028d8db55319141cbf994181e983af181f4aa5a92d9",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00",
+      "file": "mat_status_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        256,
+        1024
+      ],
+      "sha256": "6bdc2346c072fa9aa93c226596e12f8401596f403a9169ea0d70b57d5a04d7bd",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Title.ar.00",
+      "file": "mat_title_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        1024
+      ],
+      "sha256": "6a2c3cbe362bf822fc86e8d058e1f4861a76f17262de5b88125a1cc3c5a7dbda",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.ar.00",
+      "file": "mat_pause_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "04c634fd0f62027df430f4b01b88136e5eb3026065969584cf3623121a6ec39e",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.ar.00",
+      "file": "mat_shop_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        512,
+        256
+      ],
+      "sha256": "eec863258c6c4bb038acfe89294c80b99410e230105bf041eaa81abb06239d53",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.ar.00",
+      "file": "mat_gate_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "cece4b730f26a3902385f54e45dbb84d81644cf5cffdaaab987fe5eccd38b410",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Labo_Common.ar.00",
+      "file": "mat_media_en_001.dds",
+      "category": "Korean UI",
+      "size": [
+        1365,
+        1365
+      ],
+      "sha256": "300247626fc0488f444fd4ded613ccdd7c1125b82c00bf095a5f707660b8f13d",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Labo_Common.ar.00",
+      "file": "mat_media_en_002.dds",
+      "category": "Korean UI",
+      "size": [
+        1365,
+        1365
+      ],
+      "sha256": "2d7216fadb769f148f29d9cb95fb7689d2783828b23627f02ef5a0c8f1a3a45f",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00",
+      "file": "mat_worldmap_en_001.dds",
+      "category": "Korean world map UI",
+      "size": [
+        512,
+        1024
+      ],
+      "sha256": "5db9ccda3248fd1dbe4b309ff3bd08df488e1c5348ff0c9c414709b47c9e4cb6",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00",
+      "file": "mat_worldmap_en_002.dds",
+      "category": "Korean world map UI",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "061470fa7b3ad019fd8e75bc37c032ec8892622cee63cdc3b9c8d6a43436d4b8",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/+Town_Common.ar.00",
+      "file": "mat_talk_comon_002.dds",
+      "category": "Korean nameplate",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "50c5e2df46ea10db2b9e22524b9639571a94daf08c5e1fc27668ee156c249865",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "Compatibility/UnleasHD-1.4.2/+WorldMap.ar.00",
+      "file": "mat_stage_ss_082.dds",
+      "category": "DLC preview correction",
+      "size": [
+        2048,
+        1024
+      ],
+      "sha256": "8bca80b074631607a46108cbbe05543090ef522b06675dec4764f66e4c3fb007",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "TitleLogos/Korean/+Title.ar.00",
+      "file": "mat_title_001.dds",
+      "category": "Korean title logo",
+      "size": [
+        3072,
+        3072
+      ],
+      "sha256": "b0fa4f32abc3889028a3bb5b8a552a60c3cbb9c83caa638477678e654bd9240c",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "TitleLogos/Korean/+Title.ar.00",
+      "file": "mat_title_004.dds",
+      "category": "Korean title logo",
+      "size": [
+        1920,
+        1920
+      ],
+      "sha256": "ed8f7cce0030ad3d07a82225be84acc55620a8939f0648b16c91d569d3f16514",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "TitleLogos/Custom/+Title.ar.00",
+      "file": "mat_title_001.dds",
+      "category": "Korean title logo",
+      "size": [
+        3072,
+        1536
+      ],
+      "sha256": "e0f2296276b7e13743bd1305e1607c719211bac3b211fac21bb14c554c23dec2",
+      "unchangedFromReview15": true
+    },
+    {
+      "archive": "TitleLogos/Custom/+Title.ar.00",
+      "file": "mat_title_004.dds",
+      "category": "Korean title logo",
+      "size": [
+        1920,
+        1920
+      ],
+      "sha256": "15b3748fc62c86c96d1af56eb7fdbf973b5be8e32f6900d808a4f4d3998e4ea3",
+      "unchangedFromReview15": true
+    }
+  ],
+  "configurationChecks": [
+    {
+      "dlc": "AllDLC",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "AllDLC",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "AllDLC",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "AllDLC",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "AllDLC",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ApotosShamar",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ApotosShamar",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ApotosShamar",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ApotosShamar",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ApotosShamar",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "BaseGame",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "BaseGame",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "BaseGame",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "BaseGame",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "BaseGame",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ChunNan",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ChunNan",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ChunNan",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ChunNan",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "ChunNan",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Holoska",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Holoska",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Holoska",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Holoska",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Holoska",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Mazuri",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Mazuri",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Mazuri",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Mazuri",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Mazuri",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Spagonia",
+      "logo": "Default",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Spagonia",
+      "logo": "Original",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Spagonia",
+      "logo": "Japanese",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Spagonia",
+      "logo": "Korean",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    },
+    {
+      "dlc": "Spagonia",
+      "logo": "Custom",
+      "uiProfile": "UnleasHD-1.4.2",
+      "passed": true
+    }
+  ],
+  "retainedKoreanHdGraphicsByteIdentical": true,
+  "gameplayVerified": false,
+  "verificationMethod": "Actual installed archive extraction plus loader-order and normalized-UV checks",
+  "permissionPending": true
+}

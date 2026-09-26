@@ -1,0 +1,24 @@
+﻿archive,file,category,size,sha256,unchangedFromReview15
+Compatibility/UnleasHD-1.4.2/Languages/English/+ActionCommon.ar.00,mat_gate_en_001.dds,Korean UI,"[1024, 1024]",cece4b730f26a3902385f54e45dbb84d81644cf5cffdaaab987fe5eccd38b410,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.ar.00,mat_loadinfo_text_evil_e.dds,Korean UI,"[480, 640]",b324692aab7f566eefb107135cbe21b2a9083f7e50a313133a6d826e21e4f1da,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Loading.ar.00,mat_loadinfo_text_sonic_e.dds,Korean UI,"[480, 640]",52bb47ccd649ae22c5a5d71f192cc946ffe78ce108742b4fa00fc5c93f5abfca,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+SonicActionCommon.ar.00,mat_su_en_001.dds,Korean UI,"[512, 256]",4e350f11c2727bc775e05198150bf7618b921033e6d2e7c4c25736d845f22677,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+SuperSonic.ar.00,mat_su_en_001.dds,Korean UI,"[512, 256]",4e350f11c2727bc775e05198150bf7618b921033e6d2e7c4c25736d845f22677,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00,mat_comon_en_001.dds,Korean UI,"[256, 1024]",92ff20dddedb8ab4e7936ad300fa1a51e66b557e213c6fc98d15fc4ab3135d9f,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00,mat_comon_en_002.dds,Korean UI,"[512, 512]",579aab6a2435c1604c883e00e62ecdea99186ea6b4443b81802e6798d9e8be4f,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00,mat_pause_en_001.dds,Korean UI,"[512, 512]",4ea67ff38826eb5cb76ca028d8db55319141cbf994181e983af181f4aa5a92d9,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+SystemCommonCore.ar.00,mat_status_en_001.dds,Korean UI,"[256, 1024]",6bdc2346c072fa9aa93c226596e12f8401596f403a9169ea0d70b57d5a04d7bd,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Title.ar.00,mat_title_en_001.dds,Korean UI,"[512, 1024]",6a2c3cbe362bf822fc86e8d058e1f4861a76f17262de5b88125a1cc3c5a7dbda,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.ar.00,mat_pause_en_001.dds,Korean UI,"[512, 512]",04c634fd0f62027df430f4b01b88136e5eb3026065969584cf3623121a6ec39e,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Common.ar.00,mat_shop_en_001.dds,Korean UI,"[512, 256]",eec863258c6c4bb038acfe89294c80b99410e230105bf041eaa81abb06239d53,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Town_EggManBase_Common.ar.00,mat_gate_en_001.dds,Korean UI,"[1024, 1024]",cece4b730f26a3902385f54e45dbb84d81644cf5cffdaaab987fe5eccd38b410,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Labo_Common.ar.00,mat_media_en_001.dds,Korean UI,"[1365, 1365]",300247626fc0488f444fd4ded613ccdd7c1125b82c00bf095a5f707660b8f13d,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+Town_Labo_Common.ar.00,mat_media_en_002.dds,Korean UI,"[1365, 1365]",2d7216fadb769f148f29d9cb95fb7689d2783828b23627f02ef5a0c8f1a3a45f,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00,mat_worldmap_en_001.dds,Korean world map UI,"[512, 1024]",5db9ccda3248fd1dbe4b309ff3bd08df488e1c5348ff0c9c414709b47c9e4cb6,True
+Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00,mat_worldmap_en_002.dds,Korean world map UI,"[1024, 1024]",061470fa7b3ad019fd8e75bc37c032ec8892622cee63cdc3b9c8d6a43436d4b8,True
+Compatibility/UnleasHD-1.4.2/+Town_Common.ar.00,mat_talk_comon_002.dds,Korean nameplate,"[512, 512]",50c5e2df46ea10db2b9e22524b9639571a94daf08c5e1fc27668ee156c249865,True
+Compatibility/UnleasHD-1.4.2/+WorldMap.ar.00,mat_stage_ss_082.dds,DLC preview correction,"[2048, 1024]",8bca80b074631607a46108cbbe05543090ef522b06675dec4764f66e4c3fb007,True
+TitleLogos/Korean/+Title.ar.00,mat_title_001.dds,Korean title logo,"[3072, 3072]",b0fa4f32abc3889028a3bb5b8a552a60c3cbb9c83caa638477678e654bd9240c,True
+TitleLogos/Korean/+Title.ar.00,mat_title_004.dds,Korean title logo,"[1920, 1920]",ed8f7cce0030ad3d07a82225be84acc55620a8939f0648b16c91d569d3f16514,True
+TitleLogos/Custom/+Title.ar.00,mat_title_001.dds,Korean title logo,"[3072, 1536]",e0f2296276b7e13743bd1305e1607c719211bac3b211fac21bb14c554c23dec2,True
+TitleLogos/Custom/+Title.ar.00,mat_title_004.dds,Korean title logo,"[1920, 1920]",15b3748fc62c86c96d1af56eb7fdbf973b5be8e32f6900d808a4f4d3998e4ea3,True

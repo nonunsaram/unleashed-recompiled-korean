@@ -4,11 +4,11 @@
 
 **Unleashed Recompiled v1.0.3 Windows x64**용 비공식 한국어 패치의 소스 저장소입니다. 게임 본편, 업데이트, DLC, 완성된 게임 실행 파일은 포함하지 않습니다.
 
-## 1.0.5-review15 소스 검토본
+## 1.0.5-review16 소스 검토본
 
-UnleasHD 1.4.2 **1440p판**과 함께 쓰는 한국어 UI HD 프로필, 인명 표기, 월드맵 미리보기, 오프닝 로고 수정의 제작 코드와 번역 원본을 공개했습니다. [변경 사항](Release/v1.0.5-review15/CHANGELOG-KO.md)과 [검토본 상태](Release/v1.0.5-review15/CANDIDATE-VERIFY.md)를 확인하세요. 한국어 패치를 UnleasHD보다 위에 놓고 HD 프로필을 선택하는 구성을 대상으로 합니다.
+review16은 무수정 UnleasHD UI·원본 로고 중복 파일 32개와 이를 가리던 기본 UI 복사본 28개를 제외합니다. **한국어 HD 수정본은 모두 보존**했습니다. 제외한 이미지는 별도로 설치한 아래 UnleasHD에서 읽습니다. [변경 사항](Release/v1.0.5-review16/CHANGELOG-KO.md) · [정확한 포함 자산 범위](Release/v1.0.5-review16/HD-ASSET-AUDIT-KO.md) · [검토본 상태](Release/v1.0.5-review16/CANDIDATE-VERIFY.md)
 
-현재 ZIP은 로컬 검토 후보입니다. HD 호환 파일에 설치된 UnleasHD 자산이 사용되어, 재배포 조건 또는 사용자 PC에서 생성하는 절차가 정리되기 전에는 GameBanana 파일을 교체하지 않습니다. 아래의 **v1.0.4가 현재 공개 배포판**입니다.
+현재 ZIP은 로컬 검토 후보입니다. 유지된 한국어 HD 수정본과 미리보기 수정본의 재배포 허락은 아직 확인되지 않았습니다. GameBanana 파일은 교체하지 않았으며 **v1.0.4가 현재 공개 배포판**입니다. 이 GitHub에는 제작 코드·번역·문서만 올립니다.
 
 ## v1.0.4
 

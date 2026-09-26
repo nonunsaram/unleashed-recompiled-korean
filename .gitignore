@@ -140,3 +140,10 @@ temp/
 !/Release/v1.0.5-review15/
 /Release/v1.0.5-review15/*
 !/Release/v1.0.5-review15/*.md
+
+!/Release/v1.0.5-review16/
+/Release/v1.0.5-review16/*
+!/Release/v1.0.5-review16/*.md
+!/Release/v1.0.5-review16/*.json
+!/Release/v1.0.5-review16/*.csv
+!/Release/v1.0.5-review16/SHA256SUMS.txt
