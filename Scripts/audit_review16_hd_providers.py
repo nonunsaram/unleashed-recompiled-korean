@@ -1,6 +1,6 @@
 """Audit actual installed HD providers and retained permission-request assets."""
 from __future__ import annotations
-import configparser, csv, hashlib, io, json, shutil, sys
+import configparser, csv, hashlib, io, json, shutil, struct, sys
 from pathlib import Path
 from PIL import Image
 from bounded_archive_tool import unpack
@@ -8,6 +8,19 @@ from prepare_review16_hd_deduplication import ROOT, OLD, NEW, WORK, read_archive
 
 def digest(blob): return hashlib.sha256(blob).hexdigest()
 def size(blob): return list(Image.open(io.BytesIO(blob)).size)
+SRC_1440="UnleasHD 1.4.2 1440p"
+SRC_4K="UnleasHD 4K repo c7a709743926a94eb4b9337c54d9abdb103fb8f1"
+def split_part(archive,name):
+    """Name the split part (.ar.00, .ar.01, ...) that actually holds `name`."""
+    target=NEW/Path(archive); hits=[]
+    for part in sorted(target.parent.glob(target.name[:-6]+".ar.*")):
+        data=part.read_bytes(); offset=16
+        while offset<len(data):
+            size,length,start,_,_=struct.unpack_from("<5I",data,offset)
+            if data[offset+20:data.index(0,offset+20,offset+start)].decode("utf8")==name: hits.append(part.name)
+            offset+=size
+    assert len(hits)==1,(archive,name,hits)
+    return (Path(archive).parent/hits[0]).as_posix()
 def include_dirs(mod):
     ini=configparser.ConfigParser(interpolation=None)
     ini.read(mod/"mod.ini",encoding="utf-8-sig")
@@ -64,8 +77,8 @@ def main():
         if not item["labels"]: continue
         relative=Path("Compatibility/UnleasHD-1.4.2/Languages/English")/("+"+item["archive"]+".ar.00")
         data=read_archive(NEW/relative)[item["file"]]
-        retained.append({"archive":relative.as_posix(),"file":item["file"],"category":"Korean UI",
-                         "size":size(data),"sha256":digest(data),"unchangedFromReview15":True})
+        retained.append({"archive":split_part(relative.as_posix(),item["file"]),"file":item["file"],"category":"Korean UI",
+                         "size":size(data),"sha256":digest(data),"unchangedFromReview15":True,"source":SRC_1440})
     extras=[
         ("Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00","mat_worldmap_en_001.dds","Korean world map UI"),
         ("Compatibility/UnleasHD-1.4.2/Languages/English/+WorldMap.ar.00","mat_worldmap_en_002.dds","Korean world map UI"),
@@ -78,8 +91,9 @@ def main():
     for path,name,category in extras:
         data=read_archive(NEW/Path(path))[name]
         assert data==read_archive(OLD/Path(path))[name]
-        retained.append({"archive":path,"file":name,"category":category,"size":size(data),
-                         "sha256":digest(data),"unchangedFromReview15":True})
+        retained.append({"archive":split_part(path,name),"file":name,"category":category,"size":size(data),
+                         "sha256":digest(data),"unchangedFromReview15":True,
+                         "source":SRC_4K if category=="Korean title logo" else SRC_1440})
     assert len(retained)==23
     # Verify all 7 DLC selections with the HD profile and all 5 title choices.
     # Lower HD providers must remain reachable; higher Korean edits must remain.

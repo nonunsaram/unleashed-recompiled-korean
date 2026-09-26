@@ -4,8 +4,8 @@
 
 | 파일 | 바이트 | SHA-256 |
 | --- | ---: | --- |
-| UnleashedRecompiled-Korean-1.0.5-Review16-Basic.zip | 21,651,056 | 7196f91c60161dcc78858ba40e5b2bf9fe03e6170c4871a2a3da5a19b7c5cd14 |
-| UnleashedRecompiled-Korean-1.0.5-Review16-Full.zip | 42,754,043 | 7cceb793f88c34fe601f531c64a49f198086c9649be7722cc998218e232add65 |
+| UnleashedRecompiled-Korean-1.0.5-Review16-Basic.zip | 21,651,653 | 3ffbcb397f6b126d80b2e92e5bc997c46c7179de436d046c79467545d0a6f77b |
+| UnleashedRecompiled-Korean-1.0.5-Review16-Full.zip | 42,762,708 | 79e1fc39f1d14f20fdb443a544539c1175a8463e2f5096fb1247bbfc3f82d7d2 |
 
 - 무수정 HD UI 28개 + 영어·일본어 원본 로고 4개를 제외했습니다. 아래 HD 모드의 공급 파일 32개를 직접 추출해 확인했습니다.
 - 무수정 기본 UI 복사본 28개도 제외했습니다. 모두 게임 원본 바이트와 같았습니다.
@@ -14,6 +14,7 @@
 - ZIP 무결성과 경로, 두 판의 공통 리소스 일치를 확인했습니다. Source.zip에는 DDS·게임 아카이브·실행 파일·ISO가 없습니다.
 - 전체판 설치 도구의 적용·재설치·복원·기존 전체판 업그레이드 거부·단독 복원·손상된 manifest 거부 시험을 임시 복사본에서 통과했습니다.
 - 실제 설치된 전체판을 review16으로 갱신했습니다. 전체 DLC·HD 프로필·한국어 월드 어드벤처 로고 설정과 HMM 모드 순서는 보존했습니다. 게임 EXE와 설정 파일은 바꾸지 않았습니다.
+- 2026-09-26 문서 정정: 허락 요청 CSV의 분할 아카이브 경로 3건(.ar.00→.ar.01)과 출처 열, HD 자료 출처 문구(UI 호환 파일 1440p / 한국어 타이틀 로고 4K 저장소), `ui_title.yncp`·언어 선택 문구 설명을 고쳐 ZIP을 다시 묶었습니다. 아카이브 내부 리소스 1,080개와 설치 도구·패치·DDS는 정정 전 ZIP과 바이트 단위로 동일합니다.
 - 실제 게임의 모든 화면을 플레이 검증한 결과는 아닙니다. 일본어 원본 글자 페이지 15장의 추가 검증은 사용자 지시에 따라 생략합니다.
 
 수정된 UnleasHD 그림은 계속 포함되어 있습니다. 정확한 파일 목록은 [허락 요청용 CSV](UnleasHD-permission-texture-list.csv), 범위 설명은 [자산 감사](HD-ASSET-AUDIT-KO.md)를 참고하세요. 해당 수정본의 공개 배포 허락은 아직 확인되지 않았으며 GameBanana의 기존 1.0.4 다운로드는 변경하지 않았습니다.
