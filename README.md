@@ -1,87 +1,29 @@
 # Unleashed Recompiled 한국어 패치
 
-**공식 배포처: [GameBanana](https://gamebanana.com/mods/715787)** · 이 GitHub 저장소는 소스 코드와 제작 기록을 공개하는 곳이며, GitHub Releases에는 배포 ZIP을 올리지 않습니다.
+**현재 버전: 1.0.5** · 공식 Windows x64 v1.0.3용 전체판 EXE 한국어화 지원
 
-**Unleashed Recompiled v1.0.3 Windows x64**용 비공식 한국어 패치의 소스 저장소입니다. 게임 본편, 업데이트, DLC, 완성된 게임 실행 파일은 포함하지 않습니다.
+소닉 언리쉬드의 대사·자막·월드맵·미션 설명·로딩·게임 내 UI를 한국어로 번역합니다. 기본판은 HMM 모드이며, 전체판은 기본판과 EXE 내 옵션·도전과제 UI 한국어화를 함께 제공합니다.
 
-## 1.0.5-review16 소스 검토본
+- [설치·설정·제거 안내](Release/v1.0.5/README-KO.md) / [English](Release/v1.0.5/README-EN.md)
+- [1.0.5 변경 내역](Release/v1.0.5/CHANGELOG-KO.md)
+- [GameBanana 배포 페이지](https://gamebanana.com/mods/715787)
+- [배포 ZIP 해시](Release/v1.0.5/SHA256SUMS.txt) · [검증 결과](Release/v1.0.5/verification.json) · [이미지 출처](Release/v1.0.5/PROVENANCE-KO.md)
 
-review16은 무수정 UnleasHD UI·원본 로고 중복 파일 32개와 이를 가리던 기본 UI 복사본 28개를 제외합니다. **한국어 HD 수정본은 모두 보존**했습니다. 제외한 이미지는 별도로 설치한 아래 UnleasHD에서 읽습니다. [변경 사항](Release/v1.0.5-review16/CHANGELOG-KO.md) · [정확한 포함 자산 범위](Release/v1.0.5-review16/HD-ASSET-AUDIT-KO.md) · [검토본 상태](Release/v1.0.5-review16/CANDIDATE-VERIFY.md)
+## 이번 버전
 
-현재 ZIP은 로컬 검토 후보입니다. 유지된 한국어 HD 수정본과 미리보기 수정본의 재배포 허락은 아직 확인되지 않았습니다. GameBanana 파일은 교체하지 않았으며 **v1.0.4가 현재 공개 배포판**입니다. 이 GitHub에는 제작 코드·번역·문서만 올립니다.
+**UnleasHD 모드의 모든 에셋을 제외했습니다.** UnleasHD 원본·파생 이미지를 포함하지 않으며 게임 원본과 직접 만든 한국어 자료를 사용합니다. 독립 업스케일 한국어 UI는 UnleasHD 없이도 사용할 수 있습니다.
 
-## v1.0.4
+권장 모드 구성과 HMM 순서:
 
-**최종 수정본: `20260916-final-audit`.** 1.0.3부터 누락됐던 `Dr.`·`Excellent!` 등 영문 자막 기준선 수정을 복구했고, 사용자가 인게임 정상 표시를 확인했습니다. [전체 점검 결과](Release/v1.0.4/FINAL-AUDIT-KO.md)와 [최종 체크섬](Release/v1.0.4/SHA256SUMS.txt)을 확인하세요. 이전 1.0.4 ZIP은 교체 대상입니다.
+1. 한국어 패치
+2. UnleasHD (1440p, 별도 선택 설치)
 
-프랑사랑단 님이 재작업한 한국어 로고와 네 가지 고해상도 타이틀 선택지를 추가했습니다. 게임 기본값은 다른 모드와 게임 원본을 그대로 따릅니다. 기존 등장 연출을 유지합니다. [패치노트](Release/v1.0.4/CHANGELOG-KO.md) · [설치 안내](Release/v1.0.4/README-KO.md) · [로고 크레딧](Release/v1.0.4/CREDITS.md)
+UnleasHD와 함께 사용하면 한국어 패치 설정의 **업스케일 한국어 이미지**를 켜세요. 화면 언어는 English, 자막은 켜기로 설정합니다. 두 에디션 중 하나만 설치하세요.
 
-## v1.0.3
+## 소스와 제작
 
-대사창 줄바꿈, 돈 파치오 대사, 웨어혹 `STRENGTH` 레벨 업 표기를 보완했습니다. HMM 로고 선택 표기를 정리했으며, 실험적인 소닉 언리쉬드 한국어 로고는 배포와 공개 소스에 포함하지 않았습니다. [패치노트](Release/v1.0.3/CHANGELOG-KO.md)를 참고하세요.
+이 저장소에는 문서·번역 카탈로그·제작 및 검사 스크립트를 공개합니다. 배포 ZIP, 게임 데이터와 완성된 실행 파일은 커밋하지 않습니다. 전체판 Source.zip에도 수정 가능한 소스를 포함합니다.
 
-## v1.0.2
+[제작 안내](BUILDING.md) · [라이선스](LICENSE.md) · [제3자 고지](THIRD_PARTY_NOTICES.md)
 
-로고 선택과 한글 World Adventure 로고, UnleasHD 호환 옵션, 번역 수정이 포함됩니다. [패치노트](Release/v1.0.2/CHANGELOG-KO.md)와 [모드 순서](Release/v1.0.2/MODS-KO.md)를 참고하세요.
-
-## 배포판
-
-| 구분 | 적용 범위 | 설치 방식 |
-| --- | --- | --- |
-| 기본판 (Basic) | 대사, 자막, 월드맵, 미션 선택 설명, 미션 로딩, 게임 내 이미지 UI | HedgeModManager로 설치한 뒤 모드를 체크하고 저장 |
-| 전체판 (Full) | 기본판 전체 + 옵션·도전과제 등 실행 파일에 포함된 UI | HMM 설치 후 모드 폴더의 `KoreanFullSetup.exe`로 추가 적용 |
-
-두 배포판은 함께 설치하지 않습니다. 전체판에는 기본판의 내용이 모두 들어 있습니다. 설치 파일은 [GameBanana 공식 배포 페이지](https://gamebanana.com/mods/715787)에서 받고, 기준 SHA-256 값은 [`Release/SHA256SUMS.txt`](Release/SHA256SUMS.txt)에서 확인할 수 있습니다.
-
-## 설치
-
-### 기본판
-
-1. Basic ZIP을 HedgeModManager(HMM)에 추가합니다.
-2. 한국어 패치를 체크하고 저장합니다. 이전 한국어 패치는 함께 활성화하지 않습니다.
-3. 게임의 화면 언어를 **English**, 자막을 **켜기**로 설정합니다. 음성 언어는 원하는 설정을 유지할 수 있습니다.
-
-모든 DLC를 설치했다면 기본 설정을 사용합니다. 일부 DLC만 설치했다면 HMM의 모드 설정에서 설치한 팩 중 목록의 가장 위 항목을 선택하고, DLC가 없다면 `DLC 없음`을 선택합니다. 이 설정은 번역 문구표만 고르며 DLC를 추가하지 않습니다.
-
-### 전체판
-
-Full판은 Basic판을 먼저 설치할 필요가 없습니다. 게임을 최소 한 번 실행하여 초기 설정을 완료하고 `config.toml`이 생성된 뒤 진행하세요. 상세 경로 및 오류 안내는 [v1.0.4 한국어 안내](Release/v1.0.4/README-KO.md)와 [English instructions](Release/v1.0.4/README-EN.md)를 참고하세요.
-
-1. Full ZIP을 HMM에 설치하고 게임을 종료합니다.
-2. HMM에서 모드 폴더를 열고 `KoreanFullSetup.exe`를 실행합니다.
-3. 게임 폴더의 `UnleashedRecomp.exe`를 선택한 뒤 **.exe 한국어화 적용**을 누릅니다.
-4. HMM에서 한국어 패치가 체크·저장되었는지 확인합니다.
-
-v1.0.1 전체판 설치 도구는 지원되는 v1.0.3 EXE의 해시를 확인하고 EXE만 백업·변경합니다. XEX에는 접근하지 않습니다. 기존 v1.0.0 Full은 이전 도구로 원본 복원을 먼저 실행한 뒤 업그레이드하세요. 제거하거나 기본판으로 바꾸기 전에는 게임을 종료하고 설치 도구에서 **.exe 원본 복원**을 실행한 뒤 HMM에서 모드를 해제하세요. 복원에 필요한 `korean-native-backup` 폴더를 보관해야 합니다.
-
-번역 수정·설치 오류 개선은 [v1.0.1 패치노트](Release/v1.0.1/CHANGELOG-KO.md), Denoised 우선순위와 소닉 영어 대사 검수는 [후속 감사](Release/v1.0.1/TRANSLATION-AND-COMPATIBILITY-AUDIT.md)를 참고하세요.
-
-v1.0.1의 설계·호환성·검증 범위는 [Full 백엔드 감사](Release/v1.0.1/FULL-BACKEND-AUDIT.md)에 기록했습니다. 로컬 배포 후보의 생성과 외부 게시 여부는 구분합니다.
-
-## 저장소 내용
-
-- `Translation/`: v1.0.0 번역 카탈로그와 네이티브 UI 대응표
-- `Scripts/`: 설치 도구, 현재 v059 패키징·검증 코드, 해당 결과를 만든 네이티브·미션 빌드 단계
-- `Patches/`: Unleashed Recompiled v1.0.3 소스 변경 패치와 변경된 두 파일
-- `Tools/Fonts/`: LINE Seed KR 글꼴 빌드 입력
-- `Assets/Installer/`: 전체판 설치 도구에 포함되는 로고
-- `Licenses/`: 구성요소별 라이선스 원문
-- `Release/`: GameBanana 공식 배포 파일의 이름과 체크섬만 기록하며 ZIP 자체는 Git으로 추적하지 않음
-
-빌드 전에는 [BUILDING.md](BUILDING.md)를 읽어 주세요. 원본 게임에서 추출한 입력과 일부 도구는 저작권 및 용량 문제로 저장소에 포함하지 않았으므로, 현재 공개 트리만으로 배포 ZIP을 완전히 재생성할 수는 없습니다. 포함·제외 기준은 [SOURCE_SELECTION.md](SOURCE_SELECTION.md)에 기록되어 있습니다.
-
-## 크레딧과 권리
-
-- 한국어 패치: nonunsaram
-- 소닉 언리쉬드 한국어 로고: 프랑사랑단
-- 고해상도 타이틀 자료: UnleasHD Team
-- 제작 보조: GPT-6 Astra
-- Unleashed Recompiled: hedge-dev
-- HedgeModManager: hedge-dev / SuperSonic16
-- 글꼴: LINE Seed KR, 샌드박스 어그로체
-
-직접 제작한 코드·문서·한국어 번역 기여분은 MIT로 재사용할 수 있습니다. Unleashed Recompiled 관련 변경 소스는 GPL-3.0, 글꼴은 OFL 등 각각의 조건을 따릅니다. 범위와 예외는 [LICENSE.md](LICENSE.md)와 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 확인해 주세요. Sonic the Hedgehog와 관련 명칭·상표·게임 자료의 권리는 각 권리자에게 있습니다.
-
-## English summary
-
-This repository contains source material for the unofficial Korean translation patch for **Unleashed Recompiled v1.0.3, Windows x64**. The official distribution channel for installable packages is [GameBanana](https://gamebanana.com/mods/715787); GitHub Releases are intentionally not used. Basic installs through HedgeModManager and does not patch the game executable. Full includes Basic plus executable-based UI translation through `KoreanFullSetup.exe`. Install only one edition; restore Full's EXE changes before removing it or switching to Basic. No game, update, DLC, completed EXE/XEX, or extracted game archive is included. The project's original code, documentation, and Korean translation contributions are MIT-licensed within the scope stated in [LICENSE.md](LICENSE.md); third-party components retain their own terms.
+이전 Release 하위 폴더는 과거 기록입니다. review16 및 independent-anime1440 후보는 현재 1.0.5 최종 배포본이 아닙니다.

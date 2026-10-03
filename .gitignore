@@ -147,3 +147,19 @@ temp/
 !/Release/v1.0.5-review16/*.json
 !/Release/v1.0.5-review16/*.csv
 !/Release/v1.0.5-review16/SHA256SUMS.txt
+
+# Independent candidate: text records only
+!/Release/v1.0.5-independent-anime1440/
+/Release/v1.0.5-independent-anime1440/*
+!/Release/v1.0.5-independent-anime1440/*.md
+!/Release/v1.0.5-independent-anime1440/*.csv
+!/Release/v1.0.5-independent-anime1440/SHA256SUMS.txt
+*.ar.*
+
+# Final independent 1.0.5: text records only
+!/Release/v1.0.5/
+/Release/v1.0.5/*
+!/Release/v1.0.5/*.md
+!/Release/v1.0.5/*.json
+!/Release/v1.0.5/*.csv
+!/Release/v1.0.5/SHA256SUMS.txt

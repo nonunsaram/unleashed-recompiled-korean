@@ -1,3 +1,19 @@
+# 1.0.5 최종 독립판 제작·검사
+
+현재 배포 기준은 Release/v1.0.5입니다. 최종 패키징은 승인된 설치본을 준비한 뒤 Scripts/package_independent_final.py로 수행합니다. 게임 원본 추출물과 승인된 최종 리소스는 공개 저장소에 포함하지 않습니다. 이전 독립 후보 생성 스크립트만 실행하면 최종 수작업 타이틀 수정이 재현되지 않습니다.
+
+```powershell
+python Scripts/render_independent_final_ui.py render-output
+python Scripts/package_independent_final.py APPROVED_STAGING OUTPUT Release/v1.0.5/release-record.json .
+python Scripts/verify_independent_release.py Release/v1.0.5/release-record.json OUTPUT/unleashedrecompiled-korean-105-basic.zip OUTPUT/unleashedrecompiled-korean-105-full.zip
+```
+
+벡터 렌더링에는 Pillow와 NumPy가 필요합니다. 최종 패키징·검증에는 Python 표준 라이브러리만 필요합니다. 승인된 리소스와 다르면 패키징하지 않습니다. 생성 직후 각 ZIP을 실제로 풀어 검사하며 실패 시 -FAILED로 표시하고 중단합니다.
+
+최종 이미지는 출처 기록과 해시로 고정합니다. review16의 개발 폴더나 release_guard_data.py를 변경하여 최종판에 맞추지 않습니다. 아래는 초기 EXE 제작 및 과거 버전 빌드 기록이며, 현재 설치 안내는 README를 따릅니다.
+
+---
+
 # 빌드 안내
 
 v1.0.1은 EXE만 처리하는 새 백엔드입니다. [Full 백엔드 감사](Release/v1.0.1/FULL-BACKEND-AUDIT.md)에 조사 근거와 검증 범위를 기록했습니다. 아래 v1.0.0 제작 단계는 기존 입력을 설명하는 역사 자료이며, 현행 진입점은 아래 v1.0.1 절차를 사용하세요.
@@ -159,3 +175,7 @@ python Scripts/verify_package_v101.py --output outputs/GameBanana-1.0.1-Reviewed
 `prepare_final_release_v104.py`는 정상 확인된 최종 1.0.2 Basic ZIP을 해시로 고정하고, 1.0.3 번역 변경 42개 파일과 승인된 1.0.4 로고를 합칩니다. 예전 개발 폴더를 그대로 기반으로 쓰지 않습니다. `release_contract_v104.py`가 생성 전후에 누적 리소스 전체와 자막 수정 32개 파일을 검사합니다. `package_hmm_release_v104.py` 출력은 `outputs/GameBanana-1.0.4-FinalCandidate`입니다.
 
 `audit_final_payload_v104.py`는 모든 아카이브와 DDS를 검사하며, `export_final_cutscene_v104.ps1`과 `audit_final_cutscene_v104.py`는 해당 추출물로 컷신 문구·글자를 검토합니다. `verify_final_tables_v104.ps1`는 실제 문구·글꼴표를 검사합니다. 원본 보존 8개 셀과 외부 공용 아이콘 참조는 별도 근거와 제한 사항을 기록합니다.
+
+## Independent Anime 1440p 후보 (2026-10-03)
+
+제작 기록은 experiment_independent_hd.py, experiment_independent_titles.py, build_independent_anime_release.py에 있습니다. 모델은 realesrgan-x4plus-anime입니다. 스크립트는 로컬 원본 추출물·작업 매니페스트·모델·글꼴·기존 Full 설치 자료를 요구하므로 공개 트리만으로 완전 재빌드되지 않습니다. 보존 중인 review16 기준 자료는 변경하지 않으며 전체 UI 확대 실험은 사용하지 않습니다.

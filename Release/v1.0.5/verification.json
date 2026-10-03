@@ -1,0 +1,26 @@
+{
+  "Basic": {
+    "passed": true,
+    "archiveMembers": 1079,
+    "ddsInstancesScanned": 577,
+    "unexplainedUnleasHDOrDerivedHashHits": 0,
+    "optionCombinations": 70,
+    "allPathsExist": true,
+    "fixedRootSlot": 2,
+    "file": "unleashedrecompiled-korean-105-basic.zip",
+    "sha256": "467cd53f0fd86f8a1e1816b6f4eca94bd0fa622b46794f32360c838650d91401",
+    "bytes": 24997382
+  },
+  "Full": {
+    "passed": true,
+    "archiveMembers": 1079,
+    "ddsInstancesScanned": 577,
+    "unexplainedUnleasHDOrDerivedHashHits": 0,
+    "optionCombinations": 70,
+    "allPathsExist": true,
+    "fixedRootSlot": 2,
+    "file": "unleashedrecompiled-korean-105-full.zip",
+    "sha256": "8065c839b859d3df7ef8e48db98a2b2be552f12daf5923d90b99f11124748bf1",
+    "bytes": 45315079
+  }
+}

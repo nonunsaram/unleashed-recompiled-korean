@@ -1,3 +1,5 @@
+현재 배포 기준: [1.0.5](Release/v1.0.5/README-KO.md). UnleasHD 원본·파생 에셋은 포함하지 않습니다. 이전 버전별 기술은 제작 이력입니다.
+
 # 제3자 고지
 
 ## Unleashed Recompiled
@@ -55,3 +57,7 @@ UnleasHD 자료 기준: `c7a709743926a94eb4b9337c54d9abdb103fb8f1`, `UnleasHD/Ma
 ## 1.0.5-review15 HD UI 검토본
 
 로컬 검토본은 설치된 UnleasHD 1.4.2(1440p)의 UI 자산을 바탕으로 한국어 HD 호환 파일을 만들었습니다. 제작 코드와 검토 기록만 이 GitHub 소스 저장소에 포함합니다. 해당 자산의 재배포 허락은 확인되지 않았으며, 로컬 시험 ZIP은 공개 배포 파일이 아닙니다.
+
+## Independent Anime 1440p 후보 (2026-10-03)
+
+현재 후보는 게임 원본과 자체 한국어 합성을 사용하며 UnleasHD 원본·파생 이미지는 포함하지 않습니다. Real-ESRGAN x4plus-anime는 로컬 제작에 사용하며 모델·실행기를 Git에 포함하지 않습니다. 게임·한국어 로고 제공자·글꼴의 기존 크레딧은 유지합니다. 위 UnleasHD 고지는 해당 과거 버전에 계속 적용됩니다.

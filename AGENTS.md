@@ -1,3 +1,14 @@
+# 확정 제작 방향 — 2026-10-03 사용자 지시
+
+- 현재 한국어 패치에는 **UnleasHD 원본 이미지와 UnleasHD를 수정한 파생 이미지를 넣지 않습니다.** 게임 원본과 직접 만든 한국어 자료만 사용합니다.
+- 한국어가 들어가는 이미지에 한해서 `realesrgan-x4plus-anime` 기반 업스케일 또는 자체 글꼴 렌더링을 사용합니다. 이미 완성된 한글 글꼴·자막을 다시 AI 처리하지 않습니다.
+- 옵션은 기본 한국어 UI / 독립 업스케일 한국어 UI(별도 설치한 UnleasHD 1440p와 호환)를 선택합니다. HMM 순서는 한국어 패치 → UnleasHD입니다. 번역하지 않은 UI는 아래 모드 또는 게임 원본이 제공합니다.
+- 전체 UI 일괄 확대 실험은 폐기했습니다. 배경·캐릭터·사물 및 다른 모드는 변경하지 않습니다.
+- 현재 독립 후보: `outputs/Korean-Independent-Anime1440-20261003`. 그 이전 UnleasHD 파생 이미지 포함 ZIP은 현재 방향의 결과물로 사용하지 않습니다.
+- 아래 review16 규칙은 **보존 중인 기존 review16 개발 폴더·검사 기준·과거 ZIP**에 계속 적용합니다. 독립 후보를 만들기 위해 기존 review16의 고정 CSV나 해시를 다시 바꾸지 않습니다. 독립 후보는 원본 출처·자체 렌더링 증명과 UnleasHD/기존 파생 이미지 잔존 검사로 검증합니다.
+
+---
+
 # Review16 release rules — read before any packaging / 패키징 전에 반드시 읽을 것
 
 이 규칙은 Unleashed Recompiled 한국어 패치 1.0.5-review16과 그 최종 패키징에 적용됩니다. 경로는 프로젝트 루트 `E:/Vibecoding/Unleashed Recomp KR Project` 기준입니다. 공개 저장소는 그 안의 `publish/unleashed-recompiled-korean`입니다.

@@ -103,11 +103,11 @@ foreach ($file in $files | Where-Object { $_.Extension -eq '.json' }) {
 }
 
 # Current release checksums come from the reviewed manifest, not a stale v1.0.0 constant.
-$releaseManifestPath = Join-Path $root 'Release/v1.0.2/manifest.json'
+$releaseManifestPath = Join-Path $root 'Release/v1.0.5/manifest.json'
 $releaseManifest = Get-Content -LiteralPath $releaseManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
 $expectedChecksums = @($releaseManifest.assets | ForEach-Object { $_.sha256 + '  ' + $_.file })
-if ($releaseManifest.version -ne '1.0.2' -or $expectedChecksums.Count -ne 2) {
-    Add-Error 'Current release manifest must contain both v1.0.2 packages.'
+if ($releaseManifest.version -ne '1.0.5' -or $expectedChecksums.Count -ne 2) {
+    Add-Error 'Current release manifest must contain both v1.0.5 packages.'
 }
 $checksumPath = Join-Path $root 'Release/SHA256SUMS.txt'
 if (Test-Path -LiteralPath $checksumPath) {
