@@ -179,3 +179,8 @@ python Scripts/verify_package_v101.py --output outputs/GameBanana-1.0.1-Reviewed
 ## Independent Anime 1440p 후보 (2026-10-03)
 
 제작 기록은 experiment_independent_hd.py, experiment_independent_titles.py, build_independent_anime_release.py에 있습니다. 모델은 realesrgan-x4plus-anime입니다. 스크립트는 로컬 원본 추출물·작업 매니페스트·모델·글꼴·기존 Full 설치 자료를 요구하므로 공개 트리만으로 완전 재빌드되지 않습니다. 보존 중인 review16 기준 자료는 변경하지 않으며 전체 UI 확대 실험은 사용하지 않습니다.
+
+
+## 1.0.6 installer maintenance
+
+See [the installer safety and build contract](Release/v1.0.6/INSTALLER-VERIFICATION.md). This release reuses the hash-pinned 1.0.5 game payload and EXE delta, embeds the finalized manifest, and requires byte equality again after ZIP extraction. Never package a stale installer with a newly edited manifest.

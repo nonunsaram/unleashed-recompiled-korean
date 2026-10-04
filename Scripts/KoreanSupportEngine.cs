@@ -14,13 +14,18 @@ using Microsoft.Win32.SafeHandles;
 
 public class PatchFile {
     public string relative, originalSha256, patchedSha256, patch, patchSha256;
-    public string[] previousPatchedSha256;
+    public string[] previousPatchedSha256, upgradePatchedSha256;
+    public long originalLength, patchedLength;
+}
+public class LegacyXex {
+    public string relative, originalSha256, patchedSha256;
     public long originalLength, patchedLength;
 }
 public class PatchManifest {
     public int schemaVersion;
     public string version, gameVersion, scope;
     public PatchFile[] files;
+    public LegacyXex legacyXex;
 }
 
 // EXE-only backend. The embedded manifest, not mutable backup metadata, authorizes writes.
@@ -122,11 +127,18 @@ public static class SupportEngine {
                f.originalSha256==f.patchedSha256||!hashes.Add(f.originalSha256)||
                f.originalLength<=0||f.originalLength>MaxFile||f.patchedLength<=0||f.patchedLength>MaxFile||
                f.patch==null||!Regex.IsMatch(f.patch,@"\ASupport/Patches/[A-Za-z0-9_-]+\.krpatch\.gz\z")||
-               (f.previousPatchedSha256!=null&&f.previousPatchedSha256.Any(h=>!IsHash(h))))throw new Exception("설치 도구의 EXE 검증 정보가 잘못되었습니다.");
+               (f.previousPatchedSha256!=null&&f.previousPatchedSha256.Any(h=>!IsHash(h)))||
+                (f.upgradePatchedSha256!=null&&f.upgradePatchedSha256.Any(h=>!IsHash(h))))throw new Exception("설치 도구의 EXE 검증 정보가 잘못되었습니다.");
+        }
+        if(m.legacyXex!=null) {
+            var x=m.legacyXex;
+            if(x.relative!="patched/default.xex"||!IsHash(x.originalSha256)||!IsHash(x.patchedSha256)||
+               x.originalSha256==x.patchedSha256||x.originalLength<=0||x.originalLength>MaxFile||x.patchedLength<=0||x.patchedLength>MaxFile)
+                throw new Exception("이전 XEX 검증 정보가 잘못되었습니다.");
         }
         return m;
     }
-    static bool Matches(PatchFile f,string hash) {return hash==f.originalSha256||hash==f.patchedSha256||(f.previousPatchedSha256!=null&&f.previousPatchedSha256.Contains(hash));}
+    static bool Matches(PatchFile f,string hash) {return hash==f.originalSha256||hash==f.patchedSha256||(f.previousPatchedSha256!=null&&f.previousPatchedSha256.Contains(hash))||(f.upgradePatchedSha256!=null&&f.upgradePatchedSha256.Contains(hash));}
     static void GameClosed(string root) {
         foreach(var process in Process.GetProcessesByName("UnleashedRecomp"))using(process) {
             try {if(String.Equals(Path.GetFullPath(process.MainModule.FileName),Safe(root,Exe),StringComparison.OrdinalIgnoreCase))throw new InvalidOperationException("선택한 게임이 실행 중입니다. 게임을 종료한 뒤 다시 실행해 주세요.");}
@@ -174,20 +186,20 @@ public static class SupportEngine {
         try {WriteNew(temp,original);if(HashFile(temp)!=hash)throw new Exception("백업 저장 검증 실패");File.Move(temp,path);}
         finally {if(File.Exists(temp))File.Delete(temp);}
     }
-    static void Commit(string target,string support,byte[] desired,string expected,Action<string> log) {
+    static void Commit(string target,string support,byte[] desired,string expected,Action<string> log,string faultPrefix="") {
         string token=Guid.NewGuid().ToString("N"),staged=Safe(support,"exe-"+token+".tmp"),undo=Safe(support,"undo-"+token+".tmp");
         bool swapped=false,committed=false;
         try {
             WriteNew(staged,desired);
             if(HashFile(staged)!=Hash(desired))throw new IOException("임시 EXE 검증 실패");
-            Fault("staged");
+            Fault(faultPrefix+"staged");
             if(HashFile(target)!=expected)throw new IOException("검사 중 EXE가 변경되었습니다. 다시 실행해 주세요.");
             NoLinks(target);NoLinks(support);
-            Fault("before-swap");
+            Fault(faultPrefix+"before-swap");
             File.Replace(staged,target,undo,true);swapped=true;
-            Fault("after-swap");
+            Fault(faultPrefix+"after-swap");
             if(HashFile(undo)!=expected||HashFile(target)!=Hash(desired))throw new IOException("EXE 교체 검증 실패");
-            Fault("verified");
+            Fault(faultPrefix+"verified");
             committed=true;
         } catch {
             if(swapped) {
@@ -226,7 +238,8 @@ public static class SupportEngine {
                 var spec=matches[0];string support=Safe(root,BackupFolder),backup=Safe(support,"Original/"+Exe);
                 // Old Full also changed XEX. An EXE-only restore must not leave
                 // its translated text behind without the Korean native font.
-                if(spec.previousPatchedSha256!=null&&spec.previousPatchedSha256.Contains(currentHash))
+                bool legacyExe=spec.previousPatchedSha256!=null&&spec.previousPatchedSha256.Contains(currentHash);
+                if(legacyExe&&manifest.legacyXex==null)
                     throw new Exception("이전 Full판의 EXE가 적용되어 있습니다. 이전 Full판 설치 도구에서 먼저 '.exe 원본 복원'을 실행한 뒤 v1.0.1을 설치해 주세요. 이전 도구가 처리하던 파일까지 복원해야 안전하게 전환할 수 있습니다. 백업 폴더는 삭제하지 마세요. 파일은 변경하지 않았습니다.");
                 NoLinks(support);NoLinks(backup);
                 if(!restore)CheckConfig(root,log);
@@ -235,10 +248,39 @@ public static class SupportEngine {
                     original=Read(backup);
                     if(Hash(original)!=spec.originalSha256||original.Length!=spec.originalLength)throw new Exception("기존 백업 검증 실패. 백업과 EXE를 덮어쓰지 않았습니다: "+backup);
                 }
+                // Inspect only the fixed, embedded legacy XEX contract. Mutable state.json
+                // never supplies paths or hashes. Also catch partially restored v1.0.0.
+                string xexTarget=null;byte[] xexBefore=null,xexOriginal=null;
+                if(manifest.legacyXex!=null) {
+                    var x=manifest.legacyXex;xexTarget=Safe(root,x.relative);
+                    if(!File.Exists(xexTarget)) {
+                        if(legacyExe)throw new Exception("이전 Full판 XEX가 없습니다. 검증된 원본 파일과 백업을 복구해 주세요. 파일은 변경하지 않았습니다.");
+                    } else {
+                        byte[] data=Read(xexTarget);string xhash=Hash(data);
+                        if(xhash==x.patchedSha256) {
+                            if(data.Length!=x.patchedLength)throw new Exception("이전 XEX 크기 검증 실패");
+                            string xb=Safe(support,"Original/"+x.relative);
+                            if(!File.Exists(xb))throw new Exception("이전 Full판 XEX 원본 백업이 없습니다. 파일은 변경하지 않았습니다.");
+                            xexOriginal=Read(xb);
+                            if(xexOriginal.Length!=x.originalLength||Hash(xexOriginal)!=x.originalSha256)
+                                throw new Exception("XEX 원본 백업 검증 실패. 파일은 변경하지 않았습니다.");
+                            xexBefore=data;
+                        } else if(legacyExe) {
+                            if(xhash!=x.originalSha256||data.Length!=x.originalLength)
+                                throw new Exception("지원하지 않는 이전 Full판 XEX입니다. 파일은 변경하지 않았습니다.");
+                            string xb=Safe(support,"Original/"+x.relative);
+                            if(File.Exists(xb)) {
+                                byte[] saved=Read(xb);
+                                if(saved.Length!=x.originalLength||Hash(saved)!=x.originalSha256)
+                                    throw new Exception("XEX 원본 백업 검증 실패. 파일은 변경하지 않았습니다.");
+                            }
+                        }
+                    }
+                }
                 if(currentHash==spec.originalSha256) {
                     if(current.Length!=spec.originalLength)throw new Exception("원본 EXE 크기 검증 실패");
                     original=current;
-                    if(restore){log("이미 원본 EXE입니다. 변경할 파일이 없습니다.");return;}
+                    if(restore&&xexOriginal==null){log("이미 원본 EXE입니다. 변경할 파일이 없습니다.");return;}
                 }
                 if(original==null) {
                     foreach(string legacy in new[]{"korean-mod-backup-v030","korean-mod-backup-v040"}) {
@@ -259,9 +301,23 @@ public static class SupportEngine {
                 // Only after all inputs/outputs pass validation may backup or EXE writes begin.
                 InstallBackup(backup,original,spec.originalSha256);
                 Fault("backup");
-                if(Hash(desired)!=currentHash){GameClosed(root);Commit(target,support,desired,currentHash,log);}
+                bool xexRestored=false;
+                try {
+                    if(xexOriginal!=null) {
+                        GameClosed(root);Commit(xexTarget,support,xexOriginal,Hash(xexBefore),log,"xex-");xexRestored=true;
+                        Fault("legacy-xex-restored");
+                    }
+                    if(Hash(desired)!=currentHash){GameClosed(root);Commit(target,support,desired,currentHash,log);}
+                } catch {
+                    if(xexRestored) {
+                        try {Commit(xexTarget,support,xexBefore,Hash(xexOriginal),log,"rollback-xex-");}
+                        catch(Exception rollback) {throw new Exception("이전 XEX 자동 복구를 완료하지 못했습니다. 검증된 원본 백업을 유지하고 복원을 다시 실행해 주세요. "+rollback.Message);}
+                    }
+                    throw;
+                }
+                if(xexRestored)log("이전 Full판의 XEX를 검증된 원본으로 복원했습니다.");
                 log(restore?"EXE 원본 복원 완료. HMM 모드의 기본 번역은 유지됩니다.":"전체판 EXE 설치 완료. HMM에서 Full 모드를 체크·저장해 주세요.");
-                log("XEX·설정·음성 언어·다른 모드·세이브는 변경하지 않았습니다.");
+                log("설정·음성 언어·다른 모드·세이브는 변경하지 않았습니다.");
             } catch(UnauthorizedAccessException e) {throw new Exception("파일 접근 권한이 없거나 읽기 전용입니다. 게임 폴더의 쓰기 권한과 보안 프로그램 차단 여부를 확인해 주세요.\n"+e.Message);}
               catch(IOException e) {throw new Exception("파일 작업을 완료하지 못했습니다. 게임과 파일을 사용하는 프로그램을 종료하고 저장 공간·권한을 확인해 주세요.\n"+e.Message);}
             finally {if(owned)mutex.ReleaseMutex();}

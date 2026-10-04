@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "baseZipSha256": "8065c839b859d3df7ef8e48db98a2b2be552f12daf5923d90b99f11124748bf1",
+  "newZipSha256": "d9c53fa3e31ed961f12899b12c556f778734fe39329806a2534fb294b8f04805",
+  "changedMembers": [
+    "UnleashedKorean/CHANGELOG-KO.md",
+    "UnleashedKorean/KoreanFullSetup.exe",
+    "UnleashedKorean/mod.ini",
+    "UnleashedKorean/README-EN.md",
+    "UnleashedKorean/README-KO.md",
+    "UnleashedKorean/Support/manifest.json",
+    "UnleashedKorean/TESTING-KO.md",
+    "UnleashedKorean/Source.zip"
+  ],
+  "allOtherMembersByteIdentical": true,
+  "finalInstallerMatchesRealCopyTests": true
+}

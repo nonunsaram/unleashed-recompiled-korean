@@ -163,3 +163,11 @@ temp/
 !/Release/v1.0.5/*.json
 !/Release/v1.0.5/*.csv
 !/Release/v1.0.5/SHA256SUMS.txt
+
+# Installer maintenance 1.0.6: text records only
+!/Release/v1.0.6/
+/Release/v1.0.6/*
+!/Release/v1.0.6/*.md
+!/Release/v1.0.6/*.json
+!/Release/v1.0.6/*.csv
+!/Release/v1.0.6/SHA256SUMS.txt

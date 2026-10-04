@@ -1,13 +1,15 @@
+> 최신 설치기 수정판: [1.0.6](Release/v1.0.6/README-KO.md). 게임 자산은 1.0.5와 같고 설치기 검증·구버전 전환을 수정했습니다.
+
 # Unleashed Recompiled 한국어 패치
 
-**현재 버전: 1.0.5** · 공식 Windows x64 v1.0.3용 전체판 EXE 한국어화 지원
+**현재 버전: 1.0.6** · 공식 Windows x64 v1.0.3용 전체판 EXE 한국어화 지원
 
 소닉 언리쉬드의 대사·자막·월드맵·미션 설명·로딩·게임 내 UI를 한국어로 번역합니다. 기본판은 HMM 모드이며, 전체판은 기본판과 EXE 내 옵션·도전과제 UI 한국어화를 함께 제공합니다.
 
-- [설치·설정·제거 안내](Release/v1.0.5/README-KO.md) / [English](Release/v1.0.5/README-EN.md)
-- [1.0.5 변경 내역](Release/v1.0.5/CHANGELOG-KO.md)
+- [설치·설정·제거 안내](Release/v1.0.6/README-KO.md) / [English](Release/v1.0.6/README-EN.md)
+- [1.0.6 변경 내역](Release/v1.0.6/CHANGELOG-KO.md)
 - [GameBanana 배포 페이지](https://gamebanana.com/mods/715787)
-- [배포 ZIP 해시](Release/v1.0.5/SHA256SUMS.txt) · [검증 결과](Release/v1.0.5/verification.json) · [이미지 출처](Release/v1.0.5/PROVENANCE-KO.md)
+- [배포 ZIP 해시](Release/v1.0.6/SHA256SUMS.txt) · [검증 결과](Release/v1.0.6/verification.json) · [이미지 출처](Release/v1.0.6/PROVENANCE-KO.md)
 
 ## 이번 버전
 

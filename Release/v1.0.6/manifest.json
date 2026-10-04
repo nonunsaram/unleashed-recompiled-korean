@@ -1,0 +1,22 @@
+{
+  "version": "1.0.6",
+  "date": "2026-10-04",
+  "assets": [
+    {
+      "file": "unleashedrecompiled-korean-106-basic.zip",
+      "bytes": 24998308,
+      "sha256": "365b23afe1a7ec3215b5ad7edb7ec3c3d042df42f3e1e830ad950d944fbe9c30"
+    },
+    {
+      "file": "unleashedrecompiled-korean-106-full.zip",
+      "bytes": 45325005,
+      "sha256": "d9c53fa3e31ed961f12899b12c556f778734fe39329806a2534fb294b8f04805"
+    }
+  ],
+  "gameplayVerifiedByUser": false,
+  "gameAssetsByteIdenticalTo": "1.0.5",
+  "installerSyntheticChecks": 70,
+  "installerRealCopyChecks": 20,
+  "unleasHDAssetsIncluded": false,
+  "gameBananaPublished": false
+}

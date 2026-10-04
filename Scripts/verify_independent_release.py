@@ -1,5 +1,5 @@
 """Verify final independent packages against a frozen, asset-free release record."""
-import argparse, configparser, hashlib, io, json, struct, tempfile, zipfile
+import argparse, configparser, hashlib, io, json, struct, tempfile, zipfile, subprocess
 from pathlib import Path
 from independent_option_paths import verify_option_directories
 
@@ -43,7 +43,7 @@ def verify_folder(root, record, edition):
                 assert struct.unpack_from('<I', data, 8+i*4)[0] == (p.parent/(p.stem+f'.ar.{i:02}')).stat().st_size
     assert count == 1079
     cfg = configparser.ConfigParser(interpolation=None); cfg.read(root/'mod.ini', encoding='utf-8-sig')
-    assert cfg['Desc']['Version'].strip('"') == '1.0.5'
+    assert cfg['Desc']['Version'].strip('"') == record['version']
     assert cfg['Main']['IncludeDir1'].strip('"') == 'Compatibility/None'
     rows = json.loads((root/'Independent-image-provenance.json').read_text(encoding='utf8'))['outputs']
     assert len(rows) == 22
@@ -52,8 +52,10 @@ def verify_folder(root, record, edition):
         assert sha(blob) == row['sha256']
     if edition == 'Full':
         for rel, digest in record['installerPayload'].items(): assert sha((root/rel).read_bytes()) == digest
+        subprocess.run(['pwsh', '-NoProfile', '-File', str(Path(__file__).with_name('Verify-InstallerManifest.ps1')),
+                        '-Installer', str(root/'KoreanFullSetup.exe'), '-Manifest', str(root/'Support/manifest.json')], check=True)
         manifest = json.loads((root/'Support/manifest.json').read_text(encoding='utf8'))
-        assert manifest['version'] == '1.0.5'
+        assert manifest['version'] == record['version']
         for entry in manifest['files']: assert sha((root/entry['patch']).read_bytes()) == entry['patchSha256']
         with zipfile.ZipFile(root/'Source.zip') as z:
             assert z.testzip() is None

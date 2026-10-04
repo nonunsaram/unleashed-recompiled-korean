@@ -4,7 +4,7 @@ Usage: python Scripts/package_independent_final.py STAGING OUTPUT RECORD SOURCE_
 STAGING contains the final approved game resources and release documentation.
 RECORD is Release/v1.0.5/release-record.json. SOURCE_ROOT is the public source tree.
 """
-import argparse, configparser, io, json, zipfile
+import argparse, configparser, io, json, zipfile, subprocess
 from pathlib import Path
 from verify_independent_release import game_files, sha, verify_zip
 
@@ -13,6 +13,8 @@ def main():
     for name in ('staging','output','record','source_root'): p.add_argument(name,type=Path)
     a=p.parse_args(); record=json.loads(a.record.read_text(encoding='utf8'))
     assert game_files(a.staging)==record['approvedGameFiles']
+    subprocess.run(['pwsh','-NoProfile','-File',str(Path(__file__).with_name('Verify-InstallerManifest.ps1')),
+                    '-Installer',str(a.staging/'KoreanFullSetup.exe'),'-Manifest',str(a.staging/'Support/manifest.json')],check=True)
     a.output.mkdir(parents=True,exist_ok=True)
     source=io.BytesIO()
     allowed={'.py','.ps1','.cs','.cpp','.h','.hpp','.json','.csv','.patch','.md','.txt','.ttf','.pdf'}
@@ -24,10 +26,10 @@ def main():
         for name in ('README.md','BUILDING.md','LICENSE.md','THIRD_PARTY_NOTICES.md'):
             z.write(a.source_root/name,'Source/'+name)
         for f in sorted(a.record.parent.iterdir()):
-            if f.suffix.lower() in {'.md','.csv','.json'} and f.name not in {'verification.json','manifest.json'}: z.write(f,'Source/Release/v1.0.5/'+f.name)
+            if f.suffix.lower() in {'.md','.csv','.json'} and f.name not in {'verification.json','manifest.json'}: z.write(f,'Source/Release/v'+record['version']+'/'+f.name)
     results={}
     for edition in ('Basic','Full'):
-        dest=a.output/f'unleashedrecompiled-korean-105-{edition.lower()}.zip'
+        dest=a.output/f"unleashedrecompiled-korean-{record['version'].replace('.', '')}-{edition.lower()}.zip"
         assert not dest.exists(),dest
         try:
             with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
